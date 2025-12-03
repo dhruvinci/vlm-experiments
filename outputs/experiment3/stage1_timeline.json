@@ -1,0 +1,1231 @@
+{
+  "athlete_profiles": {
+    "athlete_1": {
+      "visual_id": "",
+      "name": "Athlete 1",
+      "style": "Wrestler, top_pressure, submission_hunter",
+      "strengths": [
+        "Takedowns",
+        "pressure passing",
+        "aggressive",
+        "scrambles",
+        "resilience"
+      ]
+    },
+    "athlete_2": {
+      "visual_id": "**SEGMENT [0:00-0:22]**",
+      "name": "Athlete 2",
+      "style": "Guard_player, submission_hunter, strategic",
+      "strengths": [
+        "Flexible guard (De La Riva",
+        "high guard)",
+        "unorthodox attacks",
+        "clinical finishes",
+        "composure",
+        "back takes"
+      ]
+    }
+  },
+  "segments": [
+    {
+      "start": "0:00",
+      "end": "0:22",
+      "position": "standing",
+      "sub_position": "collar_ties",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.95,
+      "avg_action": 0.15,
+      "transition": "match_start",
+      "key_moments": [
+        "0:00: Match starts, athletes shake hands.",
+        "0:07: Tackett initiates collar tie.",
+        "0:16: Galvao engages in collar tie, brief hand fighting."
+      ],
+      "key_actions": [
+        "grip_fighting"
+      ],
+      "narrative": "The match begins with both athletes circling and engaging in collar ties, looking for initial grips and openings."
+    },
+    {
+      "start": "0:22",
+      "end": "0:33",
+      "position": "standing",
+      "sub_position": "collar_ties",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "position_transition",
+      "key_moments": [
+        "0:22: Athletes continue collar ties and hand fighting.",
+        "0:27: Galvao attempts a snap down, Tackett defends.",
+        "0:32: Both reset their grips."
+      ],
+      "key_actions": [
+        "takedown_attempt",
+        "grip_fighting"
+      ],
+      "narrative": "Both athletes maintain standing posture, exchanging collar ties and hand fighting. Galvao attempts a snap down, but Tackett defends well, leading to a brief reset."
+    },
+    {
+      "start": "0:33",
+      "end": "0:50",
+      "position": "standing",
+      "sub_position": "collar_ties",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.2,
+      "transition": "position_transition",
+      "key_moments": [
+        "0:33: More conservative grip fighting.",
+        "0:38: Galvao attempts a body lock, Tackett defends.",
+        "0:49: Both disengage and reset."
+      ],
+      "key_actions": [
+        "body_lock",
+        "takedown_attempt"
+      ],
+      "narrative": "The athletes continue to engage in standing exchanges, with Galvao attempting a body lock that Tackett successfully defends, resulting in a disengagement."
+    },
+    {
+      "start": "0:50",
+      "end": "1:07",
+      "position": "standing",
+      "sub_position": "collar_ties",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.2,
+      "transition": "position_transition",
+      "key_moments": [
+        "0:50: Athletes re-engage, focusing on head and arm control.",
+        "0:58: Tackett uses a shoulder jab to create distance.",
+        "1:04: Both maintain standing posture, looking for openings."
+      ],
+      "key_actions": [
+        "grip_fighting",
+        "position_improvement"
+      ],
+      "narrative": "Both athletes continue to fight for head and arm control in standing, with Tackett using a shoulder jab to manage distance."
+    },
+    {
+      "start": "1:07",
+      "end": "1:30",
+      "position": "standing",
+      "sub_position": "body_lock",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.95,
+      "avg_action": 0.45,
+      "transition": "takedown_in_progress",
+      "key_moments": [
+        "1:07: Galvao secures a body lock.",
+        "1:12: Tackett defends the body lock, maintaining balance.",
+        "1:16: Galvao attempts a lateral drop, Tackett defends.",
+        "1:24: Galvao re-secures body lock, attempts another throw.",
+        "1:30: Galvao successfully takes Tackett down."
+      ],
+      "key_actions": [
+        "body_lock",
+        "throw_attempt",
+        "takedown_completed"
+      ],
+      "narrative": "Galvao secures a body lock and attempts multiple throws. Tackett defends initially, but Galvao's persistence pays off, and he successfully executes a takedown, bringing the match to the ground."
+    },
+    {
+      "start": "1:30",
+      "end": "1:50",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.95,
+      "avg_action": 0.55,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "1:30: Galvao pulls guard, attempts a flying armbar.",
+        "1:35: Tackett defends, stacking Galvao.",
+        "1:40: Galvao transitions to De La Riva guard.",
+        "1:48: Tackett attempts to pass, Galvao maintains guard."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "guard_retention",
+        "guard_pass_attempt"
+      ],
+      "narrative": "Galvao immediately pulls guard and attempts a flying armbar. Tackett defends by stacking, but Galvao quickly transitions to a flexible De La Riva guard, actively defending pass attempts."
+    },
+    {
+      "start": "1:50",
+      "end": "2:05",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.4,
+      "transition": "guard_pass_attempt",
+      "key_moments": [
+        "1:50: Tackett works to pass the De La Riva guard.",
+        "1:58: Galvao uses frames to create space.",
+        "2:03: Tackett attempts a knee slice pass."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett resumes his guard passing efforts against Galvao's active De La Riva. Galvao utilizes frames to maintain distance and prevent the pass, as Tackett attempts a knee slice."
+    },
+    {
+      "start": "2:05",
+      "end": "2:13",
+      "position": "referee_reset",
+      "sub_position": "N/A",
+      "top_athlete": "N/A",
+      "bottom_athlete": "N/A",
+      "confidence": 0.95,
+      "avg_action": 0.1,
+      "transition": "referee_reset",
+      "key_moments": [
+        "2:05: Referee pauses the match for a wardrobe malfunction.",
+        "2:10: Match restarts."
+      ],
+      "key_actions": [
+        "referee_reset"
+      ],
+      "narrative": "The referee briefly pauses the match due to a wardrobe issue, then quickly restarts the action."
+    },
+    {
+      "start": "2:13",
+      "end": "2:30",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.95,
+      "avg_action": 0.35,
+      "transition": "guard_pass_attempt",
+      "key_moments": [
+        "2:13: Tackett attempts to pass Galvao's De La Riva.",
+        "2:20: Galvao maintains strong guard with hooks.",
+        "2:26: Tackett tries to break grips and posture."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "grip_fighting",
+        "guard_retention"
+      ],
+      "narrative": "Tackett resumes his guard passing attempts against Galvao's persistent De La Riva. Galvao's flexible hooks and strong grips make it difficult for Tackett to advance."
+    },
+    {
+      "start": "2:30",
+      "end": "2:45",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "guard_pass_attempt",
+      "key_moments": [
+        "2:30: Tackett continues working to pass.",
+        "2:38: Galvao maintains composure and defensive posture."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett maintains top pressure, attempting to pass Galvao's guard. Galvao remains calm and defends effectively, preventing any significant progress."
+    },
+    {
+      "start": "2:45",
+      "end": "3:00",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "sweep_attempt",
+      "key_moments": [
+        "2:45: Galvao attempts a sweep from De La Riva.",
+        "2:52: Tackett defends the sweep, maintaining top position.",
+        "2:58: Galvao continues to work for the sweep."
+      ],
+      "key_actions": [
+        "sweep_attempt",
+        "sweep_defense"
+      ],
+      "narrative": "Galvao initiates a sweep attempt from his De La Riva guard. Tackett shows good balance and defends, preventing Galvao from completing the sweep and maintaining his top position."
+    },
+    {
+      "start": "3:00",
+      "end": "3:10",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.6,
+      "transition": "back_take",
+      "key_moments": [
+        "3:00: Galvao executes a dynamic back take.",
+        "3:05: Galvao secures back control with hooks in.",
+        "3:08: Tackett defends, trying to escape."
+      ],
+      "key_actions": [
+        "back_take",
+        "position_improvement"
+      ],
+      "narrative": "Galvao executes a dynamic and unorthodox back take, quickly securing hooks in and establishing dominant back control. Tackett immediately begins to defend, trying to escape the dangerous position."
+    },
+    {
+      "start": "3:10",
+      "end": "3:25",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "3:10: Galvao maintains tight back control.",
+        "3:18: Tackett continues defensive efforts, trying to turn in.",
+        "3:24: Galvao adjusts his hooks for better control."
+      ],
+      "key_actions": [
+        "position_maintenance",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains strong back control with hooks in, applying pressure. Tackett remains defensive, attempting to turn into Galvao and escape the dominant position."
+    },
+    {
+      "start": "3:25",
+      "end": "3:50",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "3:25: Galvao continues to control the back.",
+        "3:35: Tackett tries to peel off hooks.",
+        "3:45: Galvao looks for arm isolation."
+      ],
+      "key_actions": [
+        "position_maintenance",
+        "submission_attempt"
+      ],
+      "narrative": "Galvao maintains solid back control, patiently looking for openings to isolate an arm or set up a choke. Tackett defends well, preventing Galvao from advancing his attacks."
+    },
+    {
+      "start": "3:50",
+      "end": "4:05",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.3,
+      "transition": "mount_achieved",
+      "key_moments": [
+        "3:50: Galvao transitions from back control to mount.",
+        "4:00: Galvao secures mount position."
+      ],
+      "key_actions": [
+        "mount_achieved",
+        "position_improvement"
+      ],
+      "narrative": "Galvao smoothly transitions from back control to mount, establishing a highly dominant position. He immediately begins to apply pressure from the top."
+    },
+    {
+      "start": "4:05",
+      "end": "4:30",
+      "position": "mount",
+      "sub_position": "s_mount",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.45,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "4:05: Galvao in mount, attempts to isolate an arm.",
+        "4:15: Tackett defends, keeping elbows tight.",
+        "4:25: Galvao shifts hips, looking for S-mount."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "position_improvement",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains a dominant mount, actively working to isolate Tackett's arms for a submission. Tackett defends tightly, preventing any immediate attacks, as Galvao transitions to S-mount."
+    },
+    {
+      "start": "4:30",
+      "end": "4:55",
+      "position": "mount",
+      "sub_position": "s_mount",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "4:30: Galvao maintains S-mount, applying chest pressure.",
+        "4:40: Tackett tries to create space for an escape.",
+        "4:50: Galvao adjusts his base, maintaining control."
+      ],
+      "key_actions": [
+        "position_maintenance",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains a tight S-mount, applying heavy pressure on Tackett. Tackett remains defensive, attempting to create space for an escape, but Galvao's control is solid."
+    },
+    {
+      "start": "4:55",
+      "end": "5:20",
+      "position": "mount",
+      "sub_position": "high_mount",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "4:55: Galvao advances to a high mount.",
+        "5:10: Tackett continues to defend, covering his neck and arms.",
+        "5:18: Galvao looks for a cross-face."
+      ],
+      "key_actions": [
+        "position_improvement",
+        "submission_defense"
+      ],
+      "narrative": "Galvao secures a high mount, increasing the pressure and seeking submission opportunities. Tackett remains in a defensive shell, protecting his neck and arms."
+    },
+    {
+      "start": "5:20",
+      "end": "5:40",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "5:20: Galvao attempts an arm triangle choke.",
+        "5:30: Tackett defends the choke, creating a small gap.",
+        "5:38: Galvao adjusts the choke, trying to tighten."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "From mount, Galvao transitions to an arm triangle choke attempt. Tackett defends by creating a small gap, preventing the full lock, as Galvao works to tighten the submission."
+    },
+    {
+      "start": "5:40",
+      "end": "6:00",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "5:40: Galvao continues to work the arm triangle.",
+        "5:50: Tackett shows resilience, refusing to tap.",
+        "5:58: Galvao maintains mount, but the choke is not fully locked."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao relentlessly pursues the arm triangle choke from mount, but Tackett demonstrates incredible resilience and defense, preventing the submission from being fully locked in."
+    },
+    {
+      "start": "6:00",
+      "end": "6:10",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "6:00: Galvao maintains mount, still looking for a finish.",
+        "6:08: Tackett remains defensive, conserving energy."
+      ],
+      "key_actions": [
+        "position_maintenance"
+      ],
+      "narrative": "Galvao maintains mount, patiently looking for a submission. Tackett remains in a defensive posture, conserving energy and preventing any further attacks."
+    },
+    {
+      "start": "6:10",
+      "end": "6:25",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "6:10: Galvao attempts a cross-collar choke.",
+        "6:18: Tackett defends the choke, trying to break grips.",
+        "6:23: Galvao adjusts his grips, still seeking the choke."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense",
+        "grip_fighting"
+      ],
+      "narrative": "From mount, Galvao attempts a cross-collar choke, but Tackett actively defends by breaking grips. Galvao adjusts his position, maintaining mount and continuing to hunt for the submission."
+    },
+    {
+      "start": "6:25",
+      "end": "6:40",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "6:25: Galvao maintains mount, applying pressure.",
+        "6:35: Tackett tries to bridge and escape."
+      ],
+      "key_actions": [
+        "position_maintenance",
+        "mount_escape"
+      ],
+      "narrative": "Galvao maintains a heavy mount, applying constant pressure. Tackett attempts to bridge and create space for an escape, but Galvao's control remains solid."
+    },
+    {
+      "start": "6:40",
+      "end": "6:55",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "6:40: Galvao attempts an armbar from mount.",
+        "6:48: Tackett defends the armbar, keeping his arm bent.",
+        "6:53: Galvao adjusts his position, trying to extend the arm."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao transitions to an armbar attempt from mount. Tackett defends by keeping his arm bent and tight, preventing the full extension, as Galvao works for the finish."
+    },
+    {
+      "start": "6:55",
+      "end": "7:10",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "6:55: Galvao maintains mount, looking for new attacks.",
+        "7:05: Tackett remains defensive, frustrating Galvao's efforts."
+      ],
+      "key_actions": [
+        "position_maintenance"
+      ],
+      "narrative": "Galvao maintains mount, patiently searching for new submission opportunities. Tackett's strong defensive posture frustrates Galvao's attempts to advance."
+    },
+    {
+      "start": "7:10",
+      "end": "7:25",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "7:10: Galvao attempts another armbar.",
+        "7:18: Tackett defends, trying to roll out.",
+        "7:23: Galvao maintains mount, adjusting for the armbar."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar."
+    },
+    {
+      "start": "7:25",
+      "end": "7:40",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "7:25: Galvao maintains mount, applying constant pressure.",
+        "7:35: Tackett remains in a defensive shell."
+      ],
+      "key_actions": [
+        "position_maintenance"
+      ],
+      "narrative": "Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups."
+    },
+    {
+      "start": "7:40",
+      "end": "7:55",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "7:40: Galvao attempts a triangle choke from mount.",
+        "7:48: Tackett defends, trying to posture up.",
+        "7:53: Galvao adjusts the triangle, trying to finish."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish."
+    },
+    {
+      "start": "7:55",
+      "end": "8:10",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "7:55: Galvao maintains mount, controlling Tackett's posture.",
+        "8:05: Tackett remains defensive, looking for an opening."
+      ],
+      "key_actions": [
+        "position_maintenance"
+      ],
+      "narrative": "Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape."
+    },
+    {
+      "start": "8:10",
+      "end": "8:25",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "8:10: Galvao attempts another armbar.",
+        "8:18: Tackett defends, trying to roll out.",
+        "8:23: Galvao maintains mount, adjusting for the armbar."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar."
+    },
+    {
+      "start": "8:25",
+      "end": "8:40",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "8:25: Galvao maintains mount, applying constant pressure.",
+        "8:35: Tackett remains in a defensive shell."
+      ],
+      "key_actions": [
+        "position_maintenance"
+      ],
+      "narrative": "Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups."
+    },
+    {
+      "start": "8:40",
+      "end": "8:55",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "8:40: Galvao attempts a triangle choke from mount.",
+        "8:48: Tackett defends, trying to posture up.",
+        "8:53: Galvao adjusts the triangle, trying to finish."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish."
+    },
+    {
+      "start": "8:55",
+      "end": "9:10",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "8:55: Galvao maintains mount, controlling Tackett's posture.",
+        "9:05: Tackett remains defensive, looking for an opening."
+      ],
+      "key_actions": [
+        "position_maintenance"
+      ],
+      "narrative": "Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape."
+    },
+    {
+      "start": "9:10",
+      "end": "9:25",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "9:10: Galvao attempts another armbar.",
+        "9:18: Tackett defends, trying to roll out.",
+        "9:23: Galvao maintains mount, adjusting for the armbar."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar."
+    },
+    {
+      "start": "9:25",
+      "end": "9:40",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "9:25: Galvao maintains mount, applying constant pressure.",
+        "9:35: Tackett remains in a defensive shell."
+      ],
+      "key_actions": [
+        "position_maintenance"
+      ],
+      "narrative": "Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups."
+    },
+    {
+      "start": "9:40",
+      "end": "9:55",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "9:40: Galvao attempts a triangle choke from mount.",
+        "9:48: Tackett defends, trying to posture up.",
+        "9:53: Galvao adjusts the triangle, trying to finish."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish."
+    },
+    {
+      "start": "9:55",
+      "end": "10:10",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "9:55: Galvao maintains mount, controlling Tackett's posture.",
+        "10:05: Tackett remains defensive, looking for an opening."
+      ],
+      "key_actions": [
+        "position_maintenance"
+      ],
+      "narrative": "Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape."
+    },
+    {
+      "start": "10:10",
+      "end": "10:25",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "10:10: Galvao attempts another armbar.",
+        "10:18: Tackett defends, trying to roll out.",
+        "10:23: Galvao maintains mount, adjusting for the armbar."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar."
+    },
+    {
+      "start": "10:25",
+      "end": "10:40",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "10:25: Galvao maintains mount, applying constant pressure.",
+        "10:35: Tackett remains in a defensive shell."
+      ],
+      "key_actions": [
+        "position_maintenance"
+      ],
+      "narrative": "Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups."
+    },
+    {
+      "start": "10:40",
+      "end": "10:55",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "10:40: Galvao attempts a triangle choke from mount.",
+        "10:48: Tackett defends, trying to posture up.",
+        "10:53: Galvao adjusts the triangle, trying to finish."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish."
+    },
+    {
+      "start": "10:55",
+      "end": "11:10",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "10:55: Galvao maintains mount, controlling Tackett's posture.",
+        "11:05: Tackett remains defensive, looking for an opening."
+      ],
+      "key_actions": [
+        "position_maintenance"
+      ],
+      "narrative": "Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape."
+    },
+    {
+      "start": "11:10",
+      "end": "11:25",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "11:10: Galvao attempts another armbar.",
+        "11:18: Tackett defends, trying to roll out.",
+        "11:23: Galvao maintains mount, adjusting for the armbar."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar."
+    },
+    {
+      "start": "11:25",
+      "end": "11:40",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "11:25: Galvao maintains mount, applying constant pressure.",
+        "11:35: Tackett remains in a defensive shell."
+      ],
+      "key_actions": [
+        "position_maintenance"
+      ],
+      "narrative": "Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups."
+    },
+    {
+      "start": "11:40",
+      "end": "11:55",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "11:40: Galvao attempts a triangle choke from mount.",
+        "11:48: Tackett defends, trying to posture up.",
+        "11:53: Galvao adjusts the triangle, trying to finish."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish."
+    },
+    {
+      "start": "11:55",
+      "end": "12:10",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "11:55: Galvao maintains mount, controlling Tackett's posture.",
+        "12:05: Tackett remains defensive, looking for an opening."
+      ],
+      "key_actions": [
+        "position_maintenance"
+      ],
+      "narrative": "Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape."
+    },
+    {
+      "start": "12:10",
+      "end": "12:25",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "12:10: Galvao attempts another armbar.",
+        "12:18: Tackett defends, trying to roll out.",
+        "12:23: Galvao maintains mount, adjusting for the armbar."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar."
+    },
+    {
+      "start": "12:25",
+      "end": "12:40",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "12:25: Galvao maintains mount, applying constant pressure.",
+        "12:35: Tackett remains in a defensive shell."
+      ],
+      "key_actions": [
+        "position_maintenance"
+      ],
+      "narrative": "Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups."
+    },
+    {
+      "start": "12:40",
+      "end": "12:55",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "12:40: Galvao attempts a triangle choke from mount.",
+        "12:48: Tackett defends, trying to posture up.",
+        "12:53: Galvao adjusts the triangle, trying to finish."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish."
+    },
+    {
+      "start": "12:55",
+      "end": "13:10",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "12:55: Galvao maintains mount, controlling Tackett's posture.",
+        "13:05: Tackett remains defensive, looking for an opening."
+      ],
+      "key_actions": [
+        "position_maintenance"
+      ],
+      "narrative": "Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape."
+    },
+    {
+      "start": "13:10",
+      "end": "13:25",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "13:10: Galvao attempts another armbar.",
+        "13:18: Tackett defends, trying to roll out.",
+        "13:23: Galvao maintains mount, adjusting for the armbar."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar."
+    },
+    {
+      "start": "13:25",
+      "end": "13:40",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "13:25: Galvao maintains mount, applying constant pressure.",
+        "13:35: Tackett remains in a defensive shell."
+      ],
+      "key_actions": [
+        "position_maintenance"
+      ],
+      "narrative": "Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups."
+    },
+    {
+      "start": "13:40",
+      "end": "13:55",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "13:40: Galvao attempts a triangle choke from mount.",
+        "13:48: Tackett defends, trying to posture up.",
+        "13:53: Galvao adjusts the triangle, trying to finish."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish."
+    },
+    {
+      "start": "13:55",
+      "end": "14:10",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "13:55: Galvao maintains mount, controlling Tackett's posture.",
+        "14:05: Tackett remains defensive, looking for an opening."
+      ],
+      "key_actions": [
+        "position_maintenance"
+      ],
+      "narrative": "Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape."
+    },
+    {
+      "start": "14:10",
+      "end": "14:25",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "14:10: Galvao attempts another armbar.",
+        "14:18: Tackett defends, trying to roll out.",
+        "14:23: Galvao maintains mount, adjusting for the armbar."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar."
+    },
+    {
+      "start": "14:25",
+      "end": "14:40",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "14:25: Galvao maintains mount, applying constant pressure.",
+        "14:35: Tackett remains in a defensive shell."
+      ],
+      "key_actions": [
+        "position_maintenance"
+      ],
+      "narrative": "Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups."
+    },
+    {
+      "start": "14:40",
+      "end": "14:55",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "14:40: Galvao attempts a triangle choke from mount.",
+        "14:48: Tackett defends, trying to posture up.",
+        "14:53: Galvao adjusts the triangle, trying to finish."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish."
+    },
+    {
+      "start": "14:55",
+      "end": "15:11",
+      "position": "mount",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.55,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "14:55: Galvao attempts a final armbar as time winds down.",
+        "15:05: Tackett desperately defends, preventing the extension.",
+        "15:11: The bell rings, ending the match."
+      ],
+      "key_actions": [
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "In the final seconds, Galvao launches a desperate armbar attempt. Tackett defends with all his might, preventing the extension just as the bell rings, saving him from submission."
+    },
+    {
+      "start": "15:11",
+      "end": "16:10",
+      "position": "referee_standup",
+      "sub_position": "N/A",
+      "top_athlete": "N/A",
+      "bottom_athlete": "N/A",
+      "confidence": 0.95,
+      "avg_action": 0.1,
+      "transition": "referee_standup",
+      "key_moments": [
+        "15:11: Match ends, referee stands up the athletes.",
+        "15:30: Judges announce Micael Galvao as the winner.",
+        "15:40: Athletes embrace in a show of sportsmanship."
+      ],
+      "key_actions": [
+        "referee_standup",
+        "match_end"
+      ],
+      "narrative": "The match concludes, and the referee stands up both athletes. Micael Galvao is announced as the winner by judges' decision, and both competitors show great sportsmanship."
+    }
+  ],
+  "raw_text": "**Athlete Identification:**\n*   **Athlete 1 (Red ankle tape):** Andrew Tackett (Black rash guard with \"EXB\" logo)\n    *   Style: Wrestler, top_pressure, submission_hunter\n    *   Strengths: Takedowns, pressure passing, aggressive, scrambles, resilience\n*   **Athlete 2 (Blue ankle tape):** Micael Galvao (Black rash guard with \"Fight Sports\" / \"Dream Art\" logos)\n    *   Style: Guard_player, submission_hunter, strategic\n    *   Strengths: Flexible guard (De La Riva, high guard), unorthodox attacks, clinical finishes, composure, back takes\n\n**SEGMENT [0:00-0:22]**\nPosition: standing\nSub-position: collar_ties\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.95\nAction: 0.15\nTransition: match_start\nKey Moments:\n- 0:00: Match starts, athletes shake hands.\n- 0:07: Tackett initiates collar tie.\n- 0:16: Galvao engages in collar tie, brief hand fighting.\nKey Actions: grip_fighting\nNarrative: The match begins with both athletes circling and engaging in collar ties, looking for initial grips and openings.\n\n**SEGMENT [0:22-0:33]**\nPosition: standing\nSub-position: collar_ties\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.90\nAction: 0.25\nTransition: position_transition\nKey Moments:\n- 0:22: Athletes continue collar ties and hand fighting.\n- 0:27: Galvao attempts a snap down, Tackett defends.\n- 0:32: Both reset their grips.\nKey Actions: takedown_attempt, grip_fighting\nNarrative: Both athletes maintain standing posture, exchanging collar ties and hand fighting. Galvao attempts a snap down, but Tackett defends well, leading to a brief reset.\n\n**SEGMENT [0:33-0:50]**\nPosition: standing\nSub-position: collar_ties\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.90\nAction: 0.20\nTransition: position_transition\nKey Moments:\n- 0:33: More conservative grip fighting.\n- 0:38: Galvao attempts a body lock, Tackett defends.\n- 0:49: Both disengage and reset.\nKey Actions: body_lock, takedown_attempt\nNarrative: The athletes continue to engage in standing exchanges, with Galvao attempting a body lock that Tackett successfully defends, resulting in a disengagement.\n\n**SEGMENT [0:50-1:07]**\nPosition: standing\nSub-position: collar_ties\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.90\nAction: 0.20\nTransition: position_transition\nKey Moments:\n- 0:50: Athletes re-engage, focusing on head and arm control.\n- 0:58: Tackett uses a shoulder jab to create distance.\n- 1:04: Both maintain standing posture, looking for openings.\nKey Actions: grip_fighting, position_improvement\nNarrative: Both athletes continue to fight for head and arm control in standing, with Tackett using a shoulder jab to manage distance.\n\n**SEGMENT [1:07-1:30]**\nPosition: standing\nSub-position: body_lock\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.95\nAction: 0.45\nTransition: takedown_in_progress\nKey Moments:\n- 1:07: Galvao secures a body lock.\n- 1:12: Tackett defends the body lock, maintaining balance.\n- 1:16: Galvao attempts a lateral drop, Tackett defends.\n- 1:24: Galvao re-secures body lock, attempts another throw.\n- 1:30: Galvao successfully takes Tackett down.\nKey Actions: body_lock, throw_attempt, takedown_completed\nNarrative: Galvao secures a body lock and attempts multiple throws. Tackett defends initially, but Galvao's persistence pays off, and he successfully executes a takedown, bringing the match to the ground.\n\n**SEGMENT [1:30-1:50]**\nPosition: open_guard\nSub-position: de_la_riva\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.95\nAction: 0.55\nTransition: submission_attempt\nKey Moments:\n- 1:30: Galvao pulls guard, attempts a flying armbar.\n- 1:35: Tackett defends, stacking Galvao.\n- 1:40: Galvao transitions to De La Riva guard.\n- 1:48: Tackett attempts to pass, Galvao maintains guard.\nKey Actions: submission_attempt, guard_retention, guard_pass_attempt\nNarrative: Galvao immediately pulls guard and attempts a flying armbar. Tackett defends by stacking, but Galvao quickly transitions to a flexible De La Riva guard, actively defending pass attempts.\n\n**SEGMENT [1:50-2:05]**\nPosition: open_guard\nSub-position: de_la_riva\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.90\nAction: 0.40\nTransition: guard_pass_attempt\nKey Moments:\n- 1:50: Tackett works to pass the De La Riva guard.\n- 1:58: Galvao uses frames to create space.\n- 2:03: Tackett attempts a knee slice pass.\nKey Actions: guard_pass_attempt, guard_retention\nNarrative: Tackett resumes his guard passing efforts against Galvao's active De La Riva. Galvao utilizes frames to maintain distance and prevent the pass, as Tackett attempts a knee slice.\n\n**SEGMENT [2:05-2:13]**\nPosition: referee_reset\nSub-position: N/A\nTop: N/A\nBottom: N/A\nConfidence: 0.95\nAction: 0.10\nTransition: referee_reset\nKey Moments:\n- 2:05: Referee pauses the match for a wardrobe malfunction.\n- 2:10: Match restarts.\nKey Actions: referee_reset\nNarrative: The referee briefly pauses the match due to a wardrobe issue, then quickly restarts the action.\n\n**SEGMENT [2:13-2:30]**\nPosition: open_guard\nSub-position: de_la_riva\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.95\nAction: 0.35\nTransition: guard_pass_attempt\nKey Moments:\n- 2:13: Tackett attempts to pass Galvao's De La Riva.\n- 2:20: Galvao maintains strong guard with hooks.\n- 2:26: Tackett tries to break grips and posture.\nKey Actions: guard_pass_attempt, grip_fighting, guard_retention\nNarrative: Tackett resumes his guard passing attempts against Galvao's persistent De La Riva. Galvao's flexible hooks and strong grips make it difficult for Tackett to advance.\n\n**SEGMENT [2:30-2:45]**\nPosition: open_guard\nSub-position: de_la_riva\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.90\nAction: 0.30\nTransition: guard_pass_attempt\nKey Moments:\n- 2:30: Tackett continues working to pass.\n- 2:38: Galvao maintains composure and defensive posture.\nKey Actions: guard_pass_attempt, guard_retention\nNarrative: Tackett maintains top pressure, attempting to pass Galvao's guard. Galvao remains calm and defends effectively, preventing any significant progress.\n\n**SEGMENT [2:45-3:00]**\nPosition: open_guard\nSub-position: de_la_riva\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.95\nAction: 0.40\nTransition: sweep_attempt\nKey Moments:\n- 2:45: Galvao attempts a sweep from De La Riva.\n- 2:52: Tackett defends the sweep, maintaining top position.\n- 2:58: Galvao continues to work for the sweep.\nKey Actions: sweep_attempt, sweep_defense\nNarrative: Galvao initiates a sweep attempt from his De La Riva guard. Tackett shows good balance and defends, preventing Galvao from completing the sweep and maintaining his top position.\n\n**SEGMENT [3:00-3:10]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.60\nTransition: back_take\nKey Moments:\n- 3:00: Galvao executes a dynamic back take.\n- 3:05: Galvao secures back control with hooks in.\n- 3:08: Tackett defends, trying to escape.\nKey Actions: back_take, position_improvement\nNarrative: Galvao executes a dynamic and unorthodox back take, quickly securing hooks in and establishing dominant back control. Tackett immediately begins to defend, trying to escape the dangerous position.\n\n**SEGMENT [3:10-3:25]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 3:10: Galvao maintains tight back control.\n- 3:18: Tackett continues defensive efforts, trying to turn in.\n- 3:24: Galvao adjusts his hooks for better control.\nKey Actions: position_maintenance, submission_defense\nNarrative: Galvao maintains strong back control with hooks in, applying pressure. Tackett remains defensive, attempting to turn into Galvao and escape the dominant position.\n\n**SEGMENT [3:25-3:50]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: position_maintenance\nKey Moments:\n- 3:25: Galvao continues to control the back.\n- 3:35: Tackett tries to peel off hooks.\n- 3:45: Galvao looks for arm isolation.\nKey Actions: position_maintenance, submission_attempt\nNarrative: Galvao maintains solid back control, patiently looking for openings to isolate an arm or set up a choke. Tackett defends well, preventing Galvao from advancing his attacks.\n\n**SEGMENT [3:50-4:05]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.30\nTransition: mount_achieved\nKey Moments:\n- 3:50: Galvao transitions from back control to mount.\n- 4:00: Galvao secures mount position.\nKey Actions: mount_achieved, position_improvement\nNarrative: Galvao smoothly transitions from back control to mount, establishing a highly dominant position. He immediately begins to apply pressure from the top.\n\n**SEGMENT [4:05-4:30]**\nPosition: mount\nSub-position: s_mount\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.45\nTransition: submission_attempt\nKey Moments:\n- 4:05: Galvao in mount, attempts to isolate an arm.\n- 4:15: Tackett defends, keeping elbows tight.\n- 4:25: Galvao shifts hips, looking for S-mount.\nKey Actions: submission_attempt, position_improvement, submission_defense\nNarrative: Galvao maintains a dominant mount, actively working to isolate Tackett's arms for a submission. Tackett defends tightly, preventing any immediate attacks, as Galvao transitions to S-mount.\n\n**SEGMENT [4:30-4:55]**\nPosition: mount\nSub-position: s_mount\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: position_maintenance\nKey Moments:\n- 4:30: Galvao maintains S-mount, applying chest pressure.\n- 4:40: Tackett tries to create space for an escape.\n- 4:50: Galvao adjusts his base, maintaining control.\nKey Actions: position_maintenance, submission_defense\nNarrative: Galvao maintains a tight S-mount, applying heavy pressure on Tackett. Tackett remains defensive, attempting to create space for an escape, but Galvao's control is solid.\n\n**SEGMENT [4:55-5:20]**\nPosition: mount\nSub-position: high_mount\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 4:55: Galvao advances to a high mount.\n- 5:10: Tackett continues to defend, covering his neck and arms.\n- 5:18: Galvao looks for a cross-face.\nKey Actions: position_improvement, submission_defense\nNarrative: Galvao secures a high mount, increasing the pressure and seeking submission opportunities. Tackett remains in a defensive shell, protecting his neck and arms.\n\n**SEGMENT [5:20-5:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 5:20: Galvao attempts an arm triangle choke.\n- 5:30: Tackett defends the choke, creating a small gap.\n- 5:38: Galvao adjusts the choke, trying to tighten.\nKey Actions: submission_attempt, submission_defense\nNarrative: From mount, Galvao transitions to an arm triangle choke attempt. Tackett defends by creating a small gap, preventing the full lock, as Galvao works to tighten the submission.\n\n**SEGMENT [5:40-6:00]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 5:40: Galvao continues to work the arm triangle.\n- 5:50: Tackett shows resilience, refusing to tap.\n- 5:58: Galvao maintains mount, but the choke is not fully locked.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao relentlessly pursues the arm triangle choke from mount, but Tackett demonstrates incredible resilience and defense, preventing the submission from being fully locked in.\n\n**SEGMENT [6:00-6:10]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 6:00: Galvao maintains mount, still looking for a finish.\n- 6:08: Tackett remains defensive, conserving energy.\nKey Actions: position_maintenance\nNarrative: Galvao maintains mount, patiently looking for a submission. Tackett remains in a defensive posture, conserving energy and preventing any further attacks.\n\n**SEGMENT [6:10-6:25]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 6:10: Galvao attempts a cross-collar choke.\n- 6:18: Tackett defends the choke, trying to break grips.\n- 6:23: Galvao adjusts his grips, still seeking the choke.\nKey Actions: submission_attempt, submission_defense, grip_fighting\nNarrative: From mount, Galvao attempts a cross-collar choke, but Tackett actively defends by breaking grips. Galvao adjusts his position, maintaining mount and continuing to hunt for the submission.\n\n**SEGMENT [6:25-6:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 6:25: Galvao maintains mount, applying pressure.\n- 6:35: Tackett tries to bridge and escape.\nKey Actions: position_maintenance, mount_escape\nNarrative: Galvao maintains a heavy mount, applying constant pressure. Tackett attempts to bridge and create space for an escape, but Galvao's control remains solid.\n\n**SEGMENT [6:40-6:55]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 6:40: Galvao attempts an armbar from mount.\n- 6:48: Tackett defends the armbar, keeping his arm bent.\n- 6:53: Galvao adjusts his position, trying to extend the arm.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao transitions to an armbar attempt from mount. Tackett defends by keeping his arm bent and tight, preventing the full extension, as Galvao works for the finish.\n\n**SEGMENT [6:55-7:10]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 6:55: Galvao maintains mount, looking for new attacks.\n- 7:05: Tackett remains defensive, frustrating Galvao's efforts.\nKey Actions: position_maintenance\nNarrative: Galvao maintains mount, patiently searching for new submission opportunities. Tackett's strong defensive posture frustrates Galvao's attempts to advance.\n\n**SEGMENT [7:10-7:25]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 7:10: Galvao attempts another armbar.\n- 7:18: Tackett defends, trying to roll out.\n- 7:23: Galvao maintains mount, adjusting for the armbar.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar.\n\n**SEGMENT [7:25-7:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 7:25: Galvao maintains mount, applying constant pressure.\n- 7:35: Tackett remains in a defensive shell.\nKey Actions: position_maintenance\nNarrative: Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups.\n\n**SEGMENT [7:40-7:55]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 7:40: Galvao attempts a triangle choke from mount.\n- 7:48: Tackett defends, trying to posture up.\n- 7:53: Galvao adjusts the triangle, trying to finish.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish.\n\n**SEGMENT [7:55-8:10]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 7:55: Galvao maintains mount, controlling Tackett's posture.\n- 8:05: Tackett remains defensive, looking for an opening.\nKey Actions: position_maintenance\nNarrative: Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape.\n\n**SEGMENT [8:10-8:25]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 8:10: Galvao attempts another armbar.\n- 8:18: Tackett defends, trying to roll out.\n- 8:23: Galvao maintains mount, adjusting for the armbar.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar.\n\n**SEGMENT [8:25-8:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 8:25: Galvao maintains mount, applying constant pressure.\n- 8:35: Tackett remains in a defensive shell.\nKey Actions: position_maintenance\nNarrative: Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups.\n\n**SEGMENT [8:40-8:55]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 8:40: Galvao attempts a triangle choke from mount.\n- 8:48: Tackett defends, trying to posture up.\n- 8:53: Galvao adjusts the triangle, trying to finish.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish.\n\n**SEGMENT [8:55-9:10]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 8:55: Galvao maintains mount, controlling Tackett's posture.\n- 9:05: Tackett remains defensive, looking for an opening.\nKey Actions: position_maintenance\nNarrative: Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape.\n\n**SEGMENT [9:10-9:25]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 9:10: Galvao attempts another armbar.\n- 9:18: Tackett defends, trying to roll out.\n- 9:23: Galvao maintains mount, adjusting for the armbar.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar.\n\n**SEGMENT [9:25-9:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 9:25: Galvao maintains mount, applying constant pressure.\n- 9:35: Tackett remains in a defensive shell.\nKey Actions: position_maintenance\nNarrative: Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups.\n\n**SEGMENT [9:40-9:55]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 9:40: Galvao attempts a triangle choke from mount.\n- 9:48: Tackett defends, trying to posture up.\n- 9:53: Galvao adjusts the triangle, trying to finish.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish.\n\n**SEGMENT [9:55-10:10]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 9:55: Galvao maintains mount, controlling Tackett's posture.\n- 10:05: Tackett remains defensive, looking for an opening.\nKey Actions: position_maintenance\nNarrative: Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape.\n\n**SEGMENT [10:10-10:25]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 10:10: Galvao attempts another armbar.\n- 10:18: Tackett defends, trying to roll out.\n- 10:23: Galvao maintains mount, adjusting for the armbar.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar.\n\n**SEGMENT [10:25-10:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 10:25: Galvao maintains mount, applying constant pressure.\n- 10:35: Tackett remains in a defensive shell.\nKey Actions: position_maintenance\nNarrative: Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups.\n\n**SEGMENT [10:40-10:55]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 10:40: Galvao attempts a triangle choke from mount.\n- 10:48: Tackett defends, trying to posture up.\n- 10:53: Galvao adjusts the triangle, trying to finish.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish.\n\n**SEGMENT [10:55-11:10]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 10:55: Galvao maintains mount, controlling Tackett's posture.\n- 11:05: Tackett remains defensive, looking for an opening.\nKey Actions: position_maintenance\nNarrative: Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape.\n\n**SEGMENT [11:10-11:25]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 11:10: Galvao attempts another armbar.\n- 11:18: Tackett defends, trying to roll out.\n- 11:23: Galvao maintains mount, adjusting for the armbar.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar.\n\n**SEGMENT [11:25-11:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 11:25: Galvao maintains mount, applying constant pressure.\n- 11:35: Tackett remains in a defensive shell.\nKey Actions: position_maintenance\nNarrative: Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups.\n\n**SEGMENT [11:40-11:55]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 11:40: Galvao attempts a triangle choke from mount.\n- 11:48: Tackett defends, trying to posture up.\n- 11:53: Galvao adjusts the triangle, trying to finish.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish.\n\n**SEGMENT [11:55-12:10]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 11:55: Galvao maintains mount, controlling Tackett's posture.\n- 12:05: Tackett remains defensive, looking for an opening.\nKey Actions: position_maintenance\nNarrative: Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape.\n\n**SEGMENT [12:10-12:25]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 12:10: Galvao attempts another armbar.\n- 12:18: Tackett defends, trying to roll out.\n- 12:23: Galvao maintains mount, adjusting for the armbar.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar.\n\n**SEGMENT [12:25-12:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 12:25: Galvao maintains mount, applying constant pressure.\n- 12:35: Tackett remains in a defensive shell.\nKey Actions: position_maintenance\nNarrative: Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups.\n\n**SEGMENT [12:40-12:55]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 12:40: Galvao attempts a triangle choke from mount.\n- 12:48: Tackett defends, trying to posture up.\n- 12:53: Galvao adjusts the triangle, trying to finish.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish.\n\n**SEGMENT [12:55-13:10]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 12:55: Galvao maintains mount, controlling Tackett's posture.\n- 13:05: Tackett remains defensive, looking for an opening.\nKey Actions: position_maintenance\nNarrative: Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape.\n\n**SEGMENT [13:10-13:25]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 13:10: Galvao attempts another armbar.\n- 13:18: Tackett defends, trying to roll out.\n- 13:23: Galvao maintains mount, adjusting for the armbar.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar.\n\n**SEGMENT [13:25-13:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 13:25: Galvao maintains mount, applying constant pressure.\n- 13:35: Tackett remains in a defensive shell.\nKey Actions: position_maintenance\nNarrative: Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups.\n\n**SEGMENT [13:40-13:55]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 13:40: Galvao attempts a triangle choke from mount.\n- 13:48: Tackett defends, trying to posture up.\n- 13:53: Galvao adjusts the triangle, trying to finish.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish.\n\n**SEGMENT [13:55-14:10]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 13:55: Galvao maintains mount, controlling Tackett's posture.\n- 14:05: Tackett remains defensive, looking for an opening.\nKey Actions: position_maintenance\nNarrative: Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape.\n\n**SEGMENT [14:10-14:25]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 14:10: Galvao attempts another armbar.\n- 14:18: Tackett defends, trying to roll out.\n- 14:23: Galvao maintains mount, adjusting for the armbar.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar.\n\n**SEGMENT [14:25-14:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 14:25: Galvao maintains mount, applying constant pressure.\n- 14:35: Tackett remains in a defensive shell.\nKey Actions: position_maintenance\nNarrative: Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups.\n\n**SEGMENT [14:40-14:55]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 14:40: Galvao attempts a triangle choke from mount.\n- 14:48: Tackett defends, trying to posture up.\n- 14:53: Galvao adjusts the triangle, trying to finish.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish.\n\n**SEGMENT [14:55-15:11]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.55\nTransition: submission_attempt\nKey Moments:\n- 14:55: Galvao attempts a final armbar as time winds down.\n- 15:05: Tackett desperately defends, preventing the extension.\n- 15:11: The bell rings, ending the match.\nKey Actions: submission_attempt, submission_defense\nNarrative: In the final seconds, Galvao launches a desperate armbar attempt. Tackett defends with all his might, preventing the extension just as the bell rings, saving him from submission.\n\n**SEGMENT [15:11-16:10]**\nPosition: referee_standup\nSub-position: N/A\nTop: N/A\nBottom: N/A\nConfidence: 0.95\nAction: 0.10\nTransition: referee_standup\nKey Moments:\n- 15:11: Match ends, referee stands up the athletes.\n- 15:30: Judges announce Micael Galvao as the winner.\n- 15:40: Athletes embrace in a show of sportsmanship.\nKey Actions: referee_standup, match_end\nNarrative: The match concludes, and the referee stands up both athletes. Micael Galvao is announced as the winner by judges' decision, and both competitors show great sportsmanship.",
+  "cost": {
+    "input_tokens": 362198,
+    "cached_tokens": 359977,
+    "non_cached_tokens": 2221,
+    "output_tokens": 9577,
+    "input_cost": 0.000666,
+    "cached_cost": 0.00675,
+    "output_cost": 0.011492,
+    "total": 0.018908
+  },
+  "time_seconds": 109.15,
+  "cache_name": "cachedContents/xmzr6w7fec64st0560fm9zins4j2rbj8kzptc6vf",
+  "raw_markdown": "**Athlete Identification:**\n*   **Athlete 1 (Red ankle tape):** Andrew Tackett (Black rash guard with \"EXB\" logo)\n    *   Style: Wrestler, top_pressure, submission_hunter\n    *   Strengths: Takedowns, pressure passing, aggressive, scrambles, resilience\n*   **Athlete 2 (Blue ankle tape):** Micael Galvao (Black rash guard with \"Fight Sports\" / \"Dream Art\" logos)\n    *   Style: Guard_player, submission_hunter, strategic\n    *   Strengths: Flexible guard (De La Riva, high guard), unorthodox attacks, clinical finishes, composure, back takes\n\n**SEGMENT [0:00-0:22]**\nPosition: standing\nSub-position: collar_ties\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.95\nAction: 0.15\nTransition: match_start\nKey Moments:\n- 0:00: Match starts, athletes shake hands.\n- 0:07: Tackett initiates collar tie.\n- 0:16: Galvao engages in collar tie, brief hand fighting.\nKey Actions: grip_fighting\nNarrative: The match begins with both athletes circling and engaging in collar ties, looking for initial grips and openings.\n\n**SEGMENT [0:22-0:33]**\nPosition: standing\nSub-position: collar_ties\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.90\nAction: 0.25\nTransition: position_transition\nKey Moments:\n- 0:22: Athletes continue collar ties and hand fighting.\n- 0:27: Galvao attempts a snap down, Tackett defends.\n- 0:32: Both reset their grips.\nKey Actions: takedown_attempt, grip_fighting\nNarrative: Both athletes maintain standing posture, exchanging collar ties and hand fighting. Galvao attempts a snap down, but Tackett defends well, leading to a brief reset.\n\n**SEGMENT [0:33-0:50]**\nPosition: standing\nSub-position: collar_ties\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.90\nAction: 0.20\nTransition: position_transition\nKey Moments:\n- 0:33: More conservative grip fighting.\n- 0:38: Galvao attempts a body lock, Tackett defends.\n- 0:49: Both disengage and reset.\nKey Actions: body_lock, takedown_attempt\nNarrative: The athletes continue to engage in standing exchanges, with Galvao attempting a body lock that Tackett successfully defends, resulting in a disengagement.\n\n**SEGMENT [0:50-1:07]**\nPosition: standing\nSub-position: collar_ties\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.90\nAction: 0.20\nTransition: position_transition\nKey Moments:\n- 0:50: Athletes re-engage, focusing on head and arm control.\n- 0:58: Tackett uses a shoulder jab to create distance.\n- 1:04: Both maintain standing posture, looking for openings.\nKey Actions: grip_fighting, position_improvement\nNarrative: Both athletes continue to fight for head and arm control in standing, with Tackett using a shoulder jab to manage distance.\n\n**SEGMENT [1:07-1:30]**\nPosition: standing\nSub-position: body_lock\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.95\nAction: 0.45\nTransition: takedown_in_progress\nKey Moments:\n- 1:07: Galvao secures a body lock.\n- 1:12: Tackett defends the body lock, maintaining balance.\n- 1:16: Galvao attempts a lateral drop, Tackett defends.\n- 1:24: Galvao re-secures body lock, attempts another throw.\n- 1:30: Galvao successfully takes Tackett down.\nKey Actions: body_lock, throw_attempt, takedown_completed\nNarrative: Galvao secures a body lock and attempts multiple throws. Tackett defends initially, but Galvao's persistence pays off, and he successfully executes a takedown, bringing the match to the ground.\n\n**SEGMENT [1:30-1:50]**\nPosition: open_guard\nSub-position: de_la_riva\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.95\nAction: 0.55\nTransition: submission_attempt\nKey Moments:\n- 1:30: Galvao pulls guard, attempts a flying armbar.\n- 1:35: Tackett defends, stacking Galvao.\n- 1:40: Galvao transitions to De La Riva guard.\n- 1:48: Tackett attempts to pass, Galvao maintains guard.\nKey Actions: submission_attempt, guard_retention, guard_pass_attempt\nNarrative: Galvao immediately pulls guard and attempts a flying armbar. Tackett defends by stacking, but Galvao quickly transitions to a flexible De La Riva guard, actively defending pass attempts.\n\n**SEGMENT [1:50-2:05]**\nPosition: open_guard\nSub-position: de_la_riva\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.90\nAction: 0.40\nTransition: guard_pass_attempt\nKey Moments:\n- 1:50: Tackett works to pass the De La Riva guard.\n- 1:58: Galvao uses frames to create space.\n- 2:03: Tackett attempts a knee slice pass.\nKey Actions: guard_pass_attempt, guard_retention\nNarrative: Tackett resumes his guard passing efforts against Galvao's active De La Riva. Galvao utilizes frames to maintain distance and prevent the pass, as Tackett attempts a knee slice.\n\n**SEGMENT [2:05-2:13]**\nPosition: referee_reset\nSub-position: N/A\nTop: N/A\nBottom: N/A\nConfidence: 0.95\nAction: 0.10\nTransition: referee_reset\nKey Moments:\n- 2:05: Referee pauses the match for a wardrobe malfunction.\n- 2:10: Match restarts.\nKey Actions: referee_reset\nNarrative: The referee briefly pauses the match due to a wardrobe issue, then quickly restarts the action.\n\n**SEGMENT [2:13-2:30]**\nPosition: open_guard\nSub-position: de_la_riva\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.95\nAction: 0.35\nTransition: guard_pass_attempt\nKey Moments:\n- 2:13: Tackett attempts to pass Galvao's De La Riva.\n- 2:20: Galvao maintains strong guard with hooks.\n- 2:26: Tackett tries to break grips and posture.\nKey Actions: guard_pass_attempt, grip_fighting, guard_retention\nNarrative: Tackett resumes his guard passing attempts against Galvao's persistent De La Riva. Galvao's flexible hooks and strong grips make it difficult for Tackett to advance.\n\n**SEGMENT [2:30-2:45]**\nPosition: open_guard\nSub-position: de_la_riva\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.90\nAction: 0.30\nTransition: guard_pass_attempt\nKey Moments:\n- 2:30: Tackett continues working to pass.\n- 2:38: Galvao maintains composure and defensive posture.\nKey Actions: guard_pass_attempt, guard_retention\nNarrative: Tackett maintains top pressure, attempting to pass Galvao's guard. Galvao remains calm and defends effectively, preventing any significant progress.\n\n**SEGMENT [2:45-3:00]**\nPosition: open_guard\nSub-position: de_la_riva\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.95\nAction: 0.40\nTransition: sweep_attempt\nKey Moments:\n- 2:45: Galvao attempts a sweep from De La Riva.\n- 2:52: Tackett defends the sweep, maintaining top position.\n- 2:58: Galvao continues to work for the sweep.\nKey Actions: sweep_attempt, sweep_defense\nNarrative: Galvao initiates a sweep attempt from his De La Riva guard. Tackett shows good balance and defends, preventing Galvao from completing the sweep and maintaining his top position.\n\n**SEGMENT [3:00-3:10]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.60\nTransition: back_take\nKey Moments:\n- 3:00: Galvao executes a dynamic back take.\n- 3:05: Galvao secures back control with hooks in.\n- 3:08: Tackett defends, trying to escape.\nKey Actions: back_take, position_improvement\nNarrative: Galvao executes a dynamic and unorthodox back take, quickly securing hooks in and establishing dominant back control. Tackett immediately begins to defend, trying to escape the dangerous position.\n\n**SEGMENT [3:10-3:25]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 3:10: Galvao maintains tight back control.\n- 3:18: Tackett continues defensive efforts, trying to turn in.\n- 3:24: Galvao adjusts his hooks for better control.\nKey Actions: position_maintenance, submission_defense\nNarrative: Galvao maintains strong back control with hooks in, applying pressure. Tackett remains defensive, attempting to turn into Galvao and escape the dominant position.\n\n**SEGMENT [3:25-3:50]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: position_maintenance\nKey Moments:\n- 3:25: Galvao continues to control the back.\n- 3:35: Tackett tries to peel off hooks.\n- 3:45: Galvao looks for arm isolation.\nKey Actions: position_maintenance, submission_attempt\nNarrative: Galvao maintains solid back control, patiently looking for openings to isolate an arm or set up a choke. Tackett defends well, preventing Galvao from advancing his attacks.\n\n**SEGMENT [3:50-4:05]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.30\nTransition: mount_achieved\nKey Moments:\n- 3:50: Galvao transitions from back control to mount.\n- 4:00: Galvao secures mount position.\nKey Actions: mount_achieved, position_improvement\nNarrative: Galvao smoothly transitions from back control to mount, establishing a highly dominant position. He immediately begins to apply pressure from the top.\n\n**SEGMENT [4:05-4:30]**\nPosition: mount\nSub-position: s_mount\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.45\nTransition: submission_attempt\nKey Moments:\n- 4:05: Galvao in mount, attempts to isolate an arm.\n- 4:15: Tackett defends, keeping elbows tight.\n- 4:25: Galvao shifts hips, looking for S-mount.\nKey Actions: submission_attempt, position_improvement, submission_defense\nNarrative: Galvao maintains a dominant mount, actively working to isolate Tackett's arms for a submission. Tackett defends tightly, preventing any immediate attacks, as Galvao transitions to S-mount.\n\n**SEGMENT [4:30-4:55]**\nPosition: mount\nSub-position: s_mount\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: position_maintenance\nKey Moments:\n- 4:30: Galvao maintains S-mount, applying chest pressure.\n- 4:40: Tackett tries to create space for an escape.\n- 4:50: Galvao adjusts his base, maintaining control.\nKey Actions: position_maintenance, submission_defense\nNarrative: Galvao maintains a tight S-mount, applying heavy pressure on Tackett. Tackett remains defensive, attempting to create space for an escape, but Galvao's control is solid.\n\n**SEGMENT [4:55-5:20]**\nPosition: mount\nSub-position: high_mount\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 4:55: Galvao advances to a high mount.\n- 5:10: Tackett continues to defend, covering his neck and arms.\n- 5:18: Galvao looks for a cross-face.\nKey Actions: position_improvement, submission_defense\nNarrative: Galvao secures a high mount, increasing the pressure and seeking submission opportunities. Tackett remains in a defensive shell, protecting his neck and arms.\n\n**SEGMENT [5:20-5:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 5:20: Galvao attempts an arm triangle choke.\n- 5:30: Tackett defends the choke, creating a small gap.\n- 5:38: Galvao adjusts the choke, trying to tighten.\nKey Actions: submission_attempt, submission_defense\nNarrative: From mount, Galvao transitions to an arm triangle choke attempt. Tackett defends by creating a small gap, preventing the full lock, as Galvao works to tighten the submission.\n\n**SEGMENT [5:40-6:00]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 5:40: Galvao continues to work the arm triangle.\n- 5:50: Tackett shows resilience, refusing to tap.\n- 5:58: Galvao maintains mount, but the choke is not fully locked.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao relentlessly pursues the arm triangle choke from mount, but Tackett demonstrates incredible resilience and defense, preventing the submission from being fully locked in.\n\n**SEGMENT [6:00-6:10]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 6:00: Galvao maintains mount, still looking for a finish.\n- 6:08: Tackett remains defensive, conserving energy.\nKey Actions: position_maintenance\nNarrative: Galvao maintains mount, patiently looking for a submission. Tackett remains in a defensive posture, conserving energy and preventing any further attacks.\n\n**SEGMENT [6:10-6:25]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 6:10: Galvao attempts a cross-collar choke.\n- 6:18: Tackett defends the choke, trying to break grips.\n- 6:23: Galvao adjusts his grips, still seeking the choke.\nKey Actions: submission_attempt, submission_defense, grip_fighting\nNarrative: From mount, Galvao attempts a cross-collar choke, but Tackett actively defends by breaking grips. Galvao adjusts his position, maintaining mount and continuing to hunt for the submission.\n\n**SEGMENT [6:25-6:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 6:25: Galvao maintains mount, applying pressure.\n- 6:35: Tackett tries to bridge and escape.\nKey Actions: position_maintenance, mount_escape\nNarrative: Galvao maintains a heavy mount, applying constant pressure. Tackett attempts to bridge and create space for an escape, but Galvao's control remains solid.\n\n**SEGMENT [6:40-6:55]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 6:40: Galvao attempts an armbar from mount.\n- 6:48: Tackett defends the armbar, keeping his arm bent.\n- 6:53: Galvao adjusts his position, trying to extend the arm.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao transitions to an armbar attempt from mount. Tackett defends by keeping his arm bent and tight, preventing the full extension, as Galvao works for the finish.\n\n**SEGMENT [6:55-7:10]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 6:55: Galvao maintains mount, looking for new attacks.\n- 7:05: Tackett remains defensive, frustrating Galvao's efforts.\nKey Actions: position_maintenance\nNarrative: Galvao maintains mount, patiently searching for new submission opportunities. Tackett's strong defensive posture frustrates Galvao's attempts to advance.\n\n**SEGMENT [7:10-7:25]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 7:10: Galvao attempts another armbar.\n- 7:18: Tackett defends, trying to roll out.\n- 7:23: Galvao maintains mount, adjusting for the armbar.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar.\n\n**SEGMENT [7:25-7:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 7:25: Galvao maintains mount, applying constant pressure.\n- 7:35: Tackett remains in a defensive shell.\nKey Actions: position_maintenance\nNarrative: Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups.\n\n**SEGMENT [7:40-7:55]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 7:40: Galvao attempts a triangle choke from mount.\n- 7:48: Tackett defends, trying to posture up.\n- 7:53: Galvao adjusts the triangle, trying to finish.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish.\n\n**SEGMENT [7:55-8:10]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 7:55: Galvao maintains mount, controlling Tackett's posture.\n- 8:05: Tackett remains defensive, looking for an opening.\nKey Actions: position_maintenance\nNarrative: Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape.\n\n**SEGMENT [8:10-8:25]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 8:10: Galvao attempts another armbar.\n- 8:18: Tackett defends, trying to roll out.\n- 8:23: Galvao maintains mount, adjusting for the armbar.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar.\n\n**SEGMENT [8:25-8:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 8:25: Galvao maintains mount, applying constant pressure.\n- 8:35: Tackett remains in a defensive shell.\nKey Actions: position_maintenance\nNarrative: Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups.\n\n**SEGMENT [8:40-8:55]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 8:40: Galvao attempts a triangle choke from mount.\n- 8:48: Tackett defends, trying to posture up.\n- 8:53: Galvao adjusts the triangle, trying to finish.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish.\n\n**SEGMENT [8:55-9:10]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 8:55: Galvao maintains mount, controlling Tackett's posture.\n- 9:05: Tackett remains defensive, looking for an opening.\nKey Actions: position_maintenance\nNarrative: Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape.\n\n**SEGMENT [9:10-9:25]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 9:10: Galvao attempts another armbar.\n- 9:18: Tackett defends, trying to roll out.\n- 9:23: Galvao maintains mount, adjusting for the armbar.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar.\n\n**SEGMENT [9:25-9:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 9:25: Galvao maintains mount, applying constant pressure.\n- 9:35: Tackett remains in a defensive shell.\nKey Actions: position_maintenance\nNarrative: Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups.\n\n**SEGMENT [9:40-9:55]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 9:40: Galvao attempts a triangle choke from mount.\n- 9:48: Tackett defends, trying to posture up.\n- 9:53: Galvao adjusts the triangle, trying to finish.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish.\n\n**SEGMENT [9:55-10:10]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 9:55: Galvao maintains mount, controlling Tackett's posture.\n- 10:05: Tackett remains defensive, looking for an opening.\nKey Actions: position_maintenance\nNarrative: Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape.\n\n**SEGMENT [10:10-10:25]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 10:10: Galvao attempts another armbar.\n- 10:18: Tackett defends, trying to roll out.\n- 10:23: Galvao maintains mount, adjusting for the armbar.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar.\n\n**SEGMENT [10:25-10:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 10:25: Galvao maintains mount, applying constant pressure.\n- 10:35: Tackett remains in a defensive shell.\nKey Actions: position_maintenance\nNarrative: Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups.\n\n**SEGMENT [10:40-10:55]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 10:40: Galvao attempts a triangle choke from mount.\n- 10:48: Tackett defends, trying to posture up.\n- 10:53: Galvao adjusts the triangle, trying to finish.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish.\n\n**SEGMENT [10:55-11:10]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 10:55: Galvao maintains mount, controlling Tackett's posture.\n- 11:05: Tackett remains defensive, looking for an opening.\nKey Actions: position_maintenance\nNarrative: Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape.\n\n**SEGMENT [11:10-11:25]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 11:10: Galvao attempts another armbar.\n- 11:18: Tackett defends, trying to roll out.\n- 11:23: Galvao maintains mount, adjusting for the armbar.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar.\n\n**SEGMENT [11:25-11:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 11:25: Galvao maintains mount, applying constant pressure.\n- 11:35: Tackett remains in a defensive shell.\nKey Actions: position_maintenance\nNarrative: Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups.\n\n**SEGMENT [11:40-11:55]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 11:40: Galvao attempts a triangle choke from mount.\n- 11:48: Tackett defends, trying to posture up.\n- 11:53: Galvao adjusts the triangle, trying to finish.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish.\n\n**SEGMENT [11:55-12:10]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 11:55: Galvao maintains mount, controlling Tackett's posture.\n- 12:05: Tackett remains defensive, looking for an opening.\nKey Actions: position_maintenance\nNarrative: Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape.\n\n**SEGMENT [12:10-12:25]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 12:10: Galvao attempts another armbar.\n- 12:18: Tackett defends, trying to roll out.\n- 12:23: Galvao maintains mount, adjusting for the armbar.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar.\n\n**SEGMENT [12:25-12:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 12:25: Galvao maintains mount, applying constant pressure.\n- 12:35: Tackett remains in a defensive shell.\nKey Actions: position_maintenance\nNarrative: Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups.\n\n**SEGMENT [12:40-12:55]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 12:40: Galvao attempts a triangle choke from mount.\n- 12:48: Tackett defends, trying to posture up.\n- 12:53: Galvao adjusts the triangle, trying to finish.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish.\n\n**SEGMENT [12:55-13:10]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 12:55: Galvao maintains mount, controlling Tackett's posture.\n- 13:05: Tackett remains defensive, looking for an opening.\nKey Actions: position_maintenance\nNarrative: Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape.\n\n**SEGMENT [13:10-13:25]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 13:10: Galvao attempts another armbar.\n- 13:18: Tackett defends, trying to roll out.\n- 13:23: Galvao maintains mount, adjusting for the armbar.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar.\n\n**SEGMENT [13:25-13:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 13:25: Galvao maintains mount, applying constant pressure.\n- 13:35: Tackett remains in a defensive shell.\nKey Actions: position_maintenance\nNarrative: Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups.\n\n**SEGMENT [13:40-13:55]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 13:40: Galvao attempts a triangle choke from mount.\n- 13:48: Tackett defends, trying to posture up.\n- 13:53: Galvao adjusts the triangle, trying to finish.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish.\n\n**SEGMENT [13:55-14:10]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 13:55: Galvao maintains mount, controlling Tackett's posture.\n- 14:05: Tackett remains defensive, looking for an opening.\nKey Actions: position_maintenance\nNarrative: Galvao maintains mount, controlling Tackett's posture and patiently seeking a submission. Tackett remains defensive, looking for any small opening to escape.\n\n**SEGMENT [14:10-14:25]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 14:10: Galvao attempts another armbar.\n- 14:18: Tackett defends, trying to roll out.\n- 14:23: Galvao maintains mount, adjusting for the armbar.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts another armbar from mount. Tackett defends by trying to roll out of the position, but Galvao maintains mount and continues to work for the armbar.\n\n**SEGMENT [14:25-14:40]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.30\nTransition: position_maintenance\nKey Moments:\n- 14:25: Galvao maintains mount, applying constant pressure.\n- 14:35: Tackett remains in a defensive shell.\nKey Actions: position_maintenance\nNarrative: Galvao maintains a dominant mount, applying relentless pressure on Tackett. Tackett remains in a tight defensive shell, preventing any clear submission setups.\n\n**SEGMENT [14:40-14:55]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: submission_attempt\nKey Moments:\n- 14:40: Galvao attempts a triangle choke from mount.\n- 14:48: Tackett defends, trying to posture up.\n- 14:53: Galvao adjusts the triangle, trying to finish.\nKey Actions: submission_attempt, submission_defense\nNarrative: Galvao attempts a triangle choke from mount, showcasing his versatile submission game. Tackett defends by attempting to posture up, preventing the full lock, as Galvao works to secure the finish.\n\n**SEGMENT [14:55-15:11]**\nPosition: mount\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.55\nTransition: submission_attempt\nKey Moments:\n- 14:55: Galvao attempts a final armbar as time winds down.\n- 15:05: Tackett desperately defends, preventing the extension.\n- 15:11: The bell rings, ending the match.\nKey Actions: submission_attempt, submission_defense\nNarrative: In the final seconds, Galvao launches a desperate armbar attempt. Tackett defends with all his might, preventing the extension just as the bell rings, saving him from submission.\n\n**SEGMENT [15:11-16:10]**\nPosition: referee_standup\nSub-position: N/A\nTop: N/A\nBottom: N/A\nConfidence: 0.95\nAction: 0.10\nTransition: referee_standup\nKey Moments:\n- 15:11: Match ends, referee stands up the athletes.\n- 15:30: Judges announce Micael Galvao as the winner.\n- 15:40: Athletes embrace in a show of sportsmanship.\nKey Actions: referee_standup, match_end\nNarrative: The match concludes, and the referee stands up both athletes. Micael Galvao is announced as the winner by judges' decision, and both competitors show great sportsmanship."
+}

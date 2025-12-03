@@ -1,0 +1,25 @@
+{
+  "window": {
+    "start_segment_idx": 16,
+    "end_segment_idx": 18,
+    "start_time": "1:50",
+    "end_time": "2:10",
+    "flagged_segments": [
+      17,
+      18
+    ]
+  },
+  "segments": [],
+  "athlete_profiles": {},
+  "raw_markdown": "**SEGMENT 1:50-2:10**\nPosition: Open Guard\nSub-position: De La Riva Guard (Galvao) / Guard Passing (Tackett)\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.95\nAction: 0.75\nTransition: Guard Recovery\n\nKey Moments:\n- 1:50: Tackett attempts to pass Galvao's open guard, who is actively playing De La Riva.\n- 2:00: Tackett successfully stacks Galvao, applying heavy pressure.\n- 2:03: Galvao uses a strong armpit frame to create space and recover his guard.\n- 2:05: Referee pauses the match for a wardrobe adjustment for Galvao.\n- 2:09: Both athletes reset to an open guard position.\n\nKey Actions: Guard passing, De La Riva retention, stacking, framing, guard recovery.\nNarrative: Tackett initiates guard passing against Galvao's flexible De La Riva. Tackett manages to stack Galvao, but Galvao skillfully uses an armpit frame to recover guard. The action is then paused for a wardrobe malfunction, leading to a reset in open guard.",
+  "cost": {
+    "input_tokens": 1234,
+    "cached_tokens": 286160,
+    "output_tokens": 263,
+    "input_cost": 0.00037,
+    "cached_cost": 0.005365,
+    "output_cost": 0.000316,
+    "total": 0.006051
+  },
+  "time_seconds": 64.03
+}

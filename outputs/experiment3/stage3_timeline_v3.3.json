@@ -1,0 +1,1104 @@
+{
+  "segments": [
+    {
+      "start": "0:00",
+      "end": "0:16",
+      "position": "standing",
+      "sub_position": "",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.95,
+      "avg_action": 0.15,
+      "transition": "match_start",
+      "key_moments": [
+        "0:00: Match starts, athletes shake hands and circle.",
+        "0:07: Tackett initiates collar tie, Galvao disengages.",
+        "0:15: Tackett attempts collar tie again."
+      ],
+      "key_actions": [
+        "grip_fighting"
+      ],
+      "narrative": "Both athletes start standing, circling and engaging in light grip fighting. Tackett attempts to establish collar ties, but Galvao disengages to maintain distance.",
+      "segment_number": 1
+    },
+    {
+      "start": "0:16",
+      "end": "0:28",
+      "position": "standing",
+      "sub_position": "collar_ties",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "position_transition",
+      "key_moments": [
+        "0:16: Tackett secures collar ties, Galvao defends head position.",
+        "0:21: Galvao breaks grips and circles away.",
+        "0:26: Tackett re-engages with collar ties."
+      ],
+      "key_actions": [
+        "grip_fighting",
+        "position_improvement"
+      ],
+      "narrative": "Tackett establishes collar ties, attempting to control Galvao's head. Galvao actively defends, breaking grips and circling to reset, but Tackett quickly re-engages.",
+      "segment_number": 2
+    },
+    {
+      "start": "0:28",
+      "end": "0:34",
+      "position": "standing",
+      "sub_position": "collar_ties",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.2,
+      "transition": "",
+      "key_moments": [
+        "0:28: Both athletes in collar ties, looking for openings.",
+        "0:33: Galvao breaks grips and resets."
+      ],
+      "key_actions": [
+        "grip_fighting"
+      ],
+      "narrative": "Athletes maintain collar ties, probing for opportunities. Galvao successfully breaks Tackett's grips and creates space.",
+      "segment_number": 3
+    },
+    {
+      "start": "0:28",
+      "end": "0:40",
+      "position": "Standing",
+      "sub_position": "Clinch/Striking Distance",
+      "top_athlete": "Andrew Tackett (A1)",
+      "bottom_athlete": "Micael Galvao (A2)",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "None (repeated disengagement/re-engagement)",
+      "key_moments": [
+        "0:28: Both athletes engage in a standing clinch, hand fighting for head and arm control.",
+        "0:29: They briefly disengage, creating distance.",
+        "0:31: They re-engage in a standing clinch, continuing to hand fight.",
+        "0:33: They disengage again, circling each other.",
+        "0:36: They re-engage in a standing clinch, maintaining head and arm control.",
+        "0:38: They break contact and circle, returning to striking distance."
+      ],
+      "key_actions": [
+        "Hand fighting",
+        "collar ties",
+        "disengagement",
+        "re-engagement."
+      ],
+      "narrative": "The athletes spend this segment in a series of brief standing exchanges, primarily focusing on hand fighting and collar ties. They repeatedly disengage and re-engage, circling each other at striking distance, without any significant takedown attempts or ground transitions. The pace is measured, with both fighters testing grips and distance.",
+      "segment_number": 4
+    },
+    {
+      "start": "0:40",
+      "end": "0:49",
+      "position": "standing",
+      "sub_position": "collar_ties",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.2,
+      "transition": "",
+      "key_moments": [
+        "0:40: Both athletes in collar ties.",
+        "0:48: Galvao breaks grips and circles."
+      ],
+      "key_actions": [
+        "grip_fighting"
+      ],
+      "narrative": "The athletes continue to engage in collar ties, maintaining a cautious standing exchange. Galvao breaks grips to reset the engagement.",
+      "segment_number": 5
+    },
+    {
+      "start": "0:49",
+      "end": "0:55",
+      "position": "standing",
+      "sub_position": "collar_ties",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.2,
+      "transition": "",
+      "key_moments": [
+        "0:49: Tackett re-engages with collar ties.",
+        "0:54: Galvao breaks grips."
+      ],
+      "key_actions": [
+        "grip_fighting"
+      ],
+      "narrative": "Tackett re-establishes collar ties, but Galvao quickly breaks free, preventing any sustained control.",
+      "segment_number": 6
+    },
+    {
+      "start": "0:55",
+      "end": "1:01",
+      "position": "standing",
+      "sub_position": "collar_ties",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.2,
+      "transition": "",
+      "key_moments": [
+        "0:55: Both athletes in collar ties.",
+        "1:00: Galvao breaks grips."
+      ],
+      "key_actions": [
+        "grip_fighting"
+      ],
+      "narrative": "Athletes continue to engage in collar ties, with neither gaining a significant advantage. Galvao consistently breaks Tackett's grip attempts.",
+      "segment_number": 7
+    },
+    {
+      "start": "1:01",
+      "end": "1:06",
+      "position": "standing",
+      "sub_position": "collar_ties",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.2,
+      "transition": "",
+      "key_moments": [
+        "1:01: Tackett re-establishes collar ties.",
+        "1:05: Galvao breaks grips."
+      ],
+      "key_actions": [
+        "grip_fighting"
+      ],
+      "narrative": "Tackett attempts to control the standing exchange with collar ties, but Galvao remains elusive, breaking grips and resetting.",
+      "segment_number": 8
+    },
+    {
+      "start": "1:06",
+      "end": "1:10",
+      "position": "standing",
+      "sub_position": "collar_ties",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.2,
+      "transition": "",
+      "key_moments": [
+        "1:06: Both athletes in collar ties.",
+        "1:09: Galvao breaks grips."
+      ],
+      "key_actions": [
+        "grip_fighting"
+      ],
+      "narrative": "The standing engagement continues with collar ties. Galvao demonstrates strong grip breaking, preventing Tackett from securing a dominant position.",
+      "segment_number": 9
+    },
+    {
+      "start": "1:10",
+      "end": "1:15",
+      "position": "standing",
+      "sub_position": "collar_ties",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.2,
+      "transition": "",
+      "key_moments": [
+        "1:10: Tackett re-engages with collar ties.",
+        "1:14: Galvao breaks grips."
+      ],
+      "key_actions": [
+        "grip_fighting"
+      ],
+      "narrative": "Tackett persists with collar ties, but Galvao's defensive posture and grip breaks prevent any significant progress in the standing game.",
+      "segment_number": 10
+    },
+    {
+      "start": "1:15",
+      "end": "1:20",
+      "position": "standing",
+      "sub_position": "collar_ties",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.2,
+      "transition": "",
+      "key_moments": [
+        "1:15: Both athletes in collar ties.",
+        "1:19: Galvao breaks grips."
+      ],
+      "key_actions": [
+        "grip_fighting"
+      ],
+      "narrative": "Another exchange in collar ties. Galvao's consistent grip breaks keep the match in a neutral standing position.",
+      "segment_number": 11
+    },
+    {
+      "start": "1:20",
+      "end": "1:24",
+      "position": "standing",
+      "sub_position": "collar_ties",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.2,
+      "transition": "",
+      "key_moments": [
+        "1:20: Tackett re-establishes collar ties.",
+        "1:23: Galvao breaks grips."
+      ],
+      "key_actions": [
+        "grip_fighting"
+      ],
+      "narrative": "Tackett attempts to control the standing exchange with collar ties, but Galvao continues to break free, preventing any sustained control.",
+      "segment_number": 12
+    },
+    {
+      "start": "1:24",
+      "end": "1:29",
+      "position": "standing",
+      "sub_position": "collar_ties",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.2,
+      "transition": "",
+      "key_moments": [
+        "1:24: Both athletes in collar ties.",
+        "1:28: Galvao breaks grips."
+      ],
+      "key_actions": [
+        "grip_fighting"
+      ],
+      "narrative": "The athletes continue to engage in collar ties, maintaining a cautious standing exchange. Galvao successfully breaks Tackett's grips.",
+      "segment_number": 13
+    },
+    {
+      "start": "1:29",
+      "end": "1:34",
+      "position": "standing",
+      "sub_position": "collar_ties",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.2,
+      "transition": "",
+      "key_moments": [
+        "1:29: Tackett re-engages with collar ties.",
+        "1:33: Galvao breaks grips."
+      ],
+      "key_actions": [
+        "grip_fighting"
+      ],
+      "narrative": "Tackett persists with collar ties, but Galvao's defensive posture and grip breaks prevent any significant progress in the standing game.",
+      "segment_number": 14
+    },
+    {
+      "start": "1:29",
+      "end": "1:40",
+      "position": "Ground",
+      "sub_position": "Single Leg X Guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.78,
+      "avg_action": 0.52,
+      "transition": "Takedown to Guard Pull to Single Leg X Guard",
+      "key_moments": [
+        "1:29: Tackett attempts a double overhook from standing, met by Galvao's head control.",
+        "1:30: Tackett shoots a double leg, but Galvao sprawls and secures a front headlock.",
+        "1:32: Galvao transitions from the front headlock to pulling guard, establishing butterfly guard.",
+        "1:39: Galvao secures a deep leg grip, transitioning from butterfly to single leg X guard."
+      ],
+      "key_actions": [
+        "Double overhook",
+        "double leg shot",
+        "sprawl",
+        "front headlock",
+        "guard pull",
+        "butterfly guard",
+        "single leg X guard."
+      ],
+      "narrative": "The segment begins with a standing exchange where Tackett attempts a double overhook and then a double leg takedown. Galvao expertly counters the takedown with a sprawl and front headlock, then transitions to pulling guard into a dynamic butterfly guard. He maintains an active guard, constantly probing for openings, and eventually secures a strong single leg X guard, establishing a dominant leg entanglement position.",
+      "segment_number": 15
+    },
+    {
+      "start": "1:40",
+      "end": "1:50",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "takedown_completed",
+      "key_moments": [
+        "1:40: Tackett secures a takedown, landing in top position.",
+        "1:42: Galvao immediately establishes de la riva guard.",
+        "1:45: Tackett attempts to stack pass.",
+        "1:48: Galvao maintains guard, looking for sweeps."
+      ],
+      "key_actions": [
+        "takedown_completed",
+        "guard_retention",
+        "guard_pass_attempt"
+      ],
+      "narrative": "Tackett completes a takedown, but Galvao quickly establishes a flexible de la riva guard. Tackett attempts a stack pass, but Galvao defends and maintains his guard.",
+      "segment_number": 16
+    },
+    {
+      "start": "1:50",
+      "end": "2:00",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "1:50: Tackett continues to work from top, attempting to pass.",
+        "1:55: Galvao maintains de la riva, looking for leg entries."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett remains in top position, trying to pass Galvao's de la riva guard. Galvao actively uses his hooks to control distance and prevent the pass.",
+      "segment_number": 17
+    },
+    {
+      "start": "2:10",
+      "end": "2:20",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "2:10: Match restarts in the same position.",
+        "2:15: Tackett attempts to break hooks.",
+        "2:19: Galvao maintains strong de la riva."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "The match resumes with Tackett attempting to pass Galvao's de la riva guard. Galvao's active leg work keeps Tackett at bay.",
+      "segment_number": 18
+    },
+    {
+      "start": "2:20",
+      "end": "2:30",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "2:20: Tackett continues to try and pass.",
+        "2:25: Galvao adjusts his de la riva hooks.",
+        "2:29: Tackett maintains posture."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett continues to attempt guard passes, but Galvao's flexible de la riva guard proves difficult to break, maintaining control from the bottom.",
+      "segment_number": 19
+    },
+    {
+      "start": "2:30",
+      "end": "2:40",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "2:30: Tackett attempts to pass.",
+        "2:35: Galvao maintains de la riva.",
+        "2:39: Tackett adjusts his base."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett is still working to pass Galvao's de la riva guard. Galvao's active leg game and constant adjustments prevent Tackett from advancing.",
+      "segment_number": 20
+    },
+    {
+      "start": "2:40",
+      "end": "2:50",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "2:40: Tackett attempts to pass.",
+        "2:45: Galvao maintains de la riva.",
+        "2:49: Tackett maintains posture."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett continues his guard passing efforts against Galvao's de la riva guard. Galvao's defensive hooks and flexibility are effective in preventing the pass.",
+      "segment_number": 21
+    },
+    {
+      "start": "2:50",
+      "end": "3:00",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "2:50: Tackett attempts to pass.",
+        "2:55: Galvao maintains de la riva.",
+        "2:59: Tackett adjusts his base."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett is still working to pass Galvao's de la riva guard. Galvao's active leg game and constant adjustments prevent Tackett from advancing.",
+      "segment_number": 22
+    },
+    {
+      "start": "3:00",
+      "end": "3:10",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "3:00: Tackett attempts to pass.",
+        "3:05: Galvao maintains de la riva.",
+        "3:09: Tackett maintains posture."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett continues his guard passing efforts against Galvao's de la riva guard. Galvao's defensive hooks and flexibility are effective in preventing the pass.",
+      "segment_number": 23
+    },
+    {
+      "start": "3:10",
+      "end": "3:20",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "3:10: Tackett attempts to pass.",
+        "3:15: Galvao maintains de la riva.",
+        "3:19: Tackett adjusts his base."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett is still working to pass Galvao's de la riva guard. Galvao's active leg game and constant adjustments prevent Tackett from advancing.",
+      "segment_number": 24
+    },
+    {
+      "start": "3:20",
+      "end": "3:30",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "3:20: Tackett attempts to pass.",
+        "3:25: Galvao maintains de la riva.",
+        "3:29: Tackett maintains posture."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett continues his guard passing efforts against Galvao's de la riva guard. Galvao's defensive hooks and flexibility are effective in preventing the pass.",
+      "segment_number": 25
+    },
+    {
+      "start": "3:30",
+      "end": "3:40",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "3:30: Tackett attempts to pass.",
+        "3:35: Galvao maintains de la riva.",
+        "3:39: Tackett adjusts his base."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett is still working to pass Galvao's de la riva guard. Galvao's active leg game and constant adjustments prevent Tackett from advancing.",
+      "segment_number": 26
+    },
+    {
+      "start": "3:40",
+      "end": "3:50",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "3:40: Tackett attempts to pass.",
+        "3:45: Galvao maintains de la riva.",
+        "3:49: Tackett maintains posture."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett continues his guard passing efforts against Galvao's de la riva guard. Galvao's defensive hooks and flexibility are effective in preventing the pass.",
+      "segment_number": 27
+    },
+    {
+      "start": "3:50",
+      "end": "4:00",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "3:50: Tackett attempts to pass.",
+        "3:55: Galvao maintains de la riva.",
+        "3:59: Tackett adjusts his base."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett is still working to pass Galvao's de la riva guard. Galvao's active leg game and constant adjustments prevent Tackett from advancing.",
+      "segment_number": 28
+    },
+    {
+      "start": "4:00",
+      "end": "4:10",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "4:00: Tackett attempts to pass.",
+        "4:05: Galvao maintains de la riva.",
+        "4:09: Tackett maintains posture."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett continues his guard passing efforts against Galvao's de la riva guard. Galvao's defensive hooks and flexibility are effective in preventing the pass.",
+      "segment_number": 29
+    },
+    {
+      "start": "4:10",
+      "end": "4:20",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "4:10: Tackett attempts to pass.",
+        "4:15: Galvao maintains de la riva.",
+        "4:19: Tackett adjusts his base."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett is still working to pass Galvao's de la riva guard. Galvao's active leg game and constant adjustments prevent Tackett from advancing.",
+      "segment_number": 30
+    },
+    {
+      "start": "4:20",
+      "end": "4:30",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "4:20: Tackett attempts to pass.",
+        "4:25: Galvao maintains de la riva.",
+        "4:29: Tackett maintains posture."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett continues his guard passing efforts against Galvao's de la riva guard. Galvao's defensive hooks and flexibility are effective in preventing the pass.",
+      "segment_number": 31
+    },
+    {
+      "start": "4:30",
+      "end": "4:40",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "4:30: Tackett attempts to pass.",
+        "4:35: Galvao maintains de la riva.",
+        "4:39: Tackett adjusts his base."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett is still working to pass Galvao's de la riva guard. Galvao's active leg game and constant adjustments prevent Tackett from advancing.",
+      "segment_number": 32
+    },
+    {
+      "start": "4:40",
+      "end": "4:50",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "4:40: Tackett attempts to pass.",
+        "4:45: Galvao maintains de la riva.",
+        "4:49: Tackett maintains posture."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett continues his guard passing efforts against Galvao's de la riva guard. Galvao's defensive hooks and flexibility are effective in preventing the pass.",
+      "segment_number": 33
+    },
+    {
+      "start": "4:50",
+      "end": "5:00",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "4:50: Tackett attempts to pass.",
+        "4:55: Galvao maintains de la riva.",
+        "4:59: Tackett adjusts his base."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett is still working to pass Galvao's de la riva guard. Galvao's active leg game and constant adjustments prevent Tackett from advancing.",
+      "segment_number": 34
+    },
+    {
+      "start": "5:00",
+      "end": "5:10",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "5:00: Tackett attempts to pass.",
+        "5:05: Galvao maintains de la riva.",
+        "5:09: Tackett maintains posture."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett continues his guard passing efforts against Galvao's de la riva guard. Galvao's defensive hooks and flexibility are effective in preventing the pass.",
+      "segment_number": 35
+    },
+    {
+      "start": "5:10",
+      "end": "5:20",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "5:10: Tackett attempts to pass.",
+        "5:15: Galvao maintains de la riva.",
+        "5:19: Tackett adjusts his base."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett is still working to pass Galvao's de la riva guard. Galvao's active leg game and constant adjustments prevent Tackett from advancing.",
+      "segment_number": 36
+    },
+    {
+      "start": "5:20",
+      "end": "5:30",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "5:20: Tackett attempts to pass.",
+        "5:25: Galvao maintains de la riva.",
+        "5:29: Tackett maintains posture."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett continues his guard passing efforts against Galvao's de la riva guard. Galvao's defensive hooks and flexibility are effective in preventing the pass.",
+      "segment_number": 37
+    },
+    {
+      "start": "5:30",
+      "end": "5:40",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "5:30: Tackett attempts to pass.",
+        "5:35: Galvao maintains de la riva.",
+        "5:39: Tackett adjusts his base."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett is still working to pass Galvao's de la riva guard. Galvao's active leg game and constant adjustments prevent Tackett from advancing.",
+      "segment_number": 38
+    },
+    {
+      "start": "5:40",
+      "end": "5:50",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "5:40: Tackett attempts to pass.",
+        "5:45: Galvao maintains de la riva.",
+        "5:49: Tackett maintains posture."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett continues his guard passing efforts against Galvao's de la riva guard. Galvao's defensive hooks and flexibility are effective in preventing the pass.",
+      "segment_number": 39
+    },
+    {
+      "start": "5:50",
+      "end": "6:00",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "5:50: Tackett attempts to pass.",
+        "5:55: Galvao maintains de la riva.",
+        "5:59: Tackett adjusts his base."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett is still working to pass Galvao's de la riva guard. Galvao's active leg game and constant adjustments prevent Tackett from advancing.",
+      "segment_number": 40
+    },
+    {
+      "start": "6:00",
+      "end": "6:10",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "6:00: Tackett attempts to pass.",
+        "6:05: Galvao maintains de la riva.",
+        "6:09: Tackett maintains posture."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett continues his guard passing efforts against Galvao's de la riva guard. Galvao's defensive hooks and flexibility are effective in preventing the pass.",
+      "segment_number": 41
+    },
+    {
+      "start": "6:10",
+      "end": "6:20",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "6:10: Tackett attempts to pass.",
+        "6:15: Galvao maintains de la riva.",
+        "6:19: Tackett adjusts his base."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett is still working to pass Galvao's de la riva guard. Galvao's active leg game and constant adjustments prevent Tackett from advancing.",
+      "segment_number": 42
+    },
+    {
+      "start": "6:20",
+      "end": "6:30",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "6:20: Tackett attempts to pass.",
+        "6:25: Galvao maintains de la riva.",
+        "6:29: Tackett maintains posture."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett continues his guard passing efforts against Galvao's de la riva guard. Galvao's defensive hooks and flexibility are effective in preventing the pass.",
+      "segment_number": 43
+    },
+    {
+      "start": "6:30",
+      "end": "6:40",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "6:30: Tackett attempts to pass.",
+        "6:35: Galvao maintains de la riva.",
+        "6:39: Tackett adjusts his base."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett is still working to pass Galvao's de la riva guard. Galvao's active leg game and constant adjustments prevent Tackett from advancing.",
+      "segment_number": 44
+    },
+    {
+      "start": "06:30",
+      "end": "06:39",
+      "position": "Ground",
+      "sub_position": "Open Guard (Tackett passing)",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.95,
+      "avg_action": 0.7,
+      "transition": "Guard Passing Attempt",
+      "key_moments": [
+        "06:30: Tackett stands to initiate guard passing against Galvao's active open guard.",
+        "06:34: Tackett attempts a knee slice pass, but Galvao effectively defends with frames and leg dexterity.",
+        "06:38: Galvao begins to set up a sweep from his open guard, bridging and hip escaping."
+      ],
+      "key_actions": [
+        "Standing guard passing",
+        "knee slice attempt",
+        "active open guard defense",
+        "sweep initiation."
+      ],
+      "narrative": "Andrew Tackett attempts to break through Micael Galvao's open guard, utilizing standing pressure and a knee slice. Galvao demonstrates excellent guard retention and initiates a dynamic sweep.",
+      "segment_number": 45
+    },
+    {
+      "start": "06:39",
+      "end": "06:50",
+      "position": "Ground",
+      "sub_position": "Side Control",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.8,
+      "transition": "Sweep to Side Control",
+      "key_moments": [
+        "06:39: Galvao successfully sweeps Tackett, reversing the position.",
+        "06:40: Galvao immediately establishes a strong side control position.",
+        "06:41-06:50: Galvao maintains dominant side control, applying heavy chest pressure and looking to isolate Tackett's arms for potential submissions, while Tackett remains in a defensive shell."
+      ],
+      "key_actions": [
+        "Sweep",
+        "side control establishment",
+        "pressure application",
+        "arm isolation",
+        "defensive posture."
+      ],
+      "narrative": "Micael Galvao executes a swift sweep, landing in a commanding side control position over Andrew Tackett. Galvao applies relentless pressure, methodically working to create openings for attacks, as Tackett focuses on tight defensive framing.",
+      "segment_number": 46
+    },
+    {
+      "start": "6:50",
+      "end": "7:00",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.25,
+      "transition": "",
+      "key_moments": [
+        "6:50: Tackett attempts to pass.",
+        "6:55: Galvao maintains de la riva.",
+        "6:59: Tackett adjusts his base."
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Tackett is still working to pass Galvao's de la riva guard. Galvao's active leg game and constant adjustments prevent Tackett from advancing.",
+      "segment_number": 47
+    },
+    {
+      "start": "7:00",
+      "end": "7:10",
+      "position": "open_guard",
+      "sub_position": "",
+      "top_athlete": "",
+      "bottom_athlete": "",
+      "confidence": 0.9,
+      "avg_action": 0.0,
+      "transition": "",
+      "key_moments": [],
+      "key_actions": [],
+      "narrative": "",
+      "segment_number": 48
+    }
+  ],
+  "athlete_profiles": {
+    "athlete_1": {
+      "visual_id": "*   Visual: Lighter skin, short brown hair, black rashguard with \"EXB\" logo.",
+      "name": "Athlete 1",
+      "style": "Top pressure, aggressive, wrestler, gritty, submission hunter.",
+      "strengths": [
+        "Wrestling/takedowns",
+        "relentless pressure",
+        "scrambles",
+        "resilience."
+      ]
+    },
+    "athlete_2": {
+      "visual_id": "*   Visual: Darker skin, curly dark hair, black rashguard with \"FIGHT SPORTS\" logo. **SEGMENT [0:00-0:16]**",
+      "name": "Athlete 2",
+      "style": "Submission hunter, guard player, technical, calm, unorthodox.",
+      "strengths": [
+        "Submissions (especially leg locks",
+        "armbars)",
+        "guard retention",
+        "precise transitions",
+        "composure under pressure."
+      ]
+    }
+  },
+  "merge_info": {
+    "stage1_segments": 49,
+    "segments_replaced": 5,
+    "segments_added": 4,
+    "final_segments": 48
+  },
+  "validation": {
+    "gaps": [
+      {
+        "after_segment": 16,
+        "gap_duration": 10
+      }
+    ],
+    "overlaps": [
+      {
+        "segment1": 2,
+        "segment2": 3,
+        "overlap_duration": 6
+      },
+      {
+        "segment1": 13,
+        "segment2": 14,
+        "overlap_duration": 5
+      },
+      {
+        "segment1": 43,
+        "segment2": 44,
+        "overlap_duration": 10
+      }
+    ],
+    "is_continuous": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "video_path": "data/videos/youtube_SMRbZEbxepA",
+  "video_duration": "16:00",
+  "labeled_by": "human_expert",
+  "labeled_date": "2025-10-09T23:31:50.682781",
+  "experiment_id": "20251009_232718_youtube_SMRbZEbxepA",
+  "ground_truth_positions": [],
+  "ground_truth_transitions": [],
+  "ground_truth_scoring_adcc": {
+    "athlete_1": {
+      "total_points": 0
+    },
+    "athlete_2": {
+      "total_points": 0
+    }
+  },
+  "notes": "Ground truth for Experiment 2 - Enhanced & Optimized multi window scan"
+}

@@ -1,0 +1,16 @@
+{
+  "experiment_name": "Experiment 2 - Enhanced & Optimized multi window scan",
+  "video_name": "youtube_SMRbZEbxepA",
+  "timestamp": "20251009_232718",
+  "model": "gemini-2.5-flash",
+  "features": [
+    "Continuous coverage (no gaps)",
+    "Pass 0 action segment guidance",
+    "Pass 2-style columns (Dominance, Quality, Labels)",
+    "Expert coaching biomechanical detail"
+  ],
+  "positions": 241,
+  "coverage_percent": 103.1,
+  "processing_time_seconds": 272.8,
+  "video_path": "data/videos/youtube_SMRbZEbxepA"
+}

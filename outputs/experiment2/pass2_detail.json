@@ -1,0 +1,62 @@
+{
+  "position_analyses": [
+    {
+      "raw_text": "SUB-SEGMENT: 0:00-0:02\nLabels: [match_start, standing, referee_intervention]\nDominance: 3\nQuality: 5\nCommentary: The match begins with both athletes standing in a neutral position, facing each other. They engage in a customary handshake, acknowledging each other before the competition. The referee is positioned between them, overseeing the initial formalities.\n\nSUB-SEGMENT: 0:02-0:07\nLabels: [standing, match_start, disengagement]\nDominance: 3\nQuality: 4\nCommentary: After the handshake, the referee steps back, signaling the official start of active competition. Both athletes remain standing, circling each other cautiously. They maintain distance, observing for potential openings but not yet engaging in any grips or takedown attempts.",
+      "_position_metadata": {
+        "position": "standing",
+        "processing_time": 12.985794067382812
+      }
+    },
+    {
+      "raw_text": "SUB-SEGMENT: 0:07-0:10\nLabels: [standing, collar_tie, hand_fighting, clinch]\nDominance: 3 (neutral)\nQuality: 3\nCommentary: Both athletes begin in a standing position, circling each other. Tackett initiates a collar tie with his right hand, attempting to establish head control. Galvao responds with active hand fighting, preventing Tackett from fully securing the grip and maintaining his posture as they briefly enter a light clinch.\n\nSUB-SEGMENT: 0:10-0:13\nLabels: [standing, disengagement, hand_fighting]\nDominance: 3 (neutral)\nQuality: 3\nCommentary: The athletes disengage from the initial clinch, returning to a more open standing stance. They continue to circle, maintaining distance while subtly probing for grip opportunities. Both demonstrate cautious hand fighting, avoiding deep commitments.\n\nSUB-SEGMENT: 0:13-0:16\nLabels: [standing, collar_tie, clinch, grip_fighting]\nDominance: 3 (neutral)\nQuality: 3\nCommentary: Tackett once again initiates a collar tie, this time with his left hand, seeking to control Galvao's head and neck. Galvao immediately counters with grip fighting, preventing Tackett from gaining a dominant position. They re-engage in a standing clinch, continuing to test each other's balance and defenses.",
+      "_position_metadata": {
+        "position": "standing",
+        "processing_time": 10.64555287361145
+      }
+    },
+    {
+      "raw_text": "SUB-SEGMENT: 0:16-0:19\nLabels: [collar_tie, hand_fighting, duck_under, snap_down, disengagement]\nDominance: 3\nQuality: 3\nCommentary: The athletes engage in a standing exchange. Tackett initiates a collar_tie with his right hand on Galvao's left shoulder. Galvao immediately mirrors this with his left hand, establishing a double collar_tie. Tackett then attempts a duck_under or snap_down, but Galvao maintains strong posture and quickly disengages, preventing any takedown attempt from developing.",
+      "_position_metadata": {
+        "position": "clinch",
+        "processing_time": 9.010406732559204
+      }
+    },
+    {
+      "raw_text": "SUB-SEGMENT: 0:19-0:27\nLabels: [standing, grip_fighting, collar_tie, duck_under, hand_fighting]\nDominance: athlete_1 (3)\nQuality: 3\nCommentary:\nThe athletes begin the match standing, immediately engaging in active grip_fighting and hand_fighting. Tackett initiates multiple attempts to establish a collar_tie and follows with two quick duck_under takedown attempts. Galvao demonstrates strong defensive footwork, circling away and maintaining distance to prevent Tackett from securing a dominant grip or completing a takedown.",
+      "_position_metadata": {
+        "position": "standing",
+        "processing_time": 12.771638870239258
+      }
+    },
+    {
+      "raw_text": "SUB-SEGMENT: 0:38-0:40\nLabels: [clinch, duck_under, scramble, disengagement]\nDominance: Micael Galvao (3.5)\nQuality: 3\nCommentary: Andrew Tackett initiates a clinch, quickly transitioning into a duck under attempt, driving his head towards Micael Galvao's hip. Galvao reacts swiftly with a defensive scramble, circling away and maintaining his balance to successfully disengage from the takedown attempt.",
+      "_position_metadata": {
+        "position": "clinch",
+        "processing_time": 8.410290956497192
+      }
+    },
+    {
+      "raw_text": "Here's a detailed analysis of the match segment:\n\nSUB-SEGMENT: 11:15-11:25\nLabels: [half_guard, knee_shield, frames, grip_fighting]\nDominance: athlete_1 (4)\nQuality: 3\nCommentary: Andrew Tackett (A1) is actively working from a top half guard position, attempting to break Micael Galvao's (A2) defensive structure. Galvao maintains a strong half guard, utilizing a deep de la riva hook with his right leg and a solid knee shield with his left leg to create distance and prevent Tackett from advancing. Tackett is focused on clearing Galvao's leg hooks, while Galvao uses his left arm to frame against Tackett's chest, preventing head control and maintaining space.\n\nSUB-SEGMENT: 11:25-11:35\nLabels: [reversal, retaining_guard, scramble, butterfly_guard]\nDominance: athlete_2 (3)\nQuality: 4\nCommentary: Galvao initiates a dynamic reversal attempt from his half guard. He uses his left knee shield to push Tackett away, creating a momentary separation. Simultaneously, he leverages his right de la riva hook to elevate Tackett's leg, disrupting his base and initiating a rolling motion. Tackett attempts to drive forward to counter, but Galvao's momentum and leg dexterity cause him to lose balance, leading to a scramble for position.\n\nSUB-SEGMENT: 11:35-11:45\nLabels: [side_control, crossface, underhooks, control_positions]\nDominance: athlete_2 (5)\nQuality: 5\nCommentary: Galvao successfully completes the reversal, transitioning smoothly from bottom half guard to a dominant top side control position. He immediately establishes a powerful crossface with his left arm, driving his shoulder into Tackett's jaw, and secures a deep underhook with his right arm. This combination effectively flattens Tackett onto his back, preventing him from turning in or escaping, and setting up further offensive opportunities for Galvao.",
+      "_position_metadata": {
+        "position": "half_guard",
+        "processing_time": 29.44912099838257
+      }
+    },
+    {
+      "raw_text": "SUB-SEGMENT: 11:20-11:15\nLabels: mount, crossface, underhooks, frames, defending\nDominance: athlete_2 (5)\nQuality: 4\nCommentary: Galvao maintains a high mount, driving his chest into Tackett's sternum. He secures a crossface with his left arm and an underhook with his right, effectively flattening Tackett. Tackett is shelled up, using strong frames with his arms and elbows tucked tightly to his body, preventing Galvao from advancing to a submission.\n\nSUB-SEGMENT: 11:15-11:10\nLabels: mount, armbar, frames, bridging, mount_escape\nDominance: athlete_2 (5)\nQuality: 3\nCommentary: Galvao shifts his weight, continuing to apply heavy pressure from mount, looking to isolate Tackett's left arm for a potential armbar setup. Tackett attempts a small bridge to disrupt Galvao's base and create space for a mount_escape, but Galvao's strong hip control quickly neutralizes the movement. Tackett maintains his frames, preventing deeper penetration.\n\nSUB-SEGMENT: 11:10-11:05\nLabels: mount, ezekiel_choke, frames, defending\nDominance: athlete_2 (5)\nQuality: 4\nCommentary: Galvao adjusts his mount, maintaining strong hip control and driving his shoulder into Tackett's neck, possibly setting up an ezekiel_choke. Tackett remains flattened and defensive, using his right arm to push on Galvao's hip, attempting to create a small amount of space for an escape, but it is ineffective against Galvao's heavy pressure and tight control.",
+      "_position_metadata": {
+        "position": "mount",
+        "processing_time": 49.681857109069824
+      }
+    },
+    {
+      "raw_text": "SUB-SEGMENT: 11:30-11:27\nLabels: [back_control, body_triangle, rear_naked_choke, grip_fighting, defensive]\nDominance: athlete_2 (5)\nQuality: 4\nCommentary: Micael Galvao (A2) is firmly established in back_control with a body_triangle locked around Andrew Tackett's (A1) waist. Tackett is on his left side, actively engaging in grip_fighting to prevent Galvao from securing a rear_naked_choke. Galvao is attempting to get his right arm under Tackett's chin.\n\nSUB-SEGMENT: 11:27-11:24\nLabels: [back_control, body_triangle, grip_fighting, defensive, frames]\nDominance: athlete_2 (5)\nQuality: 4\nCommentary: Galvao (A2) maintains tight back_control and the body_triangle, applying constant pressure on Tackett (A1). Tackett is using his left arm to create frames against Galvao's neck and right arm, preventing the choke from being fully set. Tackett's defensive posture is compact, making it difficult for Galvao to advance.\n\nSUB-SEGMENT: 11:24-11:20\nLabels: [back_control, body_triangle, rear_naked_choke, grip_fighting, defensive]\nDominance: athlete_2 (5)\nQuality: 4\nCommentary: Galvao (A2) continues to work for the rear_naked_choke, adjusting his head position and trying to get his left hook in. Tackett (A1) remains in a strong defensive shell, using his hands to block Galvao's arms and prevent the hooks from fully sinking in. The position is stable but Galvao is actively seeking an opening.",
+      "_position_metadata": {
+        "position": "back_control",
+        "processing_time": 62.39646005630493
+      }
+    }
+  ],
+  "all_sub_segments": [],
+  "positions_processed": 39
+}

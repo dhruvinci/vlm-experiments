@@ -1,0 +1,38 @@
+{
+  "flagged_segments": [
+    3,
+    14,
+    17,
+    18,
+    46
+  ],
+  "signals": {
+    "3": [
+      "repetition",
+      "action_mismatch"
+    ],
+    "14": [
+      "repetition",
+      "action_mismatch"
+    ],
+    "17": [
+      "repetition",
+      "cv_standing_mismatch"
+    ],
+    "18": [
+      "repetition",
+      "cv_standing_mismatch"
+    ],
+    "46": [
+      "repetition",
+      "cv_standing_mismatch"
+    ]
+  },
+  "attention_cliff": {
+    "segment_index": 3,
+    "timestamp": "0:34",
+    "success_duration_seconds": 34
+  },
+  "total_segments": 49,
+  "flagged_count": 5
+}

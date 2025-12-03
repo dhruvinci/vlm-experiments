@@ -6,6 +6,13 @@
 # Deployment folder (separate private repo)
 github/
 
+# Output/results - now included in repo for reference
+# outputs/
+# results/
+
+# Large CV cache files (regenerate with Stage 0)
+*_cv_cache.json
+
 # IDE and editor
 .claude/
 .idea/
@@ -43,9 +50,6 @@ data/videos/
 *.mov
 *.mkv
 
-# Output/results (generated data)
-outputs/
-results/
 
 # Jupyter
 .ipynb_checkpoints/

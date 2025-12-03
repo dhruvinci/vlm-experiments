@@ -1,0 +1,4490 @@
+{
+  "source": "outputs/experiment3/youtube_SMRbZEbxepA_cv_cache.json",
+  "generated_at": "2025-10-26 12:48:29",
+  "video_duration": 970.0333333333333,
+  "checkpoint_interval": 5,
+  "num_checkpoints": 194,
+  "estimated_tokens": 1029,
+  "legend": {
+    "standing": {
+      "S": "Standing",
+      "G": "Ground",
+      "M": "Mixed",
+      "?": "Not detected"
+    },
+    "contact": {
+      "L": "Low",
+      "M": "Medium",
+      "H": "High"
+    },
+    "dominant": {
+      "A1": "Athlete 1",
+      "A2": "Athlete 2",
+      "N": "Neutral"
+    }
+  },
+  "checkpoints": [
+    {
+      "timestamp": "0:00",
+      "time_sec": 0,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.68,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 2,
+        "distance": 0.14,
+        "dominant": "A1"
+      },
+      "action_score": 0.062,
+      "compressed": "0:00 M/M c:L e:2.0 A1"
+    },
+    {
+      "timestamp": "0:05",
+      "time_sec": 5,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.72,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.37,
+        "dominant": "A1"
+      },
+      "action_score": 0.001,
+      "compressed": "0:05 S/S c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "0:10",
+      "time_sec": 10,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.65,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.68,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.18,
+        "dominant": "A2"
+      },
+      "action_score": 0.02,
+      "compressed": "0:10 M/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "0:15",
+      "time_sec": 15,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.77,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.73,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.54,
+        "dominant": "A1"
+      },
+      "action_score": 0.142,
+      "compressed": "0:15 S/S c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "0:20",
+      "time_sec": 20,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.64,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.25,
+        "dominant": "A1"
+      },
+      "action_score": 0.002,
+      "compressed": "0:20 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "0:25",
+      "time_sec": 25,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "M",
+        "contact_intensity": 0.4,
+        "entanglement": 5,
+        "distance": 0.07,
+        "dominant": "A1"
+      },
+      "action_score": 0.196,
+      "compressed": "0:25 M/M c:M e:5.0 A1"
+    },
+    {
+      "timestamp": "0:30",
+      "time_sec": 30,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.77,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.71,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.27,
+        "dominant": "A1"
+      },
+      "action_score": 0.001,
+      "compressed": "0:30 S/S c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "0:35",
+      "time_sec": 35,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.72,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.28,
+        "dominant": "A2"
+      },
+      "action_score": 0.001,
+      "compressed": "0:35 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "0:40",
+      "time_sec": 40,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.56,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.67,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.38,
+        "dominant": "A2"
+      },
+      "action_score": 0.01,
+      "compressed": "0:40 M/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "0:45",
+      "time_sec": 45,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.61,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.72,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.47,
+        "dominant": "A2"
+      },
+      "action_score": 0.044,
+      "compressed": "0:45 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "0:50",
+      "time_sec": 50,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.62,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.6,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.47,
+        "dominant": "A1"
+      },
+      "action_score": 0.006,
+      "compressed": "0:50 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "0:55",
+      "time_sec": 55,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.66,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.5,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.46,
+        "dominant": "A2"
+      },
+      "action_score": 0.013,
+      "compressed": "0:55 M/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "1:00",
+      "time_sec": 60,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.71,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.65,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.23,
+        "dominant": "A1"
+      },
+      "action_score": 0.003,
+      "compressed": "1:00 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "1:05",
+      "time_sec": 65,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.68,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.58,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.48,
+        "dominant": "A1"
+      },
+      "action_score": 0.002,
+      "compressed": "1:05 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "1:10",
+      "time_sec": 70,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.71,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.66,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.59,
+        "dominant": "A1"
+      },
+      "action_score": 0.003,
+      "compressed": "1:10 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "1:15",
+      "time_sec": 75,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.65,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.53,
+        "dominant": "A1"
+      },
+      "action_score": 0.0,
+      "compressed": "1:15 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "1:20",
+      "time_sec": 80,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.64,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.73,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.29,
+        "dominant": "A2"
+      },
+      "action_score": 0.001,
+      "compressed": "1:20 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "1:25",
+      "time_sec": 85,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.68,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "H",
+        "contact_intensity": 0.65,
+        "entanglement": 3,
+        "distance": 0.11,
+        "dominant": "A1"
+      },
+      "action_score": 0.147,
+      "compressed": "1:25 M/M c:H e:3.0 A1"
+    },
+    {
+      "timestamp": "1:30",
+      "time_sec": 90,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.75,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.42,
+        "dominant": "A1"
+      },
+      "action_score": 0.001,
+      "compressed": "1:30 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "1:35",
+      "time_sec": 95,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.76,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.68,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.3,
+        "dominant": "A1"
+      },
+      "action_score": 0.018,
+      "compressed": "1:35 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "1:40",
+      "time_sec": 100,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.64,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "M",
+        "contact_intensity": 0.5,
+        "entanglement": 6,
+        "distance": 0.08,
+        "dominant": "A2"
+      },
+      "action_score": 0.3,
+      "compressed": "1:40 S/M c:M e:6.0 A2"
+    },
+    {
+      "timestamp": "1:45",
+      "time_sec": 105,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.5,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.84,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.49,
+        "dominant": "A2"
+      },
+      "action_score": 0.016,
+      "compressed": "1:45 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "1:50",
+      "time_sec": 110,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.48,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.68,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.53,
+        "dominant": "A1"
+      },
+      "action_score": 0.004,
+      "compressed": "1:50 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "1:55",
+      "time_sec": 115,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.65,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.65,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.35,
+        "dominant": "A1"
+      },
+      "action_score": 0.008,
+      "compressed": "1:55 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "2:00",
+      "time_sec": 120,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.8,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.47,
+        "dominant": "A1"
+      },
+      "action_score": 0.079,
+      "compressed": "2:00 S/S c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "2:05",
+      "time_sec": 125,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.85,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.84,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.53,
+        "dominant": "A1"
+      },
+      "action_score": 0.002,
+      "compressed": "2:05 S/S c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "2:10",
+      "time_sec": 130,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.69,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.21,
+        "entanglement": 2,
+        "distance": 0.15,
+        "dominant": "A1"
+      },
+      "action_score": 0.084,
+      "compressed": "2:10 M/M c:L e:2.0 A1"
+    },
+    {
+      "timestamp": "2:15",
+      "time_sec": 135,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.73,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.53,
+        "dominant": "A2"
+      },
+      "action_score": 0.0,
+      "compressed": "2:15 S/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "2:20",
+      "time_sec": 140,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.61,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.38,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.14,
+        "entanglement": 3,
+        "distance": 0.16,
+        "dominant": "A1"
+      },
+      "action_score": 0.106,
+      "compressed": "2:20 M/M c:L e:3.0 A1"
+    },
+    {
+      "timestamp": "2:25",
+      "time_sec": 145,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.57,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "G",
+        "standing_prob": 0.22,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "M",
+        "contact_intensity": 0.43,
+        "entanglement": 4,
+        "distance": 0.15,
+        "dominant": "A1"
+      },
+      "action_score": 0.177,
+      "compressed": "2:25 M/G c:M e:4.0 A1"
+    },
+    {
+      "timestamp": "2:30",
+      "time_sec": 150,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.66,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.31,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "H",
+        "contact_intensity": 1.0,
+        "entanglement": 5,
+        "distance": 0.1,
+        "dominant": "A1"
+      },
+      "action_score": 0.246,
+      "compressed": "2:30 M/M c:H e:5.0 A1"
+    },
+    {
+      "timestamp": "2:35",
+      "time_sec": 155,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.52,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.41,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "H",
+        "contact_intensity": 0.69,
+        "entanglement": 5,
+        "distance": 0.13,
+        "dominant": "A1"
+      },
+      "action_score": 0.209,
+      "compressed": "2:35 M/M c:H e:5.0 A1"
+    },
+    {
+      "timestamp": "2:40",
+      "time_sec": 160,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.32,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.88,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.45,
+        "dominant": "A2"
+      },
+      "action_score": 0.004,
+      "compressed": "2:40 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "2:45",
+      "time_sec": 165,
+      "athlete_1": {
+        "standing": "G",
+        "standing_prob": 0.28,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.84,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.49,
+        "dominant": "A2"
+      },
+      "action_score": 0.005,
+      "compressed": "2:45 G/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "2:50",
+      "time_sec": 170,
+      "athlete_1": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.37,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "2:50 ?/M c:L e:0.0 N"
+    },
+    {
+      "timestamp": "2:55",
+      "time_sec": 175,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.58,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "2:55 M/? c:L e:0.0 N"
+    },
+    {
+      "timestamp": "3:00",
+      "time_sec": 180,
+      "athlete_1": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.59,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "3:00 ?/M c:L e:0.0 N"
+    },
+    {
+      "timestamp": "3:05",
+      "time_sec": 185,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.48,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.83,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.78,
+        "dominant": "A2"
+      },
+      "action_score": 0.001,
+      "compressed": "3:05 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "3:10",
+      "time_sec": 190,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.61,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.82,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.39,
+        "dominant": "A2"
+      },
+      "action_score": 0.011,
+      "compressed": "3:10 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "3:15",
+      "time_sec": 195,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.36,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.8,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.46,
+        "dominant": "A2"
+      },
+      "action_score": 0.0,
+      "compressed": "3:15 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "3:20",
+      "time_sec": 200,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.44,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.82,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.53,
+        "dominant": "A2"
+      },
+      "action_score": 0.012,
+      "compressed": "3:20 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "3:25",
+      "time_sec": 205,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.61,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "3:25 M/? c:L e:0.0 N"
+    },
+    {
+      "timestamp": "3:30",
+      "time_sec": 210,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.42,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "3:30 M/? c:L e:0.0 N"
+    },
+    {
+      "timestamp": "3:35",
+      "time_sec": 215,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.54,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.39,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "H",
+        "contact_intensity": 1.0,
+        "entanglement": 6,
+        "distance": 0.06,
+        "dominant": "A2"
+      },
+      "action_score": 0.298,
+      "compressed": "3:35 M/M c:H e:6.0 A2"
+    },
+    {
+      "timestamp": "3:40",
+      "time_sec": 220,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.32,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.31,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "H",
+        "contact_intensity": 1.0,
+        "entanglement": 4,
+        "distance": 0.11,
+        "dominant": "A2"
+      },
+      "action_score": 0.227,
+      "compressed": "3:40 M/M c:H e:4.0 A2"
+    },
+    {
+      "timestamp": "3:45",
+      "time_sec": 225,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.5,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.67,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.55,
+        "dominant": "A2"
+      },
+      "action_score": 0.006,
+      "compressed": "3:45 M/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "3:50",
+      "time_sec": 230,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.44,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "3:50 M/? c:L e:0.0 N"
+    },
+    {
+      "timestamp": "3:55",
+      "time_sec": 235,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.5,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "3:55 M/? c:L e:0.0 N"
+    },
+    {
+      "timestamp": "4:00",
+      "time_sec": 240,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.52,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "4:00 M/? c:L e:0.0 N"
+    },
+    {
+      "timestamp": "4:05",
+      "time_sec": 245,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.45,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "4:05 M/? c:L e:0.0 N"
+    },
+    {
+      "timestamp": "4:10",
+      "time_sec": 250,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.67,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "4:10 M/? c:L e:0.0 N"
+    },
+    {
+      "timestamp": "4:15",
+      "time_sec": 255,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.55,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.78,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.14,
+        "entanglement": 0,
+        "distance": 0.28,
+        "dominant": "A2"
+      },
+      "action_score": 0.028,
+      "compressed": "4:15 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "4:20",
+      "time_sec": 260,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.39,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.75,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.58,
+        "dominant": "A2"
+      },
+      "action_score": 0.001,
+      "compressed": "4:20 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "4:25",
+      "time_sec": 265,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.67,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "4:25 M/? c:L e:0.0 N"
+    },
+    {
+      "timestamp": "4:30",
+      "time_sec": 270,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.53,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.79,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.42,
+        "dominant": "A2"
+      },
+      "action_score": 0.021,
+      "compressed": "4:30 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "4:35",
+      "time_sec": 275,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.57,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.47,
+        "dominant": "A2"
+      },
+      "action_score": 0.004,
+      "compressed": "4:35 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "4:40",
+      "time_sec": 280,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.68,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.74,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.27,
+        "dominant": "A2"
+      },
+      "action_score": 0.005,
+      "compressed": "4:40 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "4:45",
+      "time_sec": 285,
+      "athlete_1": {
+        "standing": "G",
+        "standing_prob": 0.25,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.75,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.73,
+        "dominant": "A2"
+      },
+      "action_score": 0.0,
+      "compressed": "4:45 G/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "4:50",
+      "time_sec": 290,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.44,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.76,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.08,
+        "entanglement": 0,
+        "distance": 0.17,
+        "dominant": "A2"
+      },
+      "action_score": 0.007,
+      "compressed": "4:50 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "4:55",
+      "time_sec": 295,
+      "athlete_1": {
+        "standing": "G",
+        "standing_prob": 0.27,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.74,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.68,
+        "dominant": "A2"
+      },
+      "action_score": 0.216,
+      "compressed": "4:55 G/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "5:00",
+      "time_sec": 300,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.32,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "5:00 M/? c:L e:0.0 N"
+    },
+    {
+      "timestamp": "5:05",
+      "time_sec": 305,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.43,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "5:05 M/? c:L e:0.0 N"
+    },
+    {
+      "timestamp": "5:10",
+      "time_sec": 310,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.8,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.59,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.62,
+        "dominant": "A1"
+      },
+      "action_score": 0.057,
+      "compressed": "5:10 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "5:15",
+      "time_sec": 315,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.62,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.78,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.08,
+        "entanglement": 0,
+        "distance": 0.24,
+        "dominant": "A2"
+      },
+      "action_score": 0.024,
+      "compressed": "5:15 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "5:20",
+      "time_sec": 320,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.52,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.8,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.38,
+        "dominant": "A2"
+      },
+      "action_score": 0.003,
+      "compressed": "5:20 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "5:25",
+      "time_sec": 325,
+      "athlete_1": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.49,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "5:25 ?/M c:L e:0.0 N"
+    },
+    {
+      "timestamp": "5:30",
+      "time_sec": 330,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.54,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.55,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "H",
+        "contact_intensity": 1.0,
+        "entanglement": 6,
+        "distance": 0.03,
+        "dominant": "A2"
+      },
+      "action_score": 0.272,
+      "compressed": "5:30 M/M c:H e:6.0 A2"
+    },
+    {
+      "timestamp": "5:35",
+      "time_sec": 335,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.49,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "5:35 M/? c:L e:0.0 N"
+    },
+    {
+      "timestamp": "5:40",
+      "time_sec": 340,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.38,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "5:40 M/? c:L e:0.0 N"
+    },
+    {
+      "timestamp": "5:45",
+      "time_sec": 345,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.35,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.34,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "H",
+        "contact_intensity": 0.74,
+        "entanglement": 5,
+        "distance": 0.14,
+        "dominant": "A1"
+      },
+      "action_score": 0.219,
+      "compressed": "5:45 M/M c:H e:5.0 A1"
+    },
+    {
+      "timestamp": "5:50",
+      "time_sec": 350,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.33,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.6,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "M",
+        "contact_intensity": 0.39,
+        "entanglement": 1,
+        "distance": 0.11,
+        "dominant": "A1"
+      },
+      "action_score": 0.11,
+      "compressed": "5:50 M/M c:M e:1.0 A1"
+    },
+    {
+      "timestamp": "5:55",
+      "time_sec": 355,
+      "athlete_1": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.41,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "5:55 ?/M c:L e:0.0 N"
+    },
+    {
+      "timestamp": "6:00",
+      "time_sec": 360,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.85,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.6,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.21,
+        "entanglement": 3,
+        "distance": 0.16,
+        "dominant": "A1"
+      },
+      "action_score": 0.132,
+      "compressed": "6:00 S/M c:L e:3.0 A1"
+    },
+    {
+      "timestamp": "6:05",
+      "time_sec": 365,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.71,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "G",
+        "standing_prob": 0.3,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.47,
+        "dominant": "A1"
+      },
+      "action_score": 0.001,
+      "compressed": "6:05 S/G c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "6:10",
+      "time_sec": 370,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.64,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.61,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.27,
+        "entanglement": 1,
+        "distance": 0.13,
+        "dominant": "A1"
+      },
+      "action_score": 0.073,
+      "compressed": "6:10 M/M c:L e:1.0 A1"
+    },
+    {
+      "timestamp": "6:15",
+      "time_sec": 375,
+      "athlete_1": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.63,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "6:15 ?/M c:L e:0.0 N"
+    },
+    {
+      "timestamp": "6:20",
+      "time_sec": 380,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.62,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.61,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "H",
+        "contact_intensity": 0.86,
+        "entanglement": 4,
+        "distance": 0.04,
+        "dominant": "A1"
+      },
+      "action_score": 0.194,
+      "compressed": "6:20 M/M c:H e:4.0 A1"
+    },
+    {
+      "timestamp": "6:25",
+      "time_sec": 385,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.74,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.42,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.46,
+        "dominant": "A1"
+      },
+      "action_score": 0.005,
+      "compressed": "6:25 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "6:30",
+      "time_sec": 390,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.38,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.6,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.56,
+        "dominant": "A2"
+      },
+      "action_score": 0.002,
+      "compressed": "6:30 M/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "6:35",
+      "time_sec": 395,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.4,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.67,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.54,
+        "dominant": "A2"
+      },
+      "action_score": 0.004,
+      "compressed": "6:35 M/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "6:40",
+      "time_sec": 400,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.87,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.65,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.34,
+        "dominant": "A1"
+      },
+      "action_score": 0.001,
+      "compressed": "6:40 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "6:45",
+      "time_sec": 405,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.9,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.33,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.49,
+        "dominant": "A1"
+      },
+      "action_score": 0.038,
+      "compressed": "6:45 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "6:50",
+      "time_sec": 410,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.88,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.41,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "M",
+        "contact_intensity": 0.37,
+        "entanglement": 0,
+        "distance": 0.24,
+        "dominant": "A1"
+      },
+      "action_score": 0.041,
+      "compressed": "6:50 S/M c:M e:0.0 A1"
+    },
+    {
+      "timestamp": "6:55",
+      "time_sec": 415,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.82,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.35,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.44,
+        "dominant": "A1"
+      },
+      "action_score": 0.029,
+      "compressed": "6:55 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "7:00",
+      "time_sec": 420,
+      "athlete_1": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.36,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "7:00 ?/M c:L e:0.0 N"
+    },
+    {
+      "timestamp": "7:05",
+      "time_sec": 425,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.86,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.47,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.37,
+        "dominant": "A1"
+      },
+      "action_score": 0.005,
+      "compressed": "7:05 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "7:10",
+      "time_sec": 430,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.56,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.4,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "H",
+        "contact_intensity": 0.68,
+        "entanglement": 1,
+        "distance": 0.22,
+        "dominant": "A2"
+      },
+      "action_score": 0.101,
+      "compressed": "7:10 M/M c:H e:1.0 A2"
+    },
+    {
+      "timestamp": "7:15",
+      "time_sec": 435,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.79,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.83,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.39,
+        "dominant": "A2"
+      },
+      "action_score": 0.002,
+      "compressed": "7:15 S/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "7:20",
+      "time_sec": 440,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.43,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.36,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "H",
+        "contact_intensity": 1.0,
+        "entanglement": 8,
+        "distance": 0.07,
+        "dominant": "A1"
+      },
+      "action_score": 0.356,
+      "compressed": "7:20 M/M c:H e:8.0 A1"
+    },
+    {
+      "timestamp": "7:25",
+      "time_sec": 445,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.74,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.72,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.36,
+        "dominant": "A1"
+      },
+      "action_score": 0.001,
+      "compressed": "7:25 S/S c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "7:30",
+      "time_sec": 450,
+      "athlete_1": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.71,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "7:30 ?/S c:L e:0.0 N"
+    },
+    {
+      "timestamp": "7:35",
+      "time_sec": 455,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.72,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.59,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.43,
+        "dominant": "A1"
+      },
+      "action_score": 0.005,
+      "compressed": "7:35 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "7:40",
+      "time_sec": 460,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.79,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.51,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.5,
+        "dominant": "A1"
+      },
+      "action_score": 0.001,
+      "compressed": "7:40 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "7:45",
+      "time_sec": 465,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.79,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.65,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.52,
+        "dominant": "A1"
+      },
+      "action_score": 0.005,
+      "compressed": "7:45 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "7:50",
+      "time_sec": 470,
+      "athlete_1": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.31,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "7:50 ?/M c:L e:0.0 N"
+    },
+    {
+      "timestamp": "7:55",
+      "time_sec": 475,
+      "athlete_1": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.55,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "7:55 ?/M c:L e:0.0 N"
+    },
+    {
+      "timestamp": "8:00",
+      "time_sec": 480,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.71,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.93,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.3,
+        "dominant": "A2"
+      },
+      "action_score": 0.092,
+      "compressed": "8:00 S/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "8:05",
+      "time_sec": 485,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.67,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.9,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.33,
+        "dominant": "A2"
+      },
+      "action_score": 0.032,
+      "compressed": "8:05 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "8:10",
+      "time_sec": 490,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.36,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.65,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "H",
+        "contact_intensity": 0.68,
+        "entanglement": 4,
+        "distance": 0.16,
+        "dominant": "A2"
+      },
+      "action_score": 0.205,
+      "compressed": "8:10 M/M c:H e:4.0 A2"
+    },
+    {
+      "timestamp": "8:15",
+      "time_sec": 495,
+      "athlete_1": {
+        "standing": "G",
+        "standing_prob": 0.26,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.62,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "H",
+        "contact_intensity": 0.71,
+        "entanglement": 3,
+        "distance": 0.22,
+        "dominant": "A2"
+      },
+      "action_score": 0.203,
+      "compressed": "8:15 G/M c:H e:3.0 A2"
+    },
+    {
+      "timestamp": "8:20",
+      "time_sec": 500,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.8,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.63,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.49,
+        "dominant": "A1"
+      },
+      "action_score": 0.005,
+      "compressed": "8:20 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "8:25",
+      "time_sec": 505,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.68,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.39,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.52,
+        "dominant": "A1"
+      },
+      "action_score": 0.005,
+      "compressed": "8:25 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "8:30",
+      "time_sec": 510,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.64,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "G",
+        "standing_prob": 0.29,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.57,
+        "dominant": "A1"
+      },
+      "action_score": 0.001,
+      "compressed": "8:30 M/G c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "8:35",
+      "time_sec": 515,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.6,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "8:35 M/? c:L e:0.0 N"
+    },
+    {
+      "timestamp": "8:40",
+      "time_sec": 520,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.38,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.68,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.65,
+        "dominant": "A2"
+      },
+      "action_score": 0.004,
+      "compressed": "8:40 M/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "8:45",
+      "time_sec": 525,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.75,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.82,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.45,
+        "dominant": "A2"
+      },
+      "action_score": 0.001,
+      "compressed": "8:45 S/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "8:50",
+      "time_sec": 530,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.32,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.71,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.47,
+        "dominant": "A2"
+      },
+      "action_score": 0.005,
+      "compressed": "8:50 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "8:55",
+      "time_sec": 535,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.47,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.72,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.45,
+        "dominant": "A1"
+      },
+      "action_score": 0.001,
+      "compressed": "8:55 M/S c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "9:00",
+      "time_sec": 540,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.41,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "9:00 M/? c:L e:0.0 N"
+    },
+    {
+      "timestamp": "9:05",
+      "time_sec": 545,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.47,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "9:05 M/? c:L e:0.0 N"
+    },
+    {
+      "timestamp": "9:10",
+      "time_sec": 550,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.64,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "9:10 M/? c:L e:0.0 N"
+    },
+    {
+      "timestamp": "9:15",
+      "time_sec": 555,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.37,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.44,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "H",
+        "contact_intensity": 0.97,
+        "entanglement": 0,
+        "distance": 0.13,
+        "dominant": "A1"
+      },
+      "action_score": 0.113,
+      "compressed": "9:15 M/M c:H e:0.0 A1"
+    },
+    {
+      "timestamp": "9:20",
+      "time_sec": 560,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.71,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.79,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.45,
+        "dominant": "A2"
+      },
+      "action_score": 0.004,
+      "compressed": "9:20 S/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "9:25",
+      "time_sec": 565,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.57,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.78,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.59,
+        "dominant": "A2"
+      },
+      "action_score": 0.007,
+      "compressed": "9:25 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "9:30",
+      "time_sec": 570,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.81,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.64,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.15,
+        "dominant": "A2"
+      },
+      "action_score": 0.003,
+      "compressed": "9:30 S/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "9:35",
+      "time_sec": 575,
+      "athlete_1": {
+        "standing": "G",
+        "standing_prob": 0.25,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.82,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.73,
+        "dominant": "A2"
+      },
+      "action_score": 0.002,
+      "compressed": "9:35 G/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "9:40",
+      "time_sec": 580,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.82,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.73,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.32,
+        "dominant": "A1"
+      },
+      "action_score": 0.001,
+      "compressed": "9:40 S/S c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "9:45",
+      "time_sec": 585,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.81,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.63,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.41,
+        "dominant": "A1"
+      },
+      "action_score": 0.008,
+      "compressed": "9:45 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "9:50",
+      "time_sec": 590,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.85,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.64,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.3,
+        "dominant": "A1"
+      },
+      "action_score": 0.228,
+      "compressed": "9:50 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "9:55",
+      "time_sec": 595,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.83,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "G",
+        "standing_prob": 0.24,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.69,
+        "dominant": "A1"
+      },
+      "action_score": 0.001,
+      "compressed": "9:55 S/G c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "10:00",
+      "time_sec": 600,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.82,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "G",
+        "standing_prob": 0.24,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.68,
+        "dominant": "A1"
+      },
+      "action_score": 0.002,
+      "compressed": "10:00 S/G c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "10:05",
+      "time_sec": 605,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.68,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.6,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.37,
+        "dominant": "A1"
+      },
+      "action_score": 0.001,
+      "compressed": "10:05 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "10:10",
+      "time_sec": 610,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.69,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.54,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.29,
+        "dominant": "A2"
+      },
+      "action_score": 0.001,
+      "compressed": "10:10 M/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "10:15",
+      "time_sec": 615,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.5,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.44,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.57,
+        "dominant": "A1"
+      },
+      "action_score": 0.019,
+      "compressed": "10:15 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "10:20",
+      "time_sec": 620,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.79,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.63,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.41,
+        "dominant": "A1"
+      },
+      "action_score": 0.004,
+      "compressed": "10:20 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "10:25",
+      "time_sec": 625,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.75,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.46,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.4,
+        "dominant": "A1"
+      },
+      "action_score": 0.005,
+      "compressed": "10:25 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "10:30",
+      "time_sec": 630,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.89,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.41,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "M",
+        "contact_intensity": 0.36,
+        "entanglement": 0,
+        "distance": 0.27,
+        "dominant": "A1"
+      },
+      "action_score": 0.032,
+      "compressed": "10:30 S/M c:M e:0.0 A1"
+    },
+    {
+      "timestamp": "10:35",
+      "time_sec": 635,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.77,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.36,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.33,
+        "dominant": "A1"
+      },
+      "action_score": 0.008,
+      "compressed": "10:35 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "10:40",
+      "time_sec": 640,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.55,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.51,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.43,
+        "dominant": "A1"
+      },
+      "action_score": 0.006,
+      "compressed": "10:40 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "10:45",
+      "time_sec": 645,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.58,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.74,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.37,
+        "dominant": "A2"
+      },
+      "action_score": 0.002,
+      "compressed": "10:45 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "10:50",
+      "time_sec": 650,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.5,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.88,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.41,
+        "dominant": "A2"
+      },
+      "action_score": 0.023,
+      "compressed": "10:50 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "10:55",
+      "time_sec": 655,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.82,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.46,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "M",
+        "contact_intensity": 0.35,
+        "entanglement": 1,
+        "distance": 0.23,
+        "dominant": "A1"
+      },
+      "action_score": 0.069,
+      "compressed": "10:55 S/M c:M e:1.0 A1"
+    },
+    {
+      "timestamp": "11:00",
+      "time_sec": 660,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.52,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.87,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.34,
+        "dominant": "A2"
+      },
+      "action_score": 0.018,
+      "compressed": "11:00 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "11:05",
+      "time_sec": 665,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.41,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.76,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.32,
+        "dominant": "A2"
+      },
+      "action_score": 0.001,
+      "compressed": "11:05 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "11:10",
+      "time_sec": 670,
+      "athlete_1": {
+        "standing": "G",
+        "standing_prob": 0.23,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.76,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.49,
+        "dominant": "A2"
+      },
+      "action_score": 0.001,
+      "compressed": "11:10 G/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "11:15",
+      "time_sec": 675,
+      "athlete_1": {
+        "standing": "G",
+        "standing_prob": 0.24,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.53,
+        "dominant": "A2"
+      },
+      "action_score": 0.001,
+      "compressed": "11:15 G/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "11:20",
+      "time_sec": 680,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.56,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.68,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.37,
+        "dominant": "A2"
+      },
+      "action_score": 0.126,
+      "compressed": "11:20 M/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "11:25",
+      "time_sec": 685,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.76,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.67,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.58,
+        "dominant": "A1"
+      },
+      "action_score": 0.0,
+      "compressed": "11:25 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "11:30",
+      "time_sec": 690,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.41,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.72,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.49,
+        "dominant": "A2"
+      },
+      "action_score": 0.005,
+      "compressed": "11:30 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "11:35",
+      "time_sec": 695,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.37,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.67,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.27,
+        "dominant": "A2"
+      },
+      "action_score": 0.016,
+      "compressed": "11:35 M/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "11:40",
+      "time_sec": 700,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.77,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.58,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.52,
+        "dominant": "A1"
+      },
+      "action_score": 0.001,
+      "compressed": "11:40 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "11:45",
+      "time_sec": 705,
+      "athlete_1": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.63,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "11:45 ?/M c:L e:0.0 N"
+    },
+    {
+      "timestamp": "11:50",
+      "time_sec": 710,
+      "athlete_1": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.52,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "11:50 ?/M c:L e:0.0 N"
+    },
+    {
+      "timestamp": "11:55",
+      "time_sec": 715,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.86,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.55,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.34,
+        "dominant": "A1"
+      },
+      "action_score": 0.004,
+      "compressed": "11:55 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "12:00",
+      "time_sec": 720,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.86,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.61,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.32,
+        "dominant": "A1"
+      },
+      "action_score": 0.007,
+      "compressed": "12:00 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "12:05",
+      "time_sec": 725,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.84,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.1,
+        "entanglement": 0,
+        "distance": 0.27,
+        "dominant": "A1"
+      },
+      "action_score": 0.01,
+      "compressed": "12:05 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "12:10",
+      "time_sec": 730,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.72,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.62,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.44,
+        "dominant": "A1"
+      },
+      "action_score": 0.004,
+      "compressed": "12:10 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "12:15",
+      "time_sec": 735,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.72,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.45,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.46,
+        "dominant": "A1"
+      },
+      "action_score": 0.002,
+      "compressed": "12:15 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "12:20",
+      "time_sec": 740,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.68,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.39,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.31,
+        "dominant": "A1"
+      },
+      "action_score": 0.001,
+      "compressed": "12:20 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "12:25",
+      "time_sec": 745,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.67,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.55,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.31,
+        "dominant": "A1"
+      },
+      "action_score": 0.005,
+      "compressed": "12:25 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "12:30",
+      "time_sec": 750,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.68,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.39,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.42,
+        "dominant": "A1"
+      },
+      "action_score": 0.0,
+      "compressed": "12:30 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "12:35",
+      "time_sec": 755,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.41,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.39,
+        "dominant": "A1"
+      },
+      "action_score": 0.001,
+      "compressed": "12:35 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "12:40",
+      "time_sec": 760,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.43,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.38,
+        "dominant": "A1"
+      },
+      "action_score": 0.001,
+      "compressed": "12:40 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "12:45",
+      "time_sec": 765,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.31,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.4,
+        "dominant": "A1"
+      },
+      "action_score": 0.006,
+      "compressed": "12:45 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "12:50",
+      "time_sec": 770,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.53,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.18,
+        "entanglement": 1,
+        "distance": 0.22,
+        "dominant": "A1"
+      },
+      "action_score": 0.147,
+      "compressed": "12:50 M/M c:L e:1.0 A1"
+    },
+    {
+      "timestamp": "12:55",
+      "time_sec": 775,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.51,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "12:55 M/? c:L e:0.0 N"
+    },
+    {
+      "timestamp": "13:00",
+      "time_sec": 780,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.59,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.5,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.45,
+        "dominant": "A1"
+      },
+      "action_score": 0.004,
+      "compressed": "13:00 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "13:05",
+      "time_sec": 785,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.5,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.33,
+        "dominant": "A2"
+      },
+      "action_score": 0.012,
+      "compressed": "13:05 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "13:10",
+      "time_sec": 790,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.72,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.72,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.12,
+        "entanglement": 3,
+        "distance": 0.11,
+        "dominant": "A1"
+      },
+      "action_score": 0.103,
+      "compressed": "13:10 S/S c:L e:3.0 A1"
+    },
+    {
+      "timestamp": "13:15",
+      "time_sec": 795,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.72,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.27,
+        "entanglement": 4,
+        "distance": 0.11,
+        "dominant": "A2"
+      },
+      "action_score": 0.161,
+      "compressed": "13:15 S/S c:L e:4.0 A2"
+    },
+    {
+      "timestamp": "13:20",
+      "time_sec": 800,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.74,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.8,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.11,
+        "entanglement": 0,
+        "distance": 0.18,
+        "dominant": "A2"
+      },
+      "action_score": 0.012,
+      "compressed": "13:20 S/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "13:25",
+      "time_sec": 805,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.69,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.77,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.15,
+        "entanglement": 2,
+        "distance": 0.17,
+        "dominant": "A2"
+      },
+      "action_score": 0.079,
+      "compressed": "13:25 M/S c:L e:2.0 A2"
+    },
+    {
+      "timestamp": "13:30",
+      "time_sec": 810,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.72,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.73,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "M",
+        "contact_intensity": 0.56,
+        "entanglement": 3,
+        "distance": 0.18,
+        "dominant": "A2"
+      },
+      "action_score": 0.148,
+      "compressed": "13:30 S/S c:M e:3.0 A2"
+    },
+    {
+      "timestamp": "13:35",
+      "time_sec": 815,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.66,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.83,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.44,
+        "dominant": "A2"
+      },
+      "action_score": 0.013,
+      "compressed": "13:35 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "13:40",
+      "time_sec": 820,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.64,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.5,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.41,
+        "dominant": "A2"
+      },
+      "action_score": 0.003,
+      "compressed": "13:40 M/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "13:45",
+      "time_sec": 825,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.61,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.82,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.38,
+        "dominant": "A2"
+      },
+      "action_score": 0.001,
+      "compressed": "13:45 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "13:50",
+      "time_sec": 830,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.4,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.5,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.46,
+        "dominant": "A2"
+      },
+      "action_score": 0.023,
+      "compressed": "13:50 M/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "13:55",
+      "time_sec": 835,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.34,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.58,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.58,
+        "dominant": "A2"
+      },
+      "action_score": 0.007,
+      "compressed": "13:55 M/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "14:00",
+      "time_sec": 840,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.72,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "G",
+        "standing_prob": 0.25,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.46,
+        "dominant": "A1"
+      },
+      "action_score": 0.0,
+      "compressed": "14:00 S/G c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "14:05",
+      "time_sec": 845,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.69,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.74,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.23,
+        "dominant": "A2"
+      },
+      "action_score": 0.002,
+      "compressed": "14:05 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "14:10",
+      "time_sec": 850,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.68,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.43,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.34,
+        "dominant": "A2"
+      },
+      "action_score": 0.064,
+      "compressed": "14:10 M/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "14:15",
+      "time_sec": 855,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.74,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.69,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.28,
+        "dominant": "A1"
+      },
+      "action_score": 0.001,
+      "compressed": "14:15 S/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "14:20",
+      "time_sec": 860,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.6,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.69,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.47,
+        "dominant": "A2"
+      },
+      "action_score": 0.0,
+      "compressed": "14:20 M/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "14:25",
+      "time_sec": 865,
+      "athlete_1": {
+        "standing": "G",
+        "standing_prob": 0.29,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.76,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.42,
+        "dominant": "A2"
+      },
+      "action_score": 0.022,
+      "compressed": "14:25 G/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "14:30",
+      "time_sec": 870,
+      "athlete_1": {
+        "standing": "S",
+        "standing_prob": 0.72,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.71,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.47,
+        "dominant": "A2"
+      },
+      "action_score": 0.003,
+      "compressed": "14:30 S/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "14:35",
+      "time_sec": 875,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.69,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.68,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "H",
+        "contact_intensity": 0.67,
+        "entanglement": 1,
+        "distance": 0.12,
+        "dominant": "A1"
+      },
+      "action_score": 0.099,
+      "compressed": "14:35 M/M c:H e:1.0 A1"
+    },
+    {
+      "timestamp": "14:40",
+      "time_sec": 880,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.49,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.5,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.57,
+        "dominant": "A2"
+      },
+      "action_score": 0.005,
+      "compressed": "14:40 M/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "14:45",
+      "time_sec": 885,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.52,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.82,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.36,
+        "dominant": "A2"
+      },
+      "action_score": 0.006,
+      "compressed": "14:45 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "14:50",
+      "time_sec": 890,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.5,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.49,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.64,
+        "dominant": "A1"
+      },
+      "action_score": 0.003,
+      "compressed": "14:50 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "14:55",
+      "time_sec": 895,
+      "athlete_1": {
+        "standing": "?",
+        "standing_prob": null,
+        "detected": false
+      },
+      "athlete_2": {
+        "standing": "G",
+        "standing_prob": 0.23,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 1.0,
+        "dominant": "N"
+      },
+      "action_score": 0.0,
+      "compressed": "14:55 ?/G c:L e:0.0 N"
+    },
+    {
+      "timestamp": "15:00",
+      "time_sec": 900,
+      "athlete_1": {
+        "standing": "G",
+        "standing_prob": 0.26,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.5,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "M",
+        "contact_intensity": 0.42,
+        "entanglement": 2,
+        "distance": 0.14,
+        "dominant": "A2"
+      },
+      "action_score": 0.101,
+      "compressed": "15:00 G/M c:M e:2.0 A2"
+    },
+    {
+      "timestamp": "15:05",
+      "time_sec": 905,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.37,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.83,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.1,
+        "entanglement": 0,
+        "distance": 0.29,
+        "dominant": "A2"
+      },
+      "action_score": 0.032,
+      "compressed": "15:05 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "15:10",
+      "time_sec": 910,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.37,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.76,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.59,
+        "dominant": "A2"
+      },
+      "action_score": 0.005,
+      "compressed": "15:10 M/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "15:15",
+      "time_sec": 915,
+      "athlete_1": {
+        "standing": "G",
+        "standing_prob": 0.24,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.68,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.21,
+        "entanglement": 1,
+        "distance": 0.16,
+        "dominant": "A2"
+      },
+      "action_score": 0.058,
+      "compressed": "15:15 G/M c:L e:1.0 A2"
+    },
+    {
+      "timestamp": "15:20",
+      "time_sec": 920,
+      "athlete_1": {
+        "standing": "G",
+        "standing_prob": 0.29,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "S",
+        "standing_prob": 0.77,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.45,
+        "dominant": "A2"
+      },
+      "action_score": 0.002,
+      "compressed": "15:20 G/S c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "15:25",
+      "time_sec": 925,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.3,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.31,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "H",
+        "contact_intensity": 0.88,
+        "entanglement": 3,
+        "distance": 0.07,
+        "dominant": "A2"
+      },
+      "action_score": 0.168,
+      "compressed": "15:25 M/M c:H e:3.0 A2"
+    },
+    {
+      "timestamp": "15:30",
+      "time_sec": 930,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.36,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.59,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.26,
+        "dominant": "A2"
+      },
+      "action_score": 0.0,
+      "compressed": "15:30 M/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "15:35",
+      "time_sec": 935,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.64,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.61,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.28,
+        "dominant": "A1"
+      },
+      "action_score": 0.001,
+      "compressed": "15:35 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "15:40",
+      "time_sec": 940,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.62,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.61,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.16,
+        "dominant": "A1"
+      },
+      "action_score": 0.002,
+      "compressed": "15:40 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "15:45",
+      "time_sec": 945,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.66,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.66,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.28,
+        "dominant": "A1"
+      },
+      "action_score": 0.0,
+      "compressed": "15:45 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "15:50",
+      "time_sec": 950,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.69,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.07,
+        "entanglement": 0,
+        "distance": 0.2,
+        "dominant": "A1"
+      },
+      "action_score": 0.006,
+      "compressed": "15:50 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "15:55",
+      "time_sec": 955,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.67,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.7,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.31,
+        "dominant": "A2"
+      },
+      "action_score": 0.001,
+      "compressed": "15:55 M/M c:L e:0.0 A2"
+    },
+    {
+      "timestamp": "16:00",
+      "time_sec": 960,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.44,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "M",
+        "standing_prob": 0.58,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.0,
+        "entanglement": 0,
+        "distance": 0.33,
+        "dominant": "A1"
+      },
+      "action_score": 0.058,
+      "compressed": "16:00 M/M c:L e:0.0 A1"
+    },
+    {
+      "timestamp": "16:05",
+      "time_sec": 965,
+      "athlete_1": {
+        "standing": "M",
+        "standing_prob": 0.5,
+        "detected": true
+      },
+      "athlete_2": {
+        "standing": "G",
+        "standing_prob": 0.22,
+        "detected": true
+      },
+      "interaction": {
+        "contact": "L",
+        "contact_intensity": 0.1,
+        "entanglement": 0,
+        "distance": 0.26,
+        "dominant": "A2"
+      },
+      "action_score": 0.041,
+      "compressed": "16:05 M/G c:L e:0.0 A2"
+    }
+  ]
+}

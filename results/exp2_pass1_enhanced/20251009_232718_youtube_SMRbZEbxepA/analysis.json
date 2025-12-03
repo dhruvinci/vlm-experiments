@@ -1,0 +1,4843 @@
+{
+  "video_metadata": {
+    "video_path": "data/videos/youtube_SMRbZEbxepA",
+    "duration": "16:00",
+    "athletes": {
+      "athlete_1": "Tackett (A1)",
+      "athlete_2": "Galvao (A2)"
+    }
+  },
+  "position_timeline": [
+    {
+      "start_time": "0:00",
+      "end_time": "0:05",
+      "position": "standing",
+      "sub_position": "neutral",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 1.0,
+      "notes": "Both athletes start in a neutral standing stance, maintaining distance. Tackett (A1) shows a slightly wider, more wrestling-oriented base, while Galvao (A2) is more upright, typical of a sport BJJ stand-up. No grips established yet, both are circling and assessing.",
+      "labels": [
+        "initial_engagement",
+        "stance",
+        "distance_management"
+      ],
+      "dominance_athlete": "both(3)",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "0:05",
+      "end_time": "0:10",
+      "position": "standing",
+      "sub_position": "grip_fighting",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 1.0,
+      "notes": "A1 initiates hand fighting, reaching for a collar tie. A2 responds by mirroring the grip, establishing a collar tie of his own. Both athletes are actively using head position to control the center line and prevent easy entries. A1 attempts a quick level change feint, but A2 maintains strong posture.",
+      "labels": [
+        "hand_fighting",
+        "collar_tie",
+        "head_position",
+        "feint"
+      ],
+      "dominance_athlete": "both(3)",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "0:10",
+      "end_time": "0:15",
+      "position": "standing",
+      "sub_position": "grip_fighting",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 1.0,
+      "notes": "A1 continues to use shoulder pressure and hand fighting to disrupt A2's posture. A2 is actively disengaging and re-engaging, using quick movements to avoid static grips. Both athletes are showing good head movement and footwork, preventing the opponent from establishing dominant control.",
+      "labels": [
+        "hand_fighting",
+        "shoulder_pressure",
+        "distance_management",
+        "feint"
+      ],
+      "dominance_athlete": "both(3)",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "0:15",
+      "end_time": "0:19",
+      "position": "standing",
+      "sub_position": "grip_fighting",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 1.0,
+      "notes": "A1 secures a collar tie with his right hand and attempts a snap-down, driving his head into A2's chest. A2 immediately reacts by dropping his hips and widening his base, preventing the snap-down from breaking his posture. A2's defensive posture is excellent, demonstrating a strong understanding of wrestling fundamentals.",
+      "labels": [
+        "collar_tie",
+        "head_position",
+        "snap_down_attempt",
+        "sprawl_read"
+      ],
+      "dominance_athlete": "both(3)",
+      "dominance_score": 3,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "0:19",
+      "end_time": "0:23",
+      "position": "standing",
+      "sub_position": "grip_fighting",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 1.0,
+      "notes": "Both athletes reset to a neutral standing position. A1 attempts to re-establish a collar tie, but A2 is actively evading, using quick lateral movements. A2 is keeping his hands active, parrying A1's grip attempts and maintaining a safe distance.",
+      "labels": [
+        "hand_fighting",
+        "distance_management",
+        "feint",
+        "posture_control"
+      ],
+      "dominance_athlete": "both(3)",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "0:23",
+      "end_time": "0:28",
+      "position": "standing",
+      "sub_position": "grip_fighting",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 1.0,
+      "notes": "A1 again secures a collar tie and attempts a snap-down, driving his head into A2's sternum. A2 maintains strong posture and a wide base, preventing the takedown. A2's footwork is agile, allowing him to quickly adjust his base and maintain balance under pressure.",
+      "labels": [
+        "collar_tie",
+        "head_position",
+        "snap_down_attempt",
+        "footwork"
+      ],
+      "dominance_athlete": "both(3)",
+      "dominance_score": 3,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "0:28",
+      "end_time": "0:33",
+      "position": "standing",
+      "sub_position": "grip_fighting",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 1.0,
+      "notes": "Both athletes disengage and reset. A1 attempts to close the distance and establish grips, but A2 is actively circling and using hand feints to keep A1 guessing. A2's defensive stance is very fluid, making it difficult for A1 to commit to a strong attack.",
+      "labels": [
+        "hand_fighting",
+        "distance_management",
+        "feint",
+        "posture_control"
+      ],
+      "dominance_athlete": "both(3)",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "0:33",
+      "end_time": "0:38",
+      "position": "standing",
+      "sub_position": "grip_fighting",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 1.0,
+      "notes": "A1 secures a collar tie with his right hand and attempts another snap-down, driving his head into A2's chest. A2 maintains strong posture and a wide base, preventing the snap-down. A2's defensive posture is excellent, demonstrating a strong understanding of wrestling fundamentals.",
+      "labels": [
+        "collar_tie",
+        "head_position",
+        "snap_down_attempt",
+        "footwork"
+      ],
+      "dominance_athlete": "both(3)",
+      "dominance_score": 3,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "0:38",
+      "end_time": "0:43",
+      "position": "standing",
+      "sub_position": "grip_fighting",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 1.0,
+      "notes": "A1 secures a collar tie with his right hand and attempts another snap-down, driving his head into A2's chest. A2 maintains strong posture and a wide base, preventing the snap-down. A2's defensive posture is excellent, demonstrating a strong understanding of wrestling fundamentals.",
+      "labels": [
+        "collar_tie",
+        "head_position",
+        "snap_down_attempt",
+        "footwork"
+      ],
+      "dominance_athlete": "both(3)",
+      "dominance_score": 3,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "0:43",
+      "end_time": "0:48",
+      "position": "standing",
+      "sub_position": "grip_fighting",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 1.0,
+      "notes": "Both athletes disengage and reset. A1 attempts to close the distance and establish grips, but A2 is actively circling and using hand feints to keep A1 guessing. A2's defensive stance is very fluid, making it difficult for A1 to commit to a strong attack.",
+      "labels": [
+        "hand_fighting",
+        "distance_management",
+        "feint",
+        "posture_control"
+      ],
+      "dominance_athlete": "both(3)",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "0:48",
+      "end_time": "0:52",
+      "position": "standing",
+      "sub_position": "grip_fighting",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 1.0,
+      "notes": "A1 secures a collar tie and attempts a snap-down. A2 counters by dropping to his back, initiating a guard pull. A1 immediately dives for a leg entanglement, attempting to secure a leg lock or pass. This is a rapid transition from standing to ground.",
+      "labels": [
+        "collar_tie",
+        "snap_down_attempt",
+        "guard_pull_attempt",
+        "leg_entanglement"
+      ],
+      "dominance_athlete": "both(3)",
+      "dominance_score": 3,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "0:52",
+      "end_time": "0:56",
+      "position": "leg_entanglement",
+      "sub_position": "50/50_entry",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 1.0,
+      "notes": "A1 dives into a leg entanglement, attempting to secure a leg lock. A2, from the bottom, immediately counters by attempting a flying armbar, using his legs to wrap around A1's arm and torso. A1 is forced to defend, stacking A2 to prevent the armbar extension.",
+      "labels": [
+        "leg_entanglement",
+        "50/50_entry",
+        "armbar_attempt",
+        "counter_attack"
+      ],
+      "dominance_athlete": "both(3)",
+      "dominance_score": 3,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "0:56",
+      "end_time": "1:00",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 is actively defending the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "1:00",
+      "end_time": "1:04",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "1:04",
+      "end_time": "1:08",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "1:08",
+      "end_time": "1:12",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "1:12",
+      "end_time": "1:16",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "1:16",
+      "end_time": "1:20",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "1:20",
+      "end_time": "1:24",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "1:24",
+      "end_time": "1:28",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "1:28",
+      "end_time": "1:32",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "1:32",
+      "end_time": "1:36",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "1:36",
+      "end_time": "1:40",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "1:40",
+      "end_time": "1:44",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "1:44",
+      "end_time": "1:48",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "1:48",
+      "end_time": "1:52",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "1:52",
+      "end_time": "1:56",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "1:56",
+      "end_time": "2:00",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "2:00",
+      "end_time": "2:04",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "2:04",
+      "end_time": "2:08",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "2:08",
+      "end_time": "2:12",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "2:12",
+      "end_time": "2:16",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "2:16",
+      "end_time": "2:20",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "2:20",
+      "end_time": "2:24",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "2:24",
+      "end_time": "2:28",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "2:28",
+      "end_time": "2:32",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "2:32",
+      "end_time": "2:36",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "2:36",
+      "end_time": "2:40",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "2:40",
+      "end_time": "2:44",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "2:44",
+      "end_time": "2:48",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "2:48",
+      "end_time": "2:52",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "2:52",
+      "end_time": "2:56",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "2:56",
+      "end_time": "3:00",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "3:00",
+      "end_time": "3:04",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "3:04",
+      "end_time": "3:08",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "3:08",
+      "end_time": "3:12",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "3:12",
+      "end_time": "3:16",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "3:16",
+      "end_time": "3:20",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "3:20",
+      "end_time": "3:24",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "3:24",
+      "end_time": "3:28",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "3:28",
+      "end_time": "3:32",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "3:32",
+      "end_time": "3:36",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "3:36",
+      "end_time": "3:40",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "3:40",
+      "end_time": "3:44",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "3:44",
+      "end_time": "3:48",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "3:48",
+      "end_time": "3:52",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "3:52",
+      "end_time": "3:56",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "3:56",
+      "end_time": "4:00",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "4:00",
+      "end_time": "4:04",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "4:04",
+      "end_time": "4:08",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "4:08",
+      "end_time": "4:12",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "4:12",
+      "end_time": "4:16",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "4:16",
+      "end_time": "4:20",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "4:20",
+      "end_time": "4:24",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "4:24",
+      "end_time": "4:28",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "4:28",
+      "end_time": "4:32",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "4:32",
+      "end_time": "4:36",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "4:36",
+      "end_time": "4:40",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "4:40",
+      "end_time": "4:44",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "4:44",
+      "end_time": "4:48",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "4:48",
+      "end_time": "4:52",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "4:52",
+      "end_time": "4:56",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "4:56",
+      "end_time": "5:00",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "5:00",
+      "end_time": "5:04",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "5:04",
+      "end_time": "5:08",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "5:08",
+      "end_time": "5:12",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "5:12",
+      "end_time": "5:16",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "5:16",
+      "end_time": "5:20",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "5:20",
+      "end_time": "5:24",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "5:24",
+      "end_time": "5:28",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "5:28",
+      "end_time": "5:32",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "5:32",
+      "end_time": "5:36",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "5:36",
+      "end_time": "5:40",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "5:40",
+      "end_time": "5:44",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "5:44",
+      "end_time": "5:48",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "5:45",
+      "end_time": "5:47",
+      "position": "mount",
+      "sub_position": "high_mount",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 1.0,
+      "notes": "Galvao maintains high mount, chest-to-chest, with his left arm securing a deep crossface, driving his shoulder into Tackett's jaw. His right hand is controlling Tackett's left wrist, isolating the arm. This posture prevents Tackett from bridging effectively or turning to his side, creating immense pressure and setting up potential arm attacks.",
+      "labels": [
+        "chest_pressure",
+        "head_control",
+        "arm_isolation",
+        "submission_threat"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 5,
+      "control_quality": 5
+    },
+    {
+      "start_time": "5:47",
+      "end_time": "5:49",
+      "position": "mount_transition",
+      "sub_position": "s_mount_attempt",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao begins to transition towards S-mount on Tackett's left side, shifting his weight to his right knee and elevating his left knee towards Tackett's head. His left arm maintains the crossface, while his right hand is still isolating Tackett's left arm, preparing for an armbar entry. Tackett attempts to bridge and turn right, but Galvao's hip control is too strong.",
+      "labels": [
+        "s_mount_transition",
+        "arm_bar_setup",
+        "hip_control",
+        "weight_shift"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 5,
+      "control_quality": 4
+    },
+    {
+      "start_time": "5:48",
+      "end_time": "5:52",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "5:49",
+      "end_time": "5:52",
+      "position": "side_control",
+      "sub_position": "kesa_gatame",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao abandons the S-mount attempt, smoothly transitioning to Kesa Gatame side control. His left arm is deep under Tackett's head, securing a tight grip on his own right bicep, while his right arm controls Tackett's left arm at the elbow. His hips are tight to Tackett's left side, driving pressure through his chest and left hip, effectively flattening Tackett and limiting his hip escape options.",
+      "labels": [
+        "side_control_establish",
+        "head_and_arm_control",
+        "hip_pressure",
+        "base_stability"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 4
+    },
+    {
+      "start_time": "5:52",
+      "end_time": "5:56",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "5:52",
+      "end_time": "5:56",
+      "position": "side_control",
+      "sub_position": "kesa_to_north_south",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.9,
+      "notes": "Galvao transitions from Kesa Gatame to North-South, maintaining head and arm control. His left arm is still under Tackett's head, while his right arm is now controlling Tackett's left arm, pinning it to the mat. He uses his chest to drive pressure down Tackett's spine, preventing any attempt to turn or bridge. Tackett attempts to shrimp, but Galvao's weight distribution and head control negate the movement.",
+      "labels": [
+        "north_south_transition",
+        "head_control",
+        "arm_isolation",
+        "pressure_pass"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 4
+    },
+    {
+      "start_time": "5:56",
+      "end_time": "6:00",
+      "position": "leg_entanglement",
+      "sub_position": "armbar_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 1.0,
+      "notes": "A1 continues to defend the armbar by stacking A2, driving his weight into A2's hips and torso. A1 maintains a strong base, preventing A2 from extending the arm. A2 is attempting to recover guard, using his free leg to frame and create space.",
+      "labels": [
+        "armbar_defense",
+        "stack_pass",
+        "leg_recovery",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "5:56",
+      "end_time": "5:58",
+      "position": "north_south",
+      "sub_position": "north_south_control",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao maintains a stable North-South position, using his shoulder to drive pressure into Tackett's chest and neck. His hips are low and heavy, preventing Tackett from creating space to recover guard. Tackett is shelled up, elbows tight to his body, hands protecting his neck, focusing on defensive posture and conserving energy under the constant pressure.",
+      "labels": [
+        "shoulder_pressure",
+        "hip_control",
+        "defensive_posture",
+        "energy_conservation"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 4
+    },
+    {
+      "start_time": "5:58",
+      "end_time": "6:01",
+      "position": "north_south_transition",
+      "sub_position": "back_take_attempt",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao initiates a dynamic back take. From North-South, he quickly spins to Tackett's right side, securing a seatbelt grip (right arm over Tackett's right shoulder, left arm under Tackett's left armpit). He uses this grip to pull Tackett onto his side, then rolls through, attempting to establish his hooks. This is a high-percentage back take sequence, leveraging the opponent's defensive posture.",
+      "labels": [
+        "back_take_entry",
+        "seatbelt_grip",
+        "hook_attempt",
+        "roll_through"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 5,
+      "control_quality": 5
+    },
+    {
+      "start_time": "6:01",
+      "end_time": "6:04",
+      "position": "back_take_attempt",
+      "sub_position": "body_triangle_setup",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao has secured a strong rear body lock, with his legs wrapped around Tackett's waist, attempting to lock in a body triangle. His seatbelt grip is tight, pulling Tackett's upper body towards him. Tackett is flattened on his stomach, trying to prevent the hooks from fully sinking in by keeping his hips low and tight to the mat. Galvao's control is dominant, but the body triangle isn't fully locked yet.",
+      "labels": [
+        "back_control_attempt",
+        "body_triangle",
+        "hip_control",
+        "submission_threat"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 5,
+      "control_quality": 4
+    },
+    {
+      "start_time": "6:04",
+      "end_time": "6:07",
+      "position": "back_control",
+      "sub_position": "body_triangle_control",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 1.0,
+      "notes": "Galvao successfully locks in the body triangle, securing his left foot over his right shin, creating immense pressure on Tackett's diaphragm and restricting hip movement. His seatbelt grip is now fully established, allowing him to pull Tackett's head back and begin looking for a rear-naked choke setup. Tackett is in a highly compromised position, unable to turn or create space.",
+      "labels": [
+        "body_triangle_lock",
+        "choke_setup",
+        "arm_isolation",
+        "positional_dominance"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 5,
+      "control_quality": 5
+    },
+    {
+      "start_time": "6:07",
+      "end_time": "6:10",
+      "position": "back_control",
+      "sub_position": "choke_attempt",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 1.0,
+      "notes": "Galvao actively hunts for the rear-naked choke. His right arm is under Tackett's chin, while his left hand is gripping his own right bicep, setting up the classic RNC mechanics. He uses the body triangle to maintain tight hip control and prevent Tackett from escaping, while simultaneously pulling Tackett's head back to expose the neck. Tackett is desperately defending, tucking his chin and using his hands to block the choke.",
+      "labels": [
+        "rear_naked_choke",
+        "arm_under_chin",
+        "posture_break",
+        "submission_threat"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 5,
+      "control_quality": 5
+    },
+    {
+      "start_time": "6:10",
+      "end_time": "6:13",
+      "position": "back_control",
+      "sub_position": "choke_defense",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.9,
+      "notes": "Tackett is actively defending the choke, keeping his chin tucked and using his hands to fight Galvao's choking arm. He's trying to maintain some posture to alleviate the pressure, but the body triangle is making it extremely difficult. Galvao adjusts his grip, trying to find a deeper angle under the chin, but Tackett's defense is solid for this brief moment.",
+      "labels": [
+        "chin_tuck",
+        "hand_fighting",
+        "posture_maintenance",
+        "defensive_grips"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 4
+    },
+    {
+      "start_time": "6:13",
+      "end_time": "6:16",
+      "position": "back_control",
+      "sub_position": "arm_isolation_threat",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.9,
+      "notes": "Galvao shifts his focus, attempting to isolate Tackett's left arm. He uses his left hand to control Tackett's left wrist, while his right arm maintains the seatbelt. The body triangle remains locked, providing a stable platform for attack. This transition threatens an armbar or a shift to mount if Tackett overcommits to defending the arm. Tackett is forced to adjust his defensive posture.",
+      "labels": [
+        "arm_trap",
+        "arm_bar_setup",
+        "wrist_control",
+        "transition_threat"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 4
+    },
+    {
+      "start_time": "6:16",
+      "end_time": "6:19",
+      "position": "back_control",
+      "sub_position": "arm_bar_attempt",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao transitions to an armbar on Tackett's left arm. He swings his right leg over Tackett's head, securing the arm between his thighs, and begins to extend his hips. His left hand is still controlling Tackett's wrist, ensuring the arm is straight. Tackett immediately recognizes the danger, trying to stack Galvao and pull his arm free, but Galvao's leverage is strong.",
+      "labels": [
+        "arm_bar_entry",
+        "leg_over_head",
+        "hip_extension",
+        "submission_attempt"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 5,
+      "control_quality": 4
+    },
+    {
+      "start_time": "6:19",
+      "end_time": "6:22",
+      "position": "arm_bar_defense",
+      "sub_position": "stack_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett successfully defends the armbar by stacking Galvao, driving his weight forward and putting pressure on Galvao's hips. He pulls his left arm free, creating space. Galvao, recognizing the stack, uses his legs to push off Tackett's hips, attempting to create distance and re-establish a more favorable angle for the armbar or transition.",
+      "labels": [
+        "stack_pass_attempt",
+        "arm_pull",
+        "hip_escape",
+        "guard_recovery_threat"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "6:22",
+      "end_time": "6:25",
+      "position": "guard_recovery",
+      "sub_position": "half_guard_entry",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett capitalizes on the stack, recovering to half guard with a strong knee shield. His right leg is wrapped around Galvao's left leg, while his left knee is creating a frame against Galvao's hip. He immediately looks for an underhook with his left arm, aiming to create leverage and sweep. Galvao is now on top, but his passing options are temporarily stalled by the knee shield.",
+      "labels": [
+        "half_guard_establish",
+        "knee_shield",
+        "underhook_battle",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "6:25",
+      "end_time": "6:28",
+      "position": "half_guard",
+      "sub_position": "underhook_battle",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 0.9,
+      "notes": "Both athletes engage in an intense underhook battle from half guard. Tackett is trying to secure a deep underhook with his left arm to gain leverage for a sweep, while Galvao is actively defending, flattening his chest and trying to prevent Tackett from getting deep. Galvao's right hand is controlling Tackett's left shoulder, preventing him from sitting up.",
+      "labels": [
+        "underhook_fight",
+        "hip_control",
+        "posture_control",
+        "guard_retention"
+      ],
+      "dominance_athlete": "both(3)",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "6:28",
+      "end_time": "6:31",
+      "position": "half_guard",
+      "sub_position": "deep_half_entry",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.95,
+      "notes": "Tackett dives into deep half guard, sliding his right leg deep under Galvao's left leg and securing a strong grip on Galvao's far leg. His left arm is now free to control Galvao's hips or far leg, setting up a powerful sweep. Galvao is momentarily off-balanced, his weight shifting forward as Tackett creates a strong fulcrum point.",
+      "labels": [
+        "deep_half_entry",
+        "sweep_threat",
+        "leg_entanglement",
+        "weight_off_balance"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "6:31",
+      "end_time": "6:34",
+      "position": "deep_half_guard",
+      "sub_position": "sweep_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett actively attempts a deep half guard sweep, driving his hips forward and using his legs to lift Galvao's base. He's trying to break Galvao's posture and roll him over. Galvao is forced to widen his base and post his hands to prevent the sweep, showing good defensive awareness. The momentum is with Tackett in this exchange.",
+      "labels": [
+        "deep_half_sweep",
+        "leg_drive",
+        "posture_break",
+        "base_disruption"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "6:34",
+      "end_time": "6:37",
+      "position": "deep_half_guard",
+      "sub_position": "guard_retention",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett maintains deep half guard, but Galvao has stabilized his base, preventing the immediate sweep. Tackett uses small hip movements and leg adjustments to keep Galvao off-balance and prevent him from passing. He's managing the pressure well, but the sweep opportunity has diminished.",
+      "labels": [
+        "guard_retention",
+        "hip_movement",
+        "defensive_posture",
+        "pressure_management"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "6:37",
+      "end_time": "6:40",
+      "position": "deep_half_guard",
+      "sub_position": "knee_cut_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts a knee cut pass, driving his right knee across Tackett's midsection. Tackett responds by creating a strong frame with his left arm against Galvao's hip and shrimping his hips away, preventing the knee from fully clearing. He maintains his deep half guard hooks, showing good defensive structure.",
+      "labels": [
+        "knee_cut_defense",
+        "frame_creation",
+        "hip_escape",
+        "guard_maintenance"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "6:40",
+      "end_time": "6:43",
+      "position": "deep_half_guard",
+      "sub_position": "leg_drag_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to transition to a leg drag pass, trying to flatten Tackett's legs to the side. Tackett uses active feet and hip movement to prevent his legs from being flattened, maintaining his deep half guard. He's constantly adjusting his leg positioning to counter Galvao's passing attempts.",
+      "labels": [
+        "leg_drag_defense",
+        "foot_placement",
+        "hip_movement",
+        "guard_recovery"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "6:43",
+      "end_time": "6:46",
+      "position": "deep_half_guard",
+      "sub_position": "underhook_re-establish",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.95,
+      "notes": "Tackett re-establishes a strong underhook with his left arm, driving his shoulder into Galvao's chest and lifting his hips. This creates significant leverage, threatening another sweep attempt. Galvao is forced to defend his posture, trying to flatten Tackett's back to the mat.",
+      "labels": [
+        "underhook_re_establish",
+        "sweep_threat",
+        "posture_break",
+        "leverage_gain"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "6:46",
+      "end_time": "6:49",
+      "position": "deep_half_guard",
+      "sub_position": "back_exposure_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett uses the underhook to roll through, attempting to expose Galvao's back. He drives his left shoulder into Galvao's chest and uses his legs to lift and turn Galvao. Galvao is forced to scramble, posting his hands and trying to maintain his base to avoid giving up his back. This is a dynamic exchange with Tackett dictating the action.",
+      "labels": [
+        "back_exposure",
+        "roll_through",
+        "sweep_attempt",
+        "positional_threat"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "6:49",
+      "end_time": "6:52",
+      "position": "scramble",
+      "sub_position": "guard_re-entry",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 0.85,
+      "notes": "Both athletes scramble, with Galvao managing to avoid the back take. Tackett quickly re-enters a form of open guard, using his feet to create distance and frames against Galvao's hips. The position is neutral as both fighters reset their grips and posture.",
+      "labels": [
+        "scramble",
+        "guard_re_entry",
+        "hip_movement",
+        "positional_reset"
+      ],
+      "dominance_athlete": "both(3)",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 2
+    },
+    {
+      "start_time": "6:52",
+      "end_time": "6:55",
+      "position": "open_guard",
+      "sub_position": "spider_guard_setup",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett establishes an open guard, attempting to set up spider guard. He secures sleeve grips with both hands and tries to place his feet on Galvao's biceps, aiming to control distance and create off-balancing opportunities. Galvao is standing, trying to break the grips and initiate a pass.",
+      "labels": [
+        "spider_guard_entry",
+        "sleeve_grip",
+        "foot_on_bicep",
+        "distance_management"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "6:55",
+      "end_time": "6:58",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett uses his feet on Galvao's hips and a knee shield to defend against Galvao's passing attempts. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip. Galvao is trying to clear the legs and establish a passing grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "6:58",
+      "end_time": "7:01",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, possibly looking for a leg lock entry or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is actively defending, pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_threat",
+        "guard_transition",
+        "off_balancing"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:01",
+      "end_time": "7:04",
+      "position": "open_guard",
+      "sub_position": "guard_pass_attempt",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.9,
+      "notes": "Galvao attempts a knee cut pass, driving his right knee across Tackett's midsection. Tackett uses a strong frame with his left arm and active hip movement to prevent the pass, keeping his legs engaged. The exchange is dynamic, with both fighters actively working.",
+      "labels": [
+        "guard_pass_attempt",
+        "knee_cut_pass",
+        "hip_control",
+        "frame_defense"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:04",
+      "end_time": "7:07",
+      "position": "open_guard",
+      "sub_position": "guard_retention",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett maintains his open guard, using his feet on Galvao's hips to control distance and prevent Galvao from closing the gap. He's constantly adjusting his leg position, showing good guard retention skills. Galvao is trying to find an opening to pass, but Tackett's frames are effective.",
+      "labels": [
+        "guard_retention",
+        "foot_on_hip",
+        "distance_management",
+        "posture_control"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:07",
+      "end_time": "7:10",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett again attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:10",
+      "end_time": "7:13",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:13",
+      "end_time": "7:16",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:16",
+      "end_time": "7:19",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:19",
+      "end_time": "7:22",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:22",
+      "end_time": "7:25",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:25",
+      "end_time": "7:28",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:28",
+      "end_time": "7:31",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:31",
+      "end_time": "7:34",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:34",
+      "end_time": "7:37",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:37",
+      "end_time": "7:40",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:40",
+      "end_time": "7:43",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:43",
+      "end_time": "7:46",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:46",
+      "end_time": "7:49",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:49",
+      "end_time": "7:52",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:52",
+      "end_time": "7:55",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:55",
+      "end_time": "7:58",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "7:58",
+      "end_time": "8:01",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:01",
+      "end_time": "8:04",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:04",
+      "end_time": "8:07",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:07",
+      "end_time": "8:10",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:10",
+      "end_time": "8:13",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:13",
+      "end_time": "8:16",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:16",
+      "end_time": "8:19",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:19",
+      "end_time": "8:22",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:22",
+      "end_time": "8:25",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:25",
+      "end_time": "8:28",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:28",
+      "end_time": "8:31",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:31",
+      "end_time": "8:34",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:34",
+      "end_time": "8:37",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:37",
+      "end_time": "8:40",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:40",
+      "end_time": "8:43",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:43",
+      "end_time": "8:46",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:46",
+      "end_time": "8:49",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:49",
+      "end_time": "8:52",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:52",
+      "end_time": "8:55",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:55",
+      "end_time": "8:58",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "8:58",
+      "end_time": "9:01",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:01",
+      "end_time": "9:04",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:04",
+      "end_time": "9:07",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:07",
+      "end_time": "9:10",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:10",
+      "end_time": "9:13",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:13",
+      "end_time": "9:16",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:16",
+      "end_time": "9:19",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:19",
+      "end_time": "9:22",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:22",
+      "end_time": "9:25",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:25",
+      "end_time": "9:28",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:28",
+      "end_time": "9:31",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:31",
+      "end_time": "9:34",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:34",
+      "end_time": "9:37",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:37",
+      "end_time": "9:40",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:40",
+      "end_time": "9:43",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:43",
+      "end_time": "9:46",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:46",
+      "end_time": "9:49",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:49",
+      "end_time": "9:52",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:52",
+      "end_time": "9:55",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:55",
+      "end_time": "9:58",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "9:58",
+      "end_time": "10:01",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:01",
+      "end_time": "10:04",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:04",
+      "end_time": "10:07",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:07",
+      "end_time": "10:10",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:10",
+      "end_time": "10:13",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:13",
+      "end_time": "10:16",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:16",
+      "end_time": "10:19",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:19",
+      "end_time": "10:22",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:22",
+      "end_time": "10:25",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:25",
+      "end_time": "10:28",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:28",
+      "end_time": "10:31",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:31",
+      "end_time": "10:34",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:34",
+      "end_time": "10:37",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:37",
+      "end_time": "10:40",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:40",
+      "end_time": "10:43",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:43",
+      "end_time": "10:46",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:46",
+      "end_time": "10:49",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:49",
+      "end_time": "10:52",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:52",
+      "end_time": "10:55",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:55",
+      "end_time": "10:58",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "10:58",
+      "end_time": "11:01",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "11:01",
+      "end_time": "11:04",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "11:04",
+      "end_time": "11:07",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "11:07",
+      "end_time": "11:10",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "11:10",
+      "end_time": "11:13",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "11:13",
+      "end_time": "11:16",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "11:16",
+      "end_time": "11:19",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "11:19",
+      "end_time": "11:22",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "11:22",
+      "end_time": "11:25",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "11:25",
+      "end_time": "11:28",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "11:28",
+      "end_time": "11:31",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "11:30",
+      "end_time": "11:35",
+      "position": "mount",
+      "sub_position": "high_mount",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao (A2) maintains a high mount, applying heavy chest pressure onto Tackett's (A1) sternum. His left arm secures a deep cross-face, driving Tackett's head to his right, while his right hand attempts to isolate Tackett's left arm, pinning it to the mat. Tackett is in a defensive shell, elbows tight to his ribs, trying to prevent arm isolation and create space.",
+      "labels": [
+        "cross_face",
+        "arm_isolation",
+        "mount_pressure",
+        "defensive_shell"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 4,
+      "control_quality": 4
+    },
+    {
+      "start_time": "11:31",
+      "end_time": "11:34",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "11:34",
+      "end_time": "11:37",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses a knee shield and hip escapes to maintain his guard. He's creating frames with his arms and legs to prevent Galvao from advancing. The pace is steady, with both fighters looking for openings.",
+      "labels": [
+        "guard_pass_defense",
+        "knee_shield",
+        "hip_escape",
+        "frame_creation"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "11:35",
+      "end_time": "11:40",
+      "position": "mount",
+      "sub_position": "high_mount",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao shifts his weight slightly, maintaining constant pressure. His hips are low, preventing Tackett from bridging effectively. He continues to work his right hand to trap Tackett's left arm, aiming for an arm-triangle setup. Tackett attempts to frame with his right forearm against Galvao's neck, but the pressure is too intense to create significant leverage.",
+      "labels": [
+        "weight_distribution",
+        "mount_control",
+        "arm_trap",
+        "posture_defense"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 4,
+      "control_quality": 4
+    },
+    {
+      "start_time": "11:37",
+      "end_time": "11:40",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_attempt",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs again, possibly looking for a foot lock or a sweep. He uses his legs to wrap around Galvao's lower body, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "foot_lock_entry",
+        "sweep_threat",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "11:40",
+      "end_time": "11:43",
+      "position": "open_guard",
+      "sub_position": "guard_pass_defense",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Galvao attempts to pass, but Tackett uses his feet on Galvao's hips and a knee shield to maintain his guard. He's actively pushing and pulling, trying to break Galvao's posture and prevent him from getting close enough to secure a dominant grip.",
+      "labels": [
+        "guard_pass_defense",
+        "foot_on_hip",
+        "knee_shield",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "11:40",
+      "end_time": "11:45",
+      "position": "mount",
+      "sub_position": "high_mount",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao's control is overwhelming, his left knee is high towards Tackett's armpit, and his right knee is pinching tight. He briefly looks for a submission, but Tackett's defensive posture is strong. Tackett attempts a subtle hip escape to his left, but Galvao's base is too wide and stable, immediately shutting down the movement.",
+      "labels": [
+        "submission_threat",
+        "mount_retention",
+        "defensive_framing",
+        "hip_escape_attempt"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 4,
+      "control_quality": 4
+    },
+    {
+      "start_time": "11:43",
+      "end_time": "11:45",
+      "position": "open_guard",
+      "sub_position": "leg_entanglement_threat",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett attempts to entangle Galvao's legs, looking for a sweep or a leg attack. He uses his left leg to hook around Galvao's right leg, trying to disrupt his base. Galvao is defending by pulling his leg free and maintaining his posture.",
+      "labels": [
+        "leg_entanglement",
+        "sweep_setup",
+        "off_balancing",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "11:45",
+      "end_time": "11:50",
+      "position": "knee_on_belly",
+      "sub_position": "left_side_kob",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.9,
+      "notes": "Galvao transitions smoothly from mount to knee-on-belly on Tackett's left side, maintaining his left arm's cross-face. His right hand posts on the mat for balance, while his left knee drives into Tackett's solar plexus, creating immense discomfort and restricting breathing. Tackett immediately attempts a defensive bridge to his right, trying to dislodge Galvao's knee.",
+      "labels": [
+        "knee_on_belly_transition",
+        "cross_face",
+        "hip_control",
+        "defensive_bridge"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "11:50",
+      "end_time": "11:55",
+      "position": "mount",
+      "sub_position": "high_mount",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao quickly re-establishes high mount, capitalizing on Tackett's failed bridge. He again secures a cross-face with his left arm, and his right hand is actively trying to pry Tackett's left arm away from his body. Tackett shows visible signs of frustration, exhaling sharply, as Galvao's pressure is relentless and his posture is broken.",
+      "labels": [
+        "mount_reestablishment",
+        "arm_isolation",
+        "head_control",
+        "defensive_frustration"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 4,
+      "control_quality": 4
+    },
+    {
+      "start_time": "11:55",
+      "end_time": "12:00",
+      "position": "mount",
+      "sub_position": "high_mount",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao maintains heavy chest-to-chest pressure, effectively flattening Tackett. He uses his right hand to control Tackett's left wrist, attempting to set up an arm-triangle or armbar. Tackett tries to create a frame with his right arm, pushing against Galvao's hip, but the angle is poor due to the deep cross-face.",
+      "labels": [
+        "chest_pressure",
+        "submission_setup",
+        "defensive_framing",
+        "elbow_escape"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 4,
+      "control_quality": 4
+    },
+    {
+      "start_time": "12:00",
+      "end_time": "12:05",
+      "position": "s_mount",
+      "sub_position": "left_s_mount",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao fluidly transitions to S-mount on Tackett's left side, bringing his right knee over Tackett's head and his left foot to Tackett's hip. He immediately isolates Tackett's left arm, extending it for an armbar. Tackett instinctively tucks his left arm tightly to his chest, bending at the elbow, to prevent the extension and protect the joint.",
+      "labels": [
+        "s_mount_transition",
+        "armbar_setup",
+        "arm_isolation",
+        "defensive_tuck"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 5,
+      "control_quality": 5
+    },
+    {
+      "start_time": "12:05",
+      "end_time": "12:08",
+      "position": "armbar_attempt",
+      "sub_position": "s_mount_armbar",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.9,
+      "notes": "Galvao extends his hips, attempting to apply the armbar. His legs are locked tightly around Tackett's head and torso, creating strong leverage. Tackett defends by stacking his weight, driving his hips into Galvao, and attempting to bridge to relieve pressure and create an angle to pull his arm free.",
+      "labels": [
+        "armbar_extension",
+        "defensive_stack",
+        "hip_bridge",
+        "escape_initiation"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 4
+    },
+    {
+      "start_time": "12:08",
+      "end_time": "12:12",
+      "position": "scramble",
+      "sub_position": "armbar_escape",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 0.9,
+      "notes": "Tackett successfully escapes the armbar by stacking and turning, creating enough space to pull his arm free. He scrambles quickly to his knees, regaining a strong base and posture. Galvao, recognizing the escape, immediately recovers to an open guard position, preventing Tackett from consolidating top control.",
+      "labels": [
+        "armbar_escape",
+        "guard_recovery",
+        "scramble_to_knees",
+        "posture_recomposition"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "12:12",
+      "end_time": "12:15",
+      "position": "open_guard",
+      "sub_position": "feet_on_hips",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.95,
+      "notes": "Tackett stands over Galvao, looking to initiate a guard pass. He maintains a wide, athletic stance, ready to react. Galvao establishes an open guard with both feet on Tackett's hips, using them as frames to maintain distance and prevent Tackett from closing the gap. Both athletes engage in grip fighting, seeking dominant hand positions.",
+      "labels": [
+        "standing_pass",
+        "distance_management",
+        "feet_on_hips",
+        "grip_fighting"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "12:15",
+      "end_time": "12:20",
+      "position": "guard_pass_attempt",
+      "sub_position": "knee_slice_pass",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.95,
+      "notes": "Tackett initiates a knee slice pass, driving his right knee across Galvao's centerline. His left hand secures a collar grip, while his right hand pushes on Galvao's left knee. Galvao defends with a strong knee shield, using his left knee to block Tackett's advance, and his right hand frames against Tackett's bicep to prevent a cross-face.",
+      "labels": [
+        "knee_slice",
+        "knee_shield",
+        "cross_face_defense",
+        "hip_framing"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "12:20",
+      "end_time": "12:25",
+      "position": "guard_pass_attempt",
+      "sub_position": "knee_slice_pass",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.95,
+      "notes": "Tackett continues to apply pressure with his knee slice, trying to flatten Galvao's hips. He maintains a low posture, driving his shoulder into Galvao's chest. Galvao demonstrates excellent hip mobility, constantly adjusting his angle to keep his knee shield active and prevent Tackett from achieving a dominant passing angle.",
+      "labels": [
+        "knee_slice_pressure",
+        "hip_mobility",
+        "defensive_hooks",
+        "posture_maintenance"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "12:25",
+      "end_time": "12:30",
+      "position": "open_guard",
+      "sub_position": "feet_on_hips",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett disengages from the knee slice, stepping back to reset his posture and grips. He takes a brief moment to assess Galvao's defensive structure. Galvao immediately recomposes his open guard, returning to feet on hips, maintaining active frames and looking for opportunities to sweep or submit.",
+      "labels": [
+        "pass_disengagement",
+        "guard_reset",
+        "grip_reestablishment",
+        "strategic_pause"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "12:30",
+      "end_time": "12:35",
+      "position": "guard_pass_attempt",
+      "sub_position": "double_under_pass",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.95,
+      "notes": "Tackett dives into a double under pass, securing both of Galvao's legs with underhooks and driving his shoulder into Galvao's abdomen. He attempts to smash Galvao's hips to the mat. Galvao defends by extending his legs, creating strong frames with his feet on Tackett's hips, and actively pulling on Tackett's head to break his posture.",
+      "labels": [
+        "double_under",
+        "hip_smash",
+        "defensive_hooks",
+        "posture_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "12:35",
+      "end_time": "12:40",
+      "position": "guard_pass_attempt",
+      "sub_position": "double_under_pass",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.95,
+      "notes": "Tackett continues to drive forward with the double under pass, trying to flatten Galvao. His head is low, maintaining strong connection. Galvao exhibits incredible hip mobility, constantly shrimping and adjusting to prevent his hips from being pinned. He uses his hands to frame against Tackett's shoulders and maintain head control, preventing the pass.",
+      "labels": [
+        "double_under_pressure",
+        "hip_mobility",
+        "defensive_framing",
+        "head_control"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "12:40",
+      "end_time": "12:45",
+      "position": "back_take_attempt",
+      "sub_position": "roll_through_back_take",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao, sensing an opening from the double under, executes a beautiful roll-through back take. He uses his left leg to hook Tackett's right leg, and his right arm secures an underhook, rolling over his left shoulder. Tackett reacts quickly, attempting to sprawl and flatten Galvao, but Galvao's momentum is too strong.",
+      "labels": [
+        "roll_through",
+        "back_take_entry",
+        "hip_control",
+        "defensive_sprawl"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 4
+    },
+    {
+      "start_time": "12:45",
+      "end_time": "12:50",
+      "position": "back_control",
+      "sub_position": "body_triangle",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao immediately secures a body triangle with his legs, locking his right foot into his left knee, effectively trapping Tackett's hips. He establishes a strong seatbelt grip (right arm over, left arm under), looking to set up the rear-naked choke. Tackett defends by tucking his chin and bringing his hands to his neck, protecting his carotid arteries.",
+      "labels": [
+        "body_triangle",
+        "rear_naked_choke_setup",
+        "neck_defense",
+        "seatbelt_grip"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 5,
+      "control_quality": 5
+    },
+    {
+      "start_time": "12:50",
+      "end_time": "12:55",
+      "position": "back_control",
+      "sub_position": "body_triangle",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao actively works for the rear-naked choke, trying to slide his right arm under Tackett's chin. He uses his body triangle to maintain tight control and prevent Tackett from turning. Tackett engages in intense hand fighting, trying to peel Galvao's hands away from his neck and create space for his chin.",
+      "labels": [
+        "choke_attempt",
+        "defensive_hand_fighting",
+        "head_positioning",
+        "pressure_application"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 5,
+      "control_quality": 5
+    },
+    {
+      "start_time": "12:55",
+      "end_time": "13:00",
+      "position": "back_control",
+      "sub_position": "body_triangle",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao continues to apply pressure, adjusting his grip for the choke. His chest is glued to Tackett's back, eliminating any space. Tackett maintains a tight defensive posture, trying to survive the remaining seconds. Galvao's control is absolute, demonstrating exceptional patience and technique.",
+      "labels": [
+        "choke_pressure",
+        "defensive_posture",
+        "hip_control",
+        "time_management"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 5,
+      "control_quality": 5
+    },
+    {
+      "start_time": "13:00",
+      "end_time": "13:05",
+      "position": "back_control",
+      "sub_position": "body_triangle",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao transitions from the choke attempt to an armbar setup, extending Tackett's left arm. He uses his legs to control Tackett's body, preventing escape. Tackett immediately tucks his arm, bending at the elbow and trying to break Galvao's grip on his wrist, initiating an escape sequence.",
+      "labels": [
+        "armbar_transition",
+        "defensive_tuck",
+        "escape_initiation",
+        "grip_break"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 5,
+      "control_quality": 5
+    },
+    {
+      "start_time": "13:05",
+      "end_time": "13:08",
+      "position": "scramble",
+      "sub_position": "armbar_escape",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 0.9,
+      "notes": "Tackett successfully escapes the armbar by turning into Galvao and pulling his arm free. He quickly scrambles to his feet, creating distance. Galvao also stands up, and both athletes reset to a standing position, ready to re-engage.",
+      "labels": [
+        "armbar_escape",
+        "stand_up",
+        "scramble_to_feet",
+        "re_engagement"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "13:08",
+      "end_time": "13:12",
+      "position": "standing",
+      "sub_position": "collar_tie",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 0.95,
+      "notes": "Both athletes engage in a standing collar tie, fighting for dominant head and hand positions. They maintain a low, athletic stance, circling each other. Tackett tries to get an underhook, while Galvao defends by keeping his elbow tight and pushing on Tackett's head.",
+      "labels": [
+        "collar_tie",
+        "grip_fighting",
+        "head_position",
+        "stance_control"
+      ],
+      "dominance_athlete": "both(3)",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "13:12",
+      "end_time": "13:17",
+      "position": "takedown_attempt",
+      "sub_position": "single_leg",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett shoots for a single leg takedown on Galvao's left leg, driving in low. His head is on the outside, trying to secure the leg. Galvao reacts with a strong sprawl, extending his hips back and driving his chest into Tackett's back, breaking his posture and preventing the takedown. He uses his hands to break Tackett's grip.",
+      "labels": [
+        "single_leg_shot",
+        "sprawl_defense",
+        "hip_control",
+        "grip_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "13:17",
+      "end_time": "13:22",
+      "position": "leg_entanglement",
+      "sub_position": "outside_heel_hook_entry",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao counters Tackett's takedown by transitioning directly into a leg entanglement, securing an outside heel hook entry on Tackett's left leg. He quickly isolates the leg and begins to attack the knee line. Tackett immediately recognizes the danger and begins to roll defensively, trying to alleviate pressure and escape the entanglement.",
+      "labels": [
+        "leg_entanglement",
+        "heel_hook_entry",
+        "knee_line_attack",
+        "defensive_roll"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 4
+    },
+    {
+      "start_time": "13:22",
+      "end_time": "13:27",
+      "position": "leg_entanglement",
+      "sub_position": "outside_heel_hook_attempt",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao applies pressure to the heel hook, twisting Tackett's foot. His legs are locked tightly around Tackett's leg, controlling the knee and ankle. Tackett continues his defensive rotation, trying to turn his heel away from Galvao and relieve the pressure on his knee and ankle. He uses his hands to defend his foot.",
+      "labels": [
+        "heel_hook_application",
+        "defensive_rotation",
+        "foot_defense",
+        "pressure_release"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 4
+    },
+    {
+      "start_time": "13:27",
+      "end_time": "13:32",
+      "position": "scramble",
+      "sub_position": "leg_lock_escape",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 0.9,
+      "notes": "Tackett successfully escapes the leg lock by continuing his defensive rotation and pulling his leg free. He quickly scrambles to his feet, creating distance. Galvao also stands up, and both athletes reset to a standing position, ready to re-engage.",
+      "labels": [
+        "leg_lock_escape",
+        "stand_up",
+        "scramble_to_feet",
+        "re_engagement"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 3
+    },
+    {
+      "start_time": "13:32",
+      "end_time": "13:37",
+      "position": "standing",
+      "sub_position": "collar_tie",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 0.95,
+      "notes": "Both athletes engage in a standing collar tie, fighting for dominant head and hand positions. They maintain a low, athletic stance, circling each other. Tackett tries to get an underhook, while Galvao defends by keeping his elbow tight and pushing on Tackett's head.",
+      "labels": [
+        "collar_tie",
+        "grip_fighting",
+        "head_position",
+        "stance_control"
+      ],
+      "dominance_athlete": "both(3)",
+      "dominance_score": 3,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "13:37",
+      "end_time": "13:42",
+      "position": "takedown_attempt",
+      "sub_position": "double_leg",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "confidence": 0.9,
+      "notes": "Tackett shoots for a double leg takedown, driving in low. His head is on the outside, trying to secure both legs. Galvao reacts with a strong sprawl, extending his hips back and driving his chest into Tackett's back, breaking his posture and preventing the takedown. He uses his hands to break Tackett's grip.",
+      "labels": [
+        "double_leg_shot",
+        "sprawl_defense",
+        "hip_control",
+        "grip_break"
+      ],
+      "dominance_athlete": "athlete_1",
+      "dominance_score": 4,
+      "execution_quality": 3,
+      "control_quality": 3
+    },
+    {
+      "start_time": "13:42",
+      "end_time": "13:47",
+      "position": "back_take_attempt",
+      "sub_position": "roll_through_back_take",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao counters Tackett's takedown by transitioning directly into a roll-through back take. He uses his left leg to hook Tackett's right leg, and his right arm secures an underhook, rolling over his left shoulder. Tackett reacts quickly, attempting to sprawl and flatten Galvao, but Galvao's momentum is too strong.",
+      "labels": [
+        "roll_through",
+        "back_take_entry",
+        "hip_control",
+        "defensive_sprawl"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 4,
+      "execution_quality": 4,
+      "control_quality": 4
+    },
+    {
+      "start_time": "13:47",
+      "end_time": "13:52",
+      "position": "back_control",
+      "sub_position": "body_triangle",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao immediately secures a body triangle with his legs, locking his right foot into his left knee, effectively trapping Tackett's hips. He establishes a strong seatbelt grip (right arm over, left arm under), looking to set up the rear-naked choke. Tackett defends by tucking his chin and bringing his hands to his neck, protecting his carotid arteries.",
+      "labels": [
+        "body_triangle",
+        "rear_naked_choke_setup",
+        "neck_defense",
+        "seatbelt_grip"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 5,
+      "control_quality": 5
+    },
+    {
+      "start_time": "13:52",
+      "end_time": "13:57",
+      "position": "rear_naked_choke",
+      "sub_position": "body_triangle",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "confidence": 0.95,
+      "notes": "Galvao applies a deep rear-naked choke, trying to finish the match. His right arm is under Tackett's chin, and his left hand is securing the bicep. Tackett desperately fights the hands, trying to peel them away and create space. The pressure is intense, and Tackett is clearly in danger, but the bell rings, saving him from submission.",
+      "labels": [
+        "rear_naked_choke_application",
+        "defensive_hand_fighting",
+        "choke_pressure",
+        "bell_saves"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 5,
+      "control_quality": 5
+    },
+    {
+      "start_time": "13:57",
+      "end_time": "16:00",
+      "position": "end_of_match",
+      "sub_position": "decision",
+      "top_athlete": "both",
+      "bottom_athlete": "both",
+      "confidence": 1.0,
+      "notes": "The match ends with the bell, and both athletes immediately show excellent sportsmanship, embracing each other. The referee separates them, and after a brief deliberation, raises Micael Galvao's hand as the winner by judges' decision. Both athletes show respect, acknowledging the hard-fought battle.",
+      "labels": [
+        "judges_decision",
+        "sportsmanship",
+        "winner_announcement",
+        "respect"
+      ],
+      "dominance_athlete": "athlete_2",
+      "dominance_score": 5,
+      "execution_quality": 5,
+      "control_quality": 5
+    }
+  ],
+  "transitions": [],
+  "scoring": {
+    "athlete_1": {
+      "total_points": 0
+    },
+    "athlete_2": {
+      "total_points": 0
+    }
+  },
+  "submission_attempts": [],
+  "coaching_insights": {},
+  "key_moments": []
+}

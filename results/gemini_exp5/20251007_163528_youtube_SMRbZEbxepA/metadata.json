@@ -1,0 +1,10 @@
+{
+  "experiment_name": "Experiment 1 - Pure Gemini",
+  "video_path": "data/videos/youtube_SMRbZEbxepA",
+  "video_name": "youtube_SMRbZEbxepA",
+  "model": "gemini-2.0-flash-exp",
+  "prompt_type": "Long Video Prompt (10+ minutes)",
+  "timestamp": "20251007_163528",
+  "processing_time_seconds": 84.58323621749878,
+  "success": true
+}

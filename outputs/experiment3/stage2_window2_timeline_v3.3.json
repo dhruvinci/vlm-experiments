@@ -1,0 +1,52 @@
+{
+  "window": {
+    "start_segment_idx": 13,
+    "end_segment_idx": 14,
+    "start_time": "1:29",
+    "end_time": "1:40",
+    "flagged_segments": [
+      14
+    ]
+  },
+  "segments": [
+    {
+      "start": "1:29",
+      "end": "1:40",
+      "position": "Ground",
+      "sub_position": "Single Leg X Guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.78,
+      "avg_action": 0.52,
+      "transition": "Takedown to Guard Pull to Single Leg X Guard",
+      "key_moments": [
+        "1:29: Tackett attempts a double overhook from standing, met by Galvao's head control.",
+        "1:30: Tackett shoots a double leg, but Galvao sprawls and secures a front headlock.",
+        "1:32: Galvao transitions from the front headlock to pulling guard, establishing butterfly guard.",
+        "1:39: Galvao secures a deep leg grip, transitioning from butterfly to single leg X guard."
+      ],
+      "key_actions": [
+        "Double overhook",
+        "double leg shot",
+        "sprawl",
+        "front headlock",
+        "guard pull",
+        "butterfly guard",
+        "single leg X guard."
+      ],
+      "narrative": "The segment begins with a standing exchange where Tackett attempts a double overhook and then a double leg takedown. Galvao expertly counters the takedown with a sprawl and front headlock, then transitions to pulling guard into a dynamic butterfly guard. He maintains an active guard, constantly probing for openings, and eventually secures a strong single leg X guard, establishing a dominant leg entanglement position."
+    }
+  ],
+  "athlete_profiles": {},
+  "raw_markdown": "**SEGMENT [1:29-1:40]**\nPosition: Ground\nSub-position: Single Leg X Guard\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.78\nAction: 0.52\nTransition: Takedown to Guard Pull to Single Leg X Guard\nKey Moments:\n- 1:29: Tackett attempts a double overhook from standing, met by Galvao's head control.\n- 1:30: Tackett shoots a double leg, but Galvao sprawls and secures a front headlock.\n- 1:32: Galvao transitions from the front headlock to pulling guard, establishing butterfly guard.\n- 1:39: Galvao secures a deep leg grip, transitioning from butterfly to single leg X guard.\nKey Actions: Double overhook, double leg shot, sprawl, front headlock, guard pull, butterfly guard, single leg X guard.\nNarrative: The segment begins with a standing exchange where Tackett attempts a double overhook and then a double leg takedown. Galvao expertly counters the takedown with a sprawl and front headlock, then transitions to pulling guard into a dynamic butterfly guard. He maintains an active guard, constantly probing for openings, and eventually secures a strong single leg X guard, establishing a dominant leg entanglement position.",
+  "cost": {
+    "input_tokens": 810,
+    "cached_tokens": 286160,
+    "output_tokens": 288,
+    "input_cost": 0.000243,
+    "cached_cost": 0.005365,
+    "output_cost": 0.000346,
+    "total": 0.005954
+  },
+  "time_seconds": 65.92
+}

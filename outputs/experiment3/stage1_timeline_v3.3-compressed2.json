@@ -1,0 +1,535 @@
+{
+  "athlete_profiles": {
+    "athlete_1": {
+      "visual_id": "*   **Visual Characteristics:** Lighter skin, brown hair, black rashguard with \"LXB\" logo.",
+      "name": "Athlete 1",
+      "style": "** Wrestler, top_pressure, aggressive.",
+      "strengths": [
+        "** Takedowns",
+        "pressure passing",
+        "scrambles",
+        "relentless pace."
+      ]
+    },
+    "athlete_2": {
+      "visual_id": "*   **Visual Characteristics:** Darker skin, dark hair, black rashguard with \"Fight Sports\" logo. **Match Segmentation & Analysis:** **SEG [0:00-0:16]** Pos:standing | Sub:collar_ties | Top:Andrew Tackett | Bot:Micael Galvao | Conf:0.95 | Act:0.20 | Trans:match_start | KM:0:00,0:08,0:16 | KA:grip_fighting,takedown_attempt | Narr:Match starts with both athletes standing. They engage in collar ties and grip fighting. Tackett attempts a double leg takedown.",
+      "name": "Athlete 2",
+      "style": "** Guard_player, submission_hunter, composed.",
+      "strengths": [
+        "** Guard retention",
+        "back takes",
+        "leg locks",
+        "arm locks",
+        "dexterity",
+        "calm under pressure."
+      ]
+    }
+  },
+  "segments": [
+    {
+      "start": "0:00",
+      "end": "0:16",
+      "position": "standing",
+      "sub_position": "collar_ties",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.95,
+      "avg_action": 0.2,
+      "transition": "match_start",
+      "key_moments": [
+        "0:00",
+        "0:08",
+        "0:16"
+      ],
+      "key_actions": [
+        "grip_fighting",
+        "takedown_attempt"
+      ],
+      "narrative": "Match starts with both athletes standing. They engage in collar ties and grip fighting. Tackett attempts a double leg takedown."
+    },
+    {
+      "start": "0:16",
+      "end": "0:30",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.4,
+      "transition": "takedown_in_progress,guard_pull",
+      "key_moments": [
+        "0:16",
+        "0:20",
+        "0:25"
+      ],
+      "key_actions": [
+        "takedown_attempt",
+        "guard_pull",
+        "de_la_riva"
+      ],
+      "narrative": "Tackett's double leg is defended by Galvao, who pulls guard and establishes de la riva. Tackett works to pass the guard."
+    },
+    {
+      "start": "0:30",
+      "end": "0:40",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.88,
+      "avg_action": 0.35,
+      "transition": "sweep_attempt,guard_pull",
+      "key_moments": [
+        "0:32",
+        "0:37"
+      ],
+      "key_actions": [
+        "sweep_attempt",
+        "guard_pull"
+      ],
+      "narrative": "Galvao attempts a sweep from de la riva, but Tackett defends. They briefly disengage and reset standing, then Galvao pulls guard again."
+    },
+    {
+      "start": "0:40",
+      "end": "1:00",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.85,
+      "avg_action": 0.25,
+      "transition": "guard_pass_attempt",
+      "key_moments": [
+        "0:45",
+        "0:55"
+      ],
+      "key_actions": [
+        "guard_pass_attempt",
+        "grip_fighting"
+      ],
+      "narrative": "Galvao maintains de la riva guard, controlling Tackett's leg. Tackett works to break grips and initiate a guard pass."
+    },
+    {
+      "start": "1:00",
+      "end": "1:20",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.85,
+      "avg_action": 0.25,
+      "transition": "guard_pass_attempt",
+      "key_moments": [
+        "1:05",
+        "1:15"
+      ],
+      "key_actions": [
+        "guard_pass_attempt"
+      ],
+      "narrative": "Galvao maintains de la riva guard. Tackett attempts to knee slide pass, but Galvao maintains strong control with his hooks."
+    },
+    {
+      "start": "1:20",
+      "end": "1:40",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.6,
+      "transition": "sweep_completed,back_take",
+      "key_moments": [
+        "1:22",
+        "1:30",
+        "1:35"
+      ],
+      "key_actions": [
+        "sweep_completed",
+        "leg_entanglement",
+        "back_take"
+      ],
+      "narrative": "Galvao executes a sweep from de la riva, landing in a leg entanglement. He quickly transitions to Andrew Tackett's back, securing hooks."
+    },
+    {
+      "start": "1:40",
+      "end": "2:00",
+      "position": "back_control",
+      "sub_position": "rear_naked_choke",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.45,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "1:45",
+        "1:55"
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains back control with hooks in, actively hunting for a rear naked choke. Tackett defends the submission attempt."
+    },
+    {
+      "start": "2:00",
+      "end": "2:10",
+      "position": "open_guard",
+      "sub_position": "open_guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.88,
+      "avg_action": 0.35,
+      "transition": "submission_escape,guard_recovery,referee_reset",
+      "key_moments": [
+        "2:02",
+        "2:08"
+      ],
+      "key_actions": [
+        "submission_escape",
+        "guard_recovery",
+        "referee_standup"
+      ],
+      "narrative": "Tackett successfully escapes Galvao's back control and recovers to open guard. The referee briefly pauses the match for a wardrobe adjustment."
+    },
+    {
+      "start": "2:10",
+      "end": "2:30",
+      "position": "open_guard",
+      "sub_position": "x_guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.87,
+      "avg_action": 0.3,
+      "transition": "guard_pass_attempt,guard_retention",
+      "key_moments": [
+        "2:15",
+        "2:25"
+      ],
+      "key_actions": [
+        "pass_attempt",
+        "x_guard"
+      ],
+      "narrative": "Tackett attempts a double under pass. Galvao actively defends, transitioning from open guard to x-guard to maintain control and prevent the pass."
+    },
+    {
+      "start": "2:30",
+      "end": "2:50",
+      "position": "open_guard",
+      "sub_position": "x_guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.86,
+      "avg_action": 0.35,
+      "transition": "guard_pass_attempt,sweep_attempt",
+      "key_moments": [
+        "2:35",
+        "2:45"
+      ],
+      "key_actions": [
+        "pass_attempt",
+        "sweep_attempt"
+      ],
+      "narrative": "Tackett continues his guard passing efforts against Galvao's x-guard. Galvao attempts a sweep from x-guard, but Tackett maintains balance."
+    },
+    {
+      "start": "2:50",
+      "end": "3:10",
+      "position": "mount",
+      "sub_position": "mount",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.92,
+      "avg_action": 0.65,
+      "transition": "sweep_completed,mount_achieved",
+      "key_moments": [
+        "2:55",
+        "3:00",
+        "3:05"
+      ],
+      "key_actions": [
+        "sweep_completed",
+        "side_control",
+        "mount_achieved"
+      ],
+      "narrative": "Galvao successfully sweeps Tackett, landing in side control. He quickly advances to mount, establishing a dominant top position."
+    },
+    {
+      "start": "3:10",
+      "end": "3:30",
+      "position": "mount",
+      "sub_position": "armbar",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.4,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "3:15",
+        "3:25"
+      ],
+      "key_actions": [
+        "armbar",
+        "submission_defense",
+        "position_improvement"
+      ],
+      "narrative": "Galvao maintains mount, attempting to isolate Tackett's arm for an armbar. Tackett defends by keeping his elbows tight and protecting his arms."
+    },
+    {
+      "start": "3:30",
+      "end": "3:50",
+      "position": "mount",
+      "sub_position": "armbar",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.89,
+      "avg_action": 0.35,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "3:35",
+        "3:45"
+      ],
+      "key_actions": [
+        "armbar",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains mount, continuing to hunt for arm submissions. Tackett's defense remains solid, preventing Galvao from securing a finish."
+    },
+    {
+      "start": "3:50",
+      "end": "4:10",
+      "position": "mount",
+      "sub_position": "mount",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.91,
+      "avg_action": 0.5,
+      "transition": "position_transition,mount_achieved",
+      "key_moments": [
+        "3:55",
+        "4:05"
+      ],
+      "key_actions": [
+        "side_control",
+        "mount_achieved",
+        "position_improvement"
+      ],
+      "narrative": "Galvao transitions from mount to side control, then quickly re-establishes mount, maintaining heavy pressure. Tackett continues to defend."
+    },
+    {
+      "start": "4:10",
+      "end": "4:30",
+      "position": "mount",
+      "sub_position": "armbar",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.4,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "4:15",
+        "4:25"
+      ],
+      "key_actions": [
+        "armbar",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains mount, continuing to hunt for arm submissions. Tackett's defense remains solid, preventing Galvao from securing a finish."
+    },
+    {
+      "start": "4:30",
+      "end": "4:50",
+      "position": "mount",
+      "sub_position": "arm_triangle",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.89,
+      "avg_action": 0.45,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "4:35",
+        "4:45"
+      ],
+      "key_actions": [
+        "arm_triangle",
+        "submission_defense",
+        "position_improvement"
+      ],
+      "narrative": "Galvao maintains mount, applying cross-face pressure and looking for arm triangle opportunities. Tackett defends, staying tight and preventing the choke."
+    },
+    {
+      "start": "4:50",
+      "end": "5:10",
+      "position": "mount",
+      "sub_position": "mount",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.88,
+      "avg_action": 0.3,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "4:55",
+        "5:05"
+      ],
+      "key_actions": [
+        "position_improvement",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains a dominant mount position, applying constant pressure and looking for openings. Tackett focuses on defensive posture and hand fighting."
+    },
+    {
+      "start": "5:10",
+      "end": "5:30",
+      "position": "mount",
+      "sub_position": "mount",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.87,
+      "avg_action": 0.3,
+      "transition": "position_escape",
+      "key_moments": [
+        "5:15",
+        "5:25"
+      ],
+      "key_actions": [
+        "position_escape",
+        "mount_defense"
+      ],
+      "narrative": "Galvao maintains mount, but Tackett shows signs of attempting to bridge and escape. Galvao adjusts to maintain control."
+    },
+    {
+      "start": "5:30",
+      "end": "5:50",
+      "position": "half_guard",
+      "sub_position": "half_guard",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.88,
+      "avg_action": 0.55,
+      "transition": "mount_escape,guard_recovery,guard_pass_attempt",
+      "key_moments": [
+        "5:35",
+        "5:45"
+      ],
+      "key_actions": [
+        "mount_escape",
+        "guard_recovery",
+        "pass_attempt"
+      ],
+      "narrative": "Tackett executes a strong mount escape, recovering to half guard. Galvao immediately works to pass the half guard, applying pressure."
+    },
+    {
+      "start": "5:50",
+      "end": "6:10",
+      "position": "half_guard",
+      "sub_position": "half_guard",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.87,
+      "avg_action": 0.35,
+      "transition": "guard_pass_attempt",
+      "key_moments": [
+        "5:55",
+        "6:05"
+      ],
+      "key_actions": [
+        "pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Galvao maintains top half guard, trying to clear Tackett's leg. Tackett actively defends, maintaining a strong half guard position."
+    },
+    {
+      "start": "6:10",
+      "end": "6:30",
+      "position": "half_guard",
+      "sub_position": "half_guard",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.86,
+      "avg_action": 0.3,
+      "transition": "guard_pass_attempt",
+      "key_moments": [
+        "6:15",
+        "6:25"
+      ],
+      "key_actions": [
+        "pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Galvao maintains top half guard, attempting to pass. Tackett keeps his half guard tight, preventing any significant advance."
+    },
+    {
+      "start": "6:30",
+      "end": "6:50",
+      "position": "half_guard",
+      "sub_position": "half_guard",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.85,
+      "avg_action": 0.3,
+      "transition": "guard_pass_attempt",
+      "key_moments": [
+        "6:35",
+        "6:45"
+      ],
+      "key_actions": [
+        "pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Galvao maintains top half guard, attempting to pass. Tackett keeps his half guard tight, preventing any significant advance."
+    },
+    {
+      "start": "6:50",
+      "end": "7:10",
+      "position": "half_guard",
+      "sub_position": "half_guard",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.84,
+      "avg_action": 0.3,
+      "transition": "guard_pass_attempt",
+      "key_moments": [
+        "6:55",
+        "7:05"
+      ],
+      "key_actions": [
+        "pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Galvao maintains top half guard, attempting to pass. Tackett keeps his half guard tight, preventing any significant advance."
+    },
+    {
+      "start": "7:10",
+      "end": "7:30",
+      "position": "half_guard",
+      "sub_position": "half_guard",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.83,
+      "avg_action": 0.3,
+      "transition": "guard_pass_attempt",
+      "key_moments": [
+        "7:15",
+        "7:25"
+      ],
+      "key_actions": [
+        "pass_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Galvao maintains top half guard"
+    }
+  ],
+  "raw_text": "**Athlete Identification:**\n*   **Athlete 1 (Red Ankle Tape):** Andrew Tackett\n    *   **Visual Characteristics:** Lighter skin, brown hair, black rashguard with \"LXB\" logo.\n    *   **Fighting Style:** Wrestler, top_pressure, aggressive.\n    *   **Strengths:** Takedowns, pressure passing, scrambles, relentless pace.\n*   **Athlete 2 (Blue Ankle Tape):** Micael Galvao\n    *   **Visual Characteristics:** Darker skin, dark hair, black rashguard with \"Fight Sports\" logo.\n    *   **Fighting Style:** Guard_player, submission_hunter, composed.\n    *   **Strengths:** Guard retention, back takes, leg locks, arm locks, dexterity, calm under pressure.\n\n**Match Segmentation & Analysis:**\n\n**SEG [0:00-0:16]** Pos:standing | Sub:collar_ties | Top:Andrew Tackett | Bot:Micael Galvao | Conf:0.95 | Act:0.20 | Trans:match_start | KM:0:00,0:08,0:16 | KA:grip_fighting,takedown_attempt | Narr:Match starts with both athletes standing. They engage in collar ties and grip fighting. Tackett attempts a double leg takedown.\n**SEG [0:16-0:30]** Pos:open_guard | Sub:de_la_riva | Top:Andrew Tackett | Bot:Micael Galvao | Conf:0.90 | Act:0.40 | Trans:takedown_in_progress,guard_pull | KM:0:16,0:20,0:25 | KA:takedown_attempt,guard_pull,de_la_riva | Narr:Tackett's double leg is defended by Galvao, who pulls guard and establishes de la riva. Tackett works to pass the guard.\n**SEG [0:30-0:40]** Pos:open_guard | Sub:de_la_riva | Top:Andrew Tackett | Bot:Micael Galvao | Conf:0.88 | Act:0.35 | Trans:sweep_attempt,guard_pull | KM:0:32,0:37 | KA:sweep_attempt,guard_pull | Narr:Galvao attempts a sweep from de la riva, but Tackett defends. They briefly disengage and reset standing, then Galvao pulls guard again.\n**SEG [0:40-1:00]** Pos:open_guard | Sub:de_la_riva | Top:Andrew Tackett | Bot:Micael Galvao | Conf:0.85 | Act:0.25 | Trans:guard_pass_attempt | KM:0:45,0:55 | KA:guard_pass_attempt,grip_fighting | Narr:Galvao maintains de la riva guard, controlling Tackett's leg. Tackett works to break grips and initiate a guard pass.\n**SEG [1:00-1:20]** Pos:open_guard | Sub:de_la_riva | Top:Andrew Tackett | Bot:Micael Galvao | Conf:0.85 | Act:0.25 | Trans:guard_pass_attempt | KM:1:05,1:15 | KA:guard_pass_attempt | Narr:Galvao maintains de la riva guard. Tackett attempts to knee slide pass, but Galvao maintains strong control with his hooks.\n**SEG [1:20-1:40]** Pos:back_control | Sub:hooks_in | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.90 | Act:0.60 | Trans:sweep_completed,back_take | KM:1:22,1:30,1:35 | KA:sweep_completed,leg_entanglement,back_take | Narr:Galvao executes a sweep from de la riva, landing in a leg entanglement. He quickly transitions to Andrew Tackett's back, securing hooks.\n**SEG [1:40-2:00]** Pos:back_control | Sub:rear_naked_choke | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.90 | Act:0.45 | Trans:submission_attempt | KM:1:45,1:55 | KA:rear_naked_choke,submission_defense | Narr:Galvao maintains back control with hooks in, actively hunting for a rear naked choke. Tackett defends the submission attempt.\n**SEG [2:00-2:10]** Pos:open_guard | Sub:open_guard | Top:Andrew Tackett | Bot:Micael Galvao | Conf:0.88 | Act:0.35 | Trans:submission_escape,guard_recovery,referee_reset | KM:2:02,2:08 | KA:submission_escape,guard_recovery,referee_standup | Narr:Tackett successfully escapes Galvao's back control and recovers to open guard. The referee briefly pauses the match for a wardrobe adjustment.\n**SEG [2:10-2:30]** Pos:open_guard | Sub:x_guard | Top:Andrew Tackett | Bot:Micael Galvao | Conf:0.87 | Act:0.30 | Trans:guard_pass_attempt,guard_retention | KM:2:15,2:25 | KA:pass_attempt,x_guard | Narr:Tackett attempts a double under pass. Galvao actively defends, transitioning from open guard to x-guard to maintain control and prevent the pass.\n**SEG [2:30-2:50]** Pos:open_guard | Sub:x_guard | Top:Andrew Tackett | Bot:Micael Galvao | Conf:0.86 | Act:0.35 | Trans:guard_pass_attempt,sweep_attempt | KM:2:35,2:45 | KA:pass_attempt,sweep_attempt | Narr:Tackett continues his guard passing efforts against Galvao's x-guard. Galvao attempts a sweep from x-guard, but Tackett maintains balance.\n**SEG [2:50-3:10]** Pos:mount | Sub:mount | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.92 | Act:0.65 | Trans:sweep_completed,mount_achieved | KM:2:55,3:00,3:05 | KA:sweep_completed,side_control,mount_achieved | Narr:Galvao successfully sweeps Tackett, landing in side control. He quickly advances to mount, establishing a dominant top position.\n**SEG [3:10-3:30]** Pos:mount | Sub:armbar | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.90 | Act:0.40 | Trans:submission_attempt | KM:3:15,3:25 | KA:armbar,submission_defense,position_improvement | Narr:Galvao maintains mount, attempting to isolate Tackett's arm for an armbar. Tackett defends by keeping his elbows tight and protecting his arms.\n**SEG [3:30-3:50]** Pos:mount | Sub:armbar | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.89 | Act:0.35 | Trans:submission_attempt | KM:3:35,3:45 | KA:armbar,submission_defense | Narr:Galvao maintains mount, continuing to hunt for arm submissions. Tackett's defense remains solid, preventing Galvao from securing a finish.\n**SEG [3:50-4:10]** Pos:mount | Sub:mount | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.91 | Act:0.50 | Trans:position_transition,mount_achieved | KM:3:55,4:05 | KA:side_control,mount_achieved,position_improvement | Narr:Galvao transitions from mount to side control, then quickly re-establishes mount, maintaining heavy pressure. Tackett continues to defend.\n**SEG [4:10-4:30]** Pos:mount | Sub:armbar | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.90 | Act:0.40 | Trans:submission_attempt | KM:4:15,4:25 | KA:armbar,submission_defense | Narr:Galvao maintains mount, continuing to hunt for arm submissions. Tackett's defense remains solid, preventing Galvao from securing a finish.\n**SEG [4:30-4:50]** Pos:mount | Sub:arm_triangle | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.89 | Act:0.45 | Trans:submission_attempt | KM:4:35,4:45 | KA:arm_triangle,submission_defense,position_improvement | Narr:Galvao maintains mount, applying cross-face pressure and looking for arm triangle opportunities. Tackett defends, staying tight and preventing the choke.\n**SEG [4:50-5:10]** Pos:mount | Sub:mount | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.88 | Act:0.30 | Trans:position_maintenance | KM:4:55,5:05 | KA:position_improvement,submission_defense | Narr:Galvao maintains a dominant mount position, applying constant pressure and looking for openings. Tackett focuses on defensive posture and hand fighting.\n**SEG [5:10-5:30]** Pos:mount | Sub:mount | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.87 | Act:0.30 | Trans:position_escape | KM:5:15,5:25 | KA:position_escape,mount_defense | Narr:Galvao maintains mount, but Tackett shows signs of attempting to bridge and escape. Galvao adjusts to maintain control.\n**SEG [5:30-5:50]** Pos:half_guard | Sub:half_guard | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.88 | Act:0.55 | Trans:mount_escape,guard_recovery,guard_pass_attempt | KM:5:35,5:45 | KA:mount_escape,guard_recovery,pass_attempt | Narr:Tackett executes a strong mount escape, recovering to half guard. Galvao immediately works to pass the half guard, applying pressure.\n**SEG [5:50-6:10]** Pos:half_guard | Sub:half_guard | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.87 | Act:0.35 | Trans:guard_pass_attempt | KM:5:55,6:05 | KA:pass_attempt,guard_retention | Narr:Galvao maintains top half guard, trying to clear Tackett's leg. Tackett actively defends, maintaining a strong half guard position.\n**SEG [6:10-6:30]** Pos:half_guard | Sub:half_guard | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.86 | Act:0.30 | Trans:guard_pass_attempt | KM:6:15,6:25 | KA:pass_attempt,guard_retention | Narr:Galvao maintains top half guard, attempting to pass. Tackett keeps his half guard tight, preventing any significant advance.\n**SEG [6:30-6:50]** Pos:half_guard | Sub:half_guard | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.85 | Act:0.30 | Trans:guard_pass_attempt | KM:6:35,6:45 | KA:pass_attempt,guard_retention | Narr:Galvao maintains top half guard, attempting to pass. Tackett keeps his half guard tight, preventing any significant advance.\n**SEG [6:50-7:10]** Pos:half_guard | Sub:half_guard | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.84 | Act:0.30 | Trans:guard_pass_attempt | KM:6:55,7:05 | KA:pass_attempt,guard_retention | Narr:Galvao maintains top half guard, attempting to pass. Tackett keeps his half guard tight, preventing any significant advance.\n**SEG [7:10-7:30]** Pos:half_guard | Sub:half_guard | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.83 | Act:0.30 | Trans:guard_pass_attempt | KM:7:15,7:25 | KA:pass_attempt,guard_retention | Narr:Galvao maintains top half guard",
+  "cost": {
+    "input_tokens": 361937,
+    "cached_tokens": 359977,
+    "non_cached_tokens": 1960,
+    "output_tokens": 2978,
+    "input_cost": 0.000588,
+    "cached_cost": 0.00675,
+    "output_cost": 0.003574,
+    "total": 0.010911
+  },
+  "time_seconds": 129.47,
+  "cache_name": "cachedContents/apozguknvxjjt9ffkhxwptti8z4ydg0tpvpjypx2",
+  "raw_markdown": "**Athlete Identification:**\n*   **Athlete 1 (Red Ankle Tape):** Andrew Tackett\n    *   **Visual Characteristics:** Lighter skin, brown hair, black rashguard with \"LXB\" logo.\n    *   **Fighting Style:** Wrestler, top_pressure, aggressive.\n    *   **Strengths:** Takedowns, pressure passing, scrambles, relentless pace.\n*   **Athlete 2 (Blue Ankle Tape):** Micael Galvao\n    *   **Visual Characteristics:** Darker skin, dark hair, black rashguard with \"Fight Sports\" logo.\n    *   **Fighting Style:** Guard_player, submission_hunter, composed.\n    *   **Strengths:** Guard retention, back takes, leg locks, arm locks, dexterity, calm under pressure.\n\n**Match Segmentation & Analysis:**\n\n**SEG [0:00-0:16]** Pos:standing | Sub:collar_ties | Top:Andrew Tackett | Bot:Micael Galvao | Conf:0.95 | Act:0.20 | Trans:match_start | KM:0:00,0:08,0:16 | KA:grip_fighting,takedown_attempt | Narr:Match starts with both athletes standing. They engage in collar ties and grip fighting. Tackett attempts a double leg takedown.\n**SEG [0:16-0:30]** Pos:open_guard | Sub:de_la_riva | Top:Andrew Tackett | Bot:Micael Galvao | Conf:0.90 | Act:0.40 | Trans:takedown_in_progress,guard_pull | KM:0:16,0:20,0:25 | KA:takedown_attempt,guard_pull,de_la_riva | Narr:Tackett's double leg is defended by Galvao, who pulls guard and establishes de la riva. Tackett works to pass the guard.\n**SEG [0:30-0:40]** Pos:open_guard | Sub:de_la_riva | Top:Andrew Tackett | Bot:Micael Galvao | Conf:0.88 | Act:0.35 | Trans:sweep_attempt,guard_pull | KM:0:32,0:37 | KA:sweep_attempt,guard_pull | Narr:Galvao attempts a sweep from de la riva, but Tackett defends. They briefly disengage and reset standing, then Galvao pulls guard again.\n**SEG [0:40-1:00]** Pos:open_guard | Sub:de_la_riva | Top:Andrew Tackett | Bot:Micael Galvao | Conf:0.85 | Act:0.25 | Trans:guard_pass_attempt | KM:0:45,0:55 | KA:guard_pass_attempt,grip_fighting | Narr:Galvao maintains de la riva guard, controlling Tackett's leg. Tackett works to break grips and initiate a guard pass.\n**SEG [1:00-1:20]** Pos:open_guard | Sub:de_la_riva | Top:Andrew Tackett | Bot:Micael Galvao | Conf:0.85 | Act:0.25 | Trans:guard_pass_attempt | KM:1:05,1:15 | KA:guard_pass_attempt | Narr:Galvao maintains de la riva guard. Tackett attempts to knee slide pass, but Galvao maintains strong control with his hooks.\n**SEG [1:20-1:40]** Pos:back_control | Sub:hooks_in | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.90 | Act:0.60 | Trans:sweep_completed,back_take | KM:1:22,1:30,1:35 | KA:sweep_completed,leg_entanglement,back_take | Narr:Galvao executes a sweep from de la riva, landing in a leg entanglement. He quickly transitions to Andrew Tackett's back, securing hooks.\n**SEG [1:40-2:00]** Pos:back_control | Sub:rear_naked_choke | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.90 | Act:0.45 | Trans:submission_attempt | KM:1:45,1:55 | KA:rear_naked_choke,submission_defense | Narr:Galvao maintains back control with hooks in, actively hunting for a rear naked choke. Tackett defends the submission attempt.\n**SEG [2:00-2:10]** Pos:open_guard | Sub:open_guard | Top:Andrew Tackett | Bot:Micael Galvao | Conf:0.88 | Act:0.35 | Trans:submission_escape,guard_recovery,referee_reset | KM:2:02,2:08 | KA:submission_escape,guard_recovery,referee_standup | Narr:Tackett successfully escapes Galvao's back control and recovers to open guard. The referee briefly pauses the match for a wardrobe adjustment.\n**SEG [2:10-2:30]** Pos:open_guard | Sub:x_guard | Top:Andrew Tackett | Bot:Micael Galvao | Conf:0.87 | Act:0.30 | Trans:guard_pass_attempt,guard_retention | KM:2:15,2:25 | KA:pass_attempt,x_guard | Narr:Tackett attempts a double under pass. Galvao actively defends, transitioning from open guard to x-guard to maintain control and prevent the pass.\n**SEG [2:30-2:50]** Pos:open_guard | Sub:x_guard | Top:Andrew Tackett | Bot:Micael Galvao | Conf:0.86 | Act:0.35 | Trans:guard_pass_attempt,sweep_attempt | KM:2:35,2:45 | KA:pass_attempt,sweep_attempt | Narr:Tackett continues his guard passing efforts against Galvao's x-guard. Galvao attempts a sweep from x-guard, but Tackett maintains balance.\n**SEG [2:50-3:10]** Pos:mount | Sub:mount | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.92 | Act:0.65 | Trans:sweep_completed,mount_achieved | KM:2:55,3:00,3:05 | KA:sweep_completed,side_control,mount_achieved | Narr:Galvao successfully sweeps Tackett, landing in side control. He quickly advances to mount, establishing a dominant top position.\n**SEG [3:10-3:30]** Pos:mount | Sub:armbar | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.90 | Act:0.40 | Trans:submission_attempt | KM:3:15,3:25 | KA:armbar,submission_defense,position_improvement | Narr:Galvao maintains mount, attempting to isolate Tackett's arm for an armbar. Tackett defends by keeping his elbows tight and protecting his arms.\n**SEG [3:30-3:50]** Pos:mount | Sub:armbar | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.89 | Act:0.35 | Trans:submission_attempt | KM:3:35,3:45 | KA:armbar,submission_defense | Narr:Galvao maintains mount, continuing to hunt for arm submissions. Tackett's defense remains solid, preventing Galvao from securing a finish.\n**SEG [3:50-4:10]** Pos:mount | Sub:mount | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.91 | Act:0.50 | Trans:position_transition,mount_achieved | KM:3:55,4:05 | KA:side_control,mount_achieved,position_improvement | Narr:Galvao transitions from mount to side control, then quickly re-establishes mount, maintaining heavy pressure. Tackett continues to defend.\n**SEG [4:10-4:30]** Pos:mount | Sub:armbar | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.90 | Act:0.40 | Trans:submission_attempt | KM:4:15,4:25 | KA:armbar,submission_defense | Narr:Galvao maintains mount, continuing to hunt for arm submissions. Tackett's defense remains solid, preventing Galvao from securing a finish.\n**SEG [4:30-4:50]** Pos:mount | Sub:arm_triangle | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.89 | Act:0.45 | Trans:submission_attempt | KM:4:35,4:45 | KA:arm_triangle,submission_defense,position_improvement | Narr:Galvao maintains mount, applying cross-face pressure and looking for arm triangle opportunities. Tackett defends, staying tight and preventing the choke.\n**SEG [4:50-5:10]** Pos:mount | Sub:mount | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.88 | Act:0.30 | Trans:position_maintenance | KM:4:55,5:05 | KA:position_improvement,submission_defense | Narr:Galvao maintains a dominant mount position, applying constant pressure and looking for openings. Tackett focuses on defensive posture and hand fighting.\n**SEG [5:10-5:30]** Pos:mount | Sub:mount | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.87 | Act:0.30 | Trans:position_escape | KM:5:15,5:25 | KA:position_escape,mount_defense | Narr:Galvao maintains mount, but Tackett shows signs of attempting to bridge and escape. Galvao adjusts to maintain control.\n**SEG [5:30-5:50]** Pos:half_guard | Sub:half_guard | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.88 | Act:0.55 | Trans:mount_escape,guard_recovery,guard_pass_attempt | KM:5:35,5:45 | KA:mount_escape,guard_recovery,pass_attempt | Narr:Tackett executes a strong mount escape, recovering to half guard. Galvao immediately works to pass the half guard, applying pressure.\n**SEG [5:50-6:10]** Pos:half_guard | Sub:half_guard | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.87 | Act:0.35 | Trans:guard_pass_attempt | KM:5:55,6:05 | KA:pass_attempt,guard_retention | Narr:Galvao maintains top half guard, trying to clear Tackett's leg. Tackett actively defends, maintaining a strong half guard position.\n**SEG [6:10-6:30]** Pos:half_guard | Sub:half_guard | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.86 | Act:0.30 | Trans:guard_pass_attempt | KM:6:15,6:25 | KA:pass_attempt,guard_retention | Narr:Galvao maintains top half guard, attempting to pass. Tackett keeps his half guard tight, preventing any significant advance.\n**SEG [6:30-6:50]** Pos:half_guard | Sub:half_guard | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.85 | Act:0.30 | Trans:guard_pass_attempt | KM:6:35,6:45 | KA:pass_attempt,guard_retention | Narr:Galvao maintains top half guard, attempting to pass. Tackett keeps his half guard tight, preventing any significant advance.\n**SEG [6:50-7:10]** Pos:half_guard | Sub:half_guard | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.84 | Act:0.30 | Trans:guard_pass_attempt | KM:6:55,7:05 | KA:pass_attempt,guard_retention | Narr:Galvao maintains top half guard, attempting to pass. Tackett keeps his half guard tight, preventing any significant advance.\n**SEG [7:10-7:30]** Pos:half_guard | Sub:half_guard | Top:Micael Galvao | Bot:Andrew Tackett | Conf:0.83 | Act:0.30 | Trans:guard_pass_attempt | KM:7:15,7:25 | KA:pass_attempt,guard_retention | Narr:Galvao maintains top half guard"
+}

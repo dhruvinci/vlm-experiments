@@ -1,0 +1,14 @@
+{
+  "experiment_name": "Experiment 2 - Multi-Pass Adaptive",
+  "video_path": "data/videos/youtube_SMRbZEbxepA.mp4",
+  "video_name": "youtube_SMRbZEbxepA",
+  "timestamp": "20251009_221202",
+  "processing_time_seconds": 743.9832282066345,
+  "passes_completed": [
+    "pass0",
+    "pass1",
+    "pass2",
+    "pass3"
+  ],
+  "success": true
+}

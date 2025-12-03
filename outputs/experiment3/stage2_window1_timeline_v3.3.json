@@ -1,0 +1,51 @@
+{
+  "window": {
+    "start_segment_idx": 2,
+    "end_segment_idx": 3,
+    "start_time": "0:28",
+    "end_time": "0:40",
+    "flagged_segments": [
+      3
+    ]
+  },
+  "segments": [
+    {
+      "start": "0:28",
+      "end": "0:40",
+      "position": "Standing",
+      "sub_position": "Clinch/Striking Distance",
+      "top_athlete": "Andrew Tackett (A1)",
+      "bottom_athlete": "Micael Galvao (A2)",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "None (repeated disengagement/re-engagement)",
+      "key_moments": [
+        "0:28: Both athletes engage in a standing clinch, hand fighting for head and arm control.",
+        "0:29: They briefly disengage, creating distance.",
+        "0:31: They re-engage in a standing clinch, continuing to hand fight.",
+        "0:33: They disengage again, circling each other.",
+        "0:36: They re-engage in a standing clinch, maintaining head and arm control.",
+        "0:38: They break contact and circle, returning to striking distance."
+      ],
+      "key_actions": [
+        "Hand fighting",
+        "collar ties",
+        "disengagement",
+        "re-engagement."
+      ],
+      "narrative": "The athletes spend this segment in a series of brief standing exchanges, primarily focusing on hand fighting and collar ties. They repeatedly disengage and re-engage, circling each other at striking distance, without any significant takedown attempts or ground transitions. The pace is measured, with both fighters testing grips and distance."
+    }
+  ],
+  "athlete_profiles": {},
+  "raw_markdown": "**SEGMENT [0:28-0:40]**\nPosition: Standing\nSub-position: Clinch/Striking Distance\nTop: Andrew Tackett (A1)\nBottom: Micael Galvao (A2)\nConfidence: 0.95\nAction: 0.40\nTransition: None (repeated disengagement/re-engagement)\nKey Moments:\n- 0:28: Both athletes engage in a standing clinch, hand fighting for head and arm control.\n- 0:29: They briefly disengage, creating distance.\n- 0:31: They re-engage in a standing clinch, continuing to hand fight.\n- 0:33: They disengage again, circling each other.\n- 0:36: They re-engage in a standing clinch, maintaining head and arm control.\n- 0:38: They break contact and circle, returning to striking distance.\nKey Actions: Hand fighting, collar ties, disengagement, re-engagement.\nNarrative: The athletes spend this segment in a series of brief standing exchanges, primarily focusing on hand fighting and collar ties. They repeatedly disengage and re-engage, circling each other at striking distance, without any significant takedown attempts or ground transitions. The pace is measured, with both fighters testing grips and distance.",
+  "cost": {
+    "input_tokens": 854,
+    "cached_tokens": 286160,
+    "output_tokens": 287,
+    "input_cost": 0.000256,
+    "cached_cost": 0.005365,
+    "output_cost": 0.000344,
+    "total": 0.005966
+  },
+  "time_seconds": 73.47
+}

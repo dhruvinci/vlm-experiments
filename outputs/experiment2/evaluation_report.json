@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-10-09T12:40:52.515785",
+  "experiment": "exp2_multipass",
+  "ground_truth_positions": 32,
+  "detected_positions": 33,
+  "metrics": {
+    "matched": 22,
+    "recall": 0.688,
+    "precision": 0.667,
+    "f1_score": 0.677,
+    "position_accuracy": 0.273,
+    "average_iou": 0.703
+  },
+  "detail_quality": {
+    "total_sub_segments": 4,
+    "total_labels": 8,
+    "avg_sub_segments_per_position": 0.12,
+    "avg_labels_per_position": 0.24,
+    "detail_score": 0.5
+  },
+  "scores": {
+    "base_score": 52.4,
+    "detail_bonus": 0.5,
+    "final_score": 52.9,
+    "max_score": 120
+  }
+}

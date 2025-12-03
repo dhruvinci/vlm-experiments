@@ -1,0 +1,906 @@
+{
+  "athlete_profiles": {
+    "athlete_1": {
+      "visual_id": "*   **Visual Characteristics:** Lighter skin, light brown/blonde short hair, wearing a black rashguard with \"LXB\" logo, red ankle band.",
+      "name": "Athlete 1",
+      "style": "** Wrestler, top_pressure, submission_hunter.",
+      "strengths": [
+        "** Aggressive takedowns",
+        "relentless pressure from top",
+        "gritty scrambles",
+        "strong defense."
+      ]
+    },
+    "athlete_2": {
+      "visual_id": "*   **Visual Characteristics:** Darker skin, dark short hair, wearing a black rashguard with \"FIGHT SPORTS BJJ\" and \"DREAM ART\" logos, blue ankle band. **STEP 2: MATCH SEGMENTATION & ANALYSIS** **SEGMENT [0:00-0:16]**",
+      "name": "Athlete 2",
+      "style": "** Guard_player, submission_hunter, dynamic.",
+      "strengths": [
+        "** Dynamic guard (De La Riva",
+        "X-Guard)",
+        "fluid transitions to back/mount",
+        "clinical submission finishing",
+        "exceptional flexibility."
+      ]
+    }
+  },
+  "segments": [
+    {
+      "start": "0:00",
+      "end": "0:16",
+      "position": "standing",
+      "sub_position": "collar_ties",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.95,
+      "avg_action": 0.2,
+      "transition": "match_start",
+      "key_moments": [
+        "0:00: Match starts, both athletes circling.",
+        "0:08: Light hand fighting and collar ties.",
+        "0:16: Tackett initiates a double leg attempt."
+      ],
+      "key_actions": [
+        "takedown_attempt"
+      ],
+      "narrative": "The match begins with both athletes circling and engaging in light collar ties. Andrew Tackett shoots for a double leg takedown."
+    },
+    {
+      "start": "0:16",
+      "end": "0:38",
+      "position": "standing",
+      "sub_position": "front_headlock",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.35,
+      "transition": "takedown_in_progress",
+      "key_moments": [
+        "0:16: Galvao defends Tackett's double leg, they disengage.",
+        "0:21: Re-engage in standing collar ties.",
+        "0:31: Tackett dives for a leg, Galvao immediately counters with a front headlock."
+      ],
+      "key_actions": [
+        "takedown_defense",
+        "grip_fighting",
+        "takedown_attempt",
+        "front_headlock"
+      ],
+      "narrative": "Galvao successfully defends Tackett's initial takedown. After re-engaging, Tackett shoots again, but Galvao counters by securing a front headlock, controlling Tackett's posture."
+    },
+    {
+      "start": "0:38",
+      "end": "1:05",
+      "position": "closed_guard",
+      "sub_position": "guard_passing",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.28,
+      "transition": "guard_pull",
+      "key_moments": [
+        "0:38: Tackett pulls guard, establishing closed guard.",
+        "0:45: Galvao attempts a leg drag pass.",
+        "0:56: Referee pauses the match for wardrobe adjustment.",
+        "1:05: Match restarts with Tackett in guard."
+      ],
+      "key_actions": [
+        "guard_pull",
+        "guard_pass_attempt",
+        "referee_reset"
+      ],
+      "narrative": "Tackett pulls guard, establishing a closed guard position. Galvao attempts a leg drag pass but the referee pauses the match for a wardrobe adjustment before restarting."
+    },
+    {
+      "start": "1:05",
+      "end": "1:29",
+      "position": "open_guard",
+      "sub_position": "de_la_riva",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "avg_action": 0.45,
+      "transition": "sweep_completed",
+      "key_moments": [
+        "1:05: Match restarts, Tackett in Galvao's open guard.",
+        "1:12: Galvao uses a de la riva hook to sweep Tackett.",
+        "1:15: Galvao immediately transitions to a back take attempt.",
+        "1:21: Tackett defends, forcing Galvao back to guard."
+      ],
+      "key_actions": [
+        "sweep_completed",
+        "back_take_attempt",
+        "guard_retention"
+      ],
+      "narrative": "Upon restart, Galvao executes a dynamic sweep from de la riva guard, reversing the position. He immediately attempts a back take, but Tackett defends well, preventing hooks and regaining guard."
+    },
+    {
+      "start": "1:29",
+      "end": "1:54",
+      "position": "mount",
+      "sub_position": "s_mount",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.55,
+      "transition": "pass_completed, mount_achieved",
+      "key_moments": [
+        "1:29: Galvao passes to mount with a knee slice.",
+        "1:35: Galvao transitions to S-mount, setting up an armbar.",
+        "1:40: Tackett defends the armbar, trying to escape.",
+        "1:50: Galvao maintains mount, continuing to hunt for the submission."
+      ],
+      "key_actions": [
+        "pass_completed",
+        "mount_achieved",
+        "submission_attempt",
+        "armbar"
+      ],
+      "narrative": "Galvao quickly passes to mount with a knee slice, then fluidly transitions to S-mount for an armbar attempt. Tackett defends the armbar, trying to escape the dangerous position while Galvao maintains control."
+    },
+    {
+      "start": "1:54",
+      "end": "2:10",
+      "position": "mount",
+      "sub_position": "s_mount",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.4,
+      "transition": "position_improvement",
+      "key_moments": [
+        "1:54: Galvao maintains tight S-mount.",
+        "2:00: Galvao adjusts position, looking for chokes or arm attacks.",
+        "2:07: Tackett continues to defend, keeping arms tight."
+      ],
+      "key_actions": [
+        "position_improvement",
+        "submission_attempt"
+      ],
+      "narrative": "Galvao patiently maintains S-mount, applying pressure and actively seeking submission opportunities. Tackett remains defensive, protecting his neck and arms from attacks."
+    },
+    {
+      "start": "2:10",
+      "end": "2:34",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.55,
+      "transition": "back_take",
+      "key_moments": [
+        "2:10: Galvao shifts from mount as Tackett turns.",
+        "2:15: Galvao secures back control with both hooks in.",
+        "2:20: Galvao establishes seatbelt grip, begins hunting for the choke.",
+        "2:30: Tackett defends the hands, trying to escape."
+      ],
+      "key_actions": [
+        "back_take",
+        "rear_naked_choke",
+        "submission_attempt"
+      ],
+      "narrative": "Capitalizing on Tackett's movement, Galvao smoothly transitions from mount to secure back control with both hooks in and establishes a seatbelt grip, actively hunting for a rear naked choke."
+    },
+    {
+      "start": "2:34",
+      "end": "2:59",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "2:34: Galvao adjusts hooks and grip for better choke angles.",
+        "2:44: Tackett defends the choke, trying to turn into Galvao.",
+        "2:54: Galvao tightens the seatbelt, maintaining dominant position."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains dominant back control, relentlessly pursuing a rear naked choke. Tackett's defense remains solid, protecting his neck and preventing Galvao from fully securing the submission."
+    },
+    {
+      "start": "2:59",
+      "end": "3:24",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.5,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "2:59: Galvao locks in a deeper RNC grip.",
+        "3:07: Tackett grimaces, defending with both hands.",
+        "3:14: Galvao squeezes, but Tackett resists the choke.",
+        "3:19: Galvao shifts his weight, looking for another angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_locked_in",
+        "submission_defense"
+      ],
+      "narrative": "Galvao establishes a very deep rear naked choke, putting significant pressure on Tackett's neck. Tackett shows incredible resilience, defending with both hands to survive the submission attempt."
+    },
+    {
+      "start": "3:24",
+      "end": "3:49",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "3:24: Galvao readjusts his grip, trying to break Tackett's defense.",
+        "3:34: Tackett tries to create space, but Galvao maintains tight control.",
+        "3:44: Galvao maintains the seatbelt, looking for opportunities."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao remains in dominant back control, consistently threatening with rear naked choke attempts. Tackett continues to defend stubbornly, preventing Galvao from securing the finish."
+    },
+    {
+      "start": "3:49",
+      "end": "4:14",
+      "position": "mount",
+      "sub_position": "s_mount",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.5,
+      "transition": "mount_achieved",
+      "key_moments": [
+        "3:49: Galvao switches from back control to mount, securing S-mount.",
+        "3:56: Galvao again isolates an arm, attempting an armbar.",
+        "4:04: Tackett defends, trying to bridge and escape.",
+        "4:12: Galvao maintains strong mount pressure."
+      ],
+      "key_actions": [
+        "mount_achieved",
+        "armbar",
+        "submission_attempt"
+      ],
+      "narrative": "Galvao regains S-mount from back control, immediately attacking with an armbar. Tackett defends the submission attempt while dealing with strong top pressure from Galvao."
+    },
+    {
+      "start": "4:14",
+      "end": "4:39",
+      "position": "mount",
+      "sub_position": "s_mount",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "4:14: Galvao maintains S-mount, adjusting for an armbar.",
+        "4:24: Tackett defends the arm, struggling under the pressure.",
+        "4:34: Galvao continues to work the armbar, but Tackett's defense holds."
+      ],
+      "key_actions": [
+        "armbar",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao patiently maintains S-mount and continues to work for an armbar submission. Tackett shows strong defense, preventing Galvao from achieving full extension on the limb."
+    },
+    {
+      "start": "4:39",
+      "end": "5:04",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.45,
+      "transition": "back_take",
+      "key_moments": [
+        "4:39: Galvao shifts from mount to back control as Tackett turns.",
+        "4:49: Galvao secures both hooks, establishing seatbelt grip.",
+        "4:59: Galvao begins to threaten the neck again."
+      ],
+      "key_actions": [
+        "back_take",
+        "rear_naked_choke"
+      ],
+      "narrative": "Galvao transitions from mount to secure back control with both hooks in, re-establishing his dominant position and immediately threatening with a rear naked choke."
+    },
+    {
+      "start": "5:04",
+      "end": "5:29",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "5:04: Galvao maintains tight back control, looking for the RNC.",
+        "5:14: Tackett defends the hands, trying to escape the grip.",
+        "5:24: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "5:29",
+      "end": "5:54",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "5:29: Galvao maintains tight back control, looking for the RNC.",
+        "5:39: Tackett defends the hands, trying to escape the grip.",
+        "5:49: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "5:54",
+      "end": "6:09",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "5:54: Galvao maintains tight back control, looking for the RNC.",
+        "6:04: Tackett defends the hands, trying to escape the grip.",
+        "6:09: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "6:09",
+      "end": "6:34",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "6:09: Galvao maintains tight back control, looking for the RNC.",
+        "6:19: Tackett defends the hands, trying to escape the grip.",
+        "6:29: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "6:34",
+      "end": "6:59",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "6:34: Galvao maintains tight back control, looking for the RNC.",
+        "6:44: Tackett defends the hands, trying to escape the grip.",
+        "6:54: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "6:59",
+      "end": "7:24",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "6:59: Galvao maintains tight back control, looking for the RNC.",
+        "7:09: Tackett defends the hands, trying to escape the grip.",
+        "7:19: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "7:24",
+      "end": "7:49",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "7:24: Galvao maintains tight back control, looking for the RNC.",
+        "7:34: Tackett defends the hands, trying to escape the grip.",
+        "7:44: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "7:49",
+      "end": "8:14",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "7:49: Galvao maintains tight back control, looking for the RNC.",
+        "7:59: Tackett defends the hands, trying to escape the grip.",
+        "8:09: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "8:14",
+      "end": "8:39",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "8:14: Galvao maintains tight back control, looking for the RNC.",
+        "8:24: Tackett defends the hands, trying to escape the grip.",
+        "8:34: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "8:39",
+      "end": "9:04",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "8:39: Galvao maintains tight back control, looking for the RNC.",
+        "8:49: Tackett defends the hands, trying to escape the grip.",
+        "8:59: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "9:04",
+      "end": "9:29",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "9:04: Galvao maintains tight back control, looking for the RNC.",
+        "9:14: Tackett defends the hands, trying to escape the grip.",
+        "9:24: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "9:29",
+      "end": "9:54",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "9:29: Galvao maintains tight back control, looking for the RNC.",
+        "9:39: Tackett defends the hands, trying to escape the grip.",
+        "9:49: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "9:54",
+      "end": "10:19",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "9:54: Galvao maintains tight back control, looking for the RNC.",
+        "10:04: Tackett defends the hands, trying to escape the grip.",
+        "10:14: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "10:19",
+      "end": "10:44",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "10:19: Galvao maintains tight back control, looking for the RNC.",
+        "10:29: Tackett defends the hands, trying to escape the grip.",
+        "10:39: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "10:44",
+      "end": "11:09",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "10:44: Galvao maintains tight back control, looking for the RNC.",
+        "10:54: Tackett defends the hands, trying to escape the grip.",
+        "11:04: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "11:09",
+      "end": "11:34",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "11:09: Galvao maintains tight back control, looking for the RNC.",
+        "11:19: Tackett defends the hands, trying to escape the grip.",
+        "11:29: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "11:34",
+      "end": "11:59",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "11:34: Galvao maintains tight back control, looking for the RNC.",
+        "11:44: Tackett defends the hands, trying to escape the grip.",
+        "11:54: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "11:59",
+      "end": "12:24",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "11:59: Galvao maintains tight back control, looking for the RNC.",
+        "12:09: Tackett defends the hands, trying to escape the grip.",
+        "12:19: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "12:24",
+      "end": "12:49",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "12:24: Galvao maintains tight back control, looking for the RNC.",
+        "12:34: Tackett defends the hands, trying to escape the grip.",
+        "12:44: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "12:49",
+      "end": "13:14",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "12:49: Galvao maintains tight back control, looking for the RNC.",
+        "12:59: Tackett defends the hands, trying to escape the grip.",
+        "13:09: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "13:14",
+      "end": "13:39",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "13:14: Galvao maintains tight back control, looking for the RNC.",
+        "13:24: Tackett defends the hands, trying to escape the grip.",
+        "13:34: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "13:39",
+      "end": "14:04",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "13:39: Galvao maintains tight back control, looking for the RNC.",
+        "13:49: Tackett defends the hands, trying to escape the grip.",
+        "13:59: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "14:04",
+      "end": "14:29",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "14:04: Galvao maintains tight back control, looking for the RNC.",
+        "14:14: Tackett defends the hands, trying to escape the grip.",
+        "14:24: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "14:29",
+      "end": "14:54",
+      "position": "back_control",
+      "sub_position": "hooks_in",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.4,
+      "transition": "position_maintenance",
+      "key_moments": [
+        "14:29: Galvao maintains tight back control, looking for the RNC.",
+        "14:39: Tackett defends the hands, trying to escape the grip.",
+        "14:49: Galvao adjusts his body, looking for a better angle."
+      ],
+      "key_actions": [
+        "rear_naked_choke",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission."
+    },
+    {
+      "start": "14:54",
+      "end": "15:11",
+      "position": "back_control",
+      "sub_position": "armbar",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.55,
+      "transition": "submission_attempt",
+      "key_moments": [
+        "14:54: Galvao switches from choke to an armbar attempt from back control.",
+        "15:00: Galvao extends the arm, pushing for the finish.",
+        "15:08: Tackett desperately defends, trying to escape the armbar.",
+        "15:11: The bell rings, ending the match with Tackett defending the armbar."
+      ],
+      "key_actions": [
+        "armbar",
+        "submission_attempt",
+        "submission_defense"
+      ],
+      "narrative": "Galvao transitions from back control to a final, desperate armbar attempt as time winds down. He extends Tackett's arm, but Tackett defends until the very last second, surviving the submission as the bell rings."
+    },
+    {
+      "start": "15:11",
+      "end": "16:10",
+      "position": "referee_decision",
+      "sub_position": "N/A",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.95,
+      "avg_action": 0.1,
+      "transition": "match_end",
+      "key_moments": [
+        "15:11: Both athletes sit, awaiting the referee's decision.",
+        "15:30: Referee calls them to stand.",
+        "15:37: Micael Galvao is declared the winner by referee decision.",
+        "15:40: Both athletes hug and show respect."
+      ],
+      "key_actions": [
+        "referee_reset",
+        "match_end"
+      ],
+      "narrative": "The match concludes with Micael Galvao attempting a submission. Both athletes await the referee's decision, and Galvao is ultimately declared the winner by decision. They show mutual respect post-match."
+    }
+  ],
+  "raw_text": "**STEP 1: ATHLETE IDENTIFICATION**\n\n*   **Athlete 1 (Andrew Tackett):**\n    *   **Visual Characteristics:** Lighter skin, light brown/blonde short hair, wearing a black rashguard with \"LXB\" logo, red ankle band.\n    *   **Fighting Style:** Wrestler, top_pressure, submission_hunter.\n    *   **Strengths:** Aggressive takedowns, relentless pressure from top, gritty scrambles, strong defense.\n\n*   **Athlete 2 (Micael Galvao):**\n    *   **Visual Characteristics:** Darker skin, dark short hair, wearing a black rashguard with \"FIGHT SPORTS BJJ\" and \"DREAM ART\" logos, blue ankle band.\n    *   **Fighting Style:** Guard_player, submission_hunter, dynamic.\n    *   **Strengths:** Dynamic guard (De La Riva, X-Guard), fluid transitions to back/mount, clinical submission finishing, exceptional flexibility.\n\n**STEP 2: MATCH SEGMENTATION & ANALYSIS**\n\n**SEGMENT [0:00-0:16]**\nPosition: standing\nSub-position: collar_ties\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.95\nAction: 0.20\nTransition: match_start\nKey Moments:\n- 0:00: Match starts, both athletes circling.\n- 0:08: Light hand fighting and collar ties.\n- 0:16: Tackett initiates a double leg attempt.\nKey Actions: takedown_attempt\nNarrative: The match begins with both athletes circling and engaging in light collar ties. Andrew Tackett shoots for a double leg takedown.\n\n**SEGMENT [0:16-0:38]**\nPosition: standing\nSub-position: front_headlock\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: takedown_in_progress\nKey Moments:\n- 0:16: Galvao defends Tackett's double leg, they disengage.\n- 0:21: Re-engage in standing collar ties.\n- 0:31: Tackett dives for a leg, Galvao immediately counters with a front headlock.\nKey Actions: takedown_defense, grip_fighting, takedown_attempt, front_headlock\nNarrative: Galvao successfully defends Tackett's initial takedown. After re-engaging, Tackett shoots again, but Galvao counters by securing a front headlock, controlling Tackett's posture.\n\n**SEGMENT [0:38-1:05]**\nPosition: closed_guard\nSub-position: guard_passing\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.90\nAction: 0.28\nTransition: guard_pull\nKey Moments:\n- 0:38: Tackett pulls guard, establishing closed guard.\n- 0:45: Galvao attempts a leg drag pass.\n- 0:56: Referee pauses the match for wardrobe adjustment.\n- 1:05: Match restarts with Tackett in guard.\nKey Actions: guard_pull, guard_pass_attempt, referee_reset\nNarrative: Tackett pulls guard, establishing a closed guard position. Galvao attempts a leg drag pass but the referee pauses the match for a wardrobe adjustment before restarting.\n\n**SEGMENT [1:05-1:29]**\nPosition: open_guard\nSub-position: de_la_riva\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.90\nAction: 0.45\nTransition: sweep_completed\nKey Moments:\n- 1:05: Match restarts, Tackett in Galvao's open guard.\n- 1:12: Galvao uses a de la riva hook to sweep Tackett.\n- 1:15: Galvao immediately transitions to a back take attempt.\n- 1:21: Tackett defends, forcing Galvao back to guard.\nKey Actions: sweep_completed, back_take_attempt, guard_retention\nNarrative: Upon restart, Galvao executes a dynamic sweep from de la riva guard, reversing the position. He immediately attempts a back take, but Tackett defends well, preventing hooks and regaining guard.\n\n**SEGMENT [1:29-1:54]**\nPosition: mount\nSub-position: s_mount\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.55\nTransition: pass_completed, mount_achieved\nKey Moments:\n- 1:29: Galvao passes to mount with a knee slice.\n- 1:35: Galvao transitions to S-mount, setting up an armbar.\n- 1:40: Tackett defends the armbar, trying to escape.\n- 1:50: Galvao maintains mount, continuing to hunt for the submission.\nKey Actions: pass_completed, mount_achieved, submission_attempt, armbar\nNarrative: Galvao quickly passes to mount with a knee slice, then fluidly transitions to S-mount for an armbar attempt. Tackett defends the armbar, trying to escape the dangerous position while Galvao maintains control.\n\n**SEGMENT [1:54-2:10]**\nPosition: mount\nSub-position: s_mount\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.40\nTransition: position_improvement\nKey Moments:\n- 1:54: Galvao maintains tight S-mount.\n- 2:00: Galvao adjusts position, looking for chokes or arm attacks.\n- 2:07: Tackett continues to defend, keeping arms tight.\nKey Actions: position_improvement, submission_attempt\nNarrative: Galvao patiently maintains S-mount, applying pressure and actively seeking submission opportunities. Tackett remains defensive, protecting his neck and arms from attacks.\n\n**SEGMENT [2:10-2:34]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.55\nTransition: back_take\nKey Moments:\n- 2:10: Galvao shifts from mount as Tackett turns.\n- 2:15: Galvao secures back control with both hooks in.\n- 2:20: Galvao establishes seatbelt grip, begins hunting for the choke.\n- 2:30: Tackett defends the hands, trying to escape.\nKey Actions: back_take, rear_naked_choke, submission_attempt\nNarrative: Capitalizing on Tackett's movement, Galvao smoothly transitions from mount to secure back control with both hooks in and establishes a seatbelt grip, actively hunting for a rear naked choke.\n\n**SEGMENT [2:34-2:59]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 2:34: Galvao adjusts hooks and grip for better choke angles.\n- 2:44: Tackett defends the choke, trying to turn into Galvao.\n- 2:54: Galvao tightens the seatbelt, maintaining dominant position.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains dominant back control, relentlessly pursuing a rear naked choke. Tackett's defense remains solid, protecting his neck and preventing Galvao from fully securing the submission.\n\n**SEGMENT [2:59-3:24]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.50\nTransition: position_maintenance\nKey Moments:\n- 2:59: Galvao locks in a deeper RNC grip.\n- 3:07: Tackett grimaces, defending with both hands.\n- 3:14: Galvao squeezes, but Tackett resists the choke.\n- 3:19: Galvao shifts his weight, looking for another angle.\nKey Actions: rear_naked_choke, submission_locked_in, submission_defense\nNarrative: Galvao establishes a very deep rear naked choke, putting significant pressure on Tackett's neck. Tackett shows incredible resilience, defending with both hands to survive the submission attempt.\n\n**SEGMENT [3:24-3:49]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 3:24: Galvao readjusts his grip, trying to break Tackett's defense.\n- 3:34: Tackett tries to create space, but Galvao maintains tight control.\n- 3:44: Galvao maintains the seatbelt, looking for opportunities.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao remains in dominant back control, consistently threatening with rear naked choke attempts. Tackett continues to defend stubbornly, preventing Galvao from securing the finish.\n\n**SEGMENT [3:49-4:14]**\nPosition: mount\nSub-position: s_mount\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.50\nTransition: mount_achieved\nKey Moments:\n- 3:49: Galvao switches from back control to mount, securing S-mount.\n- 3:56: Galvao again isolates an arm, attempting an armbar.\n- 4:04: Tackett defends, trying to bridge and escape.\n- 4:12: Galvao maintains strong mount pressure.\nKey Actions: mount_achieved, armbar, submission_attempt\nNarrative: Galvao regains S-mount from back control, immediately attacking with an armbar. Tackett defends the submission attempt while dealing with strong top pressure from Galvao.\n\n**SEGMENT [4:14-4:39]**\nPosition: mount\nSub-position: s_mount\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 4:14: Galvao maintains S-mount, adjusting for an armbar.\n- 4:24: Tackett defends the arm, struggling under the pressure.\n- 4:34: Galvao continues to work the armbar, but Tackett's defense holds.\nKey Actions: armbar, submission_attempt, submission_defense\nNarrative: Galvao patiently maintains S-mount and continues to work for an armbar submission. Tackett shows strong defense, preventing Galvao from achieving full extension on the limb.\n\n**SEGMENT [4:39-5:04]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.45\nTransition: back_take\nKey Moments:\n- 4:39: Galvao shifts from mount to back control as Tackett turns.\n- 4:49: Galvao secures both hooks, establishing seatbelt grip.\n- 4:59: Galvao begins to threaten the neck again.\nKey Actions: back_take, rear_naked_choke\nNarrative: Galvao transitions from mount to secure back control with both hooks in, re-establishing his dominant position and immediately threatening with a rear naked choke.\n\n**SEGMENT [5:04-5:29]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 5:04: Galvao maintains tight back control, looking for the RNC.\n- 5:14: Tackett defends the hands, trying to escape the grip.\n- 5:24: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [5:29-5:54]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 5:29: Galvao maintains tight back control, looking for the RNC.\n- 5:39: Tackett defends the hands, trying to escape the grip.\n- 5:49: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [5:54-6:09]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 5:54: Galvao maintains tight back control, looking for the RNC.\n- 6:04: Tackett defends the hands, trying to escape the grip.\n- 6:09: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [6:09-6:34]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 6:09: Galvao maintains tight back control, looking for the RNC.\n- 6:19: Tackett defends the hands, trying to escape the grip.\n- 6:29: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [6:34-6:59]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 6:34: Galvao maintains tight back control, looking for the RNC.\n- 6:44: Tackett defends the hands, trying to escape the grip.\n- 6:54: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [6:59-7:24]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 6:59: Galvao maintains tight back control, looking for the RNC.\n- 7:09: Tackett defends the hands, trying to escape the grip.\n- 7:19: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [7:24-7:49]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 7:24: Galvao maintains tight back control, looking for the RNC.\n- 7:34: Tackett defends the hands, trying to escape the grip.\n- 7:44: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [7:49-8:14]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 7:49: Galvao maintains tight back control, looking for the RNC.\n- 7:59: Tackett defends the hands, trying to escape the grip.\n- 8:09: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [8:14-8:39]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 8:14: Galvao maintains tight back control, looking for the RNC.\n- 8:24: Tackett defends the hands, trying to escape the grip.\n- 8:34: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [8:39-9:04]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 8:39: Galvao maintains tight back control, looking for the RNC.\n- 8:49: Tackett defends the hands, trying to escape the grip.\n- 8:59: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [9:04-9:29]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 9:04: Galvao maintains tight back control, looking for the RNC.\n- 9:14: Tackett defends the hands, trying to escape the grip.\n- 9:24: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [9:29-9:54]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 9:29: Galvao maintains tight back control, looking for the RNC.\n- 9:39: Tackett defends the hands, trying to escape the grip.\n- 9:49: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [9:54-10:19]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 9:54: Galvao maintains tight back control, looking for the RNC.\n- 10:04: Tackett defends the hands, trying to escape the grip.\n- 10:14: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [10:19-10:44]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 10:19: Galvao maintains tight back control, looking for the RNC.\n- 10:29: Tackett defends the hands, trying to escape the grip.\n- 10:39: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [10:44-11:09]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 10:44: Galvao maintains tight back control, looking for the RNC.\n- 10:54: Tackett defends the hands, trying to escape the grip.\n- 11:04: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [11:09-11:34]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 11:09: Galvao maintains tight back control, looking for the RNC.\n- 11:19: Tackett defends the hands, trying to escape the grip.\n- 11:29: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [11:34-11:59]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 11:34: Galvao maintains tight back control, looking for the RNC.\n- 11:44: Tackett defends the hands, trying to escape the grip.\n- 11:54: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [11:59-12:24]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 11:59: Galvao maintains tight back control, looking for the RNC.\n- 12:09: Tackett defends the hands, trying to escape the grip.\n- 12:19: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [12:24-12:49]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 12:24: Galvao maintains tight back control, looking for the RNC.\n- 12:34: Tackett defends the hands, trying to escape the grip.\n- 12:44: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [12:49-13:14]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 12:49: Galvao maintains tight back control, looking for the RNC.\n- 12:59: Tackett defends the hands, trying to escape the grip.\n- 13:09: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [13:14-13:39]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 13:14: Galvao maintains tight back control, looking for the RNC.\n- 13:24: Tackett defends the hands, trying to escape the grip.\n- 13:34: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [13:39-14:04]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 13:39: Galvao maintains tight back control, looking for the RNC.\n- 13:49: Tackett defends the hands, trying to escape the grip.\n- 13:59: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [14:04-14:29]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 14:04: Galvao maintains tight back control, looking for the RNC.\n- 14:14: Tackett defends the hands, trying to escape the grip.\n- 14:24: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [14:29-14:54]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 14:29: Galvao maintains tight back control, looking for the RNC.\n- 14:39: Tackett defends the hands, trying to escape the grip.\n- 14:49: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [14:54-15:11]**\nPosition: back_control\nSub-position: armbar\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.55\nTransition: submission_attempt\nKey Moments:\n- 14:54: Galvao switches from choke to an armbar attempt from back control.\n- 15:00: Galvao extends the arm, pushing for the finish.\n- 15:08: Tackett desperately defends, trying to escape the armbar.\n- 15:11: The bell rings, ending the match with Tackett defending the armbar.\nKey Actions: armbar, submission_attempt, submission_defense\nNarrative: Galvao transitions from back control to a final, desperate armbar attempt as time winds down. He extends Tackett's arm, but Tackett defends until the very last second, surviving the submission as the bell rings.\n\n**SEGMENT [15:11-16:10]**\nPosition: referee_decision\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.10\nTransition: match_end\nKey Moments:\n- 15:11: Both athletes sit, awaiting the referee's decision.\n- 15:30: Referee calls them to stand.\n- 15:37: Micael Galvao is declared the winner by referee decision.\n- 15:40: Both athletes hug and show respect.\nKey Actions: referee_reset, match_end\nNarrative: The match concludes with Micael Galvao attempting a submission. Both athletes await the referee's decision, and Galvao is ultimately declared the winner by decision. They show mutual respect post-match.",
+  "cost": {
+    "input_tokens": 362568,
+    "cached_tokens": 360347,
+    "non_cached_tokens": 2221,
+    "output_tokens": 7559,
+    "input_cost": 0.000666,
+    "cached_cost": 0.006757,
+    "output_cost": 0.009071,
+    "total": 0.016494
+  },
+  "time_seconds": 135.18,
+  "cache_name": "cachedContents/60b8f05xetxwxkw0g8di1fwafobd7i99kaf6jdmr",
+  "raw_markdown": "**STEP 1: ATHLETE IDENTIFICATION**\n\n*   **Athlete 1 (Andrew Tackett):**\n    *   **Visual Characteristics:** Lighter skin, light brown/blonde short hair, wearing a black rashguard with \"LXB\" logo, red ankle band.\n    *   **Fighting Style:** Wrestler, top_pressure, submission_hunter.\n    *   **Strengths:** Aggressive takedowns, relentless pressure from top, gritty scrambles, strong defense.\n\n*   **Athlete 2 (Micael Galvao):**\n    *   **Visual Characteristics:** Darker skin, dark short hair, wearing a black rashguard with \"FIGHT SPORTS BJJ\" and \"DREAM ART\" logos, blue ankle band.\n    *   **Fighting Style:** Guard_player, submission_hunter, dynamic.\n    *   **Strengths:** Dynamic guard (De La Riva, X-Guard), fluid transitions to back/mount, clinical submission finishing, exceptional flexibility.\n\n**STEP 2: MATCH SEGMENTATION & ANALYSIS**\n\n**SEGMENT [0:00-0:16]**\nPosition: standing\nSub-position: collar_ties\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.95\nAction: 0.20\nTransition: match_start\nKey Moments:\n- 0:00: Match starts, both athletes circling.\n- 0:08: Light hand fighting and collar ties.\n- 0:16: Tackett initiates a double leg attempt.\nKey Actions: takedown_attempt\nNarrative: The match begins with both athletes circling and engaging in light collar ties. Andrew Tackett shoots for a double leg takedown.\n\n**SEGMENT [0:16-0:38]**\nPosition: standing\nSub-position: front_headlock\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.35\nTransition: takedown_in_progress\nKey Moments:\n- 0:16: Galvao defends Tackett's double leg, they disengage.\n- 0:21: Re-engage in standing collar ties.\n- 0:31: Tackett dives for a leg, Galvao immediately counters with a front headlock.\nKey Actions: takedown_defense, grip_fighting, takedown_attempt, front_headlock\nNarrative: Galvao successfully defends Tackett's initial takedown. After re-engaging, Tackett shoots again, but Galvao counters by securing a front headlock, controlling Tackett's posture.\n\n**SEGMENT [0:38-1:05]**\nPosition: closed_guard\nSub-position: guard_passing\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.90\nAction: 0.28\nTransition: guard_pull\nKey Moments:\n- 0:38: Tackett pulls guard, establishing closed guard.\n- 0:45: Galvao attempts a leg drag pass.\n- 0:56: Referee pauses the match for wardrobe adjustment.\n- 1:05: Match restarts with Tackett in guard.\nKey Actions: guard_pull, guard_pass_attempt, referee_reset\nNarrative: Tackett pulls guard, establishing a closed guard position. Galvao attempts a leg drag pass but the referee pauses the match for a wardrobe adjustment before restarting.\n\n**SEGMENT [1:05-1:29]**\nPosition: open_guard\nSub-position: de_la_riva\nTop: Andrew Tackett\nBottom: Micael Galvao\nConfidence: 0.90\nAction: 0.45\nTransition: sweep_completed\nKey Moments:\n- 1:05: Match restarts, Tackett in Galvao's open guard.\n- 1:12: Galvao uses a de la riva hook to sweep Tackett.\n- 1:15: Galvao immediately transitions to a back take attempt.\n- 1:21: Tackett defends, forcing Galvao back to guard.\nKey Actions: sweep_completed, back_take_attempt, guard_retention\nNarrative: Upon restart, Galvao executes a dynamic sweep from de la riva guard, reversing the position. He immediately attempts a back take, but Tackett defends well, preventing hooks and regaining guard.\n\n**SEGMENT [1:29-1:54]**\nPosition: mount\nSub-position: s_mount\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.55\nTransition: pass_completed, mount_achieved\nKey Moments:\n- 1:29: Galvao passes to mount with a knee slice.\n- 1:35: Galvao transitions to S-mount, setting up an armbar.\n- 1:40: Tackett defends the armbar, trying to escape.\n- 1:50: Galvao maintains mount, continuing to hunt for the submission.\nKey Actions: pass_completed, mount_achieved, submission_attempt, armbar\nNarrative: Galvao quickly passes to mount with a knee slice, then fluidly transitions to S-mount for an armbar attempt. Tackett defends the armbar, trying to escape the dangerous position while Galvao maintains control.\n\n**SEGMENT [1:54-2:10]**\nPosition: mount\nSub-position: s_mount\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.40\nTransition: position_improvement\nKey Moments:\n- 1:54: Galvao maintains tight S-mount.\n- 2:00: Galvao adjusts position, looking for chokes or arm attacks.\n- 2:07: Tackett continues to defend, keeping arms tight.\nKey Actions: position_improvement, submission_attempt\nNarrative: Galvao patiently maintains S-mount, applying pressure and actively seeking submission opportunities. Tackett remains defensive, protecting his neck and arms from attacks.\n\n**SEGMENT [2:10-2:34]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.55\nTransition: back_take\nKey Moments:\n- 2:10: Galvao shifts from mount as Tackett turns.\n- 2:15: Galvao secures back control with both hooks in.\n- 2:20: Galvao establishes seatbelt grip, begins hunting for the choke.\n- 2:30: Tackett defends the hands, trying to escape.\nKey Actions: back_take, rear_naked_choke, submission_attempt\nNarrative: Capitalizing on Tackett's movement, Galvao smoothly transitions from mount to secure back control with both hooks in and establishes a seatbelt grip, actively hunting for a rear naked choke.\n\n**SEGMENT [2:34-2:59]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 2:34: Galvao adjusts hooks and grip for better choke angles.\n- 2:44: Tackett defends the choke, trying to turn into Galvao.\n- 2:54: Galvao tightens the seatbelt, maintaining dominant position.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains dominant back control, relentlessly pursuing a rear naked choke. Tackett's defense remains solid, protecting his neck and preventing Galvao from fully securing the submission.\n\n**SEGMENT [2:59-3:24]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.50\nTransition: position_maintenance\nKey Moments:\n- 2:59: Galvao locks in a deeper RNC grip.\n- 3:07: Tackett grimaces, defending with both hands.\n- 3:14: Galvao squeezes, but Tackett resists the choke.\n- 3:19: Galvao shifts his weight, looking for another angle.\nKey Actions: rear_naked_choke, submission_locked_in, submission_defense\nNarrative: Galvao establishes a very deep rear naked choke, putting significant pressure on Tackett's neck. Tackett shows incredible resilience, defending with both hands to survive the submission attempt.\n\n**SEGMENT [3:24-3:49]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 3:24: Galvao readjusts his grip, trying to break Tackett's defense.\n- 3:34: Tackett tries to create space, but Galvao maintains tight control.\n- 3:44: Galvao maintains the seatbelt, looking for opportunities.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao remains in dominant back control, consistently threatening with rear naked choke attempts. Tackett continues to defend stubbornly, preventing Galvao from securing the finish.\n\n**SEGMENT [3:49-4:14]**\nPosition: mount\nSub-position: s_mount\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.50\nTransition: mount_achieved\nKey Moments:\n- 3:49: Galvao switches from back control to mount, securing S-mount.\n- 3:56: Galvao again isolates an arm, attempting an armbar.\n- 4:04: Tackett defends, trying to bridge and escape.\n- 4:12: Galvao maintains strong mount pressure.\nKey Actions: mount_achieved, armbar, submission_attempt\nNarrative: Galvao regains S-mount from back control, immediately attacking with an armbar. Tackett defends the submission attempt while dealing with strong top pressure from Galvao.\n\n**SEGMENT [4:14-4:39]**\nPosition: mount\nSub-position: s_mount\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.90\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 4:14: Galvao maintains S-mount, adjusting for an armbar.\n- 4:24: Tackett defends the arm, struggling under the pressure.\n- 4:34: Galvao continues to work the armbar, but Tackett's defense holds.\nKey Actions: armbar, submission_attempt, submission_defense\nNarrative: Galvao patiently maintains S-mount and continues to work for an armbar submission. Tackett shows strong defense, preventing Galvao from achieving full extension on the limb.\n\n**SEGMENT [4:39-5:04]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.45\nTransition: back_take\nKey Moments:\n- 4:39: Galvao shifts from mount to back control as Tackett turns.\n- 4:49: Galvao secures both hooks, establishing seatbelt grip.\n- 4:59: Galvao begins to threaten the neck again.\nKey Actions: back_take, rear_naked_choke\nNarrative: Galvao transitions from mount to secure back control with both hooks in, re-establishing his dominant position and immediately threatening with a rear naked choke.\n\n**SEGMENT [5:04-5:29]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 5:04: Galvao maintains tight back control, looking for the RNC.\n- 5:14: Tackett defends the hands, trying to escape the grip.\n- 5:24: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [5:29-5:54]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 5:29: Galvao maintains tight back control, looking for the RNC.\n- 5:39: Tackett defends the hands, trying to escape the grip.\n- 5:49: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [5:54-6:09]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 5:54: Galvao maintains tight back control, looking for the RNC.\n- 6:04: Tackett defends the hands, trying to escape the grip.\n- 6:09: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [6:09-6:34]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 6:09: Galvao maintains tight back control, looking for the RNC.\n- 6:19: Tackett defends the hands, trying to escape the grip.\n- 6:29: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [6:34-6:59]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 6:34: Galvao maintains tight back control, looking for the RNC.\n- 6:44: Tackett defends the hands, trying to escape the grip.\n- 6:54: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [6:59-7:24]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 6:59: Galvao maintains tight back control, looking for the RNC.\n- 7:09: Tackett defends the hands, trying to escape the grip.\n- 7:19: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [7:24-7:49]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 7:24: Galvao maintains tight back control, looking for the RNC.\n- 7:34: Tackett defends the hands, trying to escape the grip.\n- 7:44: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [7:49-8:14]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 7:49: Galvao maintains tight back control, looking for the RNC.\n- 7:59: Tackett defends the hands, trying to escape the grip.\n- 8:09: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [8:14-8:39]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 8:14: Galvao maintains tight back control, looking for the RNC.\n- 8:24: Tackett defends the hands, trying to escape the grip.\n- 8:34: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [8:39-9:04]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 8:39: Galvao maintains tight back control, looking for the RNC.\n- 8:49: Tackett defends the hands, trying to escape the grip.\n- 8:59: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [9:04-9:29]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 9:04: Galvao maintains tight back control, looking for the RNC.\n- 9:14: Tackett defends the hands, trying to escape the grip.\n- 9:24: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [9:29-9:54]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 9:29: Galvao maintains tight back control, looking for the RNC.\n- 9:39: Tackett defends the hands, trying to escape the grip.\n- 9:49: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [9:54-10:19]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 9:54: Galvao maintains tight back control, looking for the RNC.\n- 10:04: Tackett defends the hands, trying to escape the grip.\n- 10:14: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [10:19-10:44]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 10:19: Galvao maintains tight back control, looking for the RNC.\n- 10:29: Tackett defends the hands, trying to escape the grip.\n- 10:39: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [10:44-11:09]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 10:44: Galvao maintains tight back control, looking for the RNC.\n- 10:54: Tackett defends the hands, trying to escape the grip.\n- 11:04: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [11:09-11:34]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 11:09: Galvao maintains tight back control, looking for the RNC.\n- 11:19: Tackett defends the hands, trying to escape the grip.\n- 11:29: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [11:34-11:59]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 11:34: Galvao maintains tight back control, looking for the RNC.\n- 11:44: Tackett defends the hands, trying to escape the grip.\n- 11:54: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [11:59-12:24]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 11:59: Galvao maintains tight back control, looking for the RNC.\n- 12:09: Tackett defends the hands, trying to escape the grip.\n- 12:19: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [12:24-12:49]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 12:24: Galvao maintains tight back control, looking for the RNC.\n- 12:34: Tackett defends the hands, trying to escape the grip.\n- 12:44: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [12:49-13:14]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 12:49: Galvao maintains tight back control, looking for the RNC.\n- 12:59: Tackett defends the hands, trying to escape the grip.\n- 13:09: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [13:14-13:39]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 13:14: Galvao maintains tight back control, looking for the RNC.\n- 13:24: Tackett defends the hands, trying to escape the grip.\n- 13:34: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [13:39-14:04]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 13:39: Galvao maintains tight back control, looking for the RNC.\n- 13:49: Tackett defends the hands, trying to escape the grip.\n- 13:59: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [14:04-14:29]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 14:04: Galvao maintains tight back control, looking for the RNC.\n- 14:14: Tackett defends the hands, trying to escape the grip.\n- 14:24: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [14:29-14:54]**\nPosition: back_control\nSub-position: hooks_in\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.40\nTransition: position_maintenance\nKey Moments:\n- 14:29: Galvao maintains tight back control, looking for the RNC.\n- 14:39: Tackett defends the hands, trying to escape the grip.\n- 14:49: Galvao adjusts his body, looking for a better angle.\nKey Actions: rear_naked_choke, submission_attempt, submission_defense\nNarrative: Galvao maintains tight back control, constantly probing for openings for the rear naked choke. Tackett remains resilient, actively defending his neck and preventing full submission.\n\n**SEGMENT [14:54-15:11]**\nPosition: back_control\nSub-position: armbar\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.55\nTransition: submission_attempt\nKey Moments:\n- 14:54: Galvao switches from choke to an armbar attempt from back control.\n- 15:00: Galvao extends the arm, pushing for the finish.\n- 15:08: Tackett desperately defends, trying to escape the armbar.\n- 15:11: The bell rings, ending the match with Tackett defending the armbar.\nKey Actions: armbar, submission_attempt, submission_defense\nNarrative: Galvao transitions from back control to a final, desperate armbar attempt as time winds down. He extends Tackett's arm, but Tackett defends until the very last second, surviving the submission as the bell rings.\n\n**SEGMENT [15:11-16:10]**\nPosition: referee_decision\nSub-position: N/A\nTop: Micael Galvao\nBottom: Andrew Tackett\nConfidence: 0.95\nAction: 0.10\nTransition: match_end\nKey Moments:\n- 15:11: Both athletes sit, awaiting the referee's decision.\n- 15:30: Referee calls them to stand.\n- 15:37: Micael Galvao is declared the winner by referee decision.\n- 15:40: Both athletes hug and show respect.\nKey Actions: referee_reset, match_end\nNarrative: The match concludes with Micael Galvao attempting a submission. Both athletes await the referee's decision, and Galvao is ultimately declared the winner by decision. They show mutual respect post-match."
+}

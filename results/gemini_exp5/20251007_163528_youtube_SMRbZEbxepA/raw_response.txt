@@ -1,0 +1,626 @@
+```json
+{
+  "video_metadata": {
+    "duration": "00:15:59",
+    "detected_athletes": 2,
+    "video_quality": "high",
+    "camera_angle": "side"
+  },
+  "position_timeline": [
+    {
+      "start_time": "00:00",
+      "end_time": "00:08",
+      "position": "standing",
+      "sub_position": "grip_fighting",
+      "top_athlete": null,
+      "bottom_athlete": null,
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Initial grip exchange, both athletes circling"
+    },
+    {
+      "start_time": "00:08",
+      "end_time": "00:50",
+      "position": "standing",
+      "sub_position": "clinch",
+      "top_athlete": null,
+      "bottom_athlete": null,
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Tackett and Galvao in a standing clinch, grip fighting"
+    },
+    {
+      "start_time": "00:50",
+      "end_time": "01:43",
+      "position": "standing",
+      "sub_position": "takedown",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Galvao attempts a takedown, Tackett defends"
+    },
+    {
+      "start_time": "01:43",
+      "end_time": "02:04",
+      "position": "guard",
+      "sub_position": "closed_guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Tackett in Galvao's closed guard"
+    },
+    {
+      "start_time": "02:04",
+      "end_time": "02:10",
+      "position": "standing",
+      "sub_position": "standing",
+      "top_athlete": null,
+      "bottom_athlete": null,
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Tackett and Galvao in a standing clinch, grip fighting"
+    },
+    {
+      "start_time": "02:10",
+      "end_time": "02:45",
+      "position": "guard",
+      "sub_position": "de_la_riva_guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Tackett in Galvao's de la riva guard"
+    },
+    {
+      "start_time": "02:45",
+      "end_time": "03:05",
+      "position": "sweep",
+      "sub_position": "sweep",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Galvao sweeps Tackett"
+    },
+    {
+      "start_time": "03:05",
+      "end_time": "03:50",
+      "position": "back_control",
+      "sub_position": "back_control",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Galvao takes Tackett's back"
+    },
+    {
+      "start_time": "03:50",
+      "end_time": "04:05",
+      "position": "escape",
+      sub_position: "escape",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Tackett escapes Galvao's back"
+    },
+    {
+      "start_time": "04:05",
+      "end_time": "04:50",
+      "position": "mount",
+      "sub_position": "mount",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Galvao takes mount"
+    },
+    {
+      "start_time": "04:50",
+      "end_time": "05:30",
+      "position": "escape",
+      sub_position: "escape",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Tackett escapes Galvao's mount"
+    },
+    {
+      "start_time": "05:30",
+      "end_time": "06:00",
+      "position": "guard",
+      "sub_position": "de_la_riva_guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Tackett in Galvao's de la riva guard"
+    },
+    {
+      "start_time": "06:00",
+      "end_time": "06:15",
+      "position": "sweep",
+      sub_position: "sweep",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Galvao sweeps Tackett"
+    },
+    {
+      "start_time": "06:15",
+      "end_time": "07:00",
+      "position": "side_control",
+      "sub_position": "side_control",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Galvao in side control"
+    },
+    {
+      "start_time": "07:00",
+      "end_time": "07:20",
+      "position": "escape",
+      sub_position: "escape",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Tackett escapes Galvao's side control"
+    },
+    {
+      "start_time": "07:20",
+      "end_time": "08:00",
+      "position": "guard",
+      "sub_position": "de_la_riva_guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Tackett in Galvao's de la riva guard"
+    },
+    {
+      "start_time": "08:00",
+      "end_time": "08:20",
+      "position": "sweep",
+      sub_position: "sweep",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Galvao sweeps Tackett"
+    },
+    {
+      "start_time": "08:20",
+      "end_time": "09:00",
+      "position": "side_control",
+      "sub_position": "side_control",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Galvao in side control"
+    },
+    {
+      "start_time": "09:00",
+      "end_time": "09:40",
+      "position": "escape",
+      sub_position: "escape",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Tackett escapes Galvao's side control"
+    },
+    {
+      "start_time": "09:40",
+      "end_time": "10:00",
+      "position": "standing",
+      "sub_position": "standing",
+      "top_athlete": null,
+      "bottom_athlete": null,
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Tackett and Galvao in a standing clinch, grip fighting"
+    },
+    {
+      "start_time": "10:00",
+      "end_time": "10:40",
+      "position": "guard",
+      "sub_position": "de_la_riva_guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Tackett in Galvao's de la riva guard"
+    },
+    {
+      "start_time": "10:40",
+      "end_time": "11:00",
+      "position": "sweep",
+      sub_position: "sweep",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Galvao sweeps Tackett"
+    },
+    {
+      "start_time": "11:00",
+      "end_time": "11:50",
+      "position": "side_control",
+      "sub_position": "side_control",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Galvao in side control"
+    },
+    {
+      "start_time": "11:50",
+      "end_time": "12:00",
+      "position": "escape",
+      sub_position: "escape",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Tackett escapes Galvao's side control"
+    },
+    {
+      "start_time": "12:00",
+      "end_time": "12:20",
+      "position": "standing",
+      "sub_position": "standing",
+      "top_athlete": null,
+      "bottom_athlete": null,
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Tackett and Galvao in a standing clinch, grip fighting"
+    },
+    {
+      "start_time": "12:20",
+      "end_time": "12:50",
+      "position": "guard",
+      "sub_position": "de_la_riva_guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Tackett in Galvao's de la riva guard"
+    },
+    {
+      "start_time": "12:50",
+      "end_time": "13:10",
+      "position": "sweep",
+      sub_position: "sweep",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Galvao sweeps Tackett"
+    },
+    {
+      "start_time": "13:10",
+      "end_time": "13:50",
+      "position": "back_control",
+      "sub_position": "back_control",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Galvao takes Tackett's back"
+    },
+    {
+      "start_time": "13:50",
+      "end_time": "14:00",
+      "position": "escape",
+      sub_position: "escape",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Tackett escapes Galvao's back"
+    },
+    {
+      "start_time": "14:00",
+      "end_time": "14:40",
+      "position": "guard",
+      "sub_position": "de_la_riva_guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Tackett in Galvao's de la riva guard"
+    },
+    {
+      "start_time": "14:40",
+      "end_time": "15:00",
+      "position": "sweep",
+      sub_position: "sweep",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Galvao sweeps Tackett"
+    },
+    {
+      "start_time": "15:00",
+      "end_time": "15:59",
+      "position": "side_control",
+      "sub_position": "side_control",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "control_quality": 3,
+      "confidence": 0.90,
+      "notes": "Galvao in side control"
+    }
+  ],
+  "transitions": [
+    {
+      "timestamp": "01:43",
+      "from_position": "standing",
+      "to_position": "guard",
+      "transition_type": "guard_pull",
+      "technique": "guard_pull",
+      "execution_quality": 4,
+      "notes": "Tackett pulls guard"
+    },
+    {
+      "timestamp": "02:45",
+      "from_position": "guard",
+      "to_position": "sweep",
+      "transition_type": "sweep",
+      "technique": "de_la_riva_sweep",
+      "execution_quality": 4,
+      "notes": "Galvao sweeps Tackett"
+    },
+    {
+      "timestamp": "03:05",
+      "from_position": "sweep",
+      "to_position": "back_control",
+      "transition_type": "back_take",
+      "technique": "back_take",
+      "execution_quality": 4,
+      "notes": "Galvao takes Tackett's back"
+    },
+    {
+      "timestamp": "03:50",
+      "from_position": "back_control",
+      "to_position": "escape",
+      "transition_type": "escape",
+      "technique": "escape",
+      "execution_quality": 4,
+      "notes": "Tackett escapes Galvao's back"
+    },
+    {
+      "timestamp": "04:05",
+      "from_position": "escape",
+      "to_position": "mount",
+      "transition_type": "mount",
+      "technique": "mount",
+      "execution_quality": 4,
+      "notes": "Galvao takes mount"
+    },
+    {
+      "timestamp": "04:50",
+      "from_position": "mount",
+      "to_position": "escape",
+      "transition_type": "escape",
+      "technique": "escape",
+      "execution_quality": 4,
+      "notes": "Tackett escapes Galvao's mount"
+    },
+    {
+      "timestamp": "06:00",
+      "from_position": "escape",
+      "to_position": "sweep",
+      "transition_type": "sweep",
+      "technique": "de_la_riva_sweep",
+      "execution_quality": 4,
+      "notes": "Galvao sweeps Tackett"
+    },
+    {
+      "timestamp": "07:00",
+      "from_position": "sweep",
+      "to_position": "side_control",
+      "transition_type": "side_control",
+      "technique": "side_control",
+      "execution_quality": 4,
+      "notes": "Galvao takes side control"
+    },
+    {
+      "timestamp": "07:20",
+      "from_position": "side_control",
+      "to_position": "escape",
+      "transition_type": "escape",
+      "technique": "escape",
+      "execution_quality": 4,
+      "notes": "Tackett escapes Galvao's side control"
+    },
+    {
+      "timestamp": "08:00",
+      "from_position": "escape",
+      "to_position": "sweep",
+      "transition_type": "sweep",
+      "technique": "de_la_riva_sweep",
+      "execution_quality": 4,
+      "notes": "Galvao sweeps Tackett"
+    },
+    {
+      "timestamp": "09:00",
+      "from_position": "sweep",
+      "to_position": "escape",
+      "transition_type": "escape",
+      "technique": "escape",
+      "execution_quality": 4,
+      "notes": "Tackett escapes Galvao's side control"
+    },
+    {
+      "timestamp": "10:40",
+      "from_position": "escape",
+      "to_position": "sweep",
+      "transition_type": "sweep",
+      "technique": "de_la_riva_sweep",
+      "execution_quality": 4,
+      "notes": "Galvao sweeps Tackett"
+    },
+    {
+      "timestamp": "11:50",
+      "from_position": "sweep",
+      "to_position": "escape",
+      "transition_type": "escape",
+      "technique": "escape",
+      "execution_quality": 4,
+      "notes": "Tackett escapes Galvao's side control"
+    },
+    {
+      "timestamp": "12:50",
+      "from_position": "escape",
+      "to_position": "sweep",
+      "transition_type": "sweep",
+      "technique": "de_la_riva_sweep",
+      "execution_quality": 4,
+      "notes": "Galvao sweeps Tackett"
+    },
+    {
+      "timestamp": "13:10",
+      "from_position": "sweep",
+      "to_position": "back_control",
+      "transition_type": "back_take",
+      "technique": "back_take",
+      "execution_quality": 4,
+      "notes": "Galvao takes Tackett's back"
+    },
+    {
+      "timestamp": "13:50",
+      "from_position": "back_control",
+      "to_position": "escape",
+      "transition_type": "escape",
+      "technique": "escape",
+      "execution_quality": 4,
+      "notes": "Tackett escapes Galvao's back"
+    },
+    {
+      "timestamp": "14:40",
+      "from_position": "escape",
+      "to_position": "sweep",
+      "transition_type": "sweep",
+      "technique": "de_la_riva_sweep",
+      "execution_quality": 4,
+      "notes": "Galvao sweeps Tackett"
+    }
+  ],
+  "scoring": {
+    "ruleset": "adcc",
+    "blue_athlete": {
+      "takedowns": 0,
+      "guard_passes": 0,
+      "knee_on_belly": 0,
+      "mounts": 1,
+      "back_controls": 1,
+      "sweeps": 6,
+      "total_points": 22,
+      "penalties": 0
+    },
+    "red_athlete": {
+      "takedowns": 0,
+      "guard_passes": 0,
+      "knee_on_belly": 0,
+      "mounts": 0,
+      "back_controls": 0,
+      "sweeps": 0,
+      "total_points": 0,
+      "penalties": 0
+    }
+  },
+  "submission_attempts": [
+    {
+      "timestamp": "01:44",
+      "athlete": "Micael Galvao",
+      "technique": "flying_armbar",
+      "success": false,
+      "threat_level": 3,
+      "defense_quality": 4,
+      "notes": "Tackett defends with good posture"
+    },
+    {
+      "timestamp": "14:50",
+      "athlete": "Micael Galvao",
+      "technique": "armbar",
+      "success": false,
+      "threat_level": 4,
+      "defense_quality": 3,
+      "notes": "Tackett defends with good posture"
+    }
+  ],
+  "coaching_insights": {
+    "blue_athlete": [
+      "Galvao consistently used de la riva guard to sweep Tackett",
+      "Galvao's pressure from top positions was a key factor in controlling the match",
+      "Galvao's transitions were smooth and efficient"
+    ],
+    "red_athlete": [
+      "Tackett needs to improve his guard retention to avoid being swept",
+      "Tackett needs to improve his escapes from side control and mount",
+      "Tackett needs to improve his takedown defense"
+    ],
+    "general": [
+      "Galvao's de la riva guard was a key factor in controlling the match",
+      "Tackett's escapes were good, but he needs to improve his guard retention",
+      "Galvao's pressure from top positions was a key factor in controlling the match"
+    ]
+  },
+  "key_moments": [
+    {
+      "timestamp": "02:45",
+      "description": "Galvao sweeps Tackett",
+      "significance": "Galvao gains top position"
+    },
+    {
+      "timestamp": "03:05",
+      "description": "Galvao takes Tackett's back",
+      "significance": "Galvao gains dominant position"
+    },
+    {
+      "timestamp": "04:05",
+      "description": "Galvao takes mount",
+      "significance": "Galvao gains dominant position"
+    },
+    {
+      "timestamp": "06:00",
+      "description": "Galvao sweeps Tackett",
+      "significance": "Galvao gains top position"
+    },
+    {
+      "timestamp": "08:00",
+      "description": "Galvao sweeps Tackett",
+      "significance": "Galvao gains top position"
+    },
+    {
+      "timestamp": "10:40",
+      "description": "Galvao sweeps Tackett",
+      "significance": "Galvao gains top position"
+    },
+    {
+      "timestamp": "12:50",
+      "description": "Galvao sweeps Tackett",
+      "significance": "Galvao gains top position"
+    },
+    {
+      "timestamp": "13:10",
+      "description": "Galvao takes Tackett's back",
+      "significance": "Galvao gains dominant position"
+    },
+    {
+      "timestamp": "14:40",
+      "description": "Galvao sweeps Tackett",
+      "significance": "Galvao gains top position"
+    }
+  ]
+}
+```

@@ -1,0 +1,622 @@
+{
+  "athlete_ids": {
+    "athlete_1": "Athlete 1 (A1)",
+    "athlete_2": "Athlete 2 (A2)"
+  },
+  "unified_timeline": [
+    {
+      "start_time": "0:00",
+      "end_time": "0:15",
+      "position": "standing",
+      "sub_position": null,
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "control_quality": 3,
+      "confidence": 0.9,
+      "notes": "Initial engagement, A1 looking for grips.",
+      "sub_segments": [
+        {
+          "start_time": "0:00",
+          "end_time": "0:08",
+          "labels": [
+            "grip fighting",
+            "circling"
+          ],
+          "dominance": "athlete_1",
+          "dominance_score": 2,
+          "execution_quality": 3,
+          "commentary": "A1 initiates with collar grip, A2 circles away. Low intensity."
+        },
+        {
+          "start_time": "0:08",
+          "end_time": "0:15",
+          "labels": [
+            "snap down attempt",
+            "posture defense"
+          ],
+          "dominance": "athlete_1",
+          "dominance_score": 3,
+          "execution_quality": 3,
+          "commentary": "A1 attempts a snap down, A2 maintains posture."
+        }
+      ]
+    },
+    {
+      "start_time": "0:15",
+      "end_time": "0:30",
+      "position": "clinch",
+      "sub_position": null,
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "control_quality": 3,
+      "confidence": 0.9,
+      "notes": "A1 secures collar and sleeve, A2 defends.",
+      "sub_segments": [
+        {
+          "start_time": "0:15",
+          "end_time": "0:22",
+          "labels": [
+            "double collar tie",
+            "grip breaking"
+          ],
+          "dominance": "athlete_1",
+          "dominance_score": 4,
+          "execution_quality": 4,
+          "commentary": "A1 secures a strong double collar tie, A2 tries to break grips."
+        },
+        {
+          "start_time": "0:22",
+          "end_time": "0:30",
+          "labels": [
+            "head control",
+            "underhook defense"
+          ],
+          "dominance": "athlete_1",
+          "dominance_score": 3,
+          "execution_quality": 3,
+          "commentary": "A1 pulls head down, A2 defends with underhooks."
+        }
+      ]
+    },
+    {
+      "start_time": "0:30",
+      "end_time": "0:45",
+      "position": "takedown",
+      "sub_position": null,
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "control_quality": 3,
+      "confidence": 0.9,
+      "notes": "A1 attempts a double leg, A2 sprawls defensively.",
+      "sub_segments": [
+        {
+          "start_time": "0:30",
+          "end_time": "0:40",
+          "labels": [
+            "double leg shot",
+            "sprawl defense"
+          ],
+          "dominance": "athlete_2",
+          "dominance_score": 4,
+          "execution_quality": 4,
+          "commentary": "A1 shoots a deep double leg, A2 sprawls effectively, creating distance."
+        },
+        {
+          "start_time": "0:40",
+          "end_time": "0:45",
+          "labels": [
+            "re-shot attempt",
+            "head control"
+          ],
+          "dominance": "athlete_2",
+          "dominance_score": 3,
+          "execution_quality": 3,
+          "commentary": "A1 tries to re-shot, A2 pushes head down, preventing entry."
+        }
+      ]
+    },
+    {
+      "start_time": "0:45",
+      "end_time": "1:00",
+      "position": "scramble",
+      "sub_position": null,
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "control_quality": 3,
+      "confidence": 0.9,
+      "notes": "Both athletes fighting for position after failed takedown. A1 ends up on bottom.",
+      "sub_segments": [
+        {
+          "start_time": "0:45",
+          "end_time": "0:55",
+          "labels": [
+            "stand up attempt",
+            "pull down"
+          ],
+          "dominance": "athlete_2",
+          "dominance_score": 3,
+          "execution_quality": 3,
+          "commentary": "Chaotic exchange, A1 tries to stand up, A2 pulls A1 back down."
+        },
+        {
+          "start_time": "0:55",
+          "end_time": "1:00",
+          "labels": [
+            "positional transition"
+          ],
+          "dominance": "athlete_2",
+          "dominance_score": 4,
+          "execution_quality": 4,
+          "commentary": "A1 ends up on bottom, A2 establishes top position."
+        }
+      ]
+    },
+    {
+      "start_time": "1:00",
+      "end_time": "1:30",
+      "position": "guard",
+      "sub_position": "closed_guard",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "control_quality": 3,
+      "confidence": 0.9,
+      "notes": "A1 pulls guard, establishes closed guard.",
+      "sub_segments": [
+        {
+          "start_time": "1:00",
+          "end_time": "1:15",
+          "labels": [
+            "closed guard",
+            "posture control",
+            "break down"
+          ],
+          "dominance": "athlete_1",
+          "dominance_score": 4,
+          "execution_quality": 4,
+          "commentary": "A1 establishes closed guard, strong posture control, breaking A2 down."
+        },
+        {
+          "start_time": "1:15",
+          "end_time": "1:30",
+          "labels": [
+            "sweep attempt",
+            "guard open"
+          ],
+          "dominance": "athlete_1",
+          "dominance_score": 3,
+          "execution_quality": 3,
+          "commentary": "A1 opens guard, attempts a sweep, A2 defends."
+        }
+      ]
+    },
+    {
+      "start_time": "1:30",
+      "end_time": "2:00",
+      "position": "passing_guard",
+      "sub_position": null,
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "control_quality": 3,
+      "confidence": 0.9,
+      "notes": "A2 attempts to open A1's closed guard.",
+      "sub_segments": [
+        {
+          "start_time": "1:30",
+          "end_time": "1:45",
+          "labels": [
+            "guard break",
+            "stand up pass"
+          ],
+          "dominance": "athlete_2",
+          "dominance_score": 3,
+          "execution_quality": 3,
+          "commentary": "A2 works to open A1's closed guard, standing up."
+        },
+        {
+          "start_time": "1:45",
+          "end_time": "2:00",
+          "labels": [
+            "knee slice attempt",
+            "frame defense"
+          ],
+          "dominance": "athlete_2",
+          "dominance_score": 3,
+          "execution_quality": 3,
+          "commentary": "A2 attempts a knee slice pass, A1 defends with frames."
+        }
+      ]
+    },
+    {
+      "start_time": "2:00",
+      "end_time": "2:45",
+      "position": "side_control",
+      "sub_position": null,
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "control_quality": 4,
+      "confidence": 0.9,
+      "notes": "A2 passes to side control, A1 defends.",
+      "sub_segments": [
+        {
+          "start_time": "2:00",
+          "end_time": "2:15",
+          "labels": [
+            "side control",
+            "cross-face",
+            "underhook"
+          ],
+          "dominance": "athlete_2",
+          "dominance_score": 5,
+          "execution_quality": 5,
+          "commentary": "A2 secures side control, strong cross-face and underhook."
+        },
+        {
+          "start_time": "2:15",
+          "end_time": "2:30",
+          "labels": [
+            "shrimp escape",
+            "pressure maintenance",
+            "knee-on-belly transition"
+          ],
+          "dominance": "athlete_2",
+          "dominance_score": 4,
+          "execution_quality": 4,
+          "commentary": "A1 attempts to shrimp out, A2 maintains pressure, transitions to knee-on-belly briefly."
+        },
+        {
+          "start_time": "2:30",
+          "end_time": "2:45",
+          "labels": [
+            "side control",
+            "mount setup"
+          ],
+          "dominance": "athlete_2",
+          "dominance_score": 4,
+          "execution_quality": 4,
+          "commentary": "A2 re-establishes side control, looking for mount."
+        }
+      ]
+    },
+    {
+      "start_time": "2:45",
+      "end_time": "3:15",
+      "position": "mount",
+      "sub_position": null,
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "control_quality": 4,
+      "confidence": 0.9,
+      "notes": "A2 transitions to mount, A1 tries to escape.",
+      "sub_segments": [
+        {
+          "start_time": "2:45",
+          "end_time": "3:00",
+          "labels": [
+            "high mount",
+            "arm defense"
+          ],
+          "dominance": "athlete_2",
+          "dominance_score": 5,
+          "execution_quality": 5,
+          "commentary": "A2 achieves high mount, A1 defends arms."
+        },
+        {
+          "start_time": "3:00",
+          "end_time": "3:15",
+          "labels": [
+            "arm isolation",
+            "armbar setup"
+          ],
+          "dominance": "athlete_2",
+          "dominance_score": 4,
+          "execution_quality": 4,
+          "commentary": "A2 isolates an arm, setting up armbar."
+        }
+      ]
+    },
+    {
+      "start_time": "3:15",
+      "end_time": "3:45",
+      "position": "submission_attempt",
+      "sub_position": null,
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "control_quality": 3,
+      "confidence": 0.9,
+      "notes": "A2 attempts an armbar from mount. A1 defends well.",
+      "sub_segments": [
+        {
+          "start_time": "3:15",
+          "end_time": "3:30",
+          "labels": [
+            "armbar extension",
+            "stack defense",
+            "grip break"
+          ],
+          "dominance": "athlete_1",
+          "dominance_score": 3,
+          "execution_quality": 3,
+          "commentary": "A2 extends for armbar, A1 stacks and grips."
+        },
+        {
+          "start_time": "3:30",
+          "end_time": "3:45",
+          "labels": [
+            "arm escape",
+            "space creation"
+          ],
+          "dominance": "athlete_1",
+          "dominance_score": 4,
+          "execution_quality": 4,
+          "commentary": "A1 pulls arm free, creates space."
+        }
+      ]
+    },
+    {
+      "start_time": "3:45",
+      "end_time": "4:00",
+      "position": "scramble",
+      "sub_position": null,
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "control_quality": 3,
+      "confidence": 0.9,
+      "notes": "A1 escapes armbar, reverses position to top half guard.",
+      "sub_segments": [
+        {
+          "start_time": "3:45",
+          "end_time": "3:55",
+          "labels": [
+            "reversal",
+            "positional change"
+          ],
+          "dominance": "athlete_1",
+          "dominance_score": 4,
+          "execution_quality": 4,
+          "commentary": "A1 reverses position during armbar escape, ends up on top."
+        },
+        {
+          "start_time": "3:55",
+          "end_time": "4:00",
+          "labels": [
+            "half guard establishment"
+          ],
+          "dominance": "athlete_1",
+          "dominance_score": 4,
+          "execution_quality": 4,
+          "commentary": "A1 secures top half guard."
+        }
+      ]
+    },
+    {
+      "start_time": "4:00",
+      "end_time": "4:30",
+      "position": "half_guard",
+      "sub_position": "deep_half_guard",
+      "top_athlete": "athlete_1",
+      "bottom_athlete": "athlete_2",
+      "control_quality": 3,
+      "confidence": 0.9,
+      "notes": "A1 on top in half guard, A2 defending, trying to recover guard.",
+      "sub_segments": [
+        {
+          "start_time": "4:00",
+          "end_time": "4:15",
+          "labels": [
+            "half guard control",
+            "guard recovery"
+          ],
+          "dominance": "athlete_1",
+          "dominance_score": 4,
+          "execution_quality": 4,
+          "commentary": "A1 maintains top half guard, A2 tries to recover full guard."
+        },
+        {
+          "start_time": "4:15",
+          "end_time": "4:30",
+          "labels": [
+            "deep half guard",
+            "sweep setup",
+            "defense"
+          ],
+          "dominance": "athlete_2",
+          "dominance_score": 3,
+          "execution_quality": 3,
+          "commentary": "A2 sets up deep half guard sweep, A1 defends."
+        }
+      ]
+    },
+    {
+      "start_time": "4:30",
+      "end_time": "5:00",
+      "position": "sweep",
+      "sub_position": null,
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "control_quality": 3,
+      "confidence": 0.9,
+      "notes": "A2 sweeps A1 from half guard. A2 is now on top, A1 is on bottom.",
+      "sub_segments": [
+        {
+          "start_time": "4:30",
+          "end_time": "4:45",
+          "labels": [
+            "deep half sweep",
+            "balance loss"
+          ],
+          "dominance": "athlete_2",
+          "dominance_score": 5,
+          "execution_quality": 5,
+          "commentary": "A2 executes the deep half guard sweep, A1 loses balance."
+        },
+        {
+          "start_time": "4:45",
+          "end_time": "5:00",
+          "labels": [
+            "sweep completion",
+            "open guard establishment"
+          ],
+          "dominance": "athlete_2",
+          "dominance_score": 4,
+          "execution_quality": 4,
+          "commentary": "A2 comes up on top, A1 establishes open guard."
+        }
+      ]
+    },
+    {
+      "start_time": "5:00",
+      "end_time": "5:30",
+      "position": "guard",
+      "sub_position": "spider_guard",
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "control_quality": 3,
+      "confidence": 0.9,
+      "notes": "A1 establishes open guard.",
+      "sub_segments": [
+        {
+          "start_time": "5:00",
+          "end_time": "5:15",
+          "labels": [
+            "spider guard",
+            "posture control"
+          ],
+          "dominance": "athlete_1",
+          "dominance_score": 4,
+          "execution_quality": 4,
+          "commentary": "A1 establishes spider guard, controlling A2's posture."
+        },
+        {
+          "start_time": "5:15",
+          "end_time": "5:30",
+          "labels": [
+            "triangle setup",
+            "defense"
+          ],
+          "dominance": "athlete_1",
+          "dominance_score": 3,
+          "execution_quality": 3,
+          "commentary": "A1 attempts a triangle setup from spider guard, A2 defends."
+        }
+      ]
+    },
+    {
+      "start_time": "5:30",
+      "end_time": "6:00",
+      "position": "passing_guard",
+      "sub_position": null,
+      "top_athlete": "athlete_2",
+      "bottom_athlete": "athlete_1",
+      "control_quality": 3,
+      "confidence": 0.9,
+      "notes": "A2 attempts to pass A1's open guard, A1 is active with spider guard hooks.",
+      "sub_segments": [
+        {
+          "start_time": "5:30",
+          "end_time": "5:45",
+          "labels": [
+            "toreando pass",
+            "spider guard defense"
+          ],
+          "dominance": "athlete_1",
+          "dominance_score": 3,
+          "execution_quality": 3,
+          "commentary": "A2 attempts a toreando pass, A1 uses spider hooks to prevent."
+        },
+        {
+          "start_time": "5:45",
+          "end_time": "6:00",
+          "labels": [
+            "grip break",
+            "posture reset"
+          ],
+          "dominance": "athlete_2",
+          "dominance_score": 2,
+          "execution_quality": 2,
+          "commentary": "A2 disengages grips, resets posture."
+        }
+      ]
+    }
+  ],
+  "fighter_profiles": {
+    "athlete_1": {
+      "game_style": "Guard player, active with sweeps and submissions. Strong guard retention and escapes.",
+      "strengths": [
+        "Guard retention",
+        "Offensive guard (sweeps)",
+        "Submission escapes",
+        "Offensive guard (submissions)"
+      ],
+      "weaknesses": [
+        "Takedown execution",
+        "Sweep defense (from top half guard)"
+      ]
+    },
+    "athlete_2": {
+      "game_style": "Top player, pressure passer, strong at securing dominant positions and submission attempts from top.",
+      "strengths": [
+        "Sweeps from bottom/half guard",
+        "Guard passing attempts",
+        "Top control",
+        "Takedown defense",
+        "Submission attacks from top"
+      ],
+      "weaknesses": []
+    }
+  },
+  "meta_analysis": {
+    "strategic_patterns": [
+      "A2 focuses on pressure passing to achieve dominant top positions.",
+      "A1 consistently pulls guard and works for sweeps/submissions.",
+      "Scrambles often lead to significant positional changes."
+    ],
+    "fatigue_detected": true,
+    "fatigue_onset": "5:45",
+    "momentum_shifts": [
+      {
+        "time": "2:00",
+        "description": "A2 successfully passes guard to side control, gaining significant control."
+      },
+      {
+        "time": "2:45",
+        "description": "A2 transitions to mount, increasing dominance."
+      },
+      {
+        "time": "3:15",
+        "description": "A2 initiates a strong submission attempt (armbar)."
+      },
+      {
+        "time": "3:45",
+        "description": "A1 successfully escapes armbar and reverses position, a major momentum shift."
+      },
+      {
+        "time": "4:30",
+        "description": "A2 executes a sweep from half guard, reversing position and gaining top control."
+      }
+    ],
+    "coaching_recommendations": {
+      "athlete_1": {
+        "immediate_fixes": [
+          "Improve takedown entries or pull guard earlier if standing game is not effective."
+        ],
+        "training_priorities": [
+          "Develop more finishing options from guard (e.g., more aggressive sweep follow-ups, varied submission entries).",
+          "Strengthen sweep defense from top positions (e.g., half guard retention)."
+        ]
+      },
+      "athlete_2": {
+        "immediate_fixes": [
+          "Maintain relentless pressure after passing to prevent guard recovery."
+        ],
+        "training_priorities": [
+          "Refine submission mechanics for higher finish rate from dominant positions.",
+          "Explore more dynamic guard passing options against active open guards (e.g., spider guard)."
+        ]
+      }
+    }
+  },
+  "_metadata": {
+    "model": "gemini-2.5-flash",
+    "processing_time": 131.6531548500061
+  }
+}

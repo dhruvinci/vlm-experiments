@@ -1,116 +1,222 @@
-# Sensai - BJJ Video Analysis AI
+# VLM Experiments for BJJ Video Analysis
 
-Advanced AI system for analyzing Brazilian Jiu-Jitsu competition footage using vision-language models and computer vision.
+Research experiments exploring Vision-Language Models (VLMs) for automated analysis of Brazilian Jiu-Jitsu competition footage. This repo documents the iterative development from a naive baseline (16% accuracy) to a production-ready architecture achieving 100% temporal coverage with rich micro-analysis.
 
-## Current Baseline Performance
+## Key Findings
 
-**Experiment 5 (Gemini 2.0 Flash):**
-- Overall Score: **16.3/100**
-- Position Quality: 27.1/100 (avg 1.35/5 stars)
-- Detail Coverage: 0/100 (0 sub-segments vs 62 ground truth)
+| Experiment | Approach | Coverage | Cost | Key Learning |
+|------------|----------|----------|------|--------------|
+| **Exp 1** | Single-pass Gemini | 16% | ~$0.01 | VLMs hallucinate without constraints |
+| **Exp 2** | Multi-pass + Caching | 100% | ~$1.00 | Over-segmentation, hallucinations persist |
+| **Exp 3** | CV Constraints + Gemini | 100% | ~$0.02 | Attention decay in long videos |
+| **Exp 3.3** | Two-pass fix attempt | 46% | ~$0.04 | Reactive fixes don't work |
+| **Exp 4** | Skeleton-Flesh Integrated | **100%** | **$0.013** | ✅ Best results |
 
-**Ground Truth Benchmark:**
-- 32 macro positions
-- 62 sub-segments (1.94 per position)
-- 122 technique labels (1.97 per sub-segment)
-- 42 unique BJJ techniques identified
+**Best Result (Experiment 4):** 25 segments, 100% coverage, all micro-analysis fields, $0.013/video
 
 ## Project Structure
 
 ```
-/Sensai/
-├── prompts/              # Prompt engineering for VLM analysis
-├── experiment/           # Experiment runner scripts
-├── evaluation/           # Evaluation tools and ground truth data
-├── hitl/                 # Human-in-the-loop annotation tool
-├── results/              # Experiment outputs
-└── data/                 # Test videos
+├── experiment/                 # Core analysis pipelines
+│   ├── experiment4/           # Best performing architecture
+│   │   ├── stage0.py          # CV preprocessing (YOLO + optical flow)
+│   │   ├── stage1_v3.py       # Integrated skeleton-flesh analysis
+│   │   └── stage2.py          # Detail enrichment (optional)
+│   ├── experiment3_*.py       # CV + Gemini pipeline
+│   └── bjj_video_analyzer_*.py # Earlier experiments
+├── hitl/                      # Human-in-the-Loop evaluation tool
+│   └── frontend/              # React app for reviewing results
+├── evaluation/                # Accuracy metrics & ground truth
+│   ├── evaluation_server.py   # FastAPI backend for HITL
+│   └── ground_truth.json      # Human-annotated benchmark
+├── outputs/                   # Experiment results (JSON + Markdown)
+│   ├── experiment4.0/         # Latest outputs
+│   └── experiment3/           # Earlier outputs
+├── prompts/                   # Prompt engineering & BJJ ontology
+└── design/                    # UI mockups and assets
+```
+
+## Experiments Overview
+
+### Experiment 1: Naive Baseline
+Single-pass Gemini 2.0 Flash with BJJ ontology prompt.
+- **Result:** 16.3/100 accuracy, zero sub-segmentation
+- **Failure:** Model hallucinated positions (standing → "armbar defense")
+
+### Experiment 2: Multi-Pass Architecture  
+4-pass pipeline with context caching (85% token reduction).
+- **Result:** 100% coverage but 241 segments (7.5x over-segmentation)
+- **Failure:** Hallucinations persisted, $1/video too expensive
+
+### Experiment 3: CV Constraints
+Added MediaPipe pose estimation to constrain VLM outputs.
+- **Result:** 58 segments, $0.02/video, 100% coverage
+- **Innovation:** Standing probability prevents ground position hallucinations
+- **Failure:** Attention decay caused repetitive outputs mid-video
+
+### Experiment 4: Skeleton-Flesh Integrated (Best)
+Single-pass with 16-field output format combining skeleton + micro-analysis.
+- **Result:** 25 segments, $0.013/video, 100% coverage, all fields complete
+- **Innovation:** Dynamic segment range based on video duration
+- **Output:** Position, control, action score, strategy, setup, execution, outcome, coaching
+
+## HITL Evaluation Tool
+
+React-based interface for reviewing AI predictions against ground truth.
+
+**Features:**
+- Segment-by-segment video review with synchronized playback
+- 1-5 star rating system for AI predictions
+- Sub-segment annotation with technique labels
+- Progress tracking across all segments
+- Export to JSON for training data
+
+**Screenshot:** The tool displays video alongside AI predictions, allowing annotators to rate accuracy and add corrections.
+
+## Sample Output (Experiment 4)
+
+```json
+{
+  "time": "1:34-1:44",
+  "position": "standing",
+  "top": "Galvao",
+  "control": "0.6",
+  "action": "0.8",
+  "notes": "Galvao hits an explosive uchi mata from double overhooks",
+  "strategy": "Galvao uses double overhooks to control upper body, capitalizing on Tackett's forward pressure",
+  "setup": "Galvao secures double overhooks as Tackett presses in",
+  "execution": "With double overhooks, Galvao elevates hips, hooks leg for textbook uchi mata. Tackett immediately turtles to prevent back take.",
+  "outcome": "Clean takedown, momentum shifts to Galvao",
+  "coaching": "Beautiful takedown using opponent's momentum. Tackett's immediate turtle was good defensive reaction."
+}
 ```
 
 ## Quick Start
 
-### Run Experiment 5 (Gemini Baseline)
+### Prerequisites
+- Python 3.8+
+- Node.js 14+ (for HITL tool)
+- Google AI API key (Gemini)
+
+### Installation
+
 ```bash
-export GOOGLE_API_KEY="your-api-key"
-cd experiment
-python bjj_video_analyzer_gemini.py \
-  --video ../data/videos/youtube_SMRbZEbxepA.mp4 \
-  --model flash \
-  --output ../results/gemini_exp5/
+# Clone the repo
+git clone https://github.com/0xdhruva/vlm-experiments.git
+cd vlm-experiments
+
+# Install Python dependencies
+pip install -r requirements.txt
+
+# Set API key
+export GOOGLE_API_KEY="your-gemini-api-key"
 ```
 
-### Evaluate Results
+### Run Experiment 4 (Recommended)
+
 ```bash
-cd evaluation
-python evaluate_detail_quality.py
+# Stage 0: CV Preprocessing (generates action scores)
+python experiment/experiment4/stage0.py \
+  --video_path data/videos/your_video.mp4 \
+  --output_dir outputs/your_experiment
+
+# Stage 1: Integrated Analysis
+python experiment/experiment4/stage1_v3.py \
+  --video_path data/videos/your_video.mp4 \
+  --output_dir outputs/your_experiment \
+  --mode competition \
+  --run 1
 ```
 
-### Run HITL Annotation Tool
+### Run HITL Evaluation Tool
+
 ```bash
-# Terminal 1: Start evaluation server
+# Terminal 1: Start backend
 cd evaluation
 python evaluation_server.py
+# Server runs on http://localhost:5002
 
-# Terminal 2: Start React frontend
+# Terminal 2: Start frontend
 cd hitl/frontend
 npm install
 npm start
+# App runs on http://localhost:3000
 ```
 
-## Next Experiments (Planned)
+### Run Earlier Experiments
 
-**Target: 70-90/100 overall score**
+```bash
+# Experiment 2 (multi-pass)
+python experiment/bjj_video_analyzer_exp2.py \
+  --video data/videos/your_video.mp4 \
+  --output outputs/exp2
 
-### Experiment 6A: Multi-Stage Gemini Pipeline
-- Action segmentation at 3-5s granularity
-- Technical classification with 42-technique vocabulary
-- Hierarchical structure: position → sub_segments → labels
+# Experiment 3 (CV + Gemini)
+python experiment/experiment3_main.py \
+  --video data/videos/your_video.mp4 \
+  --output outputs/exp3
+```
 
-### Experiment 6B: Hybrid ByteTrack + Dual-Model
-- ByteTrack for temporal segmentation
-- Gemini 2.0 for position recognition
-- Claude 3.5 Sonnet for technique analysis
+## Output Formats
 
-### Experiment 6C: Single-Model Excellence
-- Enhanced 42-technique ontology
-- Three-pass analysis (chunk → group → enhance)
-- Chain-of-thought reasoning
+All experiments output both JSON (structured) and Markdown (human-readable):
 
-## Key Files
+- `stage1v3_skeleton_competition_run1.json` - Parsed segments with all fields
+- `stage1v3_skeleton_competition_run1.md` - Raw model output
+- `stage0_cv_checkpoints_5s.json` - CV preprocessing data
 
-- `EXPERIMENTS_PLAN.md` - Detailed experiment roadmap
-- `prompts/gemini_prompts.md` - Current prompts for Gemini models
-- `prompts/bjj_ontology.md` - BJJ position/technique knowledge base
-- `evaluation/ground_truth.json` - Human-annotated ground truth (32 positions, 62 sub-segments)
-- `evaluation/evaluate_detail_quality.py` - Scoring script
+## Key Technical Insights
+
+1. **VLMs need constraints:** Without CV data, models hallucinate positions
+2. **Attention decay is real:** Models get "lazy" after ~4 minutes of video
+3. **Format matters:** Integrated output (skeleton + detail in one line) prevents task-switching fatigue
+4. **Dynamic targets help:** Telling model "aim for 30-70 segments" produces better results than fixed limits
+5. **Caching is essential:** Video caching reduces costs by 85%+
 
 ## Test Video
 
-**16-minute no-gi match:**
-- Path: `data/videos/youtube_SMRbZEbxepA.mp4`
-- Athletes: Andrew Tackett vs Micael Galvao
-- Used for all experiments and evaluation
+Experiments use a 16-minute no-gi match:
+- **Athletes:** Andrew Tackett vs Micael Galvao
+- **Event:** Who's Number One
+- **Ground Truth:** 32 positions, 62 sub-segments, 122 technique labels
+
+(Video not included in repo due to size - use your own BJJ footage)
 
 ## Technology Stack
 
-- **VLMs**: Gemini 2.0 Flash, Claude 3.5 Sonnet (planned)
-- **CV Pipeline**: ByteTrack, MediaPipe, ST-GCN (planned)
-- **HITL Tool**: React, Material-UI, FastAPI
-- **Evaluation**: Python, custom scoring metrics
+- **VLM:** Gemini 2.5 Flash (with context caching)
+- **CV:** YOLO11 pose detection, OpenCV optical flow
+- **Backend:** FastAPI, Python
+- **Frontend:** React, Material-UI
+- **Evaluation:** Custom accuracy metrics, human annotation
 
-## Evaluation Metrics
+## Cost Analysis
 
-```python
-overall_score = (0.6 * rating_score) + (0.4 * detail_coverage)
+| Stage | Tokens | Cost |
+|-------|--------|------|
+| Video cache | ~286k | $0.007 |
+| Stage 1 analysis | ~6k output | $0.006 |
+| **Total** | ~292k | **$0.013** |
 
-rating_score = (avg_rating / 5.0) * 100  # Human ratings 1-5
-detail_coverage = (ai_subsegments / gt_subsegments) * 100
-```
+## Future Work
 
-## Contributing
-
-See `EXPERIMENTS_PLAN.md` for planned experiments and implementation details.
+- [ ] Multi-video evaluation across different match types
+- [ ] Real-time analysis for live streaming
+- [ ] Technique-specific deep dives (Stage 2)
+- [ ] Training data generation for fine-tuning
 
 ## License
 
-Research project - Internal use only
+MIT - Feel free to use for research and experimentation.
+
+## Citation
+
+If you use this work, please cite:
+```
+@misc{vlm-bjj-experiments,
+  author = {Dhruva},
+  title = {VLM Experiments for BJJ Video Analysis},
+  year = {2025},
+  url = {https://github.com/0xdhruva/vlm-experiments}
+}
+```
