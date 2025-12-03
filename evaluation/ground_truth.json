@@ -1,0 +1,1127 @@
+{
+  "video_path": "http://localhost:5002/videos/stream?video_path=data%2Fvideos%2Fyoutube_SMRbZEbxepA",
+  "video_duration": "00:15:59",
+  "labeled_by": "dhruva",
+  "labeled_date": "2025-10-09T05:27:12.891Z",
+  "ground_truth_positions": [
+    {
+      "start_time": "00:00",
+      "end_time": "00:08",
+      "position": "standing",
+      "sub_position": "grip_fighting",
+      "top_athlete": null,
+      "bottom_athlete": null,
+      "confidence": 0.9,
+      "notes": "Initial grip exchange, both athletes circling",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "00:00",
+          "end_time": "00:02",
+          "note": "Both fighters shake hands.",
+          "labels": [
+            "pre_match"
+          ]
+        },
+        {
+          "start_time": "00:02",
+          "end_time": "00:08",
+          "note": "Referee announces 'fight' and match starts.",
+          "labels": [
+            "match_start"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "00:08",
+      "end_time": "00:50",
+      "position": "standing",
+      "sub_position": "clinch",
+      "top_athlete": null,
+      "bottom_athlete": null,
+      "confidence": 0.9,
+      "notes": "Tackett and Galvao in a standing clinch, grip fighting",
+      "is_correct": null,
+      "rating": 2,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "00:08",
+          "end_time": "00:10",
+          "note": "Tackett goes for collar tie, Galvao quickly counters with his own. Neither grips get established, athletes circle.",
+          "labels": [
+            "Standing",
+            "grip_fighting"
+          ]
+        },
+        {
+          "start_time": "00:10",
+          "end_time": "00:15",
+          "note": "No significant action.",
+          "labels": [
+            "Standing"
+          ]
+        },
+        {
+          "start_time": "00:15",
+          "end_time": "00:19",
+          "note": "Tackett goes for a collar tie again, but Galvao quickly counters with a stronger collar tie of his own. Tackett maintains strong posture and walks towards Galvao to weaken the effects of the tie, but Galvao uses the opportunity to go for a foot sweep. The sweep fails and both fighters return to an open position.",
+          "labels": [
+            "Standing",
+            "grip_fighting"
+          ]
+        },
+        {
+          "start_time": "00:19",
+          "end_time": "00:39",
+          "note": "Equal collar tie attempts, no significant action.",
+          "labels": [
+            "Standing"
+          ]
+        },
+        {
+          "start_time": "00:39",
+          "end_time": "00:41",
+          "note": "Tackett goes for the collar tie again and tries a quick snap down, but Galvao is strong and his posture does not break. He tries to go for his own collar tie but Tackett quickly dodges out of it and circles away back to open position.",
+          "labels": [
+            "Standing"
+          ]
+        },
+        {
+          "start_time": "00:41",
+          "end_time": "00:50",
+          "note": "No significant action",
+          "labels": [
+            "Standing"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "00:50",
+      "end_time": "01:43",
+      "position": "standing",
+      "sub_position": "takedown",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "notes": "Galvao attempts a takedown, Tackett defends",
+      "is_correct": null,
+      "rating": 2,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "00:50",
+          "end_time": "00:53",
+          "note": "Galvao attempts a takedown and Tackett defends it by maintaining his collar tie and breaking Galvao's posture. Galvao gets back up into Tackett's collar tie.",
+          "labels": [
+            "takedown"
+          ]
+        },
+        {
+          "start_time": "00:53",
+          "end_time": "01:00",
+          "note": "Galvao establishes his own collar tie against Tackett's and both fighters enter a scrimmage of collar ties. In the end it breaks, and both return to an open position.",
+          "labels": [
+            "Standing"
+          ]
+        },
+        {
+          "start_time": "01:00",
+          "end_time": "01:32",
+          "note": " More displays of equal collar ties with no significant action.",
+          "labels": [
+            "Standing"
+          ]
+        },
+        {
+          "start_time": "01:32",
+          "end_time": "01:40",
+          "note": "With both fighters having collar ties, Galvao tries a deep foot sweep, and switches his collar tie into an overhook while trying to break Tackett down to the ground. Tackett maintains footing and balance and returns back up to his feet into a shallow front headlock position with double underhooks on Galvao.",
+          "labels": [
+            "Standing"
+          ]
+        },
+        {
+          "start_time": "01:40",
+          "end_time": "01:43",
+          "note": "Galvao weighs down on Tackett's underhooks and drops to his hips to pull guard on Tackett and chain it into a sweep to come on top.",
+          "labels": [
+            "Guard"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "01:43",
+      "end_time": "02:04",
+      "position": "guard",
+      "sub_position": "closed_guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "notes": "Tackett in Galvao's closed guard",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "01:43",
+          "end_time": "1:44",
+          "note": "Tackett quickly maintains posture and gets back onto his feet while Galvao is on the ground and attached to his hands in a pseudo lasso guard around his arms.",
+          "labels": [
+            "lasso_guard"
+          ]
+        },
+        {
+          "start_time": "1:44",
+          "end_time": "02:04",
+          "note": "Tackett slips his arms out from Galvao's guard and quickly attempts to pass his guard with his arms around Galvao's legs and at his hips. He tries to stack Galvao, who ends up flipping over and getting his legs out to establish open guard.",
+          "labels": [
+            "guard_pass",
+            "open_guard"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "02:04",
+      "end_time": "02:10",
+      "position": "standing",
+      "sub_position": "standing",
+      "top_athlete": null,
+      "bottom_athlete": null,
+      "confidence": 0.9,
+      "notes": "Tackett and Galvao in a standing clinch, grip fighting",
+      "is_correct": null,
+      "rating": 3,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "02:04",
+          "end_time": "02:10",
+          "note": "Tackett stands up looking to adjust something on his rash guard, referee intervenes while action is paused. Galvao is still down in open guard.",
+          "labels": [
+            "guard_pass",
+            "open_guard"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "02:10",
+      "end_time": "02:45",
+      "position": "guard",
+      "sub_position": "de_la_riva_guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "notes": "Tackett in Galvao's de la riva guard",
+      "is_correct": null,
+      "rating": 4,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "02:10",
+          "end_time": "02:45",
+          "note": "Fight resumes and Tackett enters between Galvao's legs who establishes de la riva guard. His left leg is in half butterfly, and Tackett eventually gets to headquarters position.",
+          "labels": [
+            "de_la_riva",
+            "headquarters_position"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "02:45",
+      "end_time": "03:05",
+      "position": "sweep",
+      "sub_position": "sweep",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "notes": "Galvao sweeps Tackett",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "02:45",
+          "end_time": "03:00",
+          "note": "Tackett swivels Galvao's hips out of headquarters position and attempts to pass it while threatening a guillotine choke. Galvao traps Tackett's right leg preventing the successful pass and choke while trying to sweep Tackett over, but Tackett bails the guillotine and they end up in a dog fight position.",
+          "labels": [
+            "headquarters_position",
+            "guard_pass",
+            "guillotine"
+          ]
+        },
+        {
+          "start_time": "03:00",
+          "end_time": "03:05",
+          "note": "Tackett uses a granby roll to get out of the dog fight position, but Galvao rolls through to attempt a back take.",
+          "labels": [
+            "granby_roll",
+            "back_control"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "03:05",
+      "end_time": "03:50",
+      "position": "back_control",
+      "sub_position": "back_control",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "notes": "Galvao takes Tackett's back",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "03:05",
+          "end_time": "03:15",
+          "note": "Galvao holds onto the body lock on Tackett while he tries to get his back to the mat and escape the back take, but Galvao has strong control of Tackett's hips. Galvao even throws a body triangle around Tackett's legs to keep him from escaping. Tackett is stuck for a few seconds.",
+          "labels": [
+            "body_lock"
+          ]
+        },
+        {
+          "start_time": "03:15",
+          "end_time": "03:40",
+          "note": "Tackett reaches for Galvao's body triangle leg to pry it open and start escaping. But Galvao keeps the body lock tight and continues chasing the back of Andrew Tackett while he tries to escape. Tackett is now stuck for a longer duration.",
+          "labels": [
+            "escaping",
+            "body_lock"
+          ]
+        },
+        {
+          "start_time": "03:40",
+          "end_time": "03:50",
+          "note": "Tackett tries to build up height to win top position on Galvao but Galvao moves his body lock up to underhooks on Tackett and returns him to the mat with a sweep. Galvao finally ends up in side control with underhook and crossface.",
+          "labels": [
+            "escaping",
+            "sweep",
+            "underhooks",
+            "Side Control"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "03:50",
+      "end_time": "04:05",
+      "position": "escape",
+      "sub_position": "escape",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "notes": "Tackett escapes Galvao's back",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "03:50",
+          "end_time": "03:57",
+          "note": "Galvao tries to hold side control but Tackett sneaks in a butterfly hook to retain guard, and Galvao works around it to maintain side control. But Tackett uses that opportunity to quickly bring in a knee shield.",
+          "labels": [
+            "Side Control",
+            "escaping",
+            "knee_shield"
+          ]
+        },
+        {
+          "start_time": "03:57",
+          "end_time": "04:05",
+          "note": "Tackett tries to recover guard with his knee shield and leg over Galvao to his far hip, but Galvao smashes them both to get to mount position.",
+          "labels": [
+            "Mount"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "04:05",
+      "end_time": "04:50",
+      "position": "mount",
+      "sub_position": "mount",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "notes": "Galvao takes mount",
+      "is_correct": null,
+      "rating": 4,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "04:05",
+          "end_time": "04:50",
+          "note": "Galvao cooks Tackett in mount with shoulder pressure into his chin and neck. Galvao is trying to move into a submission while Tackett is trying to make some space to escape or recover. ",
+          "labels": [
+            "Mount"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "04:50",
+      "end_time": "05:30",
+      "position": "escape",
+      "sub_position": "escape",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "notes": "Tackett escapes Galvao's mount",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "04:50",
+          "end_time": "05:30",
+          "note": "Galvao keeps Tackett pinned in mount position, trying to keep shoulder pressure in the neck while also trying to isolate an arm of Tackett. ",
+          "labels": [
+            "Mount"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "05:30",
+      "end_time": "06:00",
+      "position": "guard",
+      "sub_position": "de_la_riva_guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "notes": "Tackett in Galvao's de la riva guard",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "05:30",
+          "end_time": "05:49",
+          "note": "Galvao maintains mount while Tackett frames at his hip to get some separation. Tackett succeeds, forcing Galvao to regress into side control.",
+          "labels": [
+            "Mount",
+            "Side Control"
+          ]
+        },
+        {
+          "start_time": "05:49",
+          "end_time": "06:00",
+          "note": "Tackett manages to find more separation when Galvao lifts his hips to maintain side control, and uses this opportunity to recover his knees into guard and eventually into butterfly guard.",
+          "labels": [
+            "Side Control",
+            "butterfly_guard"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "06:00",
+      "end_time": "06:15",
+      "position": "sweep",
+      "sub_position": "sweep",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "notes": "Galvao sweeps Tackett",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "06:00",
+          "end_time": "06:09",
+          "note": "Tackett continues to off balance Galvao from his butterfly guard and scrambles to reverse into top position. ",
+          "labels": [
+            "butterfly_guard",
+            "scramble",
+            "scramble_reversal"
+          ]
+        },
+        {
+          "start_time": "06:09",
+          "end_time": "06:15",
+          "note": "Galvao accepts bottom in an open guard position and Tackett begins guard passing once more in a toreando style.",
+          "labels": [
+            "open_guard",
+            "toreando_pass"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "06:15",
+      "end_time": "07:00",
+      "position": "side_control",
+      "sub_position": "side_control",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "notes": "Galvao in side control",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "06:15",
+          "end_time": "06:21",
+          "note": "Tackett enters headquarters position once again while attempting to pass and Galvao uses his butterfly hook to turtle away into a dog fight scenario",
+          "labels": [
+            "headquarters_position",
+            "defensive_turtle",
+            "open_guard"
+          ]
+        },
+        {
+          "start_time": "06:21",
+          "end_time": "06:43",
+          "note": "Galvao falls back down into open guard again and Tackett tries to pass using double unders once again. Tackett agressively tries passing while Galvao switches between de la riva and reverse de la riva positions, keeping Tackett from passing and pushing him back into open guard position.",
+          "labels": [
+            "open_guard",
+            "de_la_riva",
+            "reverse_de_la_riva"
+          ]
+        },
+        {
+          "start_time": "06:43",
+          "end_time": "07:00",
+          "note": "Tackett tries some loose passing while scrambling around Galvao's guard, but Galvao does a good job of retaining guard.",
+          "labels": [
+            "scramble",
+            "retaining_guard"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "07:00",
+      "end_time": "07:20",
+      "position": "escape",
+      "sub_position": "escape",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "notes": "Tackett escapes Galvao's side control",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "07:00",
+          "end_time": "07:20",
+          "note": "Tackett continues to try and scramble through Galvao's guard, Galvao retains his guard.",
+          "labels": [
+            "open_guard",
+            "scramble",
+            "retaining_guard"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "07:20",
+      "end_time": "08:00",
+      "position": "guard",
+      "sub_position": "de_la_riva_guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "notes": "Tackett in Galvao's de la riva guard",
+      "is_correct": null,
+      "rating": 2,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "07:20",
+          "end_time": "07:23",
+          "note": "Galvao tries to wrestle up to a standing position but Tackett trips and sweeps him back down into his seated guard.",
+          "labels": [
+            "Standing",
+            "open_guard"
+          ]
+        },
+        {
+          "start_time": "07:23",
+          "end_time": "08:00",
+          "note": "The same game continues, Tackett trying to pass Galvao's guard from open guard to De La Riva to headquarters, while constantly applying top pressure.",
+          "labels": [
+            "open_guard",
+            "headquarters_position",
+            "de_la_riva"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "08:00",
+      "end_time": "08:20",
+      "position": "sweep",
+      "sub_position": "sweep",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "notes": "Galvao sweeps Tackett",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "08:00",
+          "end_time": "08:20",
+          "note": "Tackett continues to apply top pressure to beat Galvao's guard. Galvao keeps him at bay, switching between De La Riva and Headquarters positions.",
+          "labels": [
+            "headquarters_position",
+            "de_la_riva"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "08:20",
+      "end_time": "09:00",
+      "position": "side_control",
+      "sub_position": "side_control",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "notes": "Galvao in side control",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "08:20",
+          "end_time": "09:00",
+          "note": "Tackett continues to try to pass, this time scrambling through some interesting leg entanglements, missing a foot lock attack and once again returning back to the de la riva guard of galvao",
+          "labels": [
+            "scramble",
+            "de_la_riva"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "09:00",
+      "end_time": "09:40",
+      "position": "escape",
+      "sub_position": "escape",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "notes": "Tackett escapes Galvao's side control",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "09:00",
+          "end_time": "09:16",
+          "note": "Galvao keeps his de la riva guard strong to push Tackett back away from him into an open guard scenario.",
+          "labels": [
+            "de_la_riva",
+            "open_guard"
+          ]
+        },
+        {
+          "start_time": "09:16",
+          "end_time": "09:40",
+          "note": "Tackett once again tries to pass Galvao's guard, even attempting to threaten a guillotine, but Galvao keeps his guard strong between de la riva and half butterfly to be able to push Tackett back once again into open guard.",
+          "labels": [
+            "de_la_riva",
+            "open_guard"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "09:40",
+      "end_time": "10:00",
+      "position": "standing",
+      "sub_position": "standing",
+      "top_athlete": null,
+      "bottom_athlete": null,
+      "confidence": 0.9,
+      "notes": "Tackett and Galvao in a standing clinch, grip fighting",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "09:40",
+          "end_time": "10:00",
+          "note": "Tackett continues applying relentless top pressure on Galvao to break through his De La Riva guard and trying to stack Galvao, while Galvao constantly tries to retain it. Finally it looks like Tackett is almost passing it.",
+          "labels": [
+            "de_la_riva",
+            "stack_pass"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "10:00",
+      "end_time": "10:40",
+      "position": "guard",
+      "sub_position": "de_la_riva_guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "notes": "Tackett in Galvao's de la riva guard",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "10:00",
+          "end_time": "10:18",
+          "note": "Galvao quickly retains his guard before Tackett can get to side control and the same game repeats with Tackett trying to pass between Galvao's De La Riva and knee shield, but Galvao pushes Tackett back into open guard.",
+          "labels": [
+            "open_guard",
+            "de_la_riva"
+          ]
+        },
+        {
+          "start_time": "10:18",
+          "end_time": "10:27",
+          "note": "Galvao surprises Tackett with a double leg takedown from open guard to take him down to the mat and win top position. He quickly tries to scramble past his guard into side control and mount but Tackett does a good job retaining his guard and creating space for separation.",
+          "labels": [
+            "double_leg",
+            "takedown"
+          ]
+        },
+        {
+          "start_time": "10:27",
+          "end_time": "10:32",
+          "note": "While Galvao tries to scramble out of a passing situation, Tackett manages to grab hold of his leg threatening a heel hook, forcing Galvao to work on an escape. Galvao escapes and puts Tackett in half guard.",
+          "labels": [
+            "heel_hook",
+            "escaping",
+            "Half Guard"
+          ]
+        },
+        {
+          "start_time": "10:32",
+          "end_time": "10:40",
+          "note": "Tackett works through his half guard to recover open guard and now Galvao is in top position working to pass through Tackett's De La Riva guard.",
+          "labels": [
+            "half_guard_to_guard",
+            "open_guard",
+            "de_la_riva"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "10:40",
+      "end_time": "11:00",
+      "position": "sweep",
+      "sub_position": "sweep",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "notes": "Galvao sweeps Tackett",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "10:40",
+          "end_time": "10:53",
+          "note": "Galvao tries to dive and pass Tackett while stacking him, but Tackett recovers open guard.",
+          "labels": [
+            "stack_pass",
+            "open_guard"
+          ]
+        },
+        {
+          "start_time": "10:53",
+          "end_time": "11:00",
+          "note": "Galvao trying to once again pressure pass past Tackett's guard ending up in his half guard with a knee shield",
+          "labels": [
+            "Half Guard",
+            "knee_shield"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "11:00",
+      "end_time": "11:50",
+      "position": "side_control",
+      "sub_position": "side_control",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "notes": "Galvao in side control",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "11:00",
+          "end_time": "11:06",
+          "note": "Galvao passes Tackett's half guard and quickly gets to mount position.",
+          "labels": [
+            "half_guard_to_mount",
+            "guard_pass"
+          ]
+        },
+        {
+          "start_time": "11:06",
+          "end_time": "11:50",
+          "note": "Galvao putting a lot of top pressure in mount on Tackett, constantly trying to isolate an arm or apply choking pressure.",
+          "labels": [
+            "Mount"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "11:50",
+      "end_time": "12:00",
+      "position": "escape",
+      "sub_position": "escape",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "notes": "Tackett escapes Galvao's side control",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "11:50",
+          "end_time": "12:00",
+          "note": "Galvao in top mount, working hard to isolate an arm. ",
+          "labels": [
+            "Mount"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "12:00",
+      "end_time": "12:20",
+      "position": "standing",
+      "sub_position": "standing",
+      "top_athlete": null,
+      "bottom_athlete": null,
+      "confidence": 0.9,
+      "notes": "Tackett and Galvao in a standing clinch, grip fighting",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "12:00",
+          "end_time": "12:20",
+          "note": "Galvao making multiple attempts to isolate Tackett's arm from top mount position.",
+          "labels": [
+            "Mount"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "12:20",
+      "end_time": "12:50",
+      "position": "guard",
+      "sub_position": "de_la_riva_guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "notes": "Tackett in Galvao's de la riva guard",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "12:20",
+          "end_time": "12:50",
+          "note": "Galvao putting a ton of pressure in top mount working hard to isolate Tackett's arm. Tackett working hard to create some separation and work an escape.",
+          "labels": [
+            "Mount"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "12:50",
+      "end_time": "13:10",
+      "position": "sweep",
+      "sub_position": "sweep",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "notes": "Galvao sweeps Tackett",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "12:50",
+          "end_time": "13:10",
+          "note": "Tackett finally works hard to escape mount from Galvao by framing on his hips, and kipping and bucking his hips hard to get Galvao off him, and stand back up into a neutral position.",
+          "labels": [
+            "Mount",
+            "escaping",
+            "Standing"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "13:10",
+      "end_time": "13:50",
+      "position": "back_control",
+      "sub_position": "back_control",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "notes": "Galvao takes Tackett's back",
+      "is_correct": null,
+      "rating": 2,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "13:10",
+          "end_time": "13:23",
+          "note": "Both fighters are back in standing position with some mild grip fighting. Tackett attempts a single leg takedown on Galvao, fails, and returns back to neutral standing positions.",
+          "labels": [
+            "Standing",
+            "single_leg"
+          ]
+        },
+        {
+          "start_time": "13:23",
+          "end_time": "13:37",
+          "note": "Both fighters are in standing position. Tackett attempts a low double leg takedown, but Galvao gets on top of Tackett's back, establishes a seat belt, and begins taking Tackett's back. Tackett turns into Galvao to prevent the back take and ends up in close guard with a triangle threat.",
+          "labels": [
+            "Standing",
+            "double_leg",
+            "seat_belt",
+            "back_control",
+            "closed_guard",
+            "triangle"
+          ]
+        },
+        {
+          "start_time": "13:37",
+          "end_time": "13:50",
+          "note": "Tackett stands up to get out of Galvao's triangle, and as Tackett slips out Galvao switches to threaten the armbar, but Tackett escapes by stacking Galvao. ",
+          "labels": [
+            "triangle",
+            "armbar",
+            "stack_pass"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "13:50",
+      "end_time": "14:00",
+      "position": "escape",
+      "sub_position": "escape",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "notes": "Tackett escapes Galvao's back",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "13:50",
+          "end_time": "14:00",
+          "note": "Tackett continues to attempt to stack pass Galvao, but he pushes Tackett back away into an open giard scenario.",
+          "labels": [
+            "stack_pass",
+            "open_guard"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "14:00",
+      "end_time": "14:40",
+      "position": "guard",
+      "sub_position": "de_la_riva_guard",
+      "top_athlete": "Andrew Tackett",
+      "bottom_athlete": "Micael Galvao",
+      "confidence": 0.9,
+      "notes": "Tackett in Galvao's de la riva guard",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "14:00",
+          "end_time": "14:20",
+          "note": "Galvao stands back up to wrestle Tackett and both fighters begin their scrimmage of grip fighting.",
+          "labels": [
+            "Standing",
+            "grip_fighting"
+          ]
+        },
+        {
+          "start_time": "14:20",
+          "end_time": "14:35",
+          "note": "Tackett shoots low and gets an ankle pick, but Galvao rolls out of it, and both fighters return back to standing position beginning to wrestle again.",
+          "labels": [
+            "ankle_pick",
+            "Standing"
+          ]
+        },
+        {
+          "start_time": "14:35",
+          "end_time": "14:40",
+          "note": "Tackett jumps through to pull guard from standing position but ends up in bottom half guard, putting Galvao in top passing territory.",
+          "labels": [
+            "pull_guard"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "14:40",
+      "end_time": "15:00",
+      "position": "sweep",
+      "sub_position": "sweep",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "notes": "Galvao sweeps Tackett",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "14:40",
+          "end_time": "14:48",
+          "note": "Galvao is able to pass Tackett's guard by stacking him and getting to side control with a deep underhook and goes to kesa gatame.",
+          "labels": [
+            "Side Control",
+            "kesa_gatame"
+          ]
+        },
+        {
+          "start_time": "14:48",
+          "end_time": "15:00",
+          "note": "Galvao progresses up from kesa gatame to side control to a knee on belly position, while Tackett is trying to find frames and separation from bottom positions.",
+          "labels": [
+            "kesa_gatame",
+            "Side Control",
+            "knee_on_belly"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    },
+    {
+      "start_time": "15:00",
+      "end_time": "15:59",
+      "position": "side_control",
+      "sub_position": "side_control",
+      "top_athlete": "Micael Galvao",
+      "bottom_athlete": "Andrew Tackett",
+      "confidence": 0.9,
+      "notes": "Galvao in side control",
+      "is_correct": null,
+      "rating": 1,
+      "completed": true,
+      "labels": [],
+      "sub_segments": [
+        {
+          "start_time": "15:00",
+          "end_time": "15:17",
+          "note": "Galvao swivels around for a final armbar attempt but Tackett defends it and almost comes up when the referee ends the match because the clock runs out.",
+          "labels": [
+            "armbar",
+            "match_end"
+          ]
+        },
+        {
+          "start_time": "15:17",
+          "end_time": "15:59",
+          "note": "Both fighters hug, audience cheers.\nGalvao is declared the winner.",
+          "labels": [
+            "match_end"
+          ]
+        }
+      ],
+      "alternative_predictions": []
+    }
+  ],
+  "ground_truth_transitions": [],
+  "ground_truth_scoring_adcc": {},
+  "notes": null
+}

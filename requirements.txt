@@ -1,0 +1,25 @@
+# Core Dependencies
+google-generativeai>=0.3.0
+anthropic>=0.7.0
+
+# Video Processing
+opencv-python>=4.8.0
+av>=10.0.0
+
+# Server & API
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+tqdm>=4.66.0
+
+# Optional: Computer Vision Pipeline
+# ultralytics>=8.0.0  # YOLOv11
+# mediapipe>=0.10.0   # Pose estimation
