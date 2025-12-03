@@ -6,6 +6,9 @@
 # Deployment folder (separate private repo)
 github/
 
+# Design assets (not needed for experiments)
+design/
+
 # Output/results - now included in repo for reference
 # outputs/
 # results/
