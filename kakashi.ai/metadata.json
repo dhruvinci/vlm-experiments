@@ -1,0 +1,8 @@
+{
+  "name": "Kakashi.ai",
+  "description": "The first AI training partner for Jiu-Jitsu. Computer vision analysis for grappling footage.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
