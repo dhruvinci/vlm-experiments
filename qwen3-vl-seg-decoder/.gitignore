@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated local and remote run outputs. Frozen packet/staging evidence is committed.
+runs/
+downloads/
+labels-work/
+decoder-runs/
+diagnostics/

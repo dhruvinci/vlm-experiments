@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "clip_id": "back_seatbelt",
+  "clip_manifest_path": "back_seatbelt/clip-manifest.json",
+  "clip_manifest_sha256": "7856493ad5b0954ca92f3356a5eae62d6c722f2c26850ab7c9a4006a18b20535",
+  "seeds": [
+    {
+      "frame_index": 0,
+      "actors": [
+        {
+          "actor_id": "A1",
+          "bbox": [0.29, 0.41, 0.62, 0.59],
+          "positive_points": [[0.39, 0.49], [0.49, 0.535]],
+          "negative_points": [[0.30, 0.54], [0.54, 0.555]]
+        },
+        {
+          "actor_id": "A2",
+          "bbox": [0.23, 0.48, 0.60, 0.60],
+          "positive_points": [[0.30, 0.54], [0.54, 0.555]],
+          "negative_points": [[0.39, 0.49], [0.49, 0.535]]
+        }
+      ]
+    },
+    {
+      "frame_index": 8,
+      "actors": [
+        {
+          "actor_id": "A1",
+          "bbox": [0.25, 0.45, 0.56, 0.60],
+          "positive_points": [[0.35, 0.50], [0.43, 0.535]],
+          "negative_points": [[0.37, 0.57], [0.51, 0.565]]
+        },
+        {
+          "actor_id": "A2",
+          "bbox": [0.29, 0.50, 0.60, 0.61],
+          "positive_points": [[0.37, 0.57], [0.51, 0.565]],
+          "negative_points": [[0.35, 0.50], [0.43, 0.535]]
+        }
+      ]
+    },
+    {
+      "frame_index": 23,
+      "actors": [
+        {
+          "actor_id": "A1",
+          "bbox": [0.04, 0.40, 0.35, 0.59],
+          "positive_points": [[0.17, 0.55], [0.11, 0.49]],
+          "negative_points": [[0.28, 0.50], [0.33, 0.54]]
+        },
+        {
+          "actor_id": "A2",
+          "bbox": [0.13, 0.42, 0.41, 0.58],
+          "positive_points": [[0.28, 0.50], [0.33, 0.54]],
+          "negative_points": [[0.17, 0.55], [0.11, 0.49]]
+        }
+      ]
+    }
+  ],
+  "propagations": [
+    {"start_frame_idx": 0, "max_frame_num_to_track": 8, "reverse": false},
+    {"start_frame_idx": 8, "max_frame_num_to_track": 8, "reverse": false},
+    {"start_frame_idx": 23, "max_frame_num_to_track": 8, "reverse": true}
+  ]
+}
