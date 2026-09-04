@@ -326,14 +326,31 @@ class OwnershipDatasetTests(unittest.TestCase):
         mean = ActorStateControlDataset(source, control="mean")[0].actor_states
         random_one = ActorStateControlDataset(source, control="random_matched", seed=7)[0].actor_states
         random_two = ActorStateControlDataset(source, control="random_matched", seed=7)[0].actor_states
+        donor = torch.stack((torch.arange(8) + 100, torch.arange(8) + 120)).float()
+        shuffled = ActorStateControlDataset(
+            source,
+            control="shuffled_clip",
+            replacement_actor_states=donor,
+        )[0].actor_states
 
         torch.testing.assert_close(swapped, actor_states.flip(0))
         torch.testing.assert_close(zero, torch.zeros_like(actor_states))
         torch.testing.assert_close(mean[0], actor_states.mean(dim=0))
         torch.testing.assert_close(mean[0], mean[1])
         torch.testing.assert_close(random_one, random_two)
-        torch.testing.assert_close(random_one.norm(dim=-1), actor_states.norm(dim=-1))
+        real_mean = actor_states.mean(dim=0)
+        random_mean = random_one.mean(dim=0)
+        torch.testing.assert_close(random_mean, real_mean)
+        torch.testing.assert_close(
+            (random_one - random_mean).norm(dim=-1),
+            (actor_states - real_mean).norm(dim=-1),
+        )
+        self.assertFalse(torch.equal(random_one, actor_states))
+        torch.testing.assert_close(shuffled, donor)
         torch.testing.assert_close(source[0].actor_states, actor_states)
+
+        with self.assertRaisesRegex(ValueError, "replacement"):
+            ActorStateControlDataset(source, control="shuffled_clip")
 
 
 if __name__ == "__main__":

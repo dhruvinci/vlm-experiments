@@ -430,7 +430,7 @@ def run_local_decoder_campaign(
                 for clip, result in semantic_results["action_relational"].items()
             }
         )
-        for control in ("real", "random_matched", "zero", "mean")
+        for control in ("real", "shuffled_clip", "random_matched", "zero", "mean")
     }
     swap = _aggregate_swap(
         {

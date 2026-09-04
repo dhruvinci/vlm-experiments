@@ -193,7 +193,14 @@ class OwnershipDataset(Dataset[OwnershipSample]):
 class ActorStateControlDataset(Dataset[OwnershipSample]):
     """Deterministic semantic controls over an otherwise identical dataset."""
 
-    _CONTROLS = {"real", "swapped", "zero", "mean", "random_matched"}
+    _CONTROLS = {
+        "real",
+        "swapped",
+        "shuffled_clip",
+        "zero",
+        "mean",
+        "random_matched",
+    }
 
     def __init__(
         self,
@@ -201,12 +208,29 @@ class ActorStateControlDataset(Dataset[OwnershipSample]):
         *,
         control: str,
         seed: int = 7,
+        replacement_actor_states: torch.Tensor | None = None,
     ):
         if control not in self._CONTROLS:
             raise ValueError(f"unsupported actor-state control: {control}")
+        if control == "shuffled_clip":
+            if (
+                replacement_actor_states is None
+                or replacement_actor_states.ndim != 2
+                or replacement_actor_states.shape[0] != 2
+            ):
+                raise ValueError(
+                    "shuffled-clip control requires replacement actor states shaped [2,D]"
+                )
+        elif replacement_actor_states is not None:
+            raise ValueError("replacement actor states are only valid for shuffled-clip control")
         self.source = source
         self.control = control
         self.seed = seed
+        self.replacement_actor_states = (
+            replacement_actor_states.detach().clone()
+            if replacement_actor_states is not None
+            else None
+        )
 
     def __len__(self) -> int:
         return len(self.source)
@@ -220,6 +244,16 @@ class ActorStateControlDataset(Dataset[OwnershipSample]):
             controlled = reference.clone()
         elif self.control == "swapped":
             controlled = reference.flip(0).clone()
+        elif self.control == "shuffled_clip":
+            assert self.replacement_actor_states is not None
+            if self.replacement_actor_states.shape != reference.shape:
+                raise ValueError(
+                    "replacement actor states must match the source actor-state shape"
+                )
+            controlled = self.replacement_actor_states.to(
+                device=reference.device,
+                dtype=reference.dtype,
+            ).clone()
         elif self.control == "zero":
             controlled = torch.zeros_like(reference)
         elif self.control == "mean":
@@ -227,10 +261,23 @@ class ActorStateControlDataset(Dataset[OwnershipSample]):
         else:
             digest = hashlib.sha256(f"{self.seed}:{sample.clip_id}".encode("utf-8")).digest()
             generator = torch.Generator().manual_seed(int.from_bytes(digest[:8], "big"))
-            random_states = torch.randn(reference.shape, generator=generator, dtype=torch.float32)
-            random_states = torch.nn.functional.normalize(random_states, dim=-1)
-            controlled = random_states * reference.float().norm(dim=-1, keepdim=True)
-            controlled = controlled.to(reference.dtype)
+            reference_float = reference.float()
+            pair_mean = reference_float.mean(dim=0)
+            residuals = reference_float - pair_mean
+            residual_magnitude = residuals.norm(dim=-1).mean()
+            random_direction = torch.randn(
+                reference.shape[-1],
+                generator=generator,
+                dtype=torch.float32,
+            )
+            random_direction = torch.nn.functional.normalize(
+                random_direction,
+                dim=0,
+            )
+            random_residual = random_direction * residual_magnitude
+            controlled = torch.stack(
+                (pair_mean + random_residual, pair_mean - random_residual)
+            ).to(reference.dtype)
         return replace(sample, actor_states=controlled)
 
 

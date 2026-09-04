@@ -724,7 +724,9 @@ def write_review_template(
             "instructions": (
                 "Inspect each full preview against the source, edit the contact-owner PNG "
                 "so it contains only 0=not contact, 1=A1, or 2=A2, and then run the "
-                "explicit finalize-review command. Yellow/255 cells are unresolved."
+                "explicit finalize-review command. Yellow/255 cells are unresolved. "
+                "If a frame truly has no contact, set every cell to 0 and change that "
+                "record's decision to no_contact."
             ),
             "records": review_records,
         }
@@ -819,12 +821,27 @@ def finalize_review_manifest(
             )
         contact = (owners == LABEL_A1) | (owners == LABEL_A2)
         proposed_band = proposal != LABEL_BACKGROUND
-        if not np.any(contact & proposed_band):
-            raise ValueError(f"edited frame contains no contact truth in the review band: {identity}")
+        if np.any(contact & ~proposed_band):
+            raise ValueError(f"edited frame marks contact outside the review band: {identity}")
+        requested_decision = str(record.get("decision", ""))
+        if requested_decision not in {"pending", "approved", "no_contact"}:
+            raise ValueError(f"human review decision is invalid: {identity}")
+        if requested_decision == "no_contact":
+            if np.any(contact):
+                raise ValueError(
+                    f"no-contact decision contains actor-owned contact cells: {identity}"
+                )
+            final_decision = "approved_no_contact"
+        else:
+            if not np.any(contact & proposed_band):
+                raise ValueError(
+                    f"edited frame contains no contact truth in the review band: {identity}"
+                )
+            final_decision = "approved"
         finalized_records.append(
             {
                 **record,
-                "decision": "approved",
+                "decision": final_decision,
                 "contact_owner_sha256": _sha256(owner_path),
             }
         )
@@ -893,7 +910,7 @@ def freeze_reviewed_label_package(
             frame_index = int(candidate_record["frame_index"])
             identity = (clip_id, frame_index)
             reviewed = review_by_identity[identity]
-            if reviewed.get("decision") != "approved":
+            if reviewed.get("decision") not in {"approved", "approved_no_contact"}:
                 raise ValueError(f"frame was not approved by the human reviewer: {identity}")
             candidate_label = _safe_relative(
                 candidate_root,
@@ -935,8 +952,8 @@ def freeze_reviewed_label_package(
                 owners,
                 reviewed=True,
             )
-            if not np.any(contact):
-                raise ValueError(f"reviewed frame contains no explicit contact truth: {identity}")
+            if (reviewed.get("decision") == "approved_no_contact") != (not np.any(contact)):
+                raise ValueError(f"reviewed frame decision and contact truth disagree: {identity}")
             validate_label_ready(corrected, contact, require_both_actors=True)
             clip_root = temporary / "clips" / clip_id
             label_path = clip_root / "labels" / f"frame_{frame_index:06d}.png"
@@ -966,6 +983,10 @@ def freeze_reviewed_label_package(
         for clip_id in sorted(by_clip):
             clip_root = temporary / "clips" / clip_id
             records = sorted(by_clip[clip_id], key=lambda value: value["frame_index"])
+            if sum(int(record["contact_patch_count"]) for record in records) < 1:
+                raise ValueError(
+                    f"reviewed clip contains no explicit contact evidence: {clip_id}"
+                )
             manifest = {
                 "format": "reviewed-ownership-labels-v1",
                 "clip_id": clip_id,
@@ -1070,10 +1091,12 @@ def verify_reviewed_label_manifest(
             raise ValueError(f"reviewed contact mask is not binary: {contact_path}")
         contact = contact_values.astype(bool)
         validate_label_ready(labels, contact, require_both_actors=True)
-        if not np.any(contact) or record.get("contact_reviewed") is not True:
-            raise ValueError("reviewed record lacks explicit contact truth")
+        if record.get("contact_reviewed") is not True:
+            raise ValueError("reviewed record lacks explicit contact review")
         observed = label_summary(labels, contact, contact_reviewed=True)
         for key, value in observed.items():
             if record.get(key) != value:
                 raise ValueError(f"reviewed label summary mismatch for frame {record.get('frame_index')}")
+    if sum(int(record.get("contact_patch_count", 0)) for record in records) < 1:
+        raise ValueError("reviewed clip lacks explicit contact evidence")
     return manifest

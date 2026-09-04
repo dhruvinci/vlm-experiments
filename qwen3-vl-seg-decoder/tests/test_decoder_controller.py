@@ -99,6 +99,7 @@ class LocalDecoderControllerTests(unittest.TestCase):
                     test = _metrics(candidate_iou, 0.80)
                     controls = {
                         "real": test,
+                        "shuffled_clip": _metrics(0.63, 0.63),
                         "random_matched": _metrics(0.65, 0.65),
                         "zero": _metrics(0.55, 0.55),
                         "mean": _metrics(0.54, 0.54),
@@ -149,6 +150,7 @@ class LocalDecoderControllerTests(unittest.TestCase):
             )
             self.assertEqual(len(result["selected_static_run_by_heldout"]), 4)
             self.assertEqual(len(result["selected_action_run_by_heldout"]), 4)
+            self.assertIn("shuffled_clip", result["action_semantic_controls"])
             self.assertEqual(
                 result["action_over_static_paired_uncertainty"][
                     "bootstrap_resample_count"
