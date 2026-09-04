@@ -1,0 +1,24 @@
+{
+  "actor_colors_rgb": {
+    "A1": [
+      0,
+      220,
+      255
+    ],
+    "A2": [
+      255,
+      55,
+      210
+    ]
+  },
+  "clip_id": "back_seatbelt",
+  "format": "ownership-seed-prompt-review-v1",
+  "image_sha256": "2bc8218e85ca38299d4648304050612ef35bbd540c0004790734659948d433b8",
+  "legend": "solid circles=positive; crosses=opponent exclusion; boxes=actor extent",
+  "plan_sha256": "e8b3adabee1ea6274e84491e9b3900b7123ad67847238ebb27f51149bf933b76",
+  "seed_frame_indices": [
+    0,
+    8,
+    23
+  ]
+}

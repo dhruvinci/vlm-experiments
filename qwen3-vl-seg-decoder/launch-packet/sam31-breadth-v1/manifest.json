@@ -1,0 +1,434 @@
+{
+  "clips": [
+    {
+      "clip_id": "back_seatbelt",
+      "clip_manifest_name": "back_seatbelt/clip-manifest.json",
+      "config_name": "back_seatbelt.json",
+      "config_sha256": "ed77d6dda2055cb2217a1db51a3439054935f357504f8c290b3296cceab27124",
+      "frame_count": 24,
+      "frame_inventory_sha256": "886776aff78aa418532c8c5dd9bc7b4fbeb78692f84237ddba98dadf1a3fe7f1",
+      "plan_sha256": "e8b3adabee1ea6274e84491e9b3900b7123ad67847238ebb27f51149bf933b76",
+      "propagation_segments": [
+        {
+          "max_frame_num_to_track": 8,
+          "reverse": false,
+          "start_frame_idx": 0
+        },
+        {
+          "max_frame_num_to_track": 8,
+          "reverse": false,
+          "start_frame_idx": 8
+        },
+        {
+          "max_frame_num_to_track": 8,
+          "reverse": true,
+          "start_frame_idx": 23
+        }
+      ],
+      "review_image": "back_seatbelt.png",
+      "review_image_sha256": "2bc8218e85ca38299d4648304050612ef35bbd540c0004790734659948d433b8",
+      "review_sidecar": "back_seatbelt.png.json",
+      "review_sidecar_sha256": "0d2524b2c5029ec74f5ad85b39e14f56696b849119c7523afaa1b08e14adbd60",
+      "seed_frame_indices": [
+        0,
+        8,
+        23
+      ]
+    },
+    {
+      "clip_id": "guard_scramble",
+      "clip_manifest_name": "guard_scramble/clip-manifest.json",
+      "config_name": "guard_scramble.json",
+      "config_sha256": "dea06b07e7eb25e239e8225e5fbd0449d4ff40e8afd97861651abb2555bb6213",
+      "frame_count": 24,
+      "frame_inventory_sha256": "4dcbfeb412c197b488de4848afd323f312e8eb8b586a95374aa33e4387d5306a",
+      "plan_sha256": "e58ef89ff88ee06db64399c6524e502cf086a2ef9ca4b860a7a8207548d3021d",
+      "propagation_segments": [
+        {
+          "max_frame_num_to_track": 8,
+          "reverse": false,
+          "start_frame_idx": 0
+        },
+        {
+          "max_frame_num_to_track": 8,
+          "reverse": false,
+          "start_frame_idx": 8
+        },
+        {
+          "max_frame_num_to_track": 8,
+          "reverse": false,
+          "start_frame_idx": 16
+        }
+      ],
+      "review_image": "guard_scramble.png",
+      "review_image_sha256": "802c86dd12dd45c45a6d694c0b99faafa5ee41ad5ab2be83bcc1b1ac852c292d",
+      "review_sidecar": "guard_scramble.png.json",
+      "review_sidecar_sha256": "f590455cee865ff281b9653d81e19f035c6606926120327990584f8219a712d4",
+      "seed_frame_indices": [
+        0,
+        8,
+        16
+      ]
+    },
+    {
+      "clip_id": "half_guard",
+      "clip_manifest_name": "half_guard/clip-manifest.json",
+      "config_name": "half_guard.json",
+      "config_sha256": "274e78b91b48810100ec754233694b05b12f71702d541d417ebdc729f67f764e",
+      "frame_count": 24,
+      "frame_inventory_sha256": "00c244b02c4929c3487742eaf0efeeceeda8153c8b3d03771940b74d29947d27",
+      "plan_sha256": "59a8a2175ec894bac73ab5f5f0e5bd2043a0eda3beb564a9e16d9521b7795d62",
+      "propagation_segments": [
+        {
+          "max_frame_num_to_track": 8,
+          "reverse": false,
+          "start_frame_idx": 0
+        },
+        {
+          "max_frame_num_to_track": 8,
+          "reverse": false,
+          "start_frame_idx": 8
+        },
+        {
+          "max_frame_num_to_track": 8,
+          "reverse": false,
+          "start_frame_idx": 16
+        }
+      ],
+      "review_image": "half_guard.png",
+      "review_image_sha256": "1906905688684a762f806aeeb5f91d6377acbd485b35512108323a10afeaa20c",
+      "review_sidecar": "half_guard.png.json",
+      "review_sidecar_sha256": "b0ea6bd0c83c74234e2ae28b3b04addf3add0cca753bc050fd7de9cd74a4d8c8",
+      "seed_frame_indices": [
+        0,
+        8,
+        16
+      ]
+    },
+    {
+      "clip_id": "mount",
+      "clip_manifest_name": "mount/clip-manifest.json",
+      "config_name": "mount.json",
+      "config_sha256": "e3cd0f17b83df14db7727520c79bd900cdaa4ac5ba20b2c9c84a1c6bef3f28b5",
+      "frame_count": 24,
+      "frame_inventory_sha256": "a4a970c42609c191365a7c58f49e18a68c5a8483fb5d2315c7aec37ebc711aba",
+      "plan_sha256": "060aeb438232e1ad1adaa8b3e897fcd69fc9e97b51843709fcd567307905693f",
+      "propagation_segments": [
+        {
+          "max_frame_num_to_track": 8,
+          "reverse": false,
+          "start_frame_idx": 0
+        },
+        {
+          "max_frame_num_to_track": 8,
+          "reverse": false,
+          "start_frame_idx": 8
+        },
+        {
+          "max_frame_num_to_track": 8,
+          "reverse": false,
+          "start_frame_idx": 16
+        }
+      ],
+      "review_image": "mount.png",
+      "review_image_sha256": "6a2e1e346259e16cbeb83e1300cadb32ec6c511f1de83551affc31249560a985",
+      "review_sidecar": "mount.png.json",
+      "review_sidecar_sha256": "5f90e0843d12364c0b1dcab94f25bb34d53e0d4f3d52205779c4f2ee7541ee9e",
+      "seed_frame_indices": [
+        0,
+        8,
+        16
+      ]
+    }
+  ],
+  "created_at": "2026-09-04T05:28:53.969813+00:00",
+  "environment": {
+    "cuda_index": "cu130",
+    "dependency_versions": {
+      "numpy": "1.26.4",
+      "torch": "2.12.1+cu130",
+      "torchvision": "0.27.1+cu130"
+    },
+    "gpu_forbidden": "Max-Q",
+    "gpu_required": "RTX PRO 6000 Blackwell 96GB Server/Workstation",
+    "python_version_prefix": "3.12"
+  },
+  "format": "sam31-breadth-launch-packet-v1",
+  "human_review": {
+    "contact_ownership_labels": "pending",
+    "pseudo_labels_usable_for_training": false,
+    "seed_geometry": "pending_user_optional_geometry_check"
+  },
+  "model": {
+    "backend": "sam3.1-tracker-only",
+    "checkpoint_sha256": "0567debeec80ba4ac6369540c6c248025283cb3ff2b92827509e57e2b3541cb6",
+    "checkpoint_size_bytes": 3502755717,
+    "sam_repo_revision": "8f0b7f4d4e7eda2ed606ebde6702c93359ad01da"
+  },
+  "prompt_contract": "geometry_only_no_semantic_or_appearance_nudges",
+  "runtime_files": [
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/launch-packet/sam31-breadth-v1/environment/README.md",
+      "sha256": "46f5d9bfee94e632bf99a50d9beb1772085524eec2fa04bd31c740ae4398d31a",
+      "size_bytes": 770
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/launch-packet/sam31-breadth-v1/environment/requirements-cu130.txt",
+      "sha256": "67ad880f8cb2417a68a1b27869b9691922f43353413a214d9d7fda481499c086",
+      "size_bytes": 85
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/launch-packet/sam31-breadth-v1/environment/requirements-sam31.txt",
+      "sha256": "84aa277fbdae3d79f278b9da66f8c6286dd1492f1a1f38941f5c43ba5cbb2736",
+      "size_bytes": 265
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/scripts/run_sam31_breadth.py",
+      "sha256": "4f07735a54fb1fdc50eb12a29d6c518f4fc102fe80a86a6813ed36e9fc8d59a3",
+      "size_bytes": 311
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/scripts/supervise_sam31_breadth.py",
+      "sha256": "4e683e801a225103a9de10cb7268ae3a4652f8131b6399f5ee10552684539289",
+      "size_bytes": 310
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/__init__.py",
+      "sha256": "13147848914d1dc3343a9e6c0f06fb5caf543fb88d270322d0b7a0f212cccfc5",
+      "size_bytes": 78
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/breadth_packet.py",
+      "sha256": "9cf6d2c6380d5914df421a7736fab31afde18046fd4f81c1b19c6371614ab595",
+      "size_bytes": 8860
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/cache.py",
+      "sha256": "fcf13e8fbfe75bbbdc72eb56af9ade1807e464889b8f21f8725b5ae096c0d20f",
+      "size_bytes": 6264
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/checkpoint.py",
+      "sha256": "08fee979d5c11b544289079392d18d63ff9a16595bb4fac6d6786024fdac0525",
+      "size_bytes": 5295
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/data.py",
+      "sha256": "25ffd4ef4ec260cfc0c6ae1f912b73d07b2002b3747ba64a1d797c7a4bfebb3b",
+      "size_bytes": 13829
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/evaluation.py",
+      "sha256": "e970405b72fbdbe5c9a877e0f3b10d9e9df588165e31e80d259a3829f5ebfd7a",
+      "size_bytes": 6683
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/experiments.py",
+      "sha256": "dbca6787d0cb69435d5729e97c58d085cd849f198fb8d4dcc2376cf192033baf",
+      "size_bytes": 3439
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/labels.py",
+      "sha256": "a1c76910e10581124e2989f9e22f6ceb620d481ed20ef7e50272fa8fc940e9d1",
+      "size_bytes": 6662
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/losses.py",
+      "sha256": "1c09b1531b8aacb3f4ef477a9e9e3df09dae0c2d4b4fc788e5b9f55b3148b758",
+      "size_bytes": 4191
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/metrics.py",
+      "sha256": "54d217932d58eed67bddd58767d038ccafa1c58530c962558c37b801cb88c70f",
+      "size_bytes": 6314
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/model.py",
+      "sha256": "5d359d7b305ed39c9ccc78249727a298258cf364d35ec76e585874667342681c",
+      "size_bytes": 7463
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/remote_campaign.py",
+      "sha256": "80dea65b025dc0053ca801c3c62dbd5a44b1b586bddbf33abc907dc8eaf186d4",
+      "size_bytes": 7707
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/remote_cli.py",
+      "sha256": "b9475f2b674fde911de7eee855ae6de0707e050b24438eced67e0166d25ae5f5",
+      "size_bytes": 4071
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/remote_preflight.py",
+      "sha256": "f50f8c2f05602f9745cbcde7c2d5c2c24d38c572188a91a178b3da3710b19748",
+      "size_bytes": 11293
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/remote_supervisor.py",
+      "sha256": "52ba6dad4d87957f4d478fa87bfdba4d1225b402a85492903c15edd717a84398",
+      "size_bytes": 14155
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/remote_supervisor_cli.py",
+      "sha256": "add276ca8252d4872b40680cf05654320a6a2ecf4ae20b829a51a8e1849d99c4",
+      "size_bytes": 1819
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/remote_telemetry.py",
+      "sha256": "c31ab3e217338d01d06833964bee9afd10abeb08e38cf9117262e772ba9b78a6",
+      "size_bytes": 8171
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/resource_guard.py",
+      "sha256": "770efba579bed8d66ca37ac915dc8a0db4923f5293e7921c1593c4b9521ffc16",
+      "size_bytes": 10996
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/sam31_tracker_adapter.py",
+      "sha256": "5508b2c9f6ad686e51d8d7c5741e2967f391c92a3ffcf7bb9f46e9f93308e332",
+      "size_bytes": 19618
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/tracking.py",
+      "sha256": "9d9576a9ba6a366bd96182ede3e62566c92556327d34ed8f723c5b5ba6d90b44",
+      "size_bytes": 39307
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/tracking_campaign.py",
+      "sha256": "31f30639bd7c469dfc785c027143d16cdd34f72981de9c78c19f8f6c06fb93c9",
+      "size_bytes": 10210
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/tracking_review.py",
+      "sha256": "03ec074a7686dc59e3075ed42189032e3a6649b8f0ae1056f987394697f8abc2",
+      "size_bytes": 6593
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/src/ownership_decoder/training.py",
+      "sha256": "8a98f0eb1b601c67c1a7579aee48e4f9fdcd325f4b58c966dd72c481feb5a641",
+      "size_bytes": 12700
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_breadth_packet.py",
+      "sha256": "2039aa979cb677b7e43d135dde1515fa874ff1d9892332238d33a8763bd406c7",
+      "size_bytes": 6001
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_cache_contracts.py",
+      "sha256": "b3d88af1bc5d5d1d598d75f7a9db965f053e3480e259e517a307d54dbc4125c2",
+      "size_bytes": 5491
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_checkpoint.py",
+      "sha256": "154e1bf98ad5ee85ace391aec37c2cb25605eaa4d5e3c628987562242d1a0f2f",
+      "size_bytes": 3016
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_dataset.py",
+      "sha256": "38e149668075d1a181d8503a470934c6631241fe49f07e5db4399d70e57f85f5",
+      "size_bytes": 10967
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_evaluation.py",
+      "sha256": "a90c9f2e467021d63e454ecef946923c2d5f0cb310d5f1bc744de1499cc925c1",
+      "size_bytes": 4275
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_experiments.py",
+      "sha256": "5c8b90d3c08d125156579c6fc5f5f78385a0f71894ed8c3247b1b9754f48e9e6",
+      "size_bytes": 2673
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_labels.py",
+      "sha256": "714384a8e9572485871ddf0e7849f9d9922a9ad8de3507943263f9a4bfb786f8",
+      "size_bytes": 3818
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_losses.py",
+      "sha256": "c72567727725f94b0aed9764be962e764278aaf8e6be2328714f20f8309c3364",
+      "size_bytes": 3074
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_metrics.py",
+      "sha256": "d28dfab0e80e8fed7a3c50c9551c38dd7a3665f61b0feb7c698cab4a8d7892e1",
+      "size_bytes": 4188
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_model.py",
+      "sha256": "f31ca432dd352d21d73f1e1d25766d5276b236344a9441fc71e258e8f4e56ed5",
+      "size_bytes": 2994
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_remote_campaign.py",
+      "sha256": "93a547a2bc1bd7d8eb7d2e493f3b3f39951d5e9e38976ebe5872d541414543c2",
+      "size_bytes": 7349
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_remote_cli.py",
+      "sha256": "736c8edda96cb9bc3dac505089da40bb215a7e8c38792e27417c8e45e4961dfe",
+      "size_bytes": 4830
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_remote_preflight.py",
+      "sha256": "ce757f96467aca765e362e618beee0e7dfef1e5fe1bc697f5920c9c11a1e6264",
+      "size_bytes": 6534
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_remote_supervisor.py",
+      "sha256": "4c7b61b72b4e9182209abe5e0d00ede7f03804241f29dd0abacb29d998e92b35",
+      "size_bytes": 6862
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_remote_supervisor_cli.py",
+      "sha256": "14d6989c9920495c564c1e2a007fb683cb6e48e9ed993c2ba928f5ba5a206c4d",
+      "size_bytes": 1661
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_remote_telemetry.py",
+      "sha256": "425f5114a4d95d33c28442115dad8d7061d74a9ab14a1fa4431c34424151883c",
+      "size_bytes": 5046
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_resource_guard.py",
+      "sha256": "555fb9339384aca4f3ab763c139bcfcb01cc1f16a8e582559e839dcec99e4db1",
+      "size_bytes": 5568
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_sam31_tracker_adapter.py",
+      "sha256": "4f727cd23819c350d2c2404a3cda882b503c35da7f3ca9d2e78dc02e76fc0b2a",
+      "size_bytes": 11589
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_tracking.py",
+      "sha256": "39977f4a51838beb8672e13a7b13c4b1529c382762f50efc126229a0b476df09",
+      "size_bytes": 16867
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_tracking_campaign.py",
+      "sha256": "cb017a768e421f92976ee11c8b115eaf8446902e9e6df2d5668eb636a14233b0",
+      "size_bytes": 7721
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_tracking_review.py",
+      "sha256": "3fd08a8ab1a2d0a92b25dbf8dfca145c9faa4e1f35f0ee6f08b8798f7c085a9d",
+      "size_bytes": 2116
+    },
+    {
+      "path": "/home/dhruva/Code/kakashi-research/vlm-experiments/qwen3-vl-seg-decoder/tests/test_training.py",
+      "sha256": "870f329a57f64756abd7a9c72cc242f92394a23cd18cf9c3f9b4d1ba857ba3c2",
+      "size_bytes": 7082
+    }
+  ],
+  "scientific_purpose": "generate independent temporal SAM3.1 actor masks for breadth pseudo-label agreement and leave-one-clip-out decoder evaluation",
+  "termination_contract": {
+    "replacement_pod_allowed": false,
+    "vram_restart_fraction": 0.9,
+    "watchdog_poll_seconds": 30,
+    "worker_restarts_max": 2,
+    "worker_runtime_ceiling_seconds": 28800
+  },
+  "totals": {
+    "clips": 4,
+    "frames": 96,
+    "seed_frames": 12
+  }
+}

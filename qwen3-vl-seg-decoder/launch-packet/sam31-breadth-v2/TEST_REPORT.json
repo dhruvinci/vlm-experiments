@@ -1,0 +1,43 @@
+{
+  "format": "ownership-mask-local-test-report-v1",
+  "created_at": "2026-09-04T06:38:17Z",
+  "result": "pass",
+  "unit_tests": {
+    "count": 152,
+    "elapsed_wall_seconds": 4.04,
+    "maximum_resident_kib": 815668,
+    "swaps": 0,
+    "exit_status": 0,
+    "isolation": {
+      "cuda_visible_devices": "",
+      "memory_high_bytes": 805306368,
+      "memory_max_bytes": 1073741824,
+      "memory_swap_max_bytes": 0,
+      "thread_count_per_blas_runtime": 1
+    }
+  },
+  "package_resolution": {
+    "pypi_exact_versions_checked": 34,
+    "pypi_exact_versions_missing": 0,
+    "torch_cp312_cu130_wheel": "torch-2.12.1+cu130-cp312-cp312-manylinux_2_28_x86_64.whl",
+    "torchvision_cp312_cu130_wheel": "torchvision-0.27.1+cu130-cp312-cp312-manylinux_2_28_x86_64.whl"
+  },
+  "source_validation": {
+    "sam_repository_revision": "8f0b7f4d4e7eda2ed606ebde6702c93359ad01da",
+    "sam_repository_dirty_paths": 0,
+    "sam31_checkpoint_pickle_metadata_inspected_without_tensor_deserialization": true,
+    "tracker_namespace_found": "tracker.model",
+    "shared_backbone_namespace_found": "detector.backbone.vision_backbone",
+    "transformers_5_16_1_tracker_api_verified_against_upstream_source": true
+  },
+  "local_weight_loads": {
+    "qwen": 0,
+    "sam3": 0,
+    "sam3_1": 0
+  },
+  "scientific_gate": {
+    "candidate_masks_are_ground_truth": false,
+    "contact_region_human_review_required_before_training": true,
+    "negative_result_counts_as_valid": true
+  }
+}

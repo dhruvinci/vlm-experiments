@@ -1,0 +1,24 @@
+{
+  "actor_colors_rgb": {
+    "A1": [
+      0,
+      220,
+      255
+    ],
+    "A2": [
+      255,
+      55,
+      210
+    ]
+  },
+  "clip_id": "mount",
+  "format": "ownership-seed-prompt-review-v1",
+  "image_sha256": "6a2e1e346259e16cbeb83e1300cadb32ec6c511f1de83551affc31249560a985",
+  "legend": "solid circles=positive; crosses=opponent exclusion; boxes=actor extent",
+  "plan_sha256": "060aeb438232e1ad1adaa8b3e897fcd69fc9e97b51843709fcd567307905693f",
+  "seed_frame_indices": [
+    0,
+    8,
+    16
+  ]
+}

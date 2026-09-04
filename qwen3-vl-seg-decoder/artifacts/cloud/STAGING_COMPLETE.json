@@ -1,0 +1,3595 @@
+{
+  "artifact_count": 717,
+  "artifacts": [
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/clip-manifest.json",
+      "sha256": "7856493ad5b0954ca92f3356a5eae62d6c722f2c26850ab7c9a4006a18b20535",
+      "size_bytes": 9377
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000001.jpg",
+      "sha256": "acb2b9090b1de821a4d05af55fc27f008f8b86c6aeaad2693f1f073987d33670",
+      "size_bytes": 247501
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000002.jpg",
+      "sha256": "1464c91b036db41ed7e31ff6cf9fc65d6717722b4ae84fa8cdb0a7117c16da48",
+      "size_bytes": 247729
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000003.jpg",
+      "sha256": "93d7f39cb016e4b4c7a92aa09b01b26f6d5b4fc6c68cd6aa257ac0163f3eab36",
+      "size_bytes": 243521
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000004.jpg",
+      "sha256": "3ba18df0fbb6b5b259c8fced6a0ea98c7477f3ce3c5ee1f088933f93a861bcfb",
+      "size_bytes": 245502
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000005.jpg",
+      "sha256": "036936a4d98d06d2949cf1277da31f93e2a8c1d32ccc0beeda9b0a14d6248f77",
+      "size_bytes": 245335
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000006.jpg",
+      "sha256": "0fe3144682e302cfba27236554a13fa7aad9a408307227153f8326e962353ee5",
+      "size_bytes": 245483
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000007.jpg",
+      "sha256": "51b2cd3533e2b249551875d3633095189be8f39ccd9226ed2bfffa0c978152f3",
+      "size_bytes": 243433
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000008.jpg",
+      "sha256": "5301a63d2d356e18b875399651c0773c3c6415c67cba28bdef6d9d4e44a4c533",
+      "size_bytes": 244236
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000009.jpg",
+      "sha256": "ce2bfad7a9ad92325865d6068da752da537491adb2e5cce0849e03ee6eeda36a",
+      "size_bytes": 242973
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000010.jpg",
+      "sha256": "60a1963775abdca4c5d094083e9422be03e2fc9e02866e3eff93854cca01e6e5",
+      "size_bytes": 244191
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000011.jpg",
+      "sha256": "88b7a37dc8168ebf477a3d68b8869e2c2f6e8c3cabe2101a525a674988b61e76",
+      "size_bytes": 244198
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000012.jpg",
+      "sha256": "40d5ff96aa443aeffce1845abaa8538e7cf34389a24527359e37e28e1aa3c46d",
+      "size_bytes": 244775
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000013.jpg",
+      "sha256": "83f876d57f0eb75f51a7306d6e97e87f48ddffc697c5c05055e9d59a6896ca44",
+      "size_bytes": 244729
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000014.jpg",
+      "sha256": "cc4f60027984d6cd7f25402840ae5a74d11123052d55517e319c8f79b0a00e48",
+      "size_bytes": 243876
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000015.jpg",
+      "sha256": "8337031a81c1f3f24b9b8054b6ed24e32c59f76b1ea3087de3e863f908132770",
+      "size_bytes": 243310
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000016.jpg",
+      "sha256": "e026911bb850b2c39a56cad9752145d56ac41312b23a71c74ad63f911bc5325b",
+      "size_bytes": 241998
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000017.jpg",
+      "sha256": "480861c4a26bf63a42b19ae643c720f015d1dcffb928e028c18fa7514f19202e",
+      "size_bytes": 242781
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000018.jpg",
+      "sha256": "ce671bed6c22216348f8207cfa03d60d86900cf4fd69d2c95c2243f1731a4c27",
+      "size_bytes": 243366
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000019.jpg",
+      "sha256": "4cf48609e23157ee04b8a8e6eaa948658bfecc569050fd4b85c8fc63b71eec9b",
+      "size_bytes": 243630
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000020.jpg",
+      "sha256": "24691e50942ec0ecea04f9de35b7c60f9c224c578d42dee8a441fd7b155424ad",
+      "size_bytes": 244314
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000021.jpg",
+      "sha256": "51f2d6fa468b90a70cf3b21eb43f49a1abc3e4a25563d08e14e552b4c64ce200",
+      "size_bytes": 245283
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000022.jpg",
+      "sha256": "095ea1e9eec2f63c7eb079fc8aafbe33039bc255bea6d6ea9c763225887128eb",
+      "size_bytes": 245702
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000023.jpg",
+      "sha256": "afefb46b9531af345a0863cbb644cb224104862cdeecd5a2385a7aca77de9d25",
+      "size_bytes": 245555
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/back_seatbelt/frames/frame_000024.jpg",
+      "sha256": "14fbfc67928b0ae1a69cc70b677e9a5a33d9d2753edb4baf81c76a6830946d84",
+      "size_bytes": 246665
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/breadth-manifest.json",
+      "sha256": "7f6bd6171040e43e529cc211a1618139ebfda1f188b2c276412033a01b7e8f69",
+      "size_bytes": 1074
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/clip-manifest.json",
+      "sha256": "60966e10a83356b98c695f8a2c2e5d072e7c91ee06e190beb059fa8d1d18bb59",
+      "size_bytes": 9324
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000001.jpg",
+      "sha256": "2c058efc5ad285e4f0a6c2c7a5e919e6dec92a7069ae9abd61cc958bace23198",
+      "size_bytes": 81924
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000002.jpg",
+      "sha256": "5a7793f6f1e59a15636c45de9e0bdccd856161bf4f549a9646d1cd3d6fea1276",
+      "size_bytes": 81962
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000003.jpg",
+      "sha256": "e4a405062d511b3a1dde079eb9567b800bd5f54f6288cfd622aaf24198804bd6",
+      "size_bytes": 81802
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000004.jpg",
+      "sha256": "bee7b139b0f9f8ef8ecdd88d24397bafca6979f8598bcd9e8b453f7046313798",
+      "size_bytes": 81881
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000005.jpg",
+      "sha256": "1f3a7a77f13c8b7c53cdc794068a2277d1f57fc4c8fb57a5d93bf3a87b0ba747",
+      "size_bytes": 81842
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000006.jpg",
+      "sha256": "f6567c491a478b93896c43942e8ab90489ced6bc12c60dd8f6eac917181d96a1",
+      "size_bytes": 82179
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000007.jpg",
+      "sha256": "ef30a8120b834d59ab7dd646882d441b60590258ad9dc4d782c78153af136f54",
+      "size_bytes": 82202
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000008.jpg",
+      "sha256": "6d52358b7b3509d781abf463cd06c35c2e43360baef7a42afd4caa61b581cf29",
+      "size_bytes": 82502
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000009.jpg",
+      "sha256": "2e107e736a38abf8f3aea6088ddbfc401ca887ef2c2edd17fceb7ad2e74b6192",
+      "size_bytes": 82061
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000010.jpg",
+      "sha256": "e8a1792349c080bfe79fdda6370553cb0da1ac1e9bd8d99b0b754d95d242b164",
+      "size_bytes": 82266
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000011.jpg",
+      "sha256": "334882e9e3693faa2730cd0536d0f762438d8b618df5e95fca190c4c3753b1ed",
+      "size_bytes": 82265
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000012.jpg",
+      "sha256": "2e343e5c79bc96099edd5629600b494985621a298d2e0541f95c2d711cf67e3b",
+      "size_bytes": 81826
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000013.jpg",
+      "sha256": "ba91187f6e7d1e3eaacfb3a984b0f5f0506a0f44523cc40dfee8a918232c71b1",
+      "size_bytes": 81799
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000014.jpg",
+      "sha256": "7e4da443c17b949339b8c65fcf8f7dd2d35ff305b81dd422273a983ba88315fb",
+      "size_bytes": 82162
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000015.jpg",
+      "sha256": "12da7794c9d107fbea654fedd83b9f48cda77595d024048128593cb48e8de637",
+      "size_bytes": 81822
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000016.jpg",
+      "sha256": "2f3d231eae80f05c779fe9407a4f5309332eb8d451e680f57c17617066004046",
+      "size_bytes": 81570
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000017.jpg",
+      "sha256": "b1d0780ce5f2c9c56a35cfd643ed63f6ea47f50c8b4a09b309415a6febd2467f",
+      "size_bytes": 81587
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000018.jpg",
+      "sha256": "e1d60d5e22a6b8c05abf9e373b7bc0b65b9b0bac6b08b00ce5d740ba76de08f1",
+      "size_bytes": 81416
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000019.jpg",
+      "sha256": "d8255d1878490b94d7b9f90301b9af334408cbaf3e7f4c5ee17ef8315ecf0e1c",
+      "size_bytes": 82151
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000020.jpg",
+      "sha256": "f0e655455efa8cdeca0ff91872291ea7b0cb2b1c9adfa15d83d45645918a59af",
+      "size_bytes": 82547
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000021.jpg",
+      "sha256": "67efc75116225a7b75e9f99607c2393903206ab05f046e4e32a1105556b93763",
+      "size_bytes": 81946
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000022.jpg",
+      "sha256": "e0849345f09a9c8a513fe99c1b1ee440ce63e85513a12723b525387bdb904ffc",
+      "size_bytes": 81932
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000023.jpg",
+      "sha256": "e8727d3b7decef283a058ccc2f4f13fb0b4cad9739d2079eefd44beced9cba2d",
+      "size_bytes": 81928
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/guard_scramble/frames/frame_000024.jpg",
+      "sha256": "c9932f6ef8dfa41c5fc37ef404d40dc43999680b2ec7884cad05d017121a3afd",
+      "size_bytes": 82367
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/clip-manifest.json",
+      "sha256": "2c72fff3578422711c4915012328f2a7106c0dbc42ea3323ffd57c032c0fd577",
+      "size_bytes": 9361
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000001.jpg",
+      "sha256": "5a8dcad89fa8ed38388dfc5848213967b3868c6b7dda3167a23257612191c0cc",
+      "size_bytes": 95629
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000002.jpg",
+      "sha256": "8e0f91ca83f79deee5fa591d74258498e599f668a7e7f15ec0ef3bafb8653037",
+      "size_bytes": 96947
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000003.jpg",
+      "sha256": "3f4ccfc10b65a1afaa2e616c04bf8cc9785d0f12d4cc464572a1ec2c3b2995f0",
+      "size_bytes": 98058
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000004.jpg",
+      "sha256": "9fbd47bdf58731368ba50062874bfb430600585cb9840a2cb28036e5a0cb3c34",
+      "size_bytes": 102721
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000005.jpg",
+      "sha256": "06577bd0df43153d753aacf7a9226767e9a134970fbec2eaa72a68a14b7a9d07",
+      "size_bytes": 101961
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000006.jpg",
+      "sha256": "a976a54b25b384f534c1cc5c905d58400de392039bb7d4ac031916bac3560809",
+      "size_bytes": 101616
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000007.jpg",
+      "sha256": "6804d2095dc55f8e065d7a2f3e9bff59a01aaee4bd6bc51d2b07b5b0eea8c60e",
+      "size_bytes": 101496
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000008.jpg",
+      "sha256": "ce5bfb1576683e5730cca38887e95dace94b703c440cd9a1ec47a25c24f029b0",
+      "size_bytes": 100663
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000009.jpg",
+      "sha256": "2764bc65ed430e46875f9b12d7d5334a6c1710cecee5a5ffd41668cf83dce18e",
+      "size_bytes": 100683
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000010.jpg",
+      "sha256": "d4b1fc1683662975f190547e06c111b0306e555e466e6cfd6a6b91bdf16f7e68",
+      "size_bytes": 101746
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000011.jpg",
+      "sha256": "9444cb45ec4f578cfbb4f55b50ad0664e4190bcde55e7aa4538715d65ec5d474",
+      "size_bytes": 101732
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000012.jpg",
+      "sha256": "fc2d102cd6ac3356e2de37ab9a49b70e000ddf117e703828022624bf64abeb98",
+      "size_bytes": 102311
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000013.jpg",
+      "sha256": "0537c6e700f9617e8b254a077c9391dd69aef8ab05936a8e3379bb12b8c698c9",
+      "size_bytes": 101418
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000014.jpg",
+      "sha256": "db4df4c8128ab84590dbda5700b2e68c042956a0c78d50e09b633900de6906c0",
+      "size_bytes": 101161
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000015.jpg",
+      "sha256": "dcb937d945cb1bdd6422d7e5849eb2a455f207840e0528404cc98f12e692c76d",
+      "size_bytes": 99917
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000016.jpg",
+      "sha256": "5730ece631e4a05659fb9ea2aaf423766f74d811b506089a3ddcf831a6a2177a",
+      "size_bytes": 100440
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000017.jpg",
+      "sha256": "b47070318c429bc5994d760ad4bf075a0795fff66822e02a362b31a737944acb",
+      "size_bytes": 100344
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000018.jpg",
+      "sha256": "7e54c4c86f8748dc97dc337f512b020b78f8b325308be535c3cbb5dfcdb51f59",
+      "size_bytes": 101390
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000019.jpg",
+      "sha256": "d1ac0b2bede78b6f60be9c0787c1a3c4907e7d3136cc712a183aa77f2ae302ba",
+      "size_bytes": 102087
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000020.jpg",
+      "sha256": "d2acfc8fe64e244d921f85e59c43c407f6603d3c3f51cf3717157e954f811924",
+      "size_bytes": 105325
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000021.jpg",
+      "sha256": "2b617b6103cad3588e524018cb130b9cc48a94e02e39f47e3d775c96f0382ccf",
+      "size_bytes": 103172
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000022.jpg",
+      "sha256": "3b84eb3e77f7fa21096ca28b81143b8d63074ebe74e5aa9b1ea90a16dea6ea05",
+      "size_bytes": 102801
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000023.jpg",
+      "sha256": "df7e7ec6cc51636e301a02c102ed2d393546e77c5be43a2579caf8628d372c9c",
+      "size_bytes": 101013
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/half_guard/frames/frame_000024.jpg",
+      "sha256": "df6c1710d80149f179e915cfe75a700ba65d862ab6ea13c3a53ebc37e420414c",
+      "size_bytes": 101884
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/clip-manifest.json",
+      "sha256": "1beb6b0237ce2546ef4e4bb155b3c048002322473b8b4a9ab4594a0f473fd859",
+      "size_bytes": 9380
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000001.jpg",
+      "sha256": "87c775085e7393e1733638f9979435e0f6f5be2c06b32e8870cb7e80f329f8da",
+      "size_bytes": 138141
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000002.jpg",
+      "sha256": "e9f3d745bd307422a6683a0d60f24fbc8ffea3f93409620ff6c0c8d203cedfe5",
+      "size_bytes": 137244
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000003.jpg",
+      "sha256": "c82fcc596d9c74711a7dd26a4074a9634eecbe070078aedac76fc1437c47db93",
+      "size_bytes": 140279
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000004.jpg",
+      "sha256": "7641f809c5809737ee2c67d2e5f643079221847cd58851cc401841ac1e464c1c",
+      "size_bytes": 137850
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000005.jpg",
+      "sha256": "c337f3833a0c17b1dc4590c17b9c4eee72bdf85538fc6b19ba0d5b5cc5b5a541",
+      "size_bytes": 140747
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000006.jpg",
+      "sha256": "f5ff8f51afcd80fe4d4409d2e1d55b4247e641e95d8af92b2e7219d8551dede5",
+      "size_bytes": 137427
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000007.jpg",
+      "sha256": "e24c8a16616b00d0b5abca083951df15d32ac7cf001554b22a80c35122d5ee85",
+      "size_bytes": 141092
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000008.jpg",
+      "sha256": "ebc165d7cadc0899800324b391adaa0834aac74a7ff60c2d12d5960306a3b8fc",
+      "size_bytes": 138170
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000009.jpg",
+      "sha256": "9fd0fd1d42b30a52b10f76c15ea84a399183d8447f5e686776d8887d3e39fce1",
+      "size_bytes": 142340
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000010.jpg",
+      "sha256": "1ee9a15cc44e7f0c396075ee298acfbf47e19ab835c621c450b803c051863c7c",
+      "size_bytes": 140910
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000011.jpg",
+      "sha256": "cd7e756c2a8de1d26bf1bca16f04e4d48c7ef2472c78b519be703305b44e4e69",
+      "size_bytes": 138789
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000012.jpg",
+      "sha256": "1665e7dc83a767f7771a3f1e0c94630f67cb64a732d68a2d9a53f8fbdf073689",
+      "size_bytes": 135633
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000013.jpg",
+      "sha256": "a6d6c8bd80ef346294efe11ded30d098fe1d26844fa932795437dd063329e240",
+      "size_bytes": 133721
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000014.jpg",
+      "sha256": "663feaddb442922abaee4c7adbf6a7dc7dc209c4e75b9970d59709f28e28aa60",
+      "size_bytes": 123496
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000015.jpg",
+      "sha256": "e62ba534caf6a6b959a678706edfaeb30936f1c6ddc942ca44c65fbd75813004",
+      "size_bytes": 113700
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000016.jpg",
+      "sha256": "e639572b15a4a7f63ab053ac7043b7cc478c808b72b4ecb3a29754d316e1f99b",
+      "size_bytes": 109597
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000017.jpg",
+      "sha256": "47635ceb0534f79936990023e0472fd07927b3e632ce150c34172233ac1bf47f",
+      "size_bytes": 115695
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000018.jpg",
+      "sha256": "452d68565e4f155ef65402a9e156022394a9d7ea1c693884e2eeb78264aa56ff",
+      "size_bytes": 120556
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000019.jpg",
+      "sha256": "dd1e31a6d407d024409ab63478ac60811447e5c6ccfd5734cf5cda5118767d24",
+      "size_bytes": 123395
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000020.jpg",
+      "sha256": "48b1194300b80c8283a5c10bdad48031f707751d4d7e17f6ac7207253ed07a14",
+      "size_bytes": 123588
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000021.jpg",
+      "sha256": "466b5a26c8905bbd4c2fe35ec9558a9a89611d63875fbef9581b1d8575fa0ad3",
+      "size_bytes": 120368
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000022.jpg",
+      "sha256": "366ecd41c81bc051d53225da4800c76e2ba4a6e563c1a8c8eacbe333cefa9641",
+      "size_bytes": 123278
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000023.jpg",
+      "sha256": "59412ca1e71849c329391a8aa5b8edb91d4e508170af02c875bb0bb574cb1b5d",
+      "size_bytes": 122023
+    },
+    {
+      "remote_key": "qwen38-campaign/launch-packet/inputs/breadth/mount/frames/frame_000024.jpg",
+      "sha256": "b73bfda0e49e79707c89897c12a11c3ff11843494cb7d2b6e4d6c88def362ef7",
+      "size_bytes": 125398
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/models/sam3.1/sam3.1_multiplex.pt",
+      "sha256": "0567debeec80ba4ac6369540c6c248025283cb3ff2b92827509e57e2b3541cb6",
+      "size_bytes": 3502755717
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/models/sam3/config.json",
+      "sha256": "4616385e4b21f2e5e22c875b65679185cbccfa95de42542b9166f7dc3d57160f",
+      "size_bytes": 25843
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/models/sam3/merges.txt",
+      "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+      "size_bytes": 524619
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/models/sam3/model.safetensors",
+      "sha256": "6d06f0a5f84e435071fe6603e61d0b4cc7b40e0d39d487cfd4d67d8cc11cc14a",
+      "size_bytes": 3439938512
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/models/sam3/processor_config.json",
+      "sha256": "6420cf2671fa9309ea95bc0144a8b9861666d1c5f43c8db09e410dacda974fce",
+      "size_bytes": 1712
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/models/sam3/special_tokens_map.json",
+      "sha256": "2cdb3b8331a60c92fc1e55a13e9fd61fd2293c5a51275fdcccd62b780052530e",
+      "size_bytes": 588
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/models/sam3/tokenizer.json",
+      "sha256": "6d9109cc838977f3ca94a379eec36aecc7c807e1785cd729660ca2fc0171fb35",
+      "size_bytes": 3642073
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/models/sam3/tokenizer_config.json",
+      "sha256": "39670ad98457fe8f14ca59f6bb74591e9fc850974380a63993e5b8ffc865baa2",
+      "size_bytes": 799
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/models/sam3/vocab.json",
+      "sha256": "5047b556ce86ccaf6aa22b3ffccfc52d391ea4accdab9c2f2407da5b742d4363",
+      "size_bytes": 862328
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/README.md",
+      "sha256": "8cc4c930d6de78ead7b044b84b4ebb3a7a42ed656251ce0a95e3fca78540ce28",
+      "size_bytes": 1240
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/TEST_REPORT.json",
+      "sha256": "44f28a9ab9878e8a9e91da27a85948c7f8d97b72e213c95daabfde3afe00f1ee",
+      "size_bytes": 1466
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/configs/breadth-tracking/back_seatbelt.json",
+      "sha256": "ed77d6dda2055cb2217a1db51a3439054935f357504f8c290b3296cceab27124",
+      "size_bytes": 1935
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/configs/breadth-tracking/guard_scramble.json",
+      "sha256": "dea06b07e7eb25e239e8225e5fbd0449d4ff40e8afd97861651abb2555bb6213",
+      "size_bytes": 1930
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/configs/breadth-tracking/half_guard.json",
+      "sha256": "274e78b91b48810100ec754233694b05b12f71702d541d417ebdc729f67f764e",
+      "size_bytes": 1922
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/configs/breadth-tracking/mount.json",
+      "sha256": "e3cd0f17b83df14db7727520c79bd900cdaa4ac5ba20b2c9c84a1c6bef3f28b5",
+      "size_bytes": 1912
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/scripts/run_mask_mig_preflight.py",
+      "sha256": "689aa9d5cf4050583034e526369690019dbee517e688fbc9b50b951d983accd2",
+      "size_bytes": 307
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/scripts/run_remote_mask_campaign.py",
+      "sha256": "54f83e874696137d8e28710854931a42fe750fccaa8fe908b26209ff9f499e05",
+      "size_bytes": 316
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/scripts/supervise_sam31_breadth.py",
+      "sha256": "4e683e801a225103a9de10cb7268ae3a4652f8131b6399f5ee10552684539289",
+      "size_bytes": 310
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/scripts/verify_mask_packet.py",
+      "sha256": "405d171d4d54ff43786b0ce30ae37085a71742661869b7034f39b5badd7133ba",
+      "size_bytes": 1206
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/src/ownership_decoder/__init__.py",
+      "sha256": "13147848914d1dc3343a9e6c0f06fb5caf543fb88d270322d0b7a0f212cccfc5",
+      "size_bytes": 78
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/src/ownership_decoder/breadth_packet.py",
+      "sha256": "bf6dc6f48293b54225d4b4a3b448a4e310a420a69594828d41932e7d9d38eb9d",
+      "size_bytes": 28880
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/src/ownership_decoder/image_agreement.py",
+      "sha256": "a467b1e5ee2765ad01fee53cab03a05caa056fa68a9781af9cb4b68e17c36b61",
+      "size_bytes": 28645
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/src/ownership_decoder/mask_geometry.py",
+      "sha256": "7dee9817425f8a548d53dc02956d57c184e94b2e5cd470dbd1533e0b70cfca3d",
+      "size_bytes": 6627
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/src/ownership_decoder/mask_mig_preflight.py",
+      "sha256": "eeb854e8e1bced35b76da8f101f0ffc17aca39f600b2734870de97807323c75c",
+      "size_bytes": 11483
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/src/ownership_decoder/remote_canary.py",
+      "sha256": "790d94ed9ebe8987e1527c7242407d5b8d93232bd58916cdf07a5a8d694e76ad",
+      "size_bytes": 4471
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/src/ownership_decoder/remote_mask_campaign.py",
+      "sha256": "efd083ed0e12f1e8cec7b9928eb7c0614656ab5564ff83295c6b9cd6851930d3",
+      "size_bytes": 16753
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/src/ownership_decoder/remote_mask_cli.py",
+      "sha256": "46418c83a7c2dede0c2fdba102f07eca370771d365b046ce754531e0547f942f",
+      "size_bytes": 8184
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/src/ownership_decoder/remote_pod_guard.py",
+      "sha256": "9cfd3e6a2c594f2f6f283f55f336efc77fe5695c60345d638e01a8bc0f8f99ed",
+      "size_bytes": 9171
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/src/ownership_decoder/remote_preflight.py",
+      "sha256": "e6724932b00642ad1b9e78b0a5c2cd833c4bc35a981f46a3504bc4fe2c2b86f4",
+      "size_bytes": 13920
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/src/ownership_decoder/remote_supervisor.py",
+      "sha256": "52ba6dad4d87957f4d478fa87bfdba4d1225b402a85492903c15edd717a84398",
+      "size_bytes": 14155
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/src/ownership_decoder/remote_supervisor_cli.py",
+      "sha256": "cad46805cf6752db9dcde092dc2c71a8b75ec2c8c468a6a3937eadf0f4d8fd4c",
+      "size_bytes": 4894
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/src/ownership_decoder/remote_telemetry.py",
+      "sha256": "17ef65c2c15491850461286762d2f8d3828aa8f88b648af8aebbb553f56f3a87",
+      "size_bytes": 8453
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/src/ownership_decoder/sam31_tracker_adapter.py",
+      "sha256": "5508b2c9f6ad686e51d8d7c5741e2967f391c92a3ffcf7bb9f46e9f93308e332",
+      "size_bytes": 19618
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/src/ownership_decoder/sam3_image_adapter.py",
+      "sha256": "c08b3ad5438fae9d6bfaefa01ac6095c4b0e94902a982a75498208eab1fcb4e1",
+      "size_bytes": 9445
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/src/ownership_decoder/tracking.py",
+      "sha256": "9d9576a9ba6a366bd96182ede3e62566c92556327d34ed8f723c5b5ba6d90b44",
+      "size_bytes": 39307
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/code/qwen3-vl-seg-decoder/src/ownership_decoder/tracking_campaign.py",
+      "sha256": "31f30639bd7c469dfc785c027143d16cdd34f72981de9c78c19f8f6c06fb93c9",
+      "size_bytes": 10210
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/environment/README.md",
+      "sha256": "14406cf80ff11061ba64b6f132d1b0de5da2e48ead4bed1f238a226204d22adc",
+      "size_bytes": 971
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/environment/bootstrap-mask-env.sh",
+      "sha256": "fd552084e5c45c19fc3d0b2b60667a03c3b40ab3c179b21dfd89ac3daf54178d",
+      "size_bytes": 2327
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/environment/requirements-cu130.txt",
+      "sha256": "67ad880f8cb2417a68a1b27869b9691922f43353413a214d9d7fda481499c086",
+      "size_bytes": 85
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/environment/requirements-mask.txt",
+      "sha256": "cb2108fb1580e51e5a9462e390875cbcbcb102614d744590dcf181bcade92dbc",
+      "size_bytes": 587
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/launch.sh",
+      "sha256": "f9bad93e1380148844b4db873154214ba0441d72218d21be769afcd82507849e",
+      "size_bytes": 7956
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/manifest.json",
+      "sha256": "86126c36091adf70e211dd6d51e6e53b1fdd4e1c1e0bfb8966f143c75e49e097",
+      "size_bytes": 15146
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/manifest.json.sha256",
+      "sha256": "ef81b920e273f450e77ffa3f8045e161d96ec772f9d3a94ab76ebc490938a8e9",
+      "size_bytes": 65
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/models/sam3-model-artifacts.json",
+      "sha256": "ac1c5dafeb6b702511395c70b930e5f31de302b68b98d2e1f616625dcd0e13d0",
+      "size_bytes": 1458
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/preflight.sh",
+      "sha256": "e0edd5fdb13c1037b4d203ac57ec649a10d6dc49c6a2babc0259458b6031729c",
+      "size_bytes": 5430
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/reviews/back_seatbelt.png",
+      "sha256": "2bc8218e85ca38299d4648304050612ef35bbd540c0004790734659948d433b8",
+      "size_bytes": 1943064
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/reviews/back_seatbelt.png.json",
+      "sha256": "0d2524b2c5029ec74f5ad85b39e14f56696b849119c7523afaa1b08e14adbd60",
+      "size_bytes": 516
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/reviews/guard_scramble.png",
+      "sha256": "802c86dd12dd45c45a6d694c0b99faafa5ee41ad5ab2be83bcc1b1ac852c292d",
+      "size_bytes": 737415
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/reviews/guard_scramble.png.json",
+      "sha256": "f590455cee865ff281b9653d81e19f035c6606926120327990584f8219a712d4",
+      "size_bytes": 517
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/reviews/half_guard.png",
+      "sha256": "1906905688684a762f806aeeb5f91d6377acbd485b35512108323a10afeaa20c",
+      "size_bytes": 366599
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/reviews/half_guard.png.json",
+      "sha256": "b0ea6bd0c83c74234e2ae28b3b04addf3add0cca753bc050fd7de9cd74a4d8c8",
+      "size_bytes": 513
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/reviews/mount.png",
+      "sha256": "6a2e1e346259e16cbeb83e1300cadb32ec6c511f1de83551affc31249560a985",
+      "size_bytes": 487485
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/packet/reviews/mount.png.json",
+      "sha256": "5f90e0843d12364c0b1dcab94f25bb34d53e0d4f3d52205779c4f2ee7541ee9e",
+      "size_bytes": 508
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/HEAD",
+      "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+      "size_bytes": 21
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/config",
+      "sha256": "12c05aea4413b29f1059f62121854fa7ae27764f10ca24495bd98da2bb38ea9f",
+      "size_bytes": 314
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/description",
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+      "size_bytes": 73
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/hooks/applypatch-msg.sample",
+      "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+      "size_bytes": 478
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/hooks/commit-msg.sample",
+      "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+      "size_bytes": 896
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/hooks/fsmonitor-watchman.sample",
+      "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0",
+      "size_bytes": 4726
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/hooks/post-update.sample",
+      "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+      "size_bytes": 189
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/hooks/pre-applypatch.sample",
+      "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+      "size_bytes": 424
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/hooks/pre-commit.sample",
+      "sha256": "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b",
+      "size_bytes": 1649
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/hooks/pre-merge-commit.sample",
+      "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+      "size_bytes": 416
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/hooks/pre-push.sample",
+      "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+      "size_bytes": 1374
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/hooks/pre-rebase.sample",
+      "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+      "size_bytes": 4898
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/hooks/pre-receive.sample",
+      "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+      "size_bytes": 544
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/hooks/prepare-commit-msg.sample",
+      "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+      "size_bytes": 1492
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/hooks/push-to-checkout.sample",
+      "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+      "size_bytes": 2783
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/hooks/sendemail-validate.sample",
+      "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+      "size_bytes": 2308
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/hooks/update.sample",
+      "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+      "size_bytes": 3650
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/index",
+      "sha256": "4ce9acf72b86045ef8aa1510272b70fa9abc8b6ff0d7aee2bccbd8bbe51d44fc",
+      "size_bytes": 53030
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/info/exclude",
+      "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+      "size_bytes": 240
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/logs/HEAD",
+      "sha256": "baf7b02690bb55c3717b2356d7cb1bd626f1c3bec2a79473942075295caa6d7a",
+      "size_bytes": 186
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/logs/refs/heads/main",
+      "sha256": "baf7b02690bb55c3717b2356d7cb1bd626f1c3bec2a79473942075295caa6d7a",
+      "size_bytes": 186
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/logs/refs/remotes/origin/HEAD",
+      "sha256": "baf7b02690bb55c3717b2356d7cb1bd626f1c3bec2a79473942075295caa6d7a",
+      "size_bytes": 186
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/objects/pack/pack-07b74463c2ae0c3d6007d907e12778dfd71567b8.idx",
+      "sha256": "244929bae2dc01d5916635aedc0caa23c0332167ec7dea27f86f30c1801488e5",
+      "size_bytes": 15492
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/objects/pack/pack-07b74463c2ae0c3d6007d907e12778dfd71567b8.pack",
+      "sha256": "27be04fda22ed4de185ba3253391aa826fa4806ad8550e599c84a93da1504bc3",
+      "size_bytes": 62388782
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/objects/pack/pack-07b74463c2ae0c3d6007d907e12778dfd71567b8.promisor",
+      "sha256": "e03d0a95c7becb292072512d782ab79f8cc17bea6b133a58968304d5bf1223b9",
+      "size_bytes": 42230
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/objects/pack/pack-07b74463c2ae0c3d6007d907e12778dfd71567b8.rev",
+      "sha256": "8bc671891765d323dc2296cde14aef322a013975dd949a403ad6f1116b070ebf",
+      "size_bytes": 2112
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/objects/pack/pack-54fbba57907b0294c168e3fc605dba4360d862b7.idx",
+      "sha256": "84cfda4e0ae12aea05734e3df4a97b5a2e068755ff424af0e6419b02f737469e",
+      "size_bytes": 11628
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/objects/pack/pack-54fbba57907b0294c168e3fc605dba4360d862b7.pack",
+      "sha256": "be642d1d4961d209edda72042f4bc2bd70127d9d2393c686b7788a780d88cf75",
+      "size_bytes": 91171
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/objects/pack/pack-54fbba57907b0294c168e3fc605dba4360d862b7.promisor",
+      "sha256": "aa83b4e6109980a973ef35e10297b827c14e155a0074a92f06d3491e57b88149",
+      "size_bytes": 435
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/objects/pack/pack-54fbba57907b0294c168e3fc605dba4360d862b7.rev",
+      "sha256": "28e1825db191d7cb5890bcc8870e241313e13650d1822ee5d896002cc862e392",
+      "size_bytes": 1560
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/packed-refs",
+      "sha256": "36f0c5ffdb1a61000f646baeb87c68199d9c2fcd4424338107bec25bd720eef2",
+      "size_bytes": 489
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/refs/heads/main",
+      "sha256": "b64039c1c85d00c8da7515284f58cd2cd180b079af7ce1e154338026e1653457",
+      "size_bytes": 41
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.git/refs/remotes/origin/HEAD",
+      "sha256": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4",
+      "size_bytes": 30
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.github/workflows/format.yml",
+      "sha256": "15a192e1a3f60189098fae0592d907ca329c7d3ea1c2a28d0790ea3aab29c563",
+      "size_bytes": 402
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/.gitignore",
+      "sha256": "df8ee935e4dbf163cd6105a87e8d08b0c0dc7910968dc72ef50459661cfcf4d8",
+      "size_bytes": 1638
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/CODE_OF_CONDUCT.md",
+      "sha256": "b161b3e2ec4712ebf69efc38ef796d2c701a323aac51cf11759d38e9c56c39bd",
+      "size_bytes": 3537
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/CONTRIBUTING.md",
+      "sha256": "f6556b1c7f18aefa1c621bd358c0acdc5f9e9ef5367f041cda213539c668468c",
+      "size_bytes": 1210
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/LICENSE",
+      "sha256": "4dea99bfaa016e21bc860d73f344236bd1e5c4977d1a9a8fd32f822b500ae1be",
+      "size_bytes": 7353
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/MANIFEST.in",
+      "sha256": "a3386925c045ed6a015335cf8354fceb2eb06ddedaa1f06543b391cb5648f157",
+      "size_bytes": 162
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/README.md",
+      "sha256": "da3dd047d18ef9a4b33557bf6f8187cf166218dc8aef40f2e18a67cc5249a502",
+      "size_bytes": 21417
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/README_TRAIN.md",
+      "sha256": "4c0c9f2f9e79d1cfc31464ffccdf611dedcbcb5845aff3a6b032f1cc57b1b378",
+      "size_bytes": 6801
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/RELEASE_SAM3p1.md",
+      "sha256": "15816fdd90f809aa6853e9a584ad8c40ed022ba9c6d63ba2aef326da0281a9fa",
+      "size_bytes": 9080
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/dog.gif",
+      "sha256": "9f42cb8f54361ad303865d9d4907abd6b7c55f1a2eaac9ff4a49ed73c385a89d",
+      "size_bytes": 7111659
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/images/groceries.jpg",
+      "sha256": "7073dfecb5a3ecafb6152124113163a0ea1c1c70f92999ec892b519eca63e3d3",
+      "size_bytes": 168066
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/images/test_image.jpg",
+      "sha256": "979f120edcb0050a12d5b4a1f1eaf6bc888b89f675524e7ffcf6ae5b77aa6bc4",
+      "size_bytes": 70626
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/images/truck.jpg",
+      "sha256": "941715e721c8864324a1425b445ea4dde0498b995c45ddce0141a58971c6ff99",
+      "size_bytes": 271475
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/model_diagram.png",
+      "sha256": "f138d1aa02840a108b7b9578a817c974dc6fcb0e696c84121a48ff0976686ce9",
+      "size_bytes": 723689
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/player.gif",
+      "sha256": "a5d1a3bb1955e78afe3a77a030221d7dc0dad49fa00acc7063636573825bf3a8",
+      "size_bytes": 4357923
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/sa_co_dataset.jpg",
+      "sha256": "f1ddd6e5d4130cb37e0b41f474ac78e75483db1b8964552b042bc8bef03b9cd1",
+      "size_bytes": 1014424
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/saco_gold_annotation.png",
+      "sha256": "dd4a6322763d00c667d66e3628f794625619de918e96017a9276a2cd2a0b0ec5",
+      "size_bytes": 3947563
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/sam3.1_diagram.png",
+      "sha256": "153a3da9e80812fccf06f15001655e97c0b54ef978af3439c5d88f5eab1ec381",
+      "size_bytes": 102223
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/sam3.1_efficiency.png",
+      "sha256": "66b7f170bc72d71dcf5943f3cc5121bd8049f4cbaa9386cf85ab44165b687279",
+      "size_bytes": 384106
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/veval/toy_gt_and_pred/toy_saco_veval_sav_test_eval_res.json",
+      "sha256": "d491596003e0dd7742705ea17ab84375e468d3bca3464b831d9d504e550ff8e8",
+      "size_bytes": 12166
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/veval/toy_gt_and_pred/toy_saco_veval_sav_test_gt.json",
+      "sha256": "4a1a964427d4e4225f883ed3d08ffa1d3613c45ac35dcc9426f2a25031c92a31",
+      "size_bytes": 3398949
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/veval/toy_gt_and_pred/toy_saco_veval_sav_test_pred.json",
+      "sha256": "c593f97bb4701a8c34df38bfebaf9091c6ba4f056860a789c38877be6403652e",
+      "size_bytes": 542939
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/0.jpg",
+      "sha256": "1435526859e0acf2bf48622113a76f6df186c95e5a223cbdab173c794c7cb28a",
+      "size_bytes": 144735
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/1.jpg",
+      "sha256": "8737dc77b892c9d502731028b2cddaa5d387e3e5f2cb55d4f53d0086a02752f9",
+      "size_bytes": 140838
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/10.jpg",
+      "sha256": "cff6d920f7f3732ac92dcdfe1cd39c169bb4320796bee39008869de99fed4c9f",
+      "size_bytes": 136979
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/100.jpg",
+      "sha256": "eab7f1f51c40e6a01636f589bf5faf5312ff26fa65413f0a8a2ed78ff5cec2dc",
+      "size_bytes": 114892
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/101.jpg",
+      "sha256": "5edbbd8e3978b64e298e2fc3539340826e7b93e3ca1273cbc0f5db13ea6c215d",
+      "size_bytes": 116960
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/102.jpg",
+      "sha256": "d152993219fd4c8c010a916471f5df3bdec885987a97fb93debf00871578de90",
+      "size_bytes": 113558
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/103.jpg",
+      "sha256": "ed32e7f0a21804fda6c0f2edcb6d0e5c0250bd81629f6dc9f90a5600b400c34c",
+      "size_bytes": 113630
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/104.jpg",
+      "sha256": "88dd37286877da2c01be63608ab8858493d66a405a9d5607a0085138a8eca55a",
+      "size_bytes": 113028
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/105.jpg",
+      "sha256": "9b1464ba0752e9eba604b298b9d2d75d6d95a67a708d44eaf09b20975566d388",
+      "size_bytes": 114848
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/106.jpg",
+      "sha256": "b06813a94accb0f85a5fb870cfdc388103aa3994d4ec0f713fb7534ad1ccd9da",
+      "size_bytes": 112503
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/107.jpg",
+      "sha256": "1ccd998fb51d68629f93129187631cb488e5b64006c5e811f28fd376e02394d2",
+      "size_bytes": 114131
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/108.jpg",
+      "sha256": "1fbd78c48ea5d6fd5d76ce81b40799dd5bac11e580799fb25575c70c547ed471",
+      "size_bytes": 114064
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/109.jpg",
+      "sha256": "2048d2d7a775be1b137712670ccdeb9ec99bc0ee5c9b9f63fc8d9d595a205a98",
+      "size_bytes": 117234
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/11.jpg",
+      "sha256": "5bf579b61dd99d97a2d653a4dd84a6da4da49a5232ce37ec434f701ab6264f35",
+      "size_bytes": 139083
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/110.jpg",
+      "sha256": "96c617b759eb41c6274b871e16f3a44bb3f923b8e04add8b99ff7e06631ef72e",
+      "size_bytes": 115336
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/111.jpg",
+      "sha256": "3b4c19eeda86fc014760559ac712d2e968d65b726e298a232634ef5baa68d92b",
+      "size_bytes": 115464
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/112.jpg",
+      "sha256": "fd282a9a38bddbeab5029eccac21779bbfb507338be95832a69241652ad3186d",
+      "size_bytes": 114639
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/113.jpg",
+      "sha256": "d9a22daacb5d110f9fe9fe22c4c6c0da2cac23a5e4ab7855bfe488560e7fd658",
+      "size_bytes": 115696
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/114.jpg",
+      "sha256": "4c0788c8eb42f497fa17298c550481340a58b43b963803d8150b6b23f44a8a83",
+      "size_bytes": 113725
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/115.jpg",
+      "sha256": "d0abf8b1efaadd40216d01aef2229b98551b4d21285e7d7ef8aeeb5dcb43fb2c",
+      "size_bytes": 112547
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/116.jpg",
+      "sha256": "4dee6839ead2cd8fb090bc78b60734fe3f405c23c5135232fe406b35e64a6654",
+      "size_bytes": 112455
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/117.jpg",
+      "sha256": "13b7d62ad016537bd97d0ffb1859949f6fd451a2fbbc61c4a85b4530b8ec26e5",
+      "size_bytes": 111589
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/118.jpg",
+      "sha256": "f6536d624c066f724cf3b4a0105468bb1ac07db693ed7bf9ff70a2b2b9e2c038",
+      "size_bytes": 109833
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/119.jpg",
+      "sha256": "e5bed2df4d3b61ba2a31dda705e3877f314292a1b6a758d87e544a122c862426",
+      "size_bytes": 107291
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/12.jpg",
+      "sha256": "37e5c028a4d64cca094126cff67349a921364af492560d5b2263b8c7490806ac",
+      "size_bytes": 137290
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/120.jpg",
+      "sha256": "552159698f89e7e61752ead392e31752cc1c4b63ed13e641e0d09dfaf9f9646d",
+      "size_bytes": 108245
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/121.jpg",
+      "sha256": "766a0c1f45368d44af0de17c0587d97bac757210535b3b1636cceba64885fc11",
+      "size_bytes": 106212
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/122.jpg",
+      "sha256": "e96bce9ebea0bd1ac23767fed63c2e281fb24efcf562a932836fa4a425912b10",
+      "size_bytes": 106275
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/123.jpg",
+      "sha256": "ba3a3f66bc2e8e1a34ea1f90f5336611866376ce6442cf975630fa80c2dbfd4c",
+      "size_bytes": 108177
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/124.jpg",
+      "sha256": "caf7d9d7f8578e4ff1a30b63cb9601c660ddde63763677d1e2b7df30151ac58d",
+      "size_bytes": 110821
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/125.jpg",
+      "sha256": "8b00b109dcd864ffd1506e4c1e0474b642c3b85d3b01359af6301e13d8f030a5",
+      "size_bytes": 109711
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/126.jpg",
+      "sha256": "e63278fd65842481a3b1aa15913e43726b1c4e1a80821263517bcc92f58c1f07",
+      "size_bytes": 111690
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/127.jpg",
+      "sha256": "8691cf96626ad05cadad36318bd9e0893c022f774c8835091e67083ebfb54ecd",
+      "size_bytes": 107194
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/128.jpg",
+      "sha256": "3204b9ca4a070165e745bea719ec81c5d44a7e3143f8c27959f9343349df5a7f",
+      "size_bytes": 106901
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/129.jpg",
+      "sha256": "56659ee06fb0cce6cae2c0b76130024959ca1143ea5d1058a51f104b59ef6275",
+      "size_bytes": 104808
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/13.jpg",
+      "sha256": "e58f9a4d8d8e2618e8acf4223cc32f4d4bfc3f8609a8a89f1f879f59cb395b84",
+      "size_bytes": 139696
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/130.jpg",
+      "sha256": "24ad665a172c1ba0a1077e11d94e1e165ffb9bb5b2e40caa737da0ac9b0f3ce5",
+      "size_bytes": 106705
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/131.jpg",
+      "sha256": "6e57a47506284a5859aa1a27bf6a00f93d66e73950e8fb4fc63e74782eddc3ef",
+      "size_bytes": 104139
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/132.jpg",
+      "sha256": "914367db3e39748b929a0458e13af6b15e4227843622d28f71736c8e4c655f4b",
+      "size_bytes": 105454
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/133.jpg",
+      "sha256": "e7f5583f21cc67af2c170dc60f19f97e243e843334330018179ebfdf4878e60e",
+      "size_bytes": 106032
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/134.jpg",
+      "sha256": "166f81fb96fbfb70002660517c3f48c47ea98ac041083ddc1a58ed46360c3bba",
+      "size_bytes": 108894
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/135.jpg",
+      "sha256": "8c04b9d46cac60998527d31c23f67fb5ea93aec79bcee4723634a8bbf2638a25",
+      "size_bytes": 105804
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/136.jpg",
+      "sha256": "5733eb0f107e4ee85f6c03e1d119623f3ca9797af3d353716d087e9801fb796a",
+      "size_bytes": 105560
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/137.jpg",
+      "sha256": "90caa78663ab65891ee636531159599640ba344402992a69766c94ca618c5a25",
+      "size_bytes": 103404
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/138.jpg",
+      "sha256": "6d5f0481b304e35352f1a6daa8c7ec0a10dff58046b9dd02087522d7c3c2af27",
+      "size_bytes": 104280
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/139.jpg",
+      "sha256": "b7c94cab4d40aa74bbf6163b2c131b5108cea69973fecfe32550d91486389a82",
+      "size_bytes": 101986
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/14.jpg",
+      "sha256": "004569a92a7594bbedf9e133bc100e9e3c5102e54896a63474b5b506666d8042",
+      "size_bytes": 136832
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/140.jpg",
+      "sha256": "d57971d6a2c6674077f4d3dcdfbe3a413a841a89045a0792c56413dcd15830ce",
+      "size_bytes": 101797
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/141.jpg",
+      "sha256": "5724bd1c1cf37cd9e83d41679a07d986ef3a073ac3333a7b60491ea05ab4eaa0",
+      "size_bytes": 103841
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/142.jpg",
+      "sha256": "1ad4a107bf0c66d99e120efc17d5c413468f7737022172a91a1c3331ef9d357f",
+      "size_bytes": 103674
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/143.jpg",
+      "sha256": "29ef4d2e76d696e707ae759f73ea3610910a9dfc1b61169430ecb9282af43020",
+      "size_bytes": 105193
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/144.jpg",
+      "sha256": "1e1713d5b621c9ef2df63a63e8777b1bfe2e0c5447bfd7934fa938bfaf5e5336",
+      "size_bytes": 105773
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/145.jpg",
+      "sha256": "fc0af0dcc7dbeed7f4254e86087d74b21569678c1dcb7b9f783078a58d7d9340",
+      "size_bytes": 106558
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/146.jpg",
+      "sha256": "4dfa4bc424e6121d29dee36b3ebf2370ce32cf3284832f731dde2e69d142c5fb",
+      "size_bytes": 104831
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/147.jpg",
+      "sha256": "b2306c63cef38f21469640be26e1aaf759c272a35f7cac36d360d0c2c13cd88d",
+      "size_bytes": 103141
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/148.jpg",
+      "sha256": "a7a48bd81ac8ea7ff2860156d50c74d061a8375d934c8f88994e08da55c757c5",
+      "size_bytes": 101322
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/149.jpg",
+      "sha256": "6613d7428785850711e5ec74a40a9698860845cb40d8fab458fb207252c5218d",
+      "size_bytes": 99522
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/15.jpg",
+      "sha256": "08a7ab7cfc36c24acc270bc01c127b906f73444a1fb0c4df841525d8e115e895",
+      "size_bytes": 136253
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/150.jpg",
+      "sha256": "b9d69840db6dc1a1c67341c865f1f9e656b6f777040fb54cf453a5372330991d",
+      "size_bytes": 99950
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/151.jpg",
+      "sha256": "9c400a30ba38f1a9f316db4f3d0bec3fba453680eb8e4f3a354cc7bdb71ca3fa",
+      "size_bytes": 101664
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/152.jpg",
+      "sha256": "fe36cb10da9f6302c3101e97a42c7fcef3a49c5a8c23730f13bb729868464ccc",
+      "size_bytes": 104799
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/153.jpg",
+      "sha256": "9c668079c06cd71deadb85b8f49cc1088e98c9f9a29bb7e76d6c1b612ac0b2a2",
+      "size_bytes": 105942
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/154.jpg",
+      "sha256": "0db668b80d5e75fa85e94b0c7dbc0f74ccd8c9caffe4e9974de91d07219d5c7c",
+      "size_bytes": 109328
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/155.jpg",
+      "sha256": "0a5e46dcd2ccd92bfdca883c063932838fedcf3aebcc3fbca75994f88021fe0c",
+      "size_bytes": 110632
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/156.jpg",
+      "sha256": "d5d28104faa8b611069defec86a854cb744d18b43a3bc0ad0c860c6f65c4eb42",
+      "size_bytes": 110476
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/157.jpg",
+      "sha256": "756c8f097fbe0bfd87fb037983bea4bca9d20680f53d0deef5cbc56dfd11012a",
+      "size_bytes": 112064
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/158.jpg",
+      "sha256": "a299adec0bb9c8b8b1710e942059f99cc44a88bb3fc9299581860910a84eee9f",
+      "size_bytes": 108201
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/159.jpg",
+      "sha256": "91f19e9e1183f67a4b9d2d830e4721387fb2778e5bb66f40e4413271748cdc50",
+      "size_bytes": 105813
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/16.jpg",
+      "sha256": "ff45fd8e1cda13029b868ba46424a618fcfe9f339d9881fa9cc4002db1708403",
+      "size_bytes": 133859
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/160.jpg",
+      "sha256": "aa58f804515f10e636eb6572b645036829e14370f738b9fb540d120514c1ca8c",
+      "size_bytes": 104432
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/161.jpg",
+      "sha256": "17a86f42c51d30418b5758bcfbe4efe3236516ae8dc31ec3c66973d4fcdef531",
+      "size_bytes": 104821
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/162.jpg",
+      "sha256": "ce325f8995e46db3f3aa3d1beff58fc5dc6aae6ee06546c2cf9ceb2b51c2c2e5",
+      "size_bytes": 101664
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/163.jpg",
+      "sha256": "7322f98d54e7417ac949c23b816accd2ed7c623c668e5511a2d741f7698d40fa",
+      "size_bytes": 99099
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/164.jpg",
+      "sha256": "8d1ae9ea9772561d5da24c69dbdde59c37b4c09d183df5c066c24bf43f54f383",
+      "size_bytes": 95445
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/165.jpg",
+      "sha256": "005c1d27873d03b24d5a40a7388b3daec39a8ca51169b039ad6ff5f7e31e4fcb",
+      "size_bytes": 93732
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/166.jpg",
+      "sha256": "4d9830dcaa04720698925cc2bf601559d4cac92a1239ca8223232a2d090d42a1",
+      "size_bytes": 91335
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/167.jpg",
+      "sha256": "949065925f46f2b7908eb21339c1a6653fc75667f0c812d7ab7402806a944b02",
+      "size_bytes": 90055
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/168.jpg",
+      "sha256": "e700a4bac2f056eff361d0355e121ad382b76551ad3901dcdbfbff8ba402b8c6",
+      "size_bytes": 91309
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/169.jpg",
+      "sha256": "ddebff6a471ad0b61988328b6076a0c51c6e61ea9779e4da77c8c2d90a208448",
+      "size_bytes": 92395
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/17.jpg",
+      "sha256": "3ed2e51c6be6843224b5544e99bf1af73ed2227afa6c658ddc79b83e32ca826c",
+      "size_bytes": 137219
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/170.jpg",
+      "sha256": "dc5fe61da0467624da2a075747e777f2d1b1d2b04379329f249d6639f21b4ea6",
+      "size_bytes": 92827
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/171.jpg",
+      "sha256": "da8077cdb6ba2fefdef739cce5d910bc3d73c5dc7a9a78f7b6cb56556c5c618d",
+      "size_bytes": 95072
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/172.jpg",
+      "sha256": "65ccdcd50a64d37b6de6aaf0dc27bd9a6fecff4d7b517c3f55df532547115f2d",
+      "size_bytes": 95348
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/173.jpg",
+      "sha256": "7a31f564d8fa86ed3f5d039fb52f4cc2309ef6cbcac2e118fcdde097ee1db072",
+      "size_bytes": 98325
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/174.jpg",
+      "sha256": "d16c10c5a75264020a21ef0a2fea6e59d3417ce377506fecfdae902f77c8d609",
+      "size_bytes": 98122
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/175.jpg",
+      "sha256": "e5ed0891cad2f0b2baefc5517ad5078272fe9d733d40cc2aa39eada5fe680e67",
+      "size_bytes": 99072
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/176.jpg",
+      "sha256": "42c696da1b9033b0d239473fe13ddac5f57b605a48e115d4de711bc21e3979bc",
+      "size_bytes": 98659
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/177.jpg",
+      "sha256": "de4829b4021c64056239a593babd20f2e0fcc8b1f786d79354ab08820f16bf2d",
+      "size_bytes": 101683
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/178.jpg",
+      "sha256": "26b6ed2559e6ac0210b047cdc99602aac23ffbc326e47b11a2a8e20ef78373b2",
+      "size_bytes": 103428
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/179.jpg",
+      "sha256": "c922d397f7995606dfa91f1b7539b6d98af473f1999c2feb7b93379d1490f29c",
+      "size_bytes": 105165
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/18.jpg",
+      "sha256": "64670be575e716b49c8162198acce54abed439e3062704a8c2473ac124ddeb20",
+      "size_bytes": 134975
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/180.jpg",
+      "sha256": "a03d98debea8af24d6b5b37a186466653e494eb2187274be68646a5be89c3792",
+      "size_bytes": 104485
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/181.jpg",
+      "sha256": "9ff1dde3bf96ccb5666e70053756d30b467c46becb27bc47a272812cd48d7bab",
+      "size_bytes": 106915
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/182.jpg",
+      "sha256": "f4b8482ace2b46776efad6acf34628860edd23dc065a862d47c1eac76fa282af",
+      "size_bytes": 106408
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/183.jpg",
+      "sha256": "1f6c988427ed972cd9bae6bc1d44935e691f386eda75b7ac8593d8d7fdaab592",
+      "size_bytes": 107851
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/184.jpg",
+      "sha256": "c22a564b01cd785a36dd0810abce897135e81a675627fd5fb202b8275929d6cc",
+      "size_bytes": 108456
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/185.jpg",
+      "sha256": "96d2335647198c4d2cdfa608d2baefeb77b710b3053a689518e23f52bbe155ac",
+      "size_bytes": 110333
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/186.jpg",
+      "sha256": "ef5e19b63456481cb4e6cffa0c997faca374454d83155212f0582ad397846ab9",
+      "size_bytes": 110139
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/187.jpg",
+      "sha256": "abe341c0974be4eaca57c1e27f3f12948a8b2741b51ecfedee92755a04640479",
+      "size_bytes": 111588
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/188.jpg",
+      "sha256": "d5daad861867216d874f6b13cbdcca68a333a6507df1a61ac221409d04e7a610",
+      "size_bytes": 112513
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/189.jpg",
+      "sha256": "2a0b47ade9b650106c5281c128092bc8ee8e54846e1afd8093ca3614563958b8",
+      "size_bytes": 112673
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/19.jpg",
+      "sha256": "460251884995872cf7dd721be6ff38403ab3f0300732a3559c0c196d6d2a0f03",
+      "size_bytes": 134470
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/190.jpg",
+      "sha256": "de52c83ee7a2cf303314ce2939cfed89d999538f6cf061d997c8dbc235715cba",
+      "size_bytes": 115240
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/191.jpg",
+      "sha256": "e169b512078475a6b924207a8ec032074f94ed17ef7e34a88b1dd25373024fd1",
+      "size_bytes": 115866
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/192.jpg",
+      "sha256": "b7032a240f4ae24ccf627d9f4920d429e26e9bca9a387d645417433d1f2f4c6b",
+      "size_bytes": 115428
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/193.jpg",
+      "sha256": "21da47d1677b9ee1c8f5f0587f6d12bd73cec98face645a4a7622c52f1dc0a45",
+      "size_bytes": 113806
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/194.jpg",
+      "sha256": "48fc8a8ac63503ea5e260bc09bf38f9927d3e36f3615998d24a8bba9bca6ecbc",
+      "size_bytes": 113688
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/195.jpg",
+      "sha256": "d0018364c50db8d300fc9a718249accc7bdaab8011608f1c82dd0d2fc1f4e739",
+      "size_bytes": 111104
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/196.jpg",
+      "sha256": "419ab91ae107fa9ed6b240f5a08e322f1ff10f27a3b25623fa201cdcaf30ea32",
+      "size_bytes": 111082
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/197.jpg",
+      "sha256": "d3b2a18d8728a6d8dee23625a758866269cd14cb051f11f9c36d13b41e8ddaad",
+      "size_bytes": 110636
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/198.jpg",
+      "sha256": "af87662bbe50e77769925079c5514495588887c165f05b943f9e1504cde96f47",
+      "size_bytes": 110228
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/199.jpg",
+      "sha256": "cbf0a11d3662bf03fce20aa23051ebe0bd84db4b03f217488662ccdb2b45ccee",
+      "size_bytes": 107637
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/2.jpg",
+      "sha256": "2eb03caf8f90e06dca30427b43e5e9d8480f4fcaa742c025118e61268dde52b7",
+      "size_bytes": 141732
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/20.jpg",
+      "sha256": "67e955a26ef2961ab1a60dccf7fe3228ca5b7bd250c58cf071646c816376de30",
+      "size_bytes": 131756
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/200.jpg",
+      "sha256": "08f828db91c0b2051de4ee37fbc2168dff4dc79b9366bdf27ba44f8ec8c775e1",
+      "size_bytes": 109912
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/201.jpg",
+      "sha256": "81bd316458418203c5a98ca76906d1cab1170113c1ee0a010cd850cef851322e",
+      "size_bytes": 111229
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/202.jpg",
+      "sha256": "3a5dc84aa0d22ce5e959492c32cb250742d3138bb01b5ce16b5d4af45c6a318b",
+      "size_bytes": 110185
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/203.jpg",
+      "sha256": "bd7acac6b561e3ab3dcc184876a8d3eefd61b2d57061b357ee68506da009aea6",
+      "size_bytes": 109905
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/204.jpg",
+      "sha256": "8d1e49eb87e625ec7e43f1529bb4ff91381fb8942c1ad8bca0e15b030b521ec2",
+      "size_bytes": 111308
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/205.jpg",
+      "sha256": "02398e4e2e038ecfef2f5baaaf788405db6c64ebf3dfaa241ad8987e7320a75c",
+      "size_bytes": 112663
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/206.jpg",
+      "sha256": "7dbaefbe749ee1fd08b064e541efa91c73498b198acc8feec48f156b69e0a853",
+      "size_bytes": 112831
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/207.jpg",
+      "sha256": "39414502dd245b37e3a8c88df0474248396ae8036b23550866cbf120fb624c58",
+      "size_bytes": 113676
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/208.jpg",
+      "sha256": "6a3c230e288330b6f3e38454015536536f63b5dfb7d188f8b215f8a96f9a137b",
+      "size_bytes": 115141
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/209.jpg",
+      "sha256": "cbcd373af8752aa90df07cb8ab1a46e4679f140768cf50f4dc143cbad26a2072",
+      "size_bytes": 114684
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/21.jpg",
+      "sha256": "fd4dc997157eb7802d35a169922ff3f7b605edf63182803397996cbe95c4ff0a",
+      "size_bytes": 133380
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/210.jpg",
+      "sha256": "78cbc0cac4523223ae522464ff81a84235434d842f1674c1c7c21626730fac4e",
+      "size_bytes": 115338
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/211.jpg",
+      "sha256": "9f75855f988126cc73dd3c6ba61f61fc378b0e2058ec14c37c2892de235d2251",
+      "size_bytes": 116102
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/212.jpg",
+      "sha256": "912c0cc534812d79675d184619184e17c77233ec836d05de6c7e436c4b6b9ad3",
+      "size_bytes": 118306
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/213.jpg",
+      "sha256": "800c421a9594c68fb44bcc76d590a3e2c8599105bcd049f22bdade264bd12404",
+      "size_bytes": 118180
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/214.jpg",
+      "sha256": "75476c87a942cc29363989d2a81d404f9ca37eecce6b150f09cef1871e8ff0fc",
+      "size_bytes": 119534
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/215.jpg",
+      "sha256": "8cbce84ce858d5eef84d53c2d003c20f7e6b08756266fa9fa1f11009f1dc0cc5",
+      "size_bytes": 118615
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/216.jpg",
+      "sha256": "e8a014a8958e2f9faf8bdb26bf8e9889ff626fb091936dcdf2fc2fcf57336798",
+      "size_bytes": 118744
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/217.jpg",
+      "sha256": "085f330328b5caa9ea0fb8b87369e7facbe88c8fe97a17e6ecc3884d8a918fde",
+      "size_bytes": 117355
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/218.jpg",
+      "sha256": "c22e75342f3690f0a70d51bfd3d995465fb8ffce928bc680446a83ebd58ba98c",
+      "size_bytes": 118636
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/219.jpg",
+      "sha256": "2f4c7c7d18b99fe212f8be155a156f5d1678df217d6f5c6625c3497181026ebd",
+      "size_bytes": 118097
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/22.jpg",
+      "sha256": "f5b129db73e9ce6340765c194e4b9a132299e8a876464658ad1fc28238b6e0f9",
+      "size_bytes": 129552
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/220.jpg",
+      "sha256": "54d690f98b8b0ab83e2939543ae9cc32e76a0aac12e3111e970ee65b86aeb3a5",
+      "size_bytes": 116820
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/221.jpg",
+      "sha256": "a9a12929c509fc69fdc6e42060d68f83311025b78b99ad23b00ffb94e4c38bd9",
+      "size_bytes": 116065
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/222.jpg",
+      "sha256": "1cc72d924e867a9c2015d72839f905a79d58d78cc01f83c80fd0d734b4aa2a61",
+      "size_bytes": 112955
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/223.jpg",
+      "sha256": "7a2ddbbc1074d7648a5dfe79d31b2d0060c2643b372f8a3252be26d444aae5e6",
+      "size_bytes": 114240
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/224.jpg",
+      "sha256": "1a6a555d690b4431124b0fbf07b9b69f67a2e84d8c23d9b1d39b7a7294c8fc62",
+      "size_bytes": 113348
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/225.jpg",
+      "sha256": "5e9d73d444195ac98fd3cd5da5aaa3bb8f475a600d68ae043f3b39c2c2c1720d",
+      "size_bytes": 114280
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/226.jpg",
+      "sha256": "b50b4acb94d4766cb9b56f3992833212d89c7e20044c55cdd6fef724fe8aaa18",
+      "size_bytes": 113622
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/227.jpg",
+      "sha256": "5e63ca99791fe42489d1143f958b407f32fe8dcd9d81dfbe509735bb887278d2",
+      "size_bytes": 114390
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/228.jpg",
+      "sha256": "a4e25d27e6f4176140910d65c994819325f9b438522dfab0fb6cc0504d6f5b83",
+      "size_bytes": 113074
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/229.jpg",
+      "sha256": "01d8465328104c042ed601a955124a673f5c0a6623a38628606e3d63ce75b9cb",
+      "size_bytes": 114228
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/23.jpg",
+      "sha256": "2bc1e690b06ac748e948bf23fcfdb40389b7fe8063b2dbab54f4f5d32275bcb3",
+      "size_bytes": 130061
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/230.jpg",
+      "sha256": "8cd757d2c175df674c36e0d03718663098d25653349fc0f9cf8c78a91ce4ef37",
+      "size_bytes": 114100
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/231.jpg",
+      "sha256": "9ef6dc122baeaf2e3b20873a5e8fb75dddb1a252a127e869402c68fa46720ca3",
+      "size_bytes": 115717
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/232.jpg",
+      "sha256": "01ae73883f6382a5a568398944bda1a6d7afb23caa78bace94b52c3f7230224d",
+      "size_bytes": 115066
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/233.jpg",
+      "sha256": "6f4ee7ed8935b885e5bd27584967edf78b6db5ce76869d552f1768b268718ae5",
+      "size_bytes": 115876
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/234.jpg",
+      "sha256": "6eeef5948e1df5613c6c9111737900efecda5eb9eb5f025a06069ba1afd0b986",
+      "size_bytes": 114662
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/235.jpg",
+      "sha256": "4f0f6d4bf0841b85ab0e0e5859dc3267644e9c387d94e2b1725b5d20ad678258",
+      "size_bytes": 116735
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/236.jpg",
+      "sha256": "d72b00f4c78300837a833a8176bcf037707117a6a0dcda6404a5c8c8938da74a",
+      "size_bytes": 116941
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/237.jpg",
+      "sha256": "a821ac53891ffa863ac26139cb1d703eb43627bccb950cc16e6b90013e1fde84",
+      "size_bytes": 118439
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/238.jpg",
+      "sha256": "df44c2674bd5f4b8426414c57bdf9afac4c9629ac782b3981132004b161fe209",
+      "size_bytes": 118906
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/239.jpg",
+      "sha256": "a92508b89b0710bf6074c87788f44e7cc12c3caeb23a26ad72739c0921a72a87",
+      "size_bytes": 120955
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/24.jpg",
+      "sha256": "bc3132ab0c04f8186467a2a0361cdbb59ba500ad88e44431e88a97b34149cc40",
+      "size_bytes": 127522
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/240.jpg",
+      "sha256": "ce1600d02ea05234fd353fe7aadf58afd8872bcabc583f26870abea94197ea24",
+      "size_bytes": 119561
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/241.jpg",
+      "sha256": "c9a681ece70310bd6cf352919846889cc1b50f8dda073b72803fb2bedba21311",
+      "size_bytes": 119000
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/242.jpg",
+      "sha256": "e8774407d6e13ae52e93b1bb1e80aa8aff208563e425954aa6aee6eb1d6b0f95",
+      "size_bytes": 119105
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/243.jpg",
+      "sha256": "d55b46dea737dd747691106a67a08d4a3162a8e98a6dcf8a515807a7deee24a6",
+      "size_bytes": 121182
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/244.jpg",
+      "sha256": "ed5021a02c435825f5aac34b3773b20dd1c2d374f4f9463bdb8c2cb01b53e8d8",
+      "size_bytes": 120874
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/245.jpg",
+      "sha256": "1027fb0a269222991752584beb0bdade4fd585de10cb9f02abd431b0a87815ff",
+      "size_bytes": 121641
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/246.jpg",
+      "sha256": "9502e0052549cae5bf6de505ecb9dd7788ee9bbdb58d8878c9f00a1d846f2ac0",
+      "size_bytes": 122006
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/247.jpg",
+      "sha256": "b4fe09bb2f172f6e5bff0b1c367c1319865f604556a6d4c878490589e87e40b5",
+      "size_bytes": 123641
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/248.jpg",
+      "sha256": "0946e25b9c5c16ee6b5158edc61b57bbbd7a551e88e52116fb85699be206edd7",
+      "size_bytes": 123086
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/249.jpg",
+      "sha256": "e6c1dc8de6a1e5280f148d522f02472511eebc05bed595ebb3c24ad9631edbe2",
+      "size_bytes": 123537
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/25.jpg",
+      "sha256": "1aeff052a2d1dbfba80b9e9b29347655f125cb996cfc08dbf4ffe448f1a92e70",
+      "size_bytes": 127477
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/250.jpg",
+      "sha256": "99a4cc129478cacda62d2b2ef89cdaa814063da1227077976064f4c45b1e928e",
+      "size_bytes": 128329
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/251.jpg",
+      "sha256": "f69b8a854e9807e8b4980461cf344dd8c6ffe3592b59e8b37809cd114be2de0e",
+      "size_bytes": 125682
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/252.jpg",
+      "sha256": "90baeb96b20b6a699d40b7686a766ef94e28c23acd2645869dd78edbbd17a707",
+      "size_bytes": 126396
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/253.jpg",
+      "sha256": "d4cf9b36319965babb7534969dfad2b80e885cf79fbab07dfc728cda378fdcdc",
+      "size_bytes": 126236
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/254.jpg",
+      "sha256": "d9d6e71aec242bcdee96b8ad7edbd7f5f5fe65e8f9ceb0b16a4e6e5ddba870eb",
+      "size_bytes": 127341
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/255.jpg",
+      "sha256": "cc7d474a2b13a7126e1dbb7824f53258116c580c49cab460c9ed0b500934e7d0",
+      "size_bytes": 126594
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/256.jpg",
+      "sha256": "083667d533c8d12afb406ce4d07b755e3f65640aa521c54aeaa4c81fe365e3b4",
+      "size_bytes": 126045
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/257.jpg",
+      "sha256": "e9f7219925190e1b77782c4bbc0fcbbd8c302fedee7bd2e02a99b12a46df2c87",
+      "size_bytes": 127822
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/258.jpg",
+      "sha256": "bdc04e7e2854b52439f6ecde5ba7626b1f50e3c17b8f27ae9e4f018ac1c8dfa3",
+      "size_bytes": 126161
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/259.jpg",
+      "sha256": "e422b57b65e40ae12b930b087676aacfa03ba3e2c81f6e6f5e497b9ee7f553f0",
+      "size_bytes": 125186
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/26.jpg",
+      "sha256": "748d4afb622ee1612ba8752d103ba3111a249447f0f50fac1c04463f98f735de",
+      "size_bytes": 124551
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/260.jpg",
+      "sha256": "f258a60d818fff3a4c5e0ee0dd90bc9319772136a0a0db69f491e5701f7481d0",
+      "size_bytes": 122808
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/261.jpg",
+      "sha256": "e1e195e867abdf744eaf0d3e8a13678194959f25c1c1ab348abcb81b3572bf48",
+      "size_bytes": 124068
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/262.jpg",
+      "sha256": "b658765cc74b6e98b56799e064416cd2a718e1194bb70a6f78bfc8abd7a077cb",
+      "size_bytes": 124104
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/263.jpg",
+      "sha256": "fc05df5f57e60755540c500f3b23d7e1e287b733bda57ebe80a1f6ee7ed4dc50",
+      "size_bytes": 126530
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/264.jpg",
+      "sha256": "a88b262c65c4e52ee4ba10feaa5d2930868edda97d30aa630ae00766f32e301e",
+      "size_bytes": 125481
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/265.jpg",
+      "sha256": "5f13512122a887b47d8c7e74e312e01ba38bb52d2369052957299fa5c6d47d18",
+      "size_bytes": 125518
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/266.jpg",
+      "sha256": "990d94f2010cd82607fb3888a0b81e5c9e3fbb14a80995ea1c380fd855c2a98d",
+      "size_bytes": 123541
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/267.jpg",
+      "sha256": "2ac5b69ebea338bb9b0a72b7ce506c1e4639b5fc2ccbc2fffc20c806d00a3d8e",
+      "size_bytes": 123916
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/268.jpg",
+      "sha256": "799fa7c84379c908bfded48bce6949b5c30216d9975325e6ff602d0ad1e610d9",
+      "size_bytes": 123609
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/269.jpg",
+      "sha256": "a9db27e2d87e00bcd9369b9acea06be2d5096781e31563b211c5ea941f249887",
+      "size_bytes": 123909
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/27.jpg",
+      "sha256": "d69c7e1566e35c0e722a284abfe1596888b121b788ec9937e3e360e2644949e0",
+      "size_bytes": 125380
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/28.jpg",
+      "sha256": "ec6e4b16202a7377bae51e5de326ced54c3ff062f8cff5e47efffe6f1f847285",
+      "size_bytes": 124457
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/29.jpg",
+      "sha256": "87c6b9e80dbc5e64d516673e490d9005adfa890bb6291f02d8f09181cde7ad06",
+      "size_bytes": 125253
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/3.jpg",
+      "sha256": "032544f27d6a9c3181822102d72125582801a181da7e75bec95e0384a735d8db",
+      "size_bytes": 139801
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/30.jpg",
+      "sha256": "186cb03739b193e78a036a49b0ce1da178b1b0eae0f9051eb0b5f5c2a439d2d6",
+      "size_bytes": 126275
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/31.jpg",
+      "sha256": "f259cf6aaf817b3570d30c9055e7ae235dd82f63538a6b543046dd99a47ab309",
+      "size_bytes": 127245
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/32.jpg",
+      "sha256": "cc88aeb091146b9a538c71fb2e39f0d32c8ef67d7e3d7dc3902163f352976b3c",
+      "size_bytes": 128126
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/33.jpg",
+      "sha256": "5b5abd0a91d438cc65629782fffbe048076f78f96d70d7aea6bf65f19a966b50",
+      "size_bytes": 127397
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/34.jpg",
+      "sha256": "90d84020483550058dd7d196ce71f6cb549646917bdf9d05f30492727ada0546",
+      "size_bytes": 126980
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/35.jpg",
+      "sha256": "da980c3f91b6763f67087b515c8c70286899b097a4249fce6a651975a0d5bdbc",
+      "size_bytes": 126933
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/36.jpg",
+      "sha256": "5234bfed011807de2c829668b3424d2827e2f0924ab2ce077df3afd2488dcb6b",
+      "size_bytes": 124335
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/37.jpg",
+      "sha256": "da3fdfc955048b9fa4b8af8215a187d5d12d0aab774556264a79e3f1dedc0139",
+      "size_bytes": 125305
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/38.jpg",
+      "sha256": "633bbc4f16f9961959e5b19d1675e5777646ee44ab5dc58248346726790667c1",
+      "size_bytes": 124350
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/39.jpg",
+      "sha256": "cb6f15490b490fdf08f6c556bc5ae410a30a01bc30c76a216b813b87a5969dad",
+      "size_bytes": 125424
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/4.jpg",
+      "sha256": "435b9652924519e76af6a0625613f9c7a92db55b7387958f510963f5451ee0d0",
+      "size_bytes": 142809
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/40.jpg",
+      "sha256": "c88dff0df91709aa54c324633f3c788a2a5288c51a41a4288f964e2adaafce58",
+      "size_bytes": 123992
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/41.jpg",
+      "sha256": "e2a52bcd97b393ddff7114712c45b925df54fc6e35683fe18b3f70b8ea0fcfdc",
+      "size_bytes": 125065
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/42.jpg",
+      "sha256": "6a91a0b3c136cb504cf866869f23c109b9265a0aff012d4034602733243c2083",
+      "size_bytes": 125116
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/43.jpg",
+      "sha256": "81d6b3e57243fdbedb5ee9c54c1067a331df3bb7e3e9d492ffacd72bdbf909bd",
+      "size_bytes": 125902
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/44.jpg",
+      "sha256": "32eddd4e307f27ff864c88e2c9ec5631693acf5cc99c97c21bc057ffe389a232",
+      "size_bytes": 124980
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/45.jpg",
+      "sha256": "8513ec3c207ec852c43f7dbf45d54f8ac696504cf87cb56f988f7f6f55cf4dc1",
+      "size_bytes": 124449
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/46.jpg",
+      "sha256": "bef770e2352f90b574ebb6c858dc9ecc646070ed5e95f894d7c78b9a6258268b",
+      "size_bytes": 124041
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/47.jpg",
+      "sha256": "264c24244177d47fd6c462bf0dedd308c7747a563fe42d5bcc7295fe7f681685",
+      "size_bytes": 125093
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/48.jpg",
+      "sha256": "d508e4758044aab366f12efdbdb3a376ee150415e73d55882a919d7981176f7e",
+      "size_bytes": 123358
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/49.jpg",
+      "sha256": "a85ee0bd9eb33b0a19d8b4ed40dfab88a1247f595f12ebd1a518b1367df22fa4",
+      "size_bytes": 124614
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/5.jpg",
+      "sha256": "b4b2c6feea5f318e2865a7e08adbea101d59f53bcdb5187e6df1d73273ba4d5b",
+      "size_bytes": 139860
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/50.jpg",
+      "sha256": "0f47e6cc3f4f6f32d8dda03bad9af7b52db966b74f9f7f8403780a1e6f4c63b8",
+      "size_bytes": 124420
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/51.jpg",
+      "sha256": "b70e62f9a528644a73ca9e5601d6d286f17389da7ab4bcc8429e9837aa28e0e7",
+      "size_bytes": 124744
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/52.jpg",
+      "sha256": "ab23ffc8345ab2f08089b171fc6be62bae8d3602a24892dc505b103acb30b0db",
+      "size_bytes": 122806
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/53.jpg",
+      "sha256": "830de3d62be80661065dac7cad6e17be1c70819ddaf020b768d7e64cab14eb0a",
+      "size_bytes": 124103
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/54.jpg",
+      "sha256": "10a95964278e5c764551631a1964a1260d5cdea6a072d1207e30e5d0f159489a",
+      "size_bytes": 123796
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/55.jpg",
+      "sha256": "197cf504b2b1099772c22352b563d1c5d650d82fc379f6d22efbdd1d019d7577",
+      "size_bytes": 124214
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/56.jpg",
+      "sha256": "efbd7e1f48194f667a0542f64b496d3b942325047dadd131d7cf618c2d8684b1",
+      "size_bytes": 124626
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/57.jpg",
+      "sha256": "c9e551187b805107b02612ba9197e4d1811e9433fb73ed8e8881c5e006c63959",
+      "size_bytes": 124236
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/58.jpg",
+      "sha256": "84b9cc3a694252cb7449806703854d6839c12fea0ba924aafd2d681bac7563f9",
+      "size_bytes": 126238
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/59.jpg",
+      "sha256": "7b65c17574a2b1d2d78af952bf3d7aa24b67fd7a2f676d941504a43aef56850c",
+      "size_bytes": 124453
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/6.jpg",
+      "sha256": "5e1fe024222c18d8701c61080b782736fea7240cdad32db8d7ea0d588958c3e0",
+      "size_bytes": 140116
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/60.jpg",
+      "sha256": "6aa943e4b9e5466222487d69b8cacda721dfe5716fa72854e0251af62ceff991",
+      "size_bytes": 123964
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/61.jpg",
+      "sha256": "e206c302a054e3b4b6f51a3f8d3b32e5f0df7997fa2451298d8d8ec18e7d8563",
+      "size_bytes": 122163
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/62.jpg",
+      "sha256": "2004a1aacfa91285e7504e92b6d28341cecc31b9bea9b69c74cb1eacde138396",
+      "size_bytes": 125603
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/63.jpg",
+      "sha256": "3a474dec78a72fc3c4ccda4265b3c998b5c869ce3a7fe5eb712c028361d07d3d",
+      "size_bytes": 123772
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/64.jpg",
+      "sha256": "709a8e47789ac0f5148b9e6d422577224085747c96156ad4f2ac9a722e55e18a",
+      "size_bytes": 123005
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/65.jpg",
+      "sha256": "1aa97bdccd3ec8fcd68941cc45bea6c91a3d12466157d5061c78a65d1eeabbdc",
+      "size_bytes": 128147
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/66.jpg",
+      "sha256": "f731cc0719ee8423e389aa061adce8e028a5a7412fe43d2783a7180189932b7c",
+      "size_bytes": 124353
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/67.jpg",
+      "sha256": "9d4e465238a61eb819fbada2c83e5fcae37d41ce39bf621ed6d63a326a09ecc3",
+      "size_bytes": 121755
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/68.jpg",
+      "sha256": "4e9ad14cf471ee21dc3e93dd9ee9c360bc61784f05b166cd940b823556afeee4",
+      "size_bytes": 123913
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/69.jpg",
+      "sha256": "a2b3cab9d626e12c1ac66fc87b6dfbc200909e42af8ced61e4668297bc95b4f7",
+      "size_bytes": 118381
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/7.jpg",
+      "sha256": "0309926234a365a8080d14f51768443cdf882aa639bd7567cfa4377274dc0909",
+      "size_bytes": 138059
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/70.jpg",
+      "sha256": "b770c20be009c57bb1c2ce6eb7c483a2faa46b51a02bc75cbb47e5a3d88c230f",
+      "size_bytes": 120780
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/71.jpg",
+      "sha256": "c6fcc718b2a586f468a429df92733b87d9241b06737a62cbf632867c9c105ea1",
+      "size_bytes": 120099
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/72.jpg",
+      "sha256": "e9342d15228ab37667a9ea14fadf295100e7c0435119d0822c1a74f9cdb493f5",
+      "size_bytes": 121437
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/73.jpg",
+      "sha256": "bbe2af099377cab4022fdcf9529192c368e00620ba742d6d861b11dcdbfa9a33",
+      "size_bytes": 118698
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/74.jpg",
+      "sha256": "e9380390acd2b67040b810f27579ab02f8780e9a6b650349d711feaedb4c8cd0",
+      "size_bytes": 117838
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/75.jpg",
+      "sha256": "80de7e2fbe93042c82bb162257ff2546f5ddbd7ad446ad70ac4bb884387e9b0d",
+      "size_bytes": 119795
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/76.jpg",
+      "sha256": "f6cbfec9a753f2d42154ab5ab7ea0d9a2e04d2b4aa7e041d75fe308ad9f21fb7",
+      "size_bytes": 115392
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/77.jpg",
+      "sha256": "1dc65f5fb14965a5d3fe918974555e96abdc93acc91662e50366fe0df87b9bb9",
+      "size_bytes": 117661
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/78.jpg",
+      "sha256": "8be8995f1fe312173403905726c799670b5eff72d4392d94656fabe14aa40558",
+      "size_bytes": 116678
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/79.jpg",
+      "sha256": "2c0a7c8a5c57b98c289d0680b9f68ad6bfef96b79d650a88dc176457123845bc",
+      "size_bytes": 118967
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/8.jpg",
+      "sha256": "d0931f2c3a85bea759cf9149304f9c70edfa4cba359d963af2a99fafc7a882cd",
+      "size_bytes": 140469
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/80.jpg",
+      "sha256": "58632b5a771c7e86edb9083dd5be2003c9094fe2f04df108e0cb7359f248a98e",
+      "size_bytes": 116146
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/81.jpg",
+      "sha256": "82151bba4bcce8eaac2bcbe853af7ed54cf5a5ca91052c4363b7840db2cf0e33",
+      "size_bytes": 118054
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/82.jpg",
+      "sha256": "3b208d9be0a4eaec4547e97a7fe50a0b647360a97e010f8daf1838f31bddbcfc",
+      "size_bytes": 119128
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/83.jpg",
+      "sha256": "b056847c1301e0acd2b60830ae23330993505d056841bd13874c6e1fd1ebc8c5",
+      "size_bytes": 121993
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/84.jpg",
+      "sha256": "cca3b6c2a6ae9b546fe544d37a5ffa346130104225c4432d9fd7d3f528f59c46",
+      "size_bytes": 120404
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/85.jpg",
+      "sha256": "a60b3525633530a2761d0de3db081bd23ea573347463b88565043bc2b3537b11",
+      "size_bytes": 118562
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/86.jpg",
+      "sha256": "161457ea926b8587ac2f66f20603d72bb63ed31ae057feb99d5b1c555dbaffbc",
+      "size_bytes": 121415
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/87.jpg",
+      "sha256": "c3470f9605142da596b6a835a40027bd299099699c5295ba2aededfd947b6c4c",
+      "size_bytes": 118496
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/88.jpg",
+      "sha256": "358bbe2f8b2da282906254ab264c3e1200042695609cc1e5d12039ed99b679a9",
+      "size_bytes": 116900
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/89.jpg",
+      "sha256": "455f5dcba53876b2fe658aae72041632b704079ec2a3ad3356679132e55d1856",
+      "size_bytes": 114929
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/9.jpg",
+      "sha256": "8554245786b72d1c61dbefd6e07bea954498ab4d56bf14f8a24e0291686c260d",
+      "size_bytes": 140359
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/90.jpg",
+      "sha256": "324de19320bdd3104140d84ac63200540b16f952450d35e60af600f32612bb1a",
+      "size_bytes": 114603
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/91.jpg",
+      "sha256": "bfaa1195223e165ac9627be9fd10f3245461cd08d4085164c479dbc74730d267",
+      "size_bytes": 113788
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/92.jpg",
+      "sha256": "82466a22d9d085fb24cef0aa8c393e01d9140ae8a800772c446c65335359a616",
+      "size_bytes": 114035
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/93.jpg",
+      "sha256": "885e5a6496c5a6a1e1f411acfdcf83eefb327e111dca01fee8022581b5aae7f2",
+      "size_bytes": 116893
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/94.jpg",
+      "sha256": "a6afe6a61bc8a9b9f1cec68a7d273a4e4f68ced111f8e913be56dd38a4682b1c",
+      "size_bytes": 113084
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/95.jpg",
+      "sha256": "f2f54e6506ca1cdfb3115877205c936e11a7a83fa8b4818dcc8c7bb48924aa32",
+      "size_bytes": 111817
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/96.jpg",
+      "sha256": "9e84a7210743e0d632dcd661610e204c285392880dc14a081b4158cc1f10851d",
+      "size_bytes": 110882
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/97.jpg",
+      "sha256": "d2a15df7744f9fa6932ccb22226d5eed87a006427b57ea3a0f01f1c946a3b3a9",
+      "size_bytes": 113221
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/98.jpg",
+      "sha256": "2fe41a3d7738234a4e3462056f7466f1f1646d4e1de62fa707f2072a3c2a717a",
+      "size_bytes": 111474
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/0001/99.jpg",
+      "sha256": "ecf0ec65bfea601f2b189d0f42c357396da2b23646465889e8a9383d1cdda39f",
+      "size_bytes": 114268
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/assets/videos/bedroom.mp4",
+      "sha256": "1be76d5d19b066e8ad7c565d88a98e11a8f8d456a707508a7aa35390def70e30",
+      "size_bytes": 2380401
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/examples/saco_gold_silver_eval_example.ipynb",
+      "sha256": "fe52d9f6b6b1e85f15564634d9b2a73d73da198cc40053f1ba379051406c8db5",
+      "size_bytes": 179429
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/examples/saco_gold_silver_vis_example.ipynb",
+      "sha256": "fe05b88f2857cad85688554f0eb4253a9cac13adda1425f16e366cae6e39cb56",
+      "size_bytes": 7986
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/examples/saco_veval_eval_example.ipynb",
+      "sha256": "a7672176cc2eb8cded61c66160c754121b4c4dcdd52a8c7cff3b7cbbdbee2ab5",
+      "size_bytes": 4423
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/examples/saco_veval_vis_example.ipynb",
+      "sha256": "ffa5a5d9c4a69d8d8a64fa87c936488f91dded5263645fa83f624988b713caaa",
+      "size_bytes": 7404
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/examples/sam3.1_video_predictor_example.ipynb",
+      "sha256": "90e891d4478214390f28fa89e16e91b52dd9293f09d1d165c281e6459e354ba6",
+      "size_bytes": 20576
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/examples/sam3_agent.ipynb",
+      "sha256": "29c8a2c34c5ff4d1964729cdaeb63fefdf38658c65f2accdf86ce3b99b034739",
+      "size_bytes": 7738
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/examples/sam3_for_sam1_task_example.ipynb",
+      "sha256": "4279ba77785209d4d9314a7ee7561ea674f23ba6c495a3ba9308b3f0f4f5fe20",
+      "size_bytes": 23705
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/examples/sam3_for_sam2_video_task_example.ipynb",
+      "sha256": "dba11b3fda56cb28e53bb8f27069a37567b29a8569814eb5a739494dc11af824",
+      "size_bytes": 36827
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/examples/sam3_image_batched_inference.ipynb",
+      "sha256": "721e09d86946ac22e2dee26ccd7b8ffae7d217a3e6b5a2e8148b07276603df37",
+      "size_bytes": 4631582
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/examples/sam3_image_interactive.ipynb",
+      "sha256": "5fe28c976b70caf681cf70cf67aef733605392a29ec2b84bc0991166465a62c9",
+      "size_bytes": 45432
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/examples/sam3_image_predictor_example.ipynb",
+      "sha256": "6c493cc774cbc73190d3e9d693f10d3d032392ee0605b61f186827099d2fa005",
+      "size_bytes": 2890250
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/examples/sam3_video_predictor_example.ipynb",
+      "sha256": "7537b709b7473ea947283d4e452ed34d00cd37bb2c1653b3d37c507b84c4aea7",
+      "size_bytes": 55470
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/pyproject.toml",
+      "sha256": "255f5d8d1db011459878e3de296a6afc84e03a8dda2bfa756a4de304aaff6366",
+      "size_bytes": 2770
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3.egg-info/PKG-INFO",
+      "sha256": "8c79aabb2b547d75e0043d5a8eebd5dd7f47e5c6c5e741325c0370ca12839211",
+      "size_bytes": 32004
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3.egg-info/SOURCES.txt",
+      "sha256": "acce8b2ffc6bc9c7a2510c666a58e83cc80a973afd9411db0ae4777cff972cde",
+      "size_bytes": 5716
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3.egg-info/dependency_links.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_bytes": 1
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3.egg-info/requires.txt",
+      "sha256": "a8889a295f9168df6460aa26363ae2dce43115b3da95e3599ba65e640b12c413",
+      "size_bytes": 509
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3.egg-info/top_level.txt",
+      "sha256": "8d91ad180731ebabe4be60a98d0a50e155677c4f296844f06c3e6b1ae3a93c4d",
+      "size_bytes": 5
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/__init__.py",
+      "sha256": "ca3821a125f767e6a35188603b51ef2501b1e7c3d1a90546ac567c5d2a80b9fb",
+      "size_bytes": 246
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/__init__.py",
+      "sha256": "5737b3ba20d7549b2fce53c995fa80c331b116d1f958980d99bf6f161e28e3a6",
+      "size_bytes": 88
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/agent_core.py",
+      "sha256": "5e648f878189842b63727e1b05aa6079ccd5456b0d9528d19fd68d21e8bd2738",
+      "size_bytes": 26337
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/client_llm.py",
+      "sha256": "92b448d4a83c5396fa48d356d0a4244999f678c7007482cdf334d2c4110e43e0",
+      "size_bytes": 7735
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/client_sam3.py",
+      "sha256": "8c4d25698a3a5fccc5538ffa7ffb14177db55bae4460b6d951cb06d9873bf28e",
+      "size_bytes": 5157
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/helpers/__init__.py",
+      "sha256": "5737b3ba20d7549b2fce53c995fa80c331b116d1f958980d99bf6f161e28e3a6",
+      "size_bytes": 88
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/helpers/boxes.py",
+      "sha256": "b0767360e51c773b0eb3e179f4e24907be36dfdafd311052bc04573085a3d4da",
+      "size_bytes": 15369
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/helpers/color_map.py",
+      "sha256": "5770b167f4be7ee1c10864494f7feda899eea1cef4bff2ed04cff4842c5b1b15",
+      "size_bytes": 3645
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/helpers/keypoints.py",
+      "sha256": "7d1b4182340ce2270577ca00219fe0a22869dfd24a620d75b3e99d92c1c40ad8",
+      "size_bytes": 9137
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/helpers/mask_overlap_removal.py",
+      "sha256": "724ca37c5bb7a25303a71aafe7af4a265b5b3389362a752da557af486cd559ec",
+      "size_bytes": 4821
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/helpers/masks.py",
+      "sha256": "b40d90ab04bb11f503ff4dc66ba0345f2768a0a6d90d6ed133ddc1a31e7951c0",
+      "size_bytes": 20515
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/helpers/memory.py",
+      "sha256": "cf231157f5b796e59ee2bff0b1942bd91c33bf45bc3e20afa96d557c0f02a0da",
+      "size_bytes": 2643
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/helpers/rle.py",
+      "sha256": "f304d4dc14ebdb35f82784e945bad517bc48f69038b67f2d5fcf7e2416b562c3",
+      "size_bytes": 4244
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/helpers/roi_align.py",
+      "sha256": "4e6c1e6ea542d07708d3a11c6f62f14527fe4652dcc7bceced5bd08200a9ea67",
+      "size_bytes": 3136
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/helpers/rotated_boxes.py",
+      "sha256": "8a24866255b0859df701047ed0748a3ee34aed5cc56f48861d7d2a16a0ad0c77",
+      "size_bytes": 19800
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/helpers/som_utils.py",
+      "sha256": "ac34c3804a3d2761420a2a3947e2c43d674825feb47ba269346db92768291f78",
+      "size_bytes": 12021
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/helpers/visualizer.py",
+      "sha256": "e6e364881da72b5430112c253d4eea85be276488f53cc62def9678134d073c69",
+      "size_bytes": 63335
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/helpers/zoom_in.py",
+      "sha256": "84d1e78db181b2f3edd82278c2ae5628d571323c70dfda366c7f6332f4884d79",
+      "size_bytes": 6497
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/inference.py",
+      "sha256": "cc1d2db757116016b821e9b72125f2dc5f827b36d794c1357604a84fc7ea0b3f",
+      "size_bytes": 2259
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/system_prompts/system_prompt.txt",
+      "sha256": "37009389e2b211d62968a0fd8898e24008830bdbce905e901f764910e9079dec",
+      "size_bytes": 66050
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/system_prompts/system_prompt_iterative_checking.txt",
+      "sha256": "6b2e85ec91017d4aafa2787cd769b8d98c1adec99f55f1fba1307354f3d60c05",
+      "size_bytes": 5851
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/agent/viz.py",
+      "sha256": "568b9c0a6bb359f82f533bd17757d4445556b347d87e289ed6c389a5bb325a35",
+      "size_bytes": 3989
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/assets/bpe_simple_vocab_16e6.txt.gz",
+      "sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a",
+      "size_bytes": 1356917
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/__init__.py",
+      "sha256": "5737b3ba20d7549b2fce53c995fa80c331b116d1f958980d99bf6f161e28e3a6",
+      "size_bytes": 88
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/cgf1_eval.py",
+      "sha256": "ac9fb7ec0e0abe08261914311552fe36480853cd9532f166ae212bc3d31ac3e0",
+      "size_bytes": 26264
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/coco_eval.py",
+      "sha256": "ae7018b03664fdb8cf0ee948fb68092976f6e4bc1ac3f832b074e7e83085d096",
+      "size_bytes": 36331
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/coco_eval_offline.py",
+      "sha256": "2ae3203fb087e6ebbf0f4512eb2b0d814c90b04514e790a03f2e08a2d39cecc8",
+      "size_bytes": 6137
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/coco_reindex.py",
+      "sha256": "c1876c779e77bcb90a5972f4dd6aabc7735e8ddc37ae847f0f574cb84516bb5e",
+      "size_bytes": 8171
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/coco_writer.py",
+      "sha256": "84dce2897c7809832e97438e79676196e035cfd5fd236b5783a85171e98afb32",
+      "size_bytes": 11860
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/conversion_util.py",
+      "sha256": "d89ec54fdf64df181db1d26e5b3c7e55aafc9d186d37a85c47dfdd8d8ab453f0",
+      "size_bytes": 7169
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/demo_eval.py",
+      "sha256": "1ab77ee30aa036c8dc6c070250aa0bceec9469ddc7d36f10faa2dd57c4095848",
+      "size_bytes": 25177
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/hota_eval_toolkit/__init__.py",
+      "sha256": "306af87a672c16943f75dc68c0abec85410f56d8903b7d0426b5fddc23ffb191",
+      "size_bytes": 30
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/hota_eval_toolkit/run_ytvis_eval.py",
+      "sha256": "64f9fa375d6d0aa8423330fb755c5c180416bdd9edcd3dafb4646d396abcfc8e",
+      "size_bytes": 5032
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/hota_eval_toolkit/trackeval/__init__.py",
+      "sha256": "89abc09dcc7adabfb5da96eac78aa09e79eae3f1546f77bfeb16144cbd888e56",
+      "size_bytes": 98
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/hota_eval_toolkit/trackeval/_timing.py",
+      "sha256": "0255b2eeceede8c8a97d3eccaa5a67360376e1cbc0006e3e9f61d9b2c0b5bef2",
+      "size_bytes": 2359
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/hota_eval_toolkit/trackeval/datasets/__init__.py",
+      "sha256": "562b6f9ed77b209580a6c45e4f28ce85dcc84ac948b22eed6aadca453062c10e",
+      "size_bytes": 94
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/hota_eval_toolkit/trackeval/datasets/_base_dataset.py",
+      "sha256": "4cba64db4dc1ea3fa06c4c1abdf4e0b38b4337dad511ccf76d1208121a323138",
+      "size_bytes": 17938
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/hota_eval_toolkit/trackeval/datasets/tao_ow.py",
+      "sha256": "9531d7b44aa57959801375ed58bc1d73ca755b374a9749e95ff94ac70331e89b",
+      "size_bytes": 36490
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/hota_eval_toolkit/trackeval/datasets/youtube_vis.py",
+      "sha256": "6f1be7c0f5f6751fae302a982debea6d5fa9309b4ed9a5c3f2f0c8c9b98e7618",
+      "size_bytes": 24012
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/hota_eval_toolkit/trackeval/eval.py",
+      "sha256": "f57c314805841ef909bdf92271b7d4e72c6cfdb0552e8c410608cd4ba2bb8552",
+      "size_bytes": 17059
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/hota_eval_toolkit/trackeval/metrics/__init__.py",
+      "sha256": "fecf9dfe07e85b453f954f95d178a6d845fff623ab71efddc91db3773cfed4ee",
+      "size_bytes": 79
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/hota_eval_toolkit/trackeval/metrics/_base_metric.py",
+      "sha256": "f82c91ae33440cf07c42a6e4a88d307195413b78bd0783ad056bf541625c6ba3",
+      "size_bytes": 5255
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/hota_eval_toolkit/trackeval/metrics/count.py",
+      "sha256": "17f4e10590b046415a1f35b3bcbf6cc894f0aedd099ae0691c6e2b2936e6069d",
+      "size_bytes": 1626
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/hota_eval_toolkit/trackeval/metrics/hota.py",
+      "sha256": "96f53ff3805bfa0a4bfb12ae15bdedff70df6f3226e2ca0bae7a24b21f88df11",
+      "size_bytes": 11909
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/hota_eval_toolkit/trackeval/utils.py",
+      "sha256": "80932a1b296579cb1e1a6a472df57a29928921b8684f753236bc779d76bef72b",
+      "size_bytes": 6219
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/postprocessors.py",
+      "sha256": "e3bf3fc98715c3eb21b1dfcd6cbb95ed271a2dd0da4bd8f99f9b5dabea7f18d9",
+      "size_bytes": 29641
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/saco_veval_eval.py",
+      "sha256": "ea2877e7b8371576f2d75742600a78c0a2263b4140c9e404c79bf6308b4559ea",
+      "size_bytes": 5078
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/saco_veval_evaluators.py",
+      "sha256": "64e16a4b8663dc08bf9614896fee60f365979d86b083bec600928763bd55f310",
+      "size_bytes": 37400
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/teta_eval_toolkit/__init__.py",
+      "sha256": "be20c90599fb3cc970426712d85171033e340ef7833308cec82fe3170c87a37f",
+      "size_bytes": 117
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/teta_eval_toolkit/_timing.py",
+      "sha256": "05a87ff0821814f488f7f181f6e9324faae02d0be8a1992afde90d067386f4c3",
+      "size_bytes": 2370
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/teta_eval_toolkit/config.py",
+      "sha256": "8b2d2cfe98b68c0f75d3cfcb75f90dca6d0e6a2ef6cc9e20517eea41b03e55f1",
+      "size_bytes": 5674
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/teta_eval_toolkit/datasets/__init__.py",
+      "sha256": "e07986408023a3303518a6fd2e3ea4d92caa0400a1eec21b21b6ca90a36223d3",
+      "size_bytes": 101
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/teta_eval_toolkit/datasets/_base_dataset.py",
+      "sha256": "f15063ac33f68e16b0b5d4820d6cac49e35d7e3d3a3a691bbfda1b9384ad72b2",
+      "size_bytes": 17882
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/teta_eval_toolkit/datasets/coco.py",
+      "sha256": "d4332a75f7d9451e42add324af826719c6c855167fa482ef651cb91aa21dc9a0",
+      "size_bytes": 25430
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/teta_eval_toolkit/datasets/tao.py",
+      "sha256": "2dbaa98136b413d686f140a6444634322667bf295654aa139350b3050cf6f412",
+      "size_bytes": 26393
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/teta_eval_toolkit/eval.py",
+      "sha256": "120c278110c3fd1359417d663975c3ce3a5692fb33c16886ee89a763ca36910c",
+      "size_bytes": 10647
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/teta_eval_toolkit/metrics/__init__.py",
+      "sha256": "8c4329dc6bf88ed4afb0b5d670bcba2a0473a07e0f80819aedeef376a649bc2d",
+      "size_bytes": 65
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/teta_eval_toolkit/metrics/_base_metric.py",
+      "sha256": "dc117cd3ef46a0e3c01840570d2a9d241cd20bd54203877ef8460e8b088d4520",
+      "size_bytes": 5200
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/teta_eval_toolkit/metrics/teta.py",
+      "sha256": "829b2a82ca2251d2b0ccf8f103b1016e15142cd53c1fd94bb774dc61b40a7f7e",
+      "size_bytes": 15609
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/teta_eval_toolkit/utils.py",
+      "sha256": "b656d69ca39de06447aa2d9f4d264f925a96093cb860832a2b3c67df884d77d4",
+      "size_bytes": 1296
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/ytvis_coco_wrapper.py",
+      "sha256": "e1081eb172082e5abccefcbc6b6bc631818f70ee7c97d9f7edb30627b3741ced",
+      "size_bytes": 6124
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/eval/ytvis_eval.py",
+      "sha256": "5486670a61a76bc13a9b70e7ecc56e951c14a8f3d85ba04ff570388bb0472bff",
+      "size_bytes": 17055
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/logger.py",
+      "sha256": "886d7b6101ab3cc07f40348a67054101ad87ca2ab9b3546fef1113f3e19db51e",
+      "size_bytes": 1835
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/__init__.py",
+      "sha256": "5737b3ba20d7549b2fce53c995fa80c331b116d1f958980d99bf6f161e28e3a6",
+      "size_bytes": 88
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/act_ckpt_utils.py",
+      "sha256": "913317a663cf0f19317feb66ea43ff7a86e44393f39af3731ba3d33dfff93a82",
+      "size_bytes": 4346
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/box_ops.py",
+      "sha256": "2d1a11337f1db93ccd87132319716cf68b215c59fa51e43416bdad7ab30c8151",
+      "size_bytes": 6004
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/data_misc.py",
+      "sha256": "2de49374056d39398f6d90f0326d0ebe75c4c0890a7a0ff281da704ed5ccaa34",
+      "size_bytes": 8205
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/decoder.py",
+      "sha256": "3a2bfb30f0f4b5405a0c9a27dc21aed71aa6691032a56fa8d96b3f9af3a15b96",
+      "size_bytes": 54595
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/edt.py",
+      "sha256": "8670420b27afac42b7cd838469a8c412693a9e01f47dc4abd5d13b5f46b3f688",
+      "size_bytes": 8481
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/encoder.py",
+      "sha256": "e4c94c74ade9ea390b7c2d37dec4e6c14aa443d2532abd4507018476876f72b4",
+      "size_bytes": 23804
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/geometry_encoders.py",
+      "sha256": "02c50b9ba5caf1c51c472a78a98b5b943cba6b480a1157485eb74c59c08d7680",
+      "size_bytes": 34057
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/io_utils.py",
+      "sha256": "8bf0d036bc616a2429a258fa3a91d733e7c64621fe1616fa0c129c29c0fca637",
+      "size_bytes": 30323
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/maskformer_segmentation.py",
+      "sha256": "955c8754b178ea51f5c727dfa51cfadba95eef9c237d5ba27cb4de1cef322732",
+      "size_bytes": 11911
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/memory.py",
+      "sha256": "6712af0db3bed4e2dffd812884d42db48e6d3572bb1273505745dda8b900e0e3",
+      "size_bytes": 7114
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/model_misc.py",
+      "sha256": "1dbd1160c8093a60f1fea956db66f34e0edbc184d71e6caa9bbd7f492f2dde49",
+      "size_bytes": 41512
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/multiplex_mask_decoder.py",
+      "sha256": "412cdbdb329ac5dc85d0d2e19ffb1eec472663f6f5a2b8672f7dd9d397ac8846",
+      "size_bytes": 20241
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/multiplex_utils.py",
+      "sha256": "d568cc1e87dc65dfe76104946eb0fa143bcf1a3eba79ac7467f022a73482f680",
+      "size_bytes": 21995
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/necks.py",
+      "sha256": "0caaefd34e8674973d28b7afde9d87abaaa2eda00d977a592923fe9eeb1cbc05",
+      "size_bytes": 9498
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/position_encoding.py",
+      "sha256": "6ec4e053bad5d17035f9ea8f60a032f60c51ba5ce5a5a174b4b2fe0de62749f6",
+      "size_bytes": 5376
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/sam1_task_predictor.py",
+      "sha256": "64346a8dcad8dfdb997e4cb0871e2d5c0658ab247ca2816f7f60aa0d0878ab9d",
+      "size_bytes": 20366
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/sam3_base_predictor.py",
+      "sha256": "e6ac612276ab208fa486499507175acc3f93fd6aab753dd553468b3330ad536b",
+      "size_bytes": 21057
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/sam3_image.py",
+      "sha256": "2c20de90fb0b76b01dd437385eb7226f8c3cd4757a4c80cc8dec943dcf46a4a0",
+      "size_bytes": 39518
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/sam3_image_processor.py",
+      "sha256": "d8738a0efb6138b01c0dc5deceffd29de9e675860a9a1ed3822b08766373333b",
+      "size_bytes": 8994
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/sam3_multiplex_base.py",
+      "sha256": "fad8ba0829e1223af919736d5c90b68a784c4941f936f088bccbdc4fb75d2bf8",
+      "size_bytes": 141522
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/sam3_multiplex_detector.py",
+      "sha256": "af0feb4f9a3d405103cdc70a90fcba2a9a1234d6fcfe50c563bbfae2c15922f8",
+      "size_bytes": 41666
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/sam3_multiplex_detector_utils.py",
+      "sha256": "f1be3a25cd71f15bd509543d1b9f95bad8a8d57a36a79cface7616292ac5ba4d",
+      "size_bytes": 13256
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/sam3_multiplex_tracking.py",
+      "sha256": "65e1cea27ee243dad228fb05967a8be92c90ef304665ada76930b899aa034d24",
+      "size_bytes": 155012
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/sam3_multiplex_video_predictor.py",
+      "sha256": "15abe64bff63c95b8bcb67b5af0818b1b3783eb6537ec4d8b3a5e6b56915d1c1",
+      "size_bytes": 2139
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/sam3_tracker_base.py",
+      "sha256": "b2b52409c002e1590262375aa794f8ab67e7476f42f8fee41a76de0c14aa62e2",
+      "size_bytes": 59289
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/sam3_tracker_utils.py",
+      "sha256": "dc5fdeba2d4416f273394a9bd4450dff050608db6009a4546ca68adbaa24a640",
+      "size_bytes": 18904
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/sam3_tracking_predictor.py",
+      "sha256": "145df76a5c045605d4d15360456015adb4f987c4b18e82f4f4876a63e6a32345",
+      "size_bytes": 68831
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/sam3_video_base.py",
+      "sha256": "7ffae0a8c15f17814ce438078b6a00cc052be21ad16c8a59205df859c3df52c4",
+      "size_bytes": 100832
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/sam3_video_inference.py",
+      "sha256": "70d32ec094b3151aa5b5e73e1c0dd13bc5e7a06ab51fc6b1776909e9ad501aef",
+      "size_bytes": 77372
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/sam3_video_predictor.py",
+      "sha256": "9714ac8adbce442bfd05b795cb7b53eab6ac455487df31d7b8ae442675a4b9ea",
+      "size_bytes": 14479
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/text_encoder_ve.py",
+      "sha256": "d4a9dc4bd7aded73c5fb05760060944d022656eb8849b5abb1faf93241c1a733",
+      "size_bytes": 11595
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/tokenizer_ve.py",
+      "sha256": "d67eedd249f9586ebe93e6d1cd863f35d0453d3738bd6f109cb49832667d8a6e",
+      "size_bytes": 8934
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/utils/__init__.py",
+      "sha256": "dbc5c8475ec79c2980b95cb09862887052cbabd49bc7fe22f2014d0a2b836609",
+      "size_bytes": 232
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/utils/misc.py",
+      "sha256": "912509e3a04139a3dfd2d98b91662ae37d1dea4d2122166f6603a35cba8e2acf",
+      "size_bytes": 2633
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/utils/sam1_utils.py",
+      "sha256": "3eb335d6eb447e117eb079136cb897475a0210d41b3990edb830c5866b587c2a",
+      "size_bytes": 5045
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/utils/sam2_utils.py",
+      "sha256": "78048b7b131250ac14b19c0c6f5fdb21402542b281964af675247e19734e5b2e",
+      "size_bytes": 8295
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/video_tracking_multiplex.py",
+      "sha256": "5a6309684a9a3615819f65cad1d2fbd8139a6ceeaa14b2583057d695fc781f1c",
+      "size_bytes": 188262
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/video_tracking_multiplex_demo.py",
+      "sha256": "d57ac540b400d5cb37377fc84810f75c2721f1b6e6ee9c8f119b5d6af7a6a80c",
+      "size_bytes": 173063
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/vitdet.py",
+      "sha256": "aceeaca8e9fff31917d1293235fb284d5518288d00c562f95eecf47212796e1b",
+      "size_bytes": 39292
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model/vl_combiner.py",
+      "sha256": "59377a3147bf7751e620df75b777afcc584f36985fe99469b8275fc7cdab1071",
+      "size_bytes": 15061
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/model_builder.py",
+      "sha256": "d71d6d3e485ec3eae48bbc2ba676f401b5853d65c4195a91d077b04da38121c2",
+      "size_bytes": 42755
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/perflib/__init__.py",
+      "sha256": "e25fa5fb31908e816f0ce0f55dae8715076f47ca9ffcbc34335e60cf74bfbd21",
+      "size_bytes": 235
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/perflib/associate_det_trk.py",
+      "sha256": "411ca39cc2e9008788fe5df3a5c43ec3122b8d16077c5ce96a6abc93574ccd90",
+      "size_bytes": 5443
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/perflib/compile.py",
+      "sha256": "403f2b91771e5b0c05c6b623bb5d032765c788cb9674136cbdeb0be628fafbfe",
+      "size_bytes": 4058
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/perflib/connected_components.py",
+      "sha256": "f09bb5b905a12e0aeb6e7f1096af839015230f007dc47c43a1de7893a355dbd1",
+      "size_bytes": 2924
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/perflib/fa3.py",
+      "sha256": "3b7292118f30f3fdea9850f16e27a6cf0cd8b7b2d427bc1dd8be2abceeb28fe0",
+      "size_bytes": 882
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/perflib/fused.py",
+      "sha256": "f528109e043331da4c240741d1403812b2020801d8f01af0b5fbf0c6e93c1af6",
+      "size_bytes": 970
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/perflib/iou.py",
+      "sha256": "a99a3de83115ca96bc6b100f7d80cea18f23cb65d0f174a7896af8abacd94311",
+      "size_bytes": 1304
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/perflib/masks_ops.py",
+      "sha256": "b1b6fae420565315dd434d4efb9a6f76fe0fc2959a8c30f2f1120a0a25e80a55",
+      "size_bytes": 2834
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/perflib/nms.py",
+      "sha256": "21c5fd8c12f9a8bacf5b17be1c0a0027533f9f7dca31392a0c90fc0df2d25eb4",
+      "size_bytes": 3492
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/perflib/tests/assets/masks.tiff",
+      "sha256": "e470fe2921b69eef47bcbf8394f60f86efa1304b63eb5b9efb297963d8485b60",
+      "size_bytes": 352484
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/perflib/tests/tests.py",
+      "sha256": "33d851c0f38f81a14bfd5544bbcada95cc1bbe90b902e8bebfa83829980697bd",
+      "size_bytes": 1883
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/perflib/triton/connected_components.py",
+      "sha256": "4326366c3575aa29c23ea4c4060534361d2920492312a20ad5138ac3dcf45c48",
+      "size_bytes": 16314
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/perflib/triton/nms.py",
+      "sha256": "e9749ee2e49acf3665e7aade92acbdbff7e0685d2c1feae40f2c231a94e5c8c3",
+      "size_bytes": 4802
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/sam/__init__.py",
+      "sha256": "9fd565929cc73505a78397f87c558d721b4df92a279551a4860bf8947baa8ae0",
+      "size_bytes": 211
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/sam/common.py",
+      "sha256": "e64cb707f7c332761b34ac1135718e699a8271d4c5c4f42831d5fa393d2edc86",
+      "size_bytes": 1370
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/sam/mask_decoder.py",
+      "sha256": "8ab5dc1fe9443ce31deadd69c3666470af89dc6d6f3dec678bf962c5deec111d",
+      "size_bytes": 13640
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/sam/prompt_encoder.py",
+      "sha256": "7c4f4b2187d3e0e9590d2a8258702ee4491a67175076e7af2b45cf6e328101f3",
+      "size_bytes": 9682
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/sam/rope.py",
+      "sha256": "23e98df94c938a5f52b30447a0a32dccf21e292ef9cd0d5b9029ca9728dad174",
+      "size_bytes": 5984
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/sam/transformer.py",
+      "sha256": "4885315b97577a5ece6ab53f45318fb629b16c240d96315064bf71a152effc6e",
+      "size_bytes": 12914
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/__init__.py",
+      "sha256": "5737b3ba20d7549b2fce53c995fa80c331b116d1f958980d99bf6f161e28e3a6",
+      "size_bytes": 88
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/eval_base.yaml",
+      "sha256": "3f02f5cf0ad56267677cb8f725401db34c3fae5001ad33594b7f13cc5f707807",
+      "size_bytes": 9441
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/gold_image_evals/sam3_gold_image_attributes.yaml",
+      "sha256": "53d076657d5e4071dae1f007d52b28f841a0a664632e6e73f67a8a7c0d1240d4",
+      "size_bytes": 2578
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/gold_image_evals/sam3_gold_image_crowded.yaml",
+      "sha256": "9160ee1f3fad8ebcde6fd25fbf90d061bfda48554e585d24f04da2fe1c8a76a4",
+      "size_bytes": 2554
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/gold_image_evals/sam3_gold_image_fg_food.yaml",
+      "sha256": "55a82f314cdd5ee7a28605566da334ff80684a5a7511cb33a942b5049fc17c54",
+      "size_bytes": 2554
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/gold_image_evals/sam3_gold_image_fg_sports.yaml",
+      "sha256": "ae0f34dc883eefa137b90b306c6237262b838eaaeb4383c084a1d73892ee1b2b",
+      "size_bytes": 2650
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/gold_image_evals/sam3_gold_image_metaclip_nps.yaml",
+      "sha256": "7edcae1a5d2873bab720dc551fe68589df9bfa1ce41ad108b8862c4d6f16422d",
+      "size_bytes": 2578
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/gold_image_evals/sam3_gold_image_sa1b_nps.yaml",
+      "sha256": "e877030f2b7f32e46ca8203f2780e5807e232b3604f1ca46c8bc40cdd4c78e23",
+      "size_bytes": 2542
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/gold_image_evals/sam3_gold_image_wiki_common.yaml",
+      "sha256": "c9fa0a5fc35a2f504573064c50c41986012c8c406393bd738665d4c73ea7bf7c",
+      "size_bytes": 2586
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/odinw13/odinw_text_and_visual.yaml",
+      "sha256": "be6e8f6fdb8087890c1e748b0da9d60a467d66439ffbe86178416e428058b141",
+      "size_bytes": 9123
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/odinw13/odinw_text_only.yaml",
+      "sha256": "1b227b2eae27af11598575ef3ea0f8d8019e1596d9d4b3b65de2b535faff3de3",
+      "size_bytes": 8924
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/odinw13/odinw_text_only_positive.yaml",
+      "sha256": "081b5758615ce93280a303c595263f49daedb1a2cbfced97544ed3e561c46b7f",
+      "size_bytes": 8926
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/odinw13/odinw_text_only_train.yaml",
+      "sha256": "099d435cdc759c71284afa09480ac0a6396e9505a1b76ce55976768508bd0839",
+      "size_bytes": 21001
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/odinw13/odinw_visual_only.yaml",
+      "sha256": "5a9844ae950c9debe4c947999ea37fd39f8c9595aabc47337a353d658f70410a",
+      "size_bytes": 9125
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/roboflow_v100/roboflow_v100_eval.yaml",
+      "sha256": "f37f46cad8ea43d0e7a0eb85c0137a3558a92f27bd0f50c494d4509fae09a6ea",
+      "size_bytes": 17374
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/roboflow_v100/roboflow_v100_full_ft_100_images.yaml",
+      "sha256": "9de90a95529669a6a01d3366ed660b6776522a0ddabcd65d6cbeddeefc3b193e",
+      "size_bytes": 17377
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/saco_video_evals/saco_veval_sav_test.yaml",
+      "sha256": "630765e18ce2014f645896746c1e77ab431ac5834f882dc2f78f13722a4cee81",
+      "size_bytes": 5086
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/saco_video_evals/saco_veval_sav_test_noheur.yaml",
+      "sha256": "64c6e2774661e892b8dd3a7810d9b7e3e70465d28828711141d607b8e277405a",
+      "size_bytes": 5087
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/saco_video_evals/saco_veval_sav_val.yaml",
+      "sha256": "926566c32e6d54ef25445a8f9abc312cbec727cf8d18a1d73d6f6ff2b0410221",
+      "size_bytes": 5084
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/saco_video_evals/saco_veval_sav_val_noheur.yaml",
+      "sha256": "01d12365dbe07dea9498566eb2e9c1a3bc6ea8d291bea138648de57c1f1f2ce7",
+      "size_bytes": 5085
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/saco_video_evals/saco_veval_smartglasses_test.yaml",
+      "sha256": "edb03dac8b7fbcedcb94d70fc9ce36a7621e38f23a99072c9c60e9a5187547a9",
+      "size_bytes": 5104
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/saco_video_evals/saco_veval_smartglasses_test_noheur.yaml",
+      "sha256": "c91f45119c4b5f7fc4bb1e50e8d4b3fd9f0638e9e8d95a09fbcf0cc9e3b05736",
+      "size_bytes": 5105
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/saco_video_evals/saco_veval_smartglasses_val.yaml",
+      "sha256": "2458518922c6153081f0ec849c0a13708bcb81918cd58ffafdeb492a2615fca9",
+      "size_bytes": 5102
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/saco_video_evals/saco_veval_smartglasses_val_noheur.yaml",
+      "sha256": "07464c78c22defc54ec58d6b0e72d05f6430a6834e48da988f5c7dc0a04e4f8d",
+      "size_bytes": 5103
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/saco_video_evals/saco_veval_yt1b_test.yaml",
+      "sha256": "c64e6c18231aa67e35bf23d08b27859e0b04da0f26f5c5513dc0d313f29b8189",
+      "size_bytes": 5088
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/saco_video_evals/saco_veval_yt1b_test_noheur.yaml",
+      "sha256": "93abbaf8cf906e69ca25dc9f707fc8b5e0388fa8c6b16a5abb12f7b444b262f2",
+      "size_bytes": 5089
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/saco_video_evals/saco_veval_yt1b_val.yaml",
+      "sha256": "23067b557fd28fcd30a6def9243598f0e2532bef8898a88cf5de0a5b77aa77d8",
+      "size_bytes": 5086
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/saco_video_evals/saco_veval_yt1b_val_noheur.yaml",
+      "sha256": "4bf0f27fee6d006290263fbd52adb4ed318174e2827c51734e5c257e8cd613f4",
+      "size_bytes": 5087
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/silver_image_evals/sam3_silver_image_bdd100k.yaml",
+      "sha256": "161331c3d8b2a9a9ba60f924a9a4d5f391bcf5a4b074c450847620a1e0375d04",
+      "size_bytes": 2357
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/silver_image_evals/sam3_silver_image_droid.yaml",
+      "sha256": "34c4ca4377a4a51c43891ed8ee5bc8632b64f0fb2f30ff13748520baf3a9681c",
+      "size_bytes": 2345
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/silver_image_evals/sam3_silver_image_ego4d.yaml",
+      "sha256": "21d41a0eb498a47824754c76f8568f0c80552f9a05f870c5d1a1c5651bff4ea5",
+      "size_bytes": 2345
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/silver_image_evals/sam3_silver_image_fathomnet.yaml",
+      "sha256": "c1ce4df2ed2883f821bb4b709698d68434cd4ae75127bc870bc45893f9ef37f2",
+      "size_bytes": 2362
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/silver_image_evals/sam3_silver_image_food_rec.yaml",
+      "sha256": "30552434937c4077c47240e1e8b14a63f4beeec53bef6b524df2444871cfa35c",
+      "size_bytes": 2363
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/silver_image_evals/sam3_silver_image_geode.yaml",
+      "sha256": "5a5d0914be186d5bd9fcb5f7709da0b3e5bd062768970801f8e5f3e2270b4ba7",
+      "size_bytes": 2345
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/silver_image_evals/sam3_silver_image_inaturalist.yaml",
+      "sha256": "31366b2d378edd3f97fb6625bbedef359a047bfdd8c967bbcacade4b1b3d9a28",
+      "size_bytes": 2381
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/silver_image_evals/sam3_silver_image_nga.yaml",
+      "sha256": "2e1bc73ff85f32c06a5d6b69c8283c8df2149c8d7fd110bda93c445918953c99",
+      "size_bytes": 2353
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/silver_image_evals/sam3_silver_image_sav.yaml",
+      "sha256": "7faa3b8664e2c234bd764b557caad384fac9f29ad6bea91ddb75e1fd20bf98ce",
+      "size_bytes": 2333
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/configs/silver_image_evals/sam3_silver_image_yt1b.yaml",
+      "sha256": "ca157c7fa6e59866e999f7a9caf9b654902e290d5db36385c691abac50b978a6",
+      "size_bytes": 2339
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/data/__init__.py",
+      "sha256": "5737b3ba20d7549b2fce53c995fa80c331b116d1f958980d99bf6f161e28e3a6",
+      "size_bytes": 88
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/data/coco_json_loaders.py",
+      "sha256": "5a11f1f571ac6902c6aebdd2d469a1ece4b507d4a62322cb5e2d4beea40349dc",
+      "size_bytes": 14488
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/data/collator.py",
+      "sha256": "37cabf60e4aabb1f0c7ee6b30d09cb4662da78f908f810c497aaa456f9e9fd94",
+      "size_bytes": 14501
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/data/sam3_image_dataset.py",
+      "sha256": "fb3f31bde13729af81394ad6df50c3257cd397db93ea3e7e2f567bdf1d3e0915",
+      "size_bytes": 20171
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/data/sam3_video_dataset.py",
+      "sha256": "b740c09e52a105d126a4e345cacff922cae469a58700c93e95d2410488c4f43f",
+      "size_bytes": 16176
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/data/torch_dataset.py",
+      "sha256": "2e813e6e51bde3ec6ac903b3fa076e969686790ee575f8ebf679a310e44c1f3f",
+      "size_bytes": 1851
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/loss/__init__.py",
+      "sha256": "5737b3ba20d7549b2fce53c995fa80c331b116d1f958980d99bf6f161e28e3a6",
+      "size_bytes": 88
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/loss/loss_fns.py",
+      "sha256": "38d63b54880d4cd9165857f13f61858c922b9cf876d10a101ea824e38b425790",
+      "size_bytes": 54808
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/loss/mask_sampling.py",
+      "sha256": "4d0a41bce141ffe2e5f71716d9ccbc787c92cca155aa375672cab419931d86c2",
+      "size_bytes": 5150
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/loss/sam3_loss.py",
+      "sha256": "ea2f7667ba8d715cf74c8ae0b240aa3173450c8d538943484ed7927a7bcef801",
+      "size_bytes": 8863
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/loss/sigmoid_focal_loss.py",
+      "sha256": "fd512def8c88a1edfef0be0aac9e5f56d724d0ddfc99bde72be60221d8613c9a",
+      "size_bytes": 11479
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/masks_ops.py",
+      "sha256": "e2a63a1858b31df93792f7ea0f1d0a19fb0c1f833d886642c26267d016456455",
+      "size_bytes": 10090
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/matcher.py",
+      "sha256": "31d8c49b773a229b558a229204111c7dab09a8a9ec09a070e74e92008c2c4a83",
+      "size_bytes": 34384
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/nms_helper.py",
+      "sha256": "a6e3b112f8d3a3cf65f65d1e9d6917a3f003c67fcb36118f7a003bee481570da",
+      "size_bytes": 11673
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/optim/__init__.py",
+      "sha256": "5737b3ba20d7549b2fce53c995fa80c331b116d1f958980d99bf6f161e28e3a6",
+      "size_bytes": 88
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/optim/optimizer.py",
+      "sha256": "a1a39507d07644cf176b4af0ff0b376ac0ae9bac9a9080a32893d63134529f9b",
+      "size_bytes": 20484
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/optim/schedulers.py",
+      "sha256": "0ea5efdf808e11bdc27fbe5ce080f86dc41fb886acbdcd9cc97387bdff2ebd13",
+      "size_bytes": 1179
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/train.py",
+      "sha256": "736a43313f3173e564fdc239a76946d0caf71e6171d6179d98e6af9a04115412",
+      "size_bytes": 13032
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/trainer.py",
+      "sha256": "1ee7e205200e81b1621a34cc94595bfa0ad4d882eb875f39917f9354512f7fa2",
+      "size_bytes": 46311
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/transforms/__init__.py",
+      "sha256": "5737b3ba20d7549b2fce53c995fa80c331b116d1f958980d99bf6f161e28e3a6",
+      "size_bytes": 88
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/transforms/basic.py",
+      "sha256": "1a65fbde7e32144d3934cc1b48232bc80ed9759a03f95b07d6df94a6cb281f9b",
+      "size_bytes": 15111
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/transforms/basic_for_api.py",
+      "sha256": "b6ba99c3892eb9e9041270d74dbb7c8770376fe26289d0451d830806e9258fed",
+      "size_bytes": 55829
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/transforms/filter_query_transforms.py",
+      "sha256": "614e0159b04edfef98fc2d54ee2f2e6307b61238a368fbd63bc49fd5a7768388",
+      "size_bytes": 23185
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/transforms/point_sampling.py",
+      "sha256": "4cd9b6b9e10a6fc1af537e60c957d1e4db203032733ec4c6f8d6070dcf1a7a39",
+      "size_bytes": 13651
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/transforms/segmentation.py",
+      "sha256": "b93facc8c9438504c2f92c9f0178f79b493a47e6ad2034849a7b0ef0b899db80",
+      "size_bytes": 7953
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/utils/__init__.py",
+      "sha256": "5737b3ba20d7549b2fce53c995fa80c331b116d1f958980d99bf6f161e28e3a6",
+      "size_bytes": 88
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/utils/checkpoint_utils.py",
+      "sha256": "3e01c6830ec2cca1c663f2f265f74210a5701b91bd7a77e1d5e39053c9579bb2",
+      "size_bytes": 12290
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/utils/distributed.py",
+      "sha256": "a84f31d5df56a67f3de9b2d0dac980f4e398ce7b935dfe5a16bc64af11956e24",
+      "size_bytes": 19609
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/utils/logger.py",
+      "sha256": "6f6de8069713c60a028084fc78755772203b95149f703472fb9d90eff90c6ab9",
+      "size_bytes": 7500
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/train/utils/train_utils.py",
+      "sha256": "f1ad4ada8c64454caa8d4ac06dfcd91a948f92de57aadf5282904983dfb8aad1",
+      "size_bytes": 8760
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/sam3/visualization_utils.py",
+      "sha256": "f81bcb15510817f9f734a6bfb2b233c024105dd725fb7bb55d6662b5076371cb",
+      "size_bytes": 30522
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/bench_compile.py",
+      "sha256": "044a9da8f383f3511e5e2425a3c41b213bde2cdd7e295ccc31bcbf2c00f33288",
+      "size_bytes": 8824
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/gold/README.md",
+      "sha256": "89536427b2f940b41b3043bd9e394b404648c7352304fde6fd2f4152bd60ffb1",
+      "size_bytes": 15586
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/gold/eval_sam3.py",
+      "sha256": "a5fcf7aaf829a9bc3fb4f08b9022fb4b03f37e1a1f8aada9b2c38d11992f1bc6",
+      "size_bytes": 3357
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/silver/CONFIG_FRAMES.yaml",
+      "sha256": "08c154b829fc65399ea3d6160f7f3f04bf4e2f8911da47412d22a0ee5cd81e4b",
+      "size_bytes": 881
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/silver/README.md",
+      "sha256": "53babd5c88e5124b76149570f8abd1eb2f06880c2ffe1849d2f4572bcc8edf70",
+      "size_bytes": 25772
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/silver/download_fathomnet.py",
+      "sha256": "90d9eb43a3b6aa9e8fe14e77155d8662bc00f770b13ae7bbfc33da58242debcc",
+      "size_bytes": 2089
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/silver/download_inaturalist.py",
+      "sha256": "f3eb77529e4372a7e340dae609ea6602a3574caa94add70112edb5270f55160d",
+      "size_bytes": 2654
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/silver/download_preprocess_nga.py",
+      "sha256": "ae2ebdb78d4cc13504172579641eb7e117c3b4ece1247d7ba3229761675bb036",
+      "size_bytes": 5046
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/silver/download_videos.py",
+      "sha256": "ca9c920da9d915507ef8a9372e777b3d4d515f73edc575105b109e18fab641ed",
+      "size_bytes": 9299
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/silver/extract_frames.py",
+      "sha256": "7ad31541b76889e8b60170ec3970b842ca7afe4526842cd5b75bcdbf749c462b",
+      "size_bytes": 3288
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/silver/fathomnet_image_uuids.json",
+      "sha256": "82b9023ff93c98534271d3b2dac8ea3a28653608337229fe01027d27e880194b",
+      "size_bytes": 387326
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/silver/inaturalist_image_subset.json",
+      "sha256": "b5a7993bb065f30a4cd969da459a88c6292ea7bb8280b5c31b2447bb703b55bb",
+      "size_bytes": 3828316
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/silver/preprocess_silver_geode_bdd100k_food_rec.py",
+      "sha256": "b953e9b68e17a1fd328ba633887795a5a6f1953919d5471e16f77277f866e316",
+      "size_bytes": 2799
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/silver/utils.py",
+      "sha256": "5440b7627f01a52e7c9f491e39bfd9b7ba1a6f3891f76437df1c9108153b00e2",
+      "size_bytes": 4054
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/standalone_cgf1.py",
+      "sha256": "2c0799606d05e9c409e4df6babc73cbca5def51643a79100a4727ef5b3512f5a",
+      "size_bytes": 1422
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/veval/README.md",
+      "sha256": "da948d394196294aaf6cbd989221a78987183ec69891aa10968683e6cf283c6a",
+      "size_bytes": 11184
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/veval/__init__.py",
+      "sha256": "5737b3ba20d7549b2fce53c995fa80c331b116d1f958980d99bf6f161e28e3a6",
+      "size_bytes": 88
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/veval/saco_yt1b_annot_update.py",
+      "sha256": "8a4eddefd2c0e3a881c571b0eefe11c5a269deca9e9622ff957cf630e204af61",
+      "size_bytes": 4397
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/veval/saco_yt1b_downloader.py",
+      "sha256": "5737d0e6d225423ce6f2ffb6afa1ed455f3f16cad0e05162984275461b6b8c90",
+      "size_bytes": 4141
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/eval/veval/saco_yt1b_frame_prep_util.py",
+      "sha256": "1e3515629ee0ce32458447cafdcb6f98936ed27121d295c9cddb4105acf40fb6",
+      "size_bytes": 9053
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/extract_odinw_results.py",
+      "sha256": "d0f5f4f9716111fb83d35700f04c09fbe6b8a0e1685d5c1a42de027b4523a647",
+      "size_bytes": 2746
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/extract_roboflow_vl100_results.py",
+      "sha256": "4c2ab8c74d771abe4de7236b7a901bed9bf5c68e449b49bd7ee44921837926ec",
+      "size_bytes": 10750
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/measure_speed.py",
+      "sha256": "731f7274c9a17b9481894c9df140afdf9c74aee08399eff153f96ea0c2457e19",
+      "size_bytes": 9284
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/scripts/qualitative_test.py",
+      "sha256": "527b452ee421501b1babba3e26bf9a26ef1a220c52ff60b2d7e164e3798174a9",
+      "size_bytes": 9675
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/test/test_io_utils.py",
+      "sha256": "94943e4fb43404fc228f00b52b109c0c2738ee4ebdb8414b38ba12488c1de4f7",
+      "size_bytes": 5003
+    },
+    {
+      "remote_key": "qwen38-campaign/mask-campaign/v2/repos/sam3-official/test/test_video_predictor.py",
+      "sha256": "b2e3d877869315d6df481e0556bdff1892d92052562b0c07253bbc0edfeed91e",
+      "size_bytes": 901
+    }
+  ],
+  "completed_at": "2026-09-04T08:24:56.511386+00:00",
+  "format": "ownership-mask-staging-complete-v1",
+  "inventory_sha256": "79fc19f3cad030563c7021eaae6d76fe469f195adf50b1c1eb8a605f216c5f43",
+  "packet_sha256": "86126c36091adf70e211dd6d51e6e53b1fdd4e1c1e0bfb8966f143c75e49e097",
+  "total_bytes": 7100837883
+}

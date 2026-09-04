@@ -1,0 +1,24 @@
+{
+  "actor_colors_rgb": {
+    "A1": [
+      0,
+      220,
+      255
+    ],
+    "A2": [
+      255,
+      55,
+      210
+    ]
+  },
+  "clip_id": "half_guard",
+  "format": "ownership-seed-prompt-review-v1",
+  "image_sha256": "1906905688684a762f806aeeb5f91d6377acbd485b35512108323a10afeaa20c",
+  "legend": "solid circles=positive; crosses=opponent exclusion; boxes=actor extent",
+  "plan_sha256": "59a8a2175ec894bac73ab5f5f0e5bd2043a0eda3beb564a9e16d9521b7795d62",
+  "seed_frame_indices": [
+    0,
+    8,
+    16
+  ]
+}

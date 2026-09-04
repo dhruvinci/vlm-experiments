@@ -1,0 +1,24 @@
+{
+  "actor_colors_rgb": {
+    "A1": [
+      0,
+      220,
+      255
+    ],
+    "A2": [
+      255,
+      55,
+      210
+    ]
+  },
+  "clip_id": "guard_scramble",
+  "format": "ownership-seed-prompt-review-v1",
+  "image_sha256": "802c86dd12dd45c45a6d694c0b99faafa5ee41ad5ab2be83bcc1b1ac852c292d",
+  "legend": "solid circles=positive; crosses=opponent exclusion; boxes=actor extent",
+  "plan_sha256": "e58ef89ff88ee06db64399c6524e502cf086a2ef9ca4b860a7a8207548d3021d",
+  "seed_frame_indices": [
+    0,
+    8,
+    16
+  ]
+}
