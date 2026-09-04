@@ -319,6 +319,92 @@ class BreadthLabelPackageTests(unittest.TestCase):
                     root / "final",
                 )
 
+    def test_review_rejects_contact_truth_outside_proposed_review_band(self) -> None:
+        with tempfile.TemporaryDirectory() as raw:
+            root = Path(raw)
+            candidates = root / "candidates"
+            write_candidate_review_package(
+                [self._candidate_input(root, "clip_a", 0)],
+                candidates,
+                preview_width=160,
+                dilation_radius=3,
+            )
+            template = write_review_template(
+                candidates / "candidate-manifest.json",
+                root / "review",
+            )
+            owner = root / "review" / template["records"][0]["contact_owner_path"]
+            values = np.asarray(Image.open(owner), dtype=np.uint8).copy()
+            values[values == 255] = 0
+            proposal_record = json.loads(
+                (candidates / "candidate-manifest.json").read_text()
+            )["records"][0]
+            proposal = np.asarray(
+                Image.open(candidates / proposal_record["contact_proposal_path"]),
+                dtype=np.uint8,
+            )
+            inside = np.argwhere(proposal != 0)[0]
+            values[tuple(inside)] = 1
+            outside = np.argwhere(proposal == 0)[0]
+            values[tuple(outside)] = 1
+            Image.fromarray(values, mode="L").save(owner)
+
+            with self.assertRaisesRegex(ValueError, "outside"):
+                finalize_review_manifest(
+                    candidates / "candidate-manifest.json",
+                    root / "review/review-manifest.json",
+                    reviewer="human-reviewer",
+                    attested=True,
+                )
+
+    def test_explicit_no_contact_frame_is_allowed_when_clip_has_other_contact_truth(self) -> None:
+        with tempfile.TemporaryDirectory() as raw:
+            root = Path(raw)
+            candidates = root / "candidates"
+            write_candidate_review_package(
+                [
+                    self._candidate_input(root, "clip_a", 0),
+                    self._candidate_input(root, "clip_a", 1),
+                ],
+                candidates,
+                preview_width=160,
+                dilation_radius=3,
+            )
+            template = write_review_template(
+                candidates / "candidate-manifest.json",
+                root / "review",
+            )
+            first = template["records"][0]
+            first_owner = root / "review" / first["contact_owner_path"]
+            Image.fromarray(np.zeros((6, 8), dtype=np.uint8), mode="L").save(first_owner)
+            review_path = root / "review/review-manifest.json"
+            review = json.loads(review_path.read_text())
+            review["records"][0]["decision"] = "no_contact"
+            second_owner = root / "review" / review["records"][1]["contact_owner_path"]
+            second_values = np.zeros((6, 8), dtype=np.uint8)
+            second_values[2, 3] = 1
+            second_values[2, 4] = 2
+            Image.fromarray(second_values, mode="L").save(second_owner)
+            review_path.write_text(json.dumps(review))
+
+            finalized = finalize_review_manifest(
+                candidates / "candidate-manifest.json",
+                review_path,
+                reviewer="human-reviewer",
+                attested=True,
+            )
+            campaign = freeze_reviewed_label_package(
+                candidates / "candidate-manifest.json",
+                review_path,
+                root / "labels",
+            )
+
+            self.assertEqual(finalized["records"][0]["decision"], "approved_no_contact")
+            manifest = root / "labels" / campaign["clips"][0]["label_manifest_path"]
+            verified = verify_reviewed_label_manifest(manifest)
+            self.assertEqual(verified["records"][0]["contact_patch_count"], 0)
+            self.assertGreater(verified["records"][1]["contact_patch_count"], 0)
+
     def test_review_template_stays_pending_until_human_finalizes_edited_masks(self) -> None:
         with tempfile.TemporaryDirectory() as raw:
             root = Path(raw)

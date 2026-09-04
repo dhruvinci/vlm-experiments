@@ -362,6 +362,7 @@ def run_decoder_fold(spec: DecoderFoldRunSpec) -> dict[str, Any]:
 
     import torch
 
+    from .cache import load_actor_state_pair
     from .data import ActorStateControlDataset, OwnershipDataset
     from .model import OwnershipDecoder, SemanticOwnershipDecoder
     from .training import (
@@ -430,6 +431,25 @@ def run_decoder_fold(spec: DecoderFoldRunSpec) -> dict[str, Any]:
         swap_metrics = None
         if spec.semantic_condition is not None:
             semantic_controls = {"real": test_metrics}
+            donor_clip = sorted(spec.train_clips)[0]
+            donor_spec = clip_specs[donor_clip][0]
+            if donor_spec.actor_state_paths is None or spec.language_layer is None:
+                raise RuntimeError("semantic shuffled-clip control has no donor states")
+            donor_states = load_actor_state_pair(
+                donor_spec.actor_state_paths[0],
+                donor_spec.actor_state_paths[1],
+                language_layer=spec.language_layer,
+            )
+            semantic_controls["shuffled_clip"] = evaluate_decoder(
+                model,
+                ActorStateControlDataset(
+                    test_dataset,
+                    control="shuffled_clip",
+                    replacement_actor_states=donor_states,
+                ),
+                device=device,
+                use_amp=spec.use_amp,
+            )
             for control in ("random_matched", "zero", "mean"):
                 semantic_controls[control] = evaluate_decoder(
                     model,

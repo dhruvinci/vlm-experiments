@@ -172,6 +172,7 @@ class NorthStarThresholds:
     minimum_contact_accuracy: float = 0.70
     minimum_positive_contact_region_fraction: float = 0.75
     minimum_background_stability: float = 0.90
+    minimum_real_over_shuffled_iou: float = 0.01
     minimum_real_over_random_iou: float = 0.01
     minimum_real_over_degenerate_iou: float = 0.03
     minimum_swap_flip_fraction: float = 0.75
@@ -197,7 +198,7 @@ def evaluate_north_star(
 
     _validate_metrics(candidate, name="candidate")
     _validate_metrics(strongest_baseline, name="strongest_baseline")
-    required_controls = {"real", "random_matched", "zero", "mean"}
+    required_controls = {"real", "shuffled_clip", "random_matched", "zero", "mean"}
     missing_controls = sorted(required_controls - set(semantic_controls))
     if missing_controls:
         raise ValueError(f"semantic controls are missing: {missing_controls}")
@@ -220,6 +221,7 @@ def evaluate_north_star(
         strongest_baseline["contact_accuracy"]
     )
     real_iou = float(semantic_controls["real"]["macro_actor_iou"])
+    shuffled_iou = float(semantic_controls["shuffled_clip"]["macro_actor_iou"])
     random_iou = float(semantic_controls["random_matched"]["macro_actor_iou"])
     degenerate_iou = max(
         float(semantic_controls["zero"]["macro_actor_iou"]),
@@ -241,6 +243,8 @@ def evaluate_north_star(
         >= thresholds.minimum_positive_contact_region_fraction,
         "background_stability": float(candidate["background_stability"])
         >= thresholds.minimum_background_stability,
+        "real_beats_shuffled_clip": (real_iou - shuffled_iou)
+        >= thresholds.minimum_real_over_shuffled_iou,
         "real_beats_random_matched": (real_iou - random_iou)
         >= thresholds.minimum_real_over_random_iou,
         "zero_and_mean_fail": (real_iou - degenerate_iou)
@@ -265,6 +269,7 @@ def evaluate_north_star(
             candidate["positive_contact_region_fraction"]
         ),
         "background_stability": float(candidate["background_stability"]),
+        "real_over_shuffled_clip_iou": real_iou - shuffled_iou,
         "real_over_random_iou": real_iou - random_iou,
         "real_over_degenerate_iou": real_iou - degenerate_iou,
         "actor_prediction_flip_fraction": float(

@@ -141,6 +141,7 @@ class DecoderEvaluationTests(unittest.TestCase):
                         strongest_baseline=valid,
                         semantic_controls={
                             "real": valid,
+                            "shuffled_clip": valid,
                             "random_matched": valid,
                             "zero": valid,
                             "mean": valid,
@@ -186,6 +187,7 @@ class DecoderEvaluationTests(unittest.TestCase):
             ),
             semantic_controls={
                 "real": metrics(iou=0.65, contact=0.75, positive_regions=0.80, background=0.95),
+                "shuffled_clip": metrics(iou=0.59, contact=0.60, positive_regions=0.60, background=0.95),
                 "random_matched": metrics(iou=0.60, contact=0.60, positive_regions=0.60, background=0.95),
                 "zero": metrics(iou=0.55, contact=0.50, positive_regions=0.50, background=0.95),
                 "mean": metrics(iou=0.54, contact=0.50, positive_regions=0.50, background=0.95),
@@ -212,6 +214,12 @@ class DecoderEvaluationTests(unittest.TestCase):
             ),
             semantic_controls={
                 "real": candidate,
+                "shuffled_clip": metrics(
+                    iou=0.60,
+                    contact=0.60,
+                    positive_regions=0.60,
+                    background=0.95,
+                ),
                 "random_matched": metrics(
                     iou=0.67,
                     contact=0.78,
@@ -230,3 +238,58 @@ class DecoderEvaluationTests(unittest.TestCase):
 
         self.assertFalse(result.passed)
         self.assertFalse(result.gates["real_beats_random_matched"])
+
+    def test_north_star_exposes_wrong_clip_semantic_failure(self) -> None:
+        candidate = metrics(
+            iou=0.66,
+            contact=0.75,
+            positive_regions=0.80,
+            background=0.95,
+        )
+        result = evaluate_north_star(
+            candidate=candidate,
+            strongest_baseline=metrics(
+                iou=0.60,
+                contact=0.60,
+                positive_regions=0.60,
+                background=0.95,
+            ),
+            semantic_controls={
+                "real": candidate,
+                "shuffled_clip": metrics(
+                    iou=0.67,
+                    contact=0.76,
+                    positive_regions=0.80,
+                    background=0.95,
+                ),
+                "random_matched": metrics(
+                    iou=0.60,
+                    contact=0.60,
+                    positive_regions=0.60,
+                    background=0.95,
+                ),
+                "zero": metrics(
+                    iou=0.50,
+                    contact=0.40,
+                    positive_regions=0.40,
+                    background=0.95,
+                ),
+                "mean": metrics(
+                    iou=0.50,
+                    contact=0.40,
+                    positive_regions=0.40,
+                    background=0.95,
+                ),
+            },
+            swap_metrics={
+                "actor_prediction_flip_fraction": 0.90,
+                "background_probability_delta": 0.005,
+            },
+        )
+
+        self.assertFalse(result.passed)
+        self.assertFalse(result.gates["real_beats_shuffled_clip"])
+        self.assertAlmostEqual(
+            result.evidence["real_over_shuffled_clip_iou"],
+            -0.01,
+        )

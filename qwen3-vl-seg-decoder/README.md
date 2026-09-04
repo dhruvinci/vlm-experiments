@@ -77,8 +77,8 @@ A positive result requires all of the following on clip-held-out evaluation:
 - at least +0.03 macro actor IoU or +0.10 contact accuracy over the selected static baseline;
 - contact accuracy at least 0.70 and positive ownership margin in at least 75% of contact regions;
 - background stability at least 0.90;
-- real actor states beat matched-random states by at least 0.01 IoU and zero/mean states by at
-  least 0.03 IoU;
+- real actor states beat both a true wrong-clip semantic state and a residual-norm-matched random
+  state by at least 0.01 IoU, and beat zero/mean states by at least 0.03 IoU;
 - swapping A1/A2 queries flips at least 75% of actor predictions while changing background
   probability by at most 0.01.
 

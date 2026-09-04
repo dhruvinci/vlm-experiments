@@ -230,7 +230,7 @@ class DecoderCampaignContractTests(unittest.TestCase):
             )
             self.assertEqual(
                 set(semantic["semantic_controls"]),
-                {"real", "random_matched", "zero", "mean"},
+                {"real", "shuffled_clip", "random_matched", "zero", "mean"},
             )
             self.assertAlmostEqual(
                 semantic["swap_metrics"]["actor_probability_swap_error"],

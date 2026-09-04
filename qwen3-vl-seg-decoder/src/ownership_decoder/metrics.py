@@ -10,6 +10,46 @@ def _safe_ratio(numerator: int | float, denominator: int | float) -> float:
     return float(numerator) / max(1.0, float(denominator))
 
 
+def _connected_component_means(
+    values: torch.Tensor,
+    selected: torch.Tensor,
+) -> list[float]:
+    """Return 4-connected component means for a small two-dimensional mask."""
+
+    values = values.detach().float().cpu()
+    selected = selected.detach().bool().cpu()
+    if values.ndim != 2 or selected.shape != values.shape:
+        raise ValueError("contact component values and mask must share a 2D shape")
+    visited = torch.zeros_like(selected)
+    height, width = selected.shape
+    means = []
+    for row, column in selected.nonzero(as_tuple=False).tolist():
+        if visited[row, column]:
+            continue
+        stack = [(row, column)]
+        visited[row, column] = True
+        component_values = []
+        while stack:
+            current_row, current_column = stack.pop()
+            component_values.append(float(values[current_row, current_column]))
+            for neighbor_row, neighbor_column in (
+                (current_row - 1, current_column),
+                (current_row + 1, current_column),
+                (current_row, current_column - 1),
+                (current_row, current_column + 1),
+            ):
+                if (
+                    0 <= neighbor_row < height
+                    and 0 <= neighbor_column < width
+                    and selected[neighbor_row, neighbor_column]
+                    and not visited[neighbor_row, neighbor_column]
+                ):
+                    visited[neighbor_row, neighbor_column] = True
+                    stack.append((neighbor_row, neighbor_column))
+        means.append(sum(component_values) / len(component_values))
+    return means
+
+
 class OwnershipMetricAccumulator:
     """Exact streaming metrics for batches whose spatial grids may differ."""
 
@@ -61,10 +101,18 @@ class OwnershipMetricAccumulator:
             self.contact_margin_sum += float(contact_margins.sum().item())
             self.contact_positive_pixels += int((contact_margins > 0).sum().item())
             for batch_index in range(labels.shape[0]):
-                if contact[batch_index].any():
-                    self.contact_regions += 1
-                    region_margin = margins[batch_index][contact[batch_index]].mean()
-                    self.contact_positive_regions += int(region_margin.item() > 0)
+                for actor in (1, 2):
+                    actor_contact = contact[batch_index] & (
+                        labels[batch_index] == actor
+                    )
+                    region_margins = _connected_component_means(
+                        margins[batch_index],
+                        actor_contact,
+                    )
+                    self.contact_regions += len(region_margins)
+                    self.contact_positive_regions += sum(
+                        value > 0.0 for value in region_margins
+                    )
 
     def compute(self) -> dict[str, float]:
         total = int(self.confusion.sum().item())

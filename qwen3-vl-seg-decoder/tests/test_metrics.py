@@ -19,6 +19,22 @@ from ownership_decoder.metrics import (
 
 
 class OwnershipMetricsTests(unittest.TestCase):
+    def test_contact_regions_are_owner_specific_connected_components(self) -> None:
+        logits = torch.zeros((1, 3, 3, 5))
+        labels = torch.zeros((1, 3, 5), dtype=torch.long)
+        contact = torch.zeros((1, 3, 5), dtype=torch.bool)
+        labels[0, 0, :2] = 1
+        contact[0, 0, :2] = True
+        logits[0, 1, 0, :2] = 4.0
+        labels[0, 2, 3:] = 2
+        contact[0, 2, 3:] = True
+        logits[0, 1, 2, 3:] = 4.0
+
+        metrics = ownership_metrics(logits, labels, contact)
+
+        self.assertEqual(metrics["contact_region_count"], 2.0)
+        self.assertAlmostEqual(metrics["positive_contact_region_fraction"], 0.5)
+
     def test_metrics_ignore_unlabeled_pixels_and_measure_contact_owner(self) -> None:
         logits = torch.tensor(
             [[
