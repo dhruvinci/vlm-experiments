@@ -5,7 +5,12 @@ import hashlib
 import json
 import sys
 import tempfile
+from dataclasses import replace
 from pathlib import Path
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
 
 from ownership_decoder.armbar_exploratory import (
@@ -20,6 +25,7 @@ from ownership_decoder.armbar_controller import (
     ArmbarCampaignSpec,
     run_armbar_exploratory_campaign,
 )
+from ownership_decoder.armbar_visualization import render_armbar_contact_diagnostics
 
 
 def job_spec(**overrides) -> ArmbarJobSpec:
@@ -88,6 +94,7 @@ class ArmbarExploratoryContractTests(unittest.TestCase):
             labels_root = root / "labels"
             cache_root = root / "cache"
             records = []
+            frame_entries = []
             split_records = (
                 (0, "train", "train"),
                 (1, "train", "validation"),
@@ -123,6 +130,13 @@ class ArmbarExploratoryContractTests(unittest.TestCase):
                         "contact_sha256": hashlib.sha256(contact_path.read_bytes()).hexdigest(),
                     }
                 )
+                frame_entries.append(
+                    {
+                        "frame_index": frame_index,
+                        "path": label_path.relative_to(root).as_posix(),
+                        "sha256": hashlib.sha256(label_path.read_bytes()).hexdigest(),
+                    }
+                )
                 spatial_path = (
                     cache_root
                     / "spatial/full/layer_11"
@@ -147,7 +161,7 @@ class ArmbarExploratoryContractTests(unittest.TestCase):
                 )
             )
             frame_manifest = root / "frame-manifest.json"
-            frame_manifest.write_text(json.dumps({"frames": []}))
+            frame_manifest.write_text(json.dumps({"frames": frame_entries}))
             spec = ArmbarJobSpec(
                 run_name="static-smoke",
                 spatial_arm="l11",
@@ -178,6 +192,18 @@ class ArmbarExploratoryContractTests(unittest.TestCase):
             self.assertEqual(first["evaluation_subset"], "validation")
             self.assertEqual(set(first["per_frame_evaluation"]), {"1"})
             self.assertTrue((root / "runs/static-smoke/RUN_COMPLETE").is_file())
+
+            final_spec = replace(spec, run_name="static-final", split="final")
+            run_armbar_job(final_spec)
+            diagnostic = render_armbar_contact_diagnostics(
+                final_spec,
+                root / "diagnostics",
+                panel_size=(64, 96),
+            )
+
+            self.assertEqual(diagnostic["contact_frame_count"], 1)
+            self.assertEqual(diagnostic["records"][0]["frame_index"], 2)
+            self.assertTrue((root / "diagnostics/RUN_COMPLETE").is_file())
 
 
 class ArmbarExploratoryControllerTests(unittest.TestCase):
