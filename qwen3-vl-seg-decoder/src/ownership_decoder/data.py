@@ -235,6 +235,14 @@ class ActorStateControlDataset(Dataset[OwnershipSample]):
     def __len__(self) -> int:
         return len(self.source)
 
+    def load_labels(self, index: int) -> torch.Tensor | None:
+        """Preserve the source's label-only fast path during class-weight scans."""
+
+        label_loader = getattr(self.source, "load_labels", None)
+        if callable(label_loader):
+            return label_loader(index)
+        return self.source[index].labels
+
     def __getitem__(self, index: int) -> OwnershipSample:
         sample = self.source[index]
         if sample.actor_states is None:
