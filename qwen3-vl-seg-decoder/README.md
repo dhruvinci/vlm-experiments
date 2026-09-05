@@ -18,6 +18,12 @@ decoder is trained locally.
 - The exact result and its interpretation are recorded in
   `artifacts/armbar-exploratory-v1/RESULT.md`. This is an honest negative semantic result under
   legacy pseudo-label supervision, not a multi-clip north-star result and not evidence for LoRA.
+- A follow-up 24-job actor-slot cancellation campaign tested whether subtracting each actor's
+  identity-only marker state exposes a cleaner action/contact direction. Action cancellation
+  changed IoU by `+0.0091` versus raw but only `+0.0023` versus matched random; contact
+  cancellation changed IoU by `-0.0009` and worsened contact margin by `-0.1213`. Only the
+  background-stability gate passed. The checksum-bound result and suspend/reboot recovery record
+  are in `artifacts/armbar-slot-cancellation-v1/RESULT.md`.
 
 - The immutable SAM3.1/SAM3 mask launch packet is frozen at
   `launch-packet/sam31-breadth-v2/manifest.json` with SHA-256
@@ -129,7 +135,10 @@ successful experiment and does not authorize a replacement Pod or LoRA training.
   no swap, a 60% PyTorch allocator ceiling, and a 30-minute wall-clock limit. The independent
   parent stops a job before host availability falls below 4 GiB, system swap has less than
   3 GiB free, or global GPU use exceeds 75%. SIGINT/SIGTERM and child OOMs kill the complete
-  process group while preserving checkpoints, logs, telemetry, and the guard result.
+  process group while preserving checkpoints, logs, telemetry, and the guard result. Up to three
+  consecutive missing GPU-telemetry samples are recorded and tolerated; a persistent outage still
+  fails closed. Half-committed checkpoints are quarantined on resume, while verified checkpoints
+  remain immutable.
 - Qwen and SAM weights are never loaded on the local machine by this package.
 
 Run the regression suite CPU-only with an external cgroup, for example:

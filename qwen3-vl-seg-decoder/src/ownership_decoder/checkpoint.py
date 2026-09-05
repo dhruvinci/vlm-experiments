@@ -26,6 +26,23 @@ def _manifest_path(path: Path) -> Path:
     return path.with_suffix(path.suffix + ".json")
 
 
+def _checkpoint_artifacts(path: Path) -> list[Path]:
+    sidecar_path = _manifest_path(path)
+    candidates = [path, sidecar_path]
+    candidates.extend(path.parent.glob(f".{path.name}.*.tmp"))
+    candidates.extend(path.parent.glob(f".{sidecar_path.name}.*.tmp"))
+    return sorted({candidate for candidate in candidates if candidate.exists()})
+
+
+def _quarantine_invalid_checkpoint(path: Path, artifacts: list[Path]) -> Path:
+    failure_root = path.parent / "failures" / "orphaned-checkpoints"
+    failure_root.mkdir(parents=True, exist_ok=True)
+    quarantine = Path(tempfile.mkdtemp(prefix=f"{path.name}.", dir=failure_root))
+    for artifact in artifacts:
+        os.replace(artifact, quarantine / artifact.name)
+    return quarantine
+
+
 def _atomic_json(path: Path, value: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary_path: Path | None = None
@@ -57,9 +74,19 @@ def save_checkpoint(
 ) -> dict[str, Any]:
     checkpoint_path = Path(path)
     sidecar_path = _manifest_path(checkpoint_path)
-    if checkpoint_path.exists() or sidecar_path.exists():
-        raise CheckpointError(f"refusing to overwrite completed checkpoint: {checkpoint_path}")
     checkpoint_path.parent.mkdir(parents=True, exist_ok=True)
+    existing_artifacts = _checkpoint_artifacts(checkpoint_path)
+    if checkpoint_path.exists() and sidecar_path.exists():
+        try:
+            load_checkpoint(checkpoint_path)
+        except CheckpointError:
+            pass
+        else:
+            raise CheckpointError(
+                f"refusing to overwrite verified checkpoint: {checkpoint_path}"
+            )
+    if existing_artifacts:
+        _quarantine_invalid_checkpoint(checkpoint_path, existing_artifacts)
     temporary_path: Path | None = None
     try:
         with tempfile.NamedTemporaryFile(

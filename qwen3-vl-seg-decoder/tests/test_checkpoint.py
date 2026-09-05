@@ -59,6 +59,42 @@ class AtomicCheckpointTests(unittest.TestCase):
 
             self.assertEqual(selected, older)
 
+    def test_save_recovers_from_an_uncommitted_checkpoint_after_preserving_it(self) -> None:
+        with tempfile.TemporaryDirectory() as raw_directory:
+            directory = Path(raw_directory)
+            path = directory / "epoch_0002.pt"
+            path.write_bytes(b"interrupted checkpoint payload")
+            unfinished_sidecar = directory / ".epoch_0002.pt.json.crash.tmp"
+            unfinished_sidecar.write_text("unfinished manifest")
+
+            save_checkpoint(path, {"epoch": 2}, metadata={"resumed": True})
+
+            restored, manifest = load_checkpoint(path)
+            self.assertEqual(restored["epoch"], 2)
+            self.assertTrue(manifest["metadata"]["resumed"])
+            quarantines = list(
+                (directory / "failures" / "orphaned-checkpoints").glob(
+                    "epoch_0002.pt.*"
+                )
+            )
+            self.assertEqual(len(quarantines), 1)
+            self.assertEqual(
+                (quarantines[0] / "epoch_0002.pt").read_bytes(),
+                b"interrupted checkpoint payload",
+            )
+            self.assertEqual(
+                (quarantines[0] / unfinished_sidecar.name).read_text(),
+                "unfinished manifest",
+            )
+
+    def test_save_still_refuses_to_overwrite_a_verified_checkpoint(self) -> None:
+        with tempfile.TemporaryDirectory() as raw_directory:
+            path = Path(raw_directory) / "epoch_0002.pt"
+            save_checkpoint(path, {"epoch": 2}, metadata={})
+
+            with self.assertRaisesRegex(CheckpointError, "verified checkpoint"):
+                save_checkpoint(path, {"epoch": 2}, metadata={})
+
     def test_pruning_keeps_named_best_and_latest_complete_checkpoints(self) -> None:
         with tempfile.TemporaryDirectory() as raw_directory:
             directory = Path(raw_directory)
