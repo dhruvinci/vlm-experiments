@@ -271,6 +271,7 @@ def run_guarded(
     env: dict[str, str] | None = None,
     child_memory_max_bytes: int | None = None,
     maximum_runtime_seconds: float | None = None,
+    gpu_telemetry_grace_samples: int = 3,
 ) -> GuardedRunResult:
     """Run a child under a parent-side RAM/VRAM circuit breaker.
 
@@ -285,6 +286,8 @@ def run_guarded(
         raise ValueError("poll interval must be positive and grace period non-negative")
     if maximum_runtime_seconds is not None and maximum_runtime_seconds <= 0:
         raise ValueError("maximum runtime must be positive when supplied")
+    if gpu_telemetry_grace_samples < 0:
+        raise ValueError("GPU telemetry grace samples cannot be negative")
     log_path.parent.mkdir(parents=True, exist_ok=True)
     telemetry_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -325,6 +328,7 @@ def run_guarded(
                 start_new_session=True,
             )
             last_snapshot = preflight
+            consecutive_gpu_telemetry_failures = 0
             try:
                 with _termination_signals_as_exceptions():
                     while True:
@@ -371,6 +375,25 @@ def run_guarded(
                                 else max(maximum_gpu_fraction, current_fraction)
                             )
                         violations = assess_snapshot(current, limits)
+                        has_gpu_telemetry_gap = any(
+                            violation.resource == "gpu_telemetry"
+                            for violation in violations
+                        )
+                        non_telemetry_violations = tuple(
+                            violation
+                            for violation in violations
+                            if violation.resource != "gpu_telemetry"
+                        )
+                        if has_gpu_telemetry_gap:
+                            consecutive_gpu_telemetry_failures += 1
+                        else:
+                            consecutive_gpu_telemetry_failures = 0
+                        telemetry_gap_is_tolerated = (
+                            has_gpu_telemetry_gap
+                            and not non_telemetry_violations
+                            and consecutive_gpu_telemetry_failures
+                            <= gpu_telemetry_grace_samples
+                        )
                         if (
                             not violations
                             and maximum_runtime_seconds is not None
@@ -384,17 +407,22 @@ def run_guarded(
                                     "<=",
                                 ),
                             )
-                        event = (
-                            "runtime_limit"
-                            if violations and violations[0].resource == "runtime_seconds"
-                            else "limit_breach"
-                            if violations
-                            else "sample"
-                        )
+                        if telemetry_gap_is_tolerated:
+                            event = "telemetry_gap"
+                        elif violations and violations[0].resource == "runtime_seconds":
+                            event = "runtime_limit"
+                        elif violations:
+                            event = "limit_breach"
+                        else:
+                            event = "sample"
                         record = _telemetry_record(event, current, violations)
                         record["elapsed_seconds"] = elapsed
+                        if has_gpu_telemetry_gap:
+                            record["consecutive_gpu_telemetry_failures"] = (
+                                consecutive_gpu_telemetry_failures
+                            )
                         telemetry.write(json.dumps(record) + "\n")
-                        if violations:
+                        if violations and not telemetry_gap_is_tolerated:
                             returncode = _terminate_process_group(
                                 process,
                                 terminate_grace_seconds,

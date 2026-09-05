@@ -169,6 +169,80 @@ class ResourceGuardTests(unittest.TestCase):
             self.assertEqual(result.termination_reason, "completed")
             self.assertEqual((tmp_path / "child.log").read_text().strip(), "complete")
 
+    def test_guard_tolerates_a_transient_gpu_telemetry_gap(self) -> None:
+        from tempfile import TemporaryDirectory
+
+        with TemporaryDirectory() as directory:
+            tmp_path = Path(directory)
+            safe = snapshot()
+            missing_gpu = ResourceSnapshot(
+                host_available_bytes=safe.host_available_bytes,
+                swap_free_bytes=safe.swap_free_bytes,
+                gpu_free_bytes=None,
+                gpu_total_bytes=None,
+            )
+            samples = iter([safe, missing_gpu, safe])
+
+            def sampler() -> ResourceSnapshot:
+                return next(samples, safe)
+
+            result = run_guarded(
+                [sys.executable, "-c", "import time; time.sleep(0.05)"],
+                limits=ResourceLimits(min_gpu_free_bytes=768 * MIB),
+                sample_fn=sampler,
+                log_path=tmp_path / "child.log",
+                telemetry_path=tmp_path / "telemetry.jsonl",
+                poll_interval_seconds=0.01,
+                gpu_telemetry_grace_samples=2,
+            )
+
+            self.assertEqual(result.returncode, 0)
+            self.assertFalse(result.killed_for_limit)
+            rows = [
+                json.loads(line)
+                for line in (tmp_path / "telemetry.jsonl").read_text().splitlines()
+            ]
+            gaps = [row for row in rows if row["event"] == "telemetry_gap"]
+            self.assertEqual(len(gaps), 1)
+            self.assertEqual(gaps[0]["consecutive_gpu_telemetry_failures"], 1)
+
+    def test_guard_kills_after_gpu_telemetry_grace_is_exhausted(self) -> None:
+        from tempfile import TemporaryDirectory
+
+        with TemporaryDirectory() as directory:
+            tmp_path = Path(directory)
+            safe = snapshot()
+            missing_gpu = ResourceSnapshot(
+                host_available_bytes=safe.host_available_bytes,
+                swap_free_bytes=safe.swap_free_bytes,
+                gpu_free_bytes=None,
+                gpu_total_bytes=None,
+            )
+            samples = iter([safe, missing_gpu, missing_gpu])
+
+            def sampler() -> ResourceSnapshot:
+                return next(samples, missing_gpu)
+
+            result = run_guarded(
+                [sys.executable, "-c", "import time; time.sleep(30)"],
+                limits=ResourceLimits(min_gpu_free_bytes=768 * MIB),
+                sample_fn=sampler,
+                log_path=tmp_path / "child.log",
+                telemetry_path=tmp_path / "telemetry.jsonl",
+                poll_interval_seconds=0.01,
+                terminate_grace_seconds=0.1,
+                gpu_telemetry_grace_samples=1,
+            )
+
+            self.assertTrue(result.killed_for_limit)
+            self.assertEqual(result.violations[0].resource, "gpu_telemetry")
+            rows = [
+                json.loads(line)
+                for line in (tmp_path / "telemetry.jsonl").read_text().splitlines()
+            ]
+            self.assertEqual(rows[-1]["event"], "limit_breach")
+            self.assertEqual(rows[-1]["consecutive_gpu_telemetry_failures"], 2)
+
     def test_guard_terminates_a_stalled_process_at_the_runtime_ceiling(self) -> None:
         from tempfile import TemporaryDirectory
 
