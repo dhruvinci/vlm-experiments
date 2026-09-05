@@ -5,10 +5,42 @@ import os
 import shutil
 import signal
 import subprocess
+import threading
 import time
+from contextlib import contextmanager
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Callable, Sequence
+
+
+class GuardedRunInterrupted(RuntimeError):
+    """Raised after a termination signal is converted into kill-safe cleanup."""
+
+    def __init__(self, signum: int):
+        super().__init__(f"guarded run interrupted by signal {signum}")
+        self.signum = signum
+
+
+@contextmanager
+def _termination_signals_as_exceptions():
+    """Let the monitor clean up its process group before honoring termination."""
+
+    if threading.current_thread() is not threading.main_thread():
+        yield
+        return
+    previous = {}
+
+    def raise_interrupted(signum, _frame) -> None:
+        raise GuardedRunInterrupted(signum)
+
+    for handled_signal in (signal.SIGINT, signal.SIGTERM, signal.SIGHUP):
+        previous[handled_signal] = signal.getsignal(handled_signal)
+        signal.signal(handled_signal, raise_interrupted)
+    try:
+        yield
+    finally:
+        for handled_signal, handler in previous.items():
+            signal.signal(handled_signal, handler)
 
 
 @dataclass(frozen=True)
@@ -60,6 +92,8 @@ class GuardedRunResult:
     minimum_host_available_bytes: int
     minimum_gpu_free_bytes: int | None
     maximum_gpu_used_fraction: float | None
+    elapsed_seconds: float
+    termination_reason: str
 
 
 def assess_snapshot(
@@ -213,6 +247,12 @@ def systemd_scoped_command(
         f"MemoryMax={memory_max_bytes}",
         "-p",
         "MemorySwapMax=0",
+        "-p",
+        "TasksMax=128",
+        "-p",
+        "KillMode=control-group",
+        "-p",
+        "OOMPolicy=kill",
         "--",
         *command,
     ]
@@ -230,6 +270,7 @@ def run_guarded(
     cwd: Path | None = None,
     env: dict[str, str] | None = None,
     child_memory_max_bytes: int | None = None,
+    maximum_runtime_seconds: float | None = None,
 ) -> GuardedRunResult:
     """Run a child under a parent-side RAM/VRAM circuit breaker.
 
@@ -242,6 +283,8 @@ def run_guarded(
         raise ValueError("guarded command cannot be empty")
     if poll_interval_seconds <= 0 or terminate_grace_seconds < 0:
         raise ValueError("poll interval must be positive and grace period non-negative")
+    if maximum_runtime_seconds is not None and maximum_runtime_seconds <= 0:
+        raise ValueError("maximum runtime must be positive when supplied")
     log_path.parent.mkdir(parents=True, exist_ok=True)
     telemetry_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -258,6 +301,8 @@ def run_guarded(
                 minimum_host_available_bytes=preflight.host_available_bytes,
                 minimum_gpu_free_bytes=preflight.gpu_free_bytes,
                 maximum_gpu_used_fraction=preflight.gpu_used_fraction,
+                elapsed_seconds=0.0,
+                termination_reason="preflight_limit",
             )
 
         minimum_host = preflight.host_available_bytes
@@ -270,6 +315,7 @@ def run_guarded(
                 memory_max_bytes=child_memory_max_bytes,
             )
         with log_path.open("ab", buffering=0) as log_file:
+            started_at = time.monotonic()
             process = subprocess.Popen(
                 launch_command,
                 cwd=cwd,
@@ -278,48 +324,110 @@ def run_guarded(
                 stderr=subprocess.STDOUT,
                 start_new_session=True,
             )
-            while True:
-                returncode = process.poll()
-                if returncode is not None:
-                    return GuardedRunResult(
-                        started=True,
-                        killed_for_limit=False,
-                        returncode=returncode,
-                        violations=(),
-                        minimum_host_available_bytes=minimum_host,
-                        minimum_gpu_free_bytes=minimum_gpu,
-                        maximum_gpu_used_fraction=maximum_gpu_fraction,
-                    )
+            last_snapshot = preflight
+            try:
+                with _termination_signals_as_exceptions():
+                    while True:
+                        returncode = process.poll()
+                        if returncode is not None:
+                            elapsed = time.monotonic() - started_at
+                            completed = _telemetry_record("completed", last_snapshot)
+                            completed.update(
+                                {
+                                    "elapsed_seconds": elapsed,
+                                    "returncode": returncode,
+                                }
+                            )
+                            telemetry.write(json.dumps(completed) + "\n")
+                            return GuardedRunResult(
+                                started=True,
+                                killed_for_limit=False,
+                                returncode=returncode,
+                                violations=(),
+                                minimum_host_available_bytes=minimum_host,
+                                minimum_gpu_free_bytes=minimum_gpu,
+                                maximum_gpu_used_fraction=maximum_gpu_fraction,
+                                elapsed_seconds=elapsed,
+                                termination_reason=(
+                                    "completed" if returncode == 0 else "child_exit"
+                                ),
+                            )
 
-                current = sample_fn()
-                minimum_host = min(minimum_host, current.host_available_bytes)
-                if current.gpu_free_bytes is not None:
-                    minimum_gpu = (
-                        current.gpu_free_bytes
-                        if minimum_gpu is None
-                        else min(minimum_gpu, current.gpu_free_bytes)
+                        current = sample_fn()
+                        last_snapshot = current
+                        elapsed = time.monotonic() - started_at
+                        minimum_host = min(minimum_host, current.host_available_bytes)
+                        if current.gpu_free_bytes is not None:
+                            minimum_gpu = (
+                                current.gpu_free_bytes
+                                if minimum_gpu is None
+                                else min(minimum_gpu, current.gpu_free_bytes)
+                            )
+                        current_fraction = current.gpu_used_fraction
+                        if current_fraction is not None:
+                            maximum_gpu_fraction = (
+                                current_fraction
+                                if maximum_gpu_fraction is None
+                                else max(maximum_gpu_fraction, current_fraction)
+                            )
+                        violations = assess_snapshot(current, limits)
+                        if (
+                            not violations
+                            and maximum_runtime_seconds is not None
+                            and elapsed >= maximum_runtime_seconds
+                        ):
+                            violations = (
+                                ResourceViolation(
+                                    "runtime_seconds",
+                                    elapsed,
+                                    maximum_runtime_seconds,
+                                    "<=",
+                                ),
+                            )
+                        event = (
+                            "runtime_limit"
+                            if violations and violations[0].resource == "runtime_seconds"
+                            else "limit_breach"
+                            if violations
+                            else "sample"
+                        )
+                        record = _telemetry_record(event, current, violations)
+                        record["elapsed_seconds"] = elapsed
+                        telemetry.write(json.dumps(record) + "\n")
+                        if violations:
+                            returncode = _terminate_process_group(
+                                process,
+                                terminate_grace_seconds,
+                            )
+                            return GuardedRunResult(
+                                started=True,
+                                killed_for_limit=True,
+                                returncode=returncode,
+                                violations=violations,
+                                minimum_host_available_bytes=minimum_host,
+                                minimum_gpu_free_bytes=minimum_gpu,
+                                maximum_gpu_used_fraction=maximum_gpu_fraction,
+                                elapsed_seconds=time.monotonic() - started_at,
+                                termination_reason=(
+                                    "runtime_limit"
+                                    if violations[0].resource == "runtime_seconds"
+                                    else "resource_limit"
+                                ),
+                            )
+                        time.sleep(poll_interval_seconds)
+            except BaseException:
+                returncode = process.poll()
+                if returncode is None:
+                    returncode = _terminate_process_group(
+                        process,
+                        terminate_grace_seconds,
                     )
-                current_fraction = current.gpu_used_fraction
-                if current_fraction is not None:
-                    maximum_gpu_fraction = (
-                        current_fraction
-                        if maximum_gpu_fraction is None
-                        else max(maximum_gpu_fraction, current_fraction)
-                    )
-                violations = assess_snapshot(current, limits)
-                event = "limit_breach" if violations else "sample"
-                telemetry.write(
-                    json.dumps(_telemetry_record(event, current, violations)) + "\n"
+                interrupted = _telemetry_record("interrupted", last_snapshot)
+                interrupted.update(
+                    {
+                        "elapsed_seconds": time.monotonic() - started_at,
+                        "returncode": returncode,
+                    }
                 )
-                if violations:
-                    returncode = _terminate_process_group(process, terminate_grace_seconds)
-                    return GuardedRunResult(
-                        started=True,
-                        killed_for_limit=True,
-                        returncode=returncode,
-                        violations=violations,
-                        minimum_host_available_bytes=minimum_host,
-                        minimum_gpu_free_bytes=minimum_gpu,
-                        maximum_gpu_used_fraction=maximum_gpu_fraction,
-                    )
-                time.sleep(poll_interval_seconds)
+                telemetry.write(json.dumps(interrupted) + "\n")
+                raise

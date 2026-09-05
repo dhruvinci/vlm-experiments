@@ -26,7 +26,15 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--gradient-accumulation", type=int, default=4)
     parser.add_argument("--device", choices=("cuda", "cpu"), default="cuda")
     parser.add_argument("--no-amp", action="store_true")
-    parser.add_argument("--child-memory-gib", type=int, default=4)
+    parser.add_argument("--cuda-memory-fraction", type=float, default=0.60)
+    parser.add_argument("--child-memory-gib", type=float, default=4.0)
+    parser.add_argument("--min-host-available-gib", type=float, default=4.0)
+    parser.add_argument("--min-swap-free-gib", type=float, default=3.0)
+    parser.add_argument("--min-gpu-free-mib", type=float, default=1536.0)
+    parser.add_argument("--max-gpu-used-fraction", type=float, default=0.75)
+    parser.add_argument("--max-fold-minutes", type=float, default=30.0)
+    parser.add_argument("--resource-poll-seconds", type=float, default=1.0)
+    parser.add_argument("--terminate-grace-seconds", type=float, default=10.0)
     return parser
 
 
@@ -47,7 +55,15 @@ def main(argv: Sequence[str] | None = None) -> int:
             gradient_accumulation=args.gradient_accumulation,
             device=args.device,
             use_amp=not args.no_amp,
-            child_memory_max_bytes=args.child_memory_gib * 1024**3,
+            cuda_memory_fraction=args.cuda_memory_fraction,
+            child_memory_max_bytes=int(args.child_memory_gib * 1024**3),
+            min_host_available_bytes=int(args.min_host_available_gib * 1024**3),
+            min_swap_free_bytes=int(args.min_swap_free_gib * 1024**3),
+            min_gpu_free_bytes=int(args.min_gpu_free_mib * 1024**2),
+            max_gpu_used_fraction=args.max_gpu_used_fraction,
+            maximum_fold_runtime_seconds=args.max_fold_minutes * 60.0,
+            resource_poll_interval_seconds=args.resource_poll_seconds,
+            terminate_grace_seconds=args.terminate_grace_seconds,
         )
     )
     print(

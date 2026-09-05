@@ -1,11 +1,15 @@
 from __future__ import annotations
 
 import json
+import os
+import signal
 import sys
+import time
 import unittest
 from pathlib import Path
 
 from ownership_decoder.resource_guard import (
+    GuardedRunInterrupted,
     ResourceLimits,
     ResourceSnapshot,
     assess_snapshot,
@@ -48,6 +52,12 @@ class ResourceGuardTests(unittest.TestCase):
                 f"MemoryMax={6 * GIB}",
                 "-p",
                 "MemorySwapMax=0",
+                "-p",
+                "TasksMax=128",
+                "-p",
+                "KillMode=control-group",
+                "-p",
+                "OOMPolicy=kill",
                 "--",
                 "python",
                 "worker.py",
@@ -156,4 +166,135 @@ class ResourceGuardTests(unittest.TestCase):
             self.assertTrue(result.started)
             self.assertFalse(result.killed_for_limit)
             self.assertEqual(result.returncode, 0)
+            self.assertEqual(result.termination_reason, "completed")
             self.assertEqual((tmp_path / "child.log").read_text().strip(), "complete")
+
+    def test_guard_terminates_a_stalled_process_at_the_runtime_ceiling(self) -> None:
+        from tempfile import TemporaryDirectory
+
+        with TemporaryDirectory() as directory:
+            tmp_path = Path(directory)
+            result = run_guarded(
+                [
+                    sys.executable,
+                    "-c",
+                    "import time; print('started', flush=True); time.sleep(30)",
+                ],
+                limits=ResourceLimits(min_host_available_bytes=3 * GIB),
+                sample_fn=lambda: snapshot(),
+                log_path=tmp_path / "child.log",
+                telemetry_path=tmp_path / "telemetry.jsonl",
+                poll_interval_seconds=0.01,
+                terminate_grace_seconds=0.1,
+                maximum_runtime_seconds=0.05,
+            )
+
+            self.assertTrue(result.started)
+            self.assertTrue(result.killed_for_limit)
+            self.assertEqual(result.termination_reason, "runtime_limit")
+            self.assertEqual(result.violations[0].resource, "runtime_seconds")
+            self.assertGreaterEqual(result.elapsed_seconds, 0.05)
+            rows = [
+                json.loads(line)
+                for line in (tmp_path / "telemetry.jsonl").read_text().splitlines()
+            ]
+            self.assertEqual(rows[-1]["event"], "runtime_limit")
+
+    def test_guard_cleans_up_child_when_supervisor_is_interrupted(self) -> None:
+        from tempfile import TemporaryDirectory
+
+        with TemporaryDirectory() as directory:
+            tmp_path = Path(directory)
+            pid_path = tmp_path / "child.pid"
+            calls = 0
+
+            def sampler() -> ResourceSnapshot:
+                nonlocal calls
+                calls += 1
+                if calls == 1:
+                    return snapshot()
+                deadline = time.monotonic() + 1.0
+                while not pid_path.exists() and time.monotonic() < deadline:
+                    time.sleep(0.005)
+                raise KeyboardInterrupt
+
+            with self.assertRaises(KeyboardInterrupt):
+                run_guarded(
+                    [
+                        sys.executable,
+                        "-c",
+                        (
+                            "import os,time; "
+                            f"open({str(pid_path)!r},'w').write(str(os.getpid())); "
+                            "time.sleep(30)"
+                        ),
+                    ],
+                    limits=ResourceLimits(min_host_available_bytes=3 * GIB),
+                    sample_fn=sampler,
+                    log_path=tmp_path / "child.log",
+                    telemetry_path=tmp_path / "telemetry.jsonl",
+                    poll_interval_seconds=0.01,
+                    terminate_grace_seconds=0.1,
+                )
+
+            child_pid = int(pid_path.read_text())
+            try:
+                os.kill(child_pid, 0)
+            except ProcessLookupError:
+                child_alive = False
+            else:
+                child_alive = True
+                os.kill(child_pid, signal.SIGKILL)
+            self.assertFalse(child_alive)
+            rows = [
+                json.loads(line)
+                for line in (tmp_path / "telemetry.jsonl").read_text().splitlines()
+            ]
+            self.assertEqual(rows[-1]["event"], "interrupted")
+
+    def test_guard_converts_sigterm_to_kill_safe_cleanup(self) -> None:
+        from tempfile import TemporaryDirectory
+
+        with TemporaryDirectory() as directory:
+            tmp_path = Path(directory)
+            pid_path = tmp_path / "child.pid"
+            calls = 0
+
+            def sampler() -> ResourceSnapshot:
+                nonlocal calls
+                calls += 1
+                if calls == 1:
+                    return snapshot()
+                deadline = time.monotonic() + 1.0
+                while not pid_path.exists() and time.monotonic() < deadline:
+                    time.sleep(0.005)
+                os.kill(os.getpid(), signal.SIGTERM)
+                raise AssertionError("SIGTERM handler did not interrupt the guard")
+
+            with self.assertRaises(GuardedRunInterrupted):
+                run_guarded(
+                    [
+                        sys.executable,
+                        "-c",
+                        (
+                            "import os,time; "
+                            f"open({str(pid_path)!r},'w').write(str(os.getpid())); "
+                            "time.sleep(30)"
+                        ),
+                    ],
+                    limits=ResourceLimits(min_host_available_bytes=3 * GIB),
+                    sample_fn=sampler,
+                    log_path=tmp_path / "child.log",
+                    telemetry_path=tmp_path / "telemetry.jsonl",
+                    poll_interval_seconds=0.01,
+                    terminate_grace_seconds=0.1,
+                )
+
+            child_pid = int(pid_path.read_text())
+            with self.assertRaises(ProcessLookupError):
+                os.kill(child_pid, 0)
+            rows = [
+                json.loads(line)
+                for line in (tmp_path / "telemetry.jsonl").read_text().splitlines()
+            ]
+            self.assertEqual(rows[-1]["event"], "interrupted")

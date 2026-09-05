@@ -91,16 +91,18 @@ successful experiment and does not authorize a replacement Pod or LoRA training.
   Server/Workstation Edition; Max-Q and substitute GPU families fail closed.
 - The full worker has a hard runtime ceiling, a spend guard, a 30-second in-Pod watchdog, an
   independent local monitor, atomic artifacts, checksums, and at most two fresh-process retries.
-- Local decoder jobs run serially in `systemd` cgroups. The default child cap is 4 GiB with
-  `MemorySwapMax=0`; the parent stops a job if host availability drops below 2 GiB or GPU usage
-  crosses its safety ceiling.
+- Local decoder jobs run serially in `systemd` cgroups. Each child has a 4 GiB hard RAM cap,
+  no swap, a 60% PyTorch allocator ceiling, and a 30-minute wall-clock limit. The independent
+  parent stops a job before host availability falls below 4 GiB, system swap has less than
+  3 GiB free, or global GPU use exceeds 75%. SIGINT/SIGTERM and child OOMs kill the complete
+  process group while preserving checkpoints, logs, telemetry, and the guard result.
 - Qwen and SAM weights are never loaded on the local machine by this package.
 
 Run the regression suite CPU-only with an external cgroup, for example:
 
 ```bash
 systemd-run --user --scope --quiet \
-  -p MemoryHigh=768M -p MemoryMax=1G -p MemorySwapMax=0 -- \
+  -p MemoryHigh=3G -p MemoryMax=4G -p MemorySwapMax=0 -- \
   env CUDA_VISIBLE_DEVICES='' PYTHONDONTWRITEBYTECODE=1 \
   OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 \
   PYTHONPATH="$PWD/src" /path/to/python -m unittest discover -s tests -v

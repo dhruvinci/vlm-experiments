@@ -49,6 +49,7 @@ class DecoderFoldRunSpec:
     seed: int = 7
     device: str = "cuda"
     use_amp: bool = True
+    cuda_memory_fraction: float = 0.60
 
 
 def validate_fold_run_spec(spec: DecoderFoldRunSpec) -> DecoderFoldRunSpec:
@@ -86,6 +87,8 @@ def validate_fold_run_spec(spec: DecoderFoldRunSpec) -> DecoderFoldRunSpec:
         raise ValueError("decoder epoch, patience, and accumulation settings must be positive")
     if spec.device not in {"cuda", "cpu"}:
         raise ValueError("decoder device must be cuda or cpu")
+    if not 0.05 <= spec.cuda_memory_fraction <= 0.90:
+        raise ValueError("CUDA memory fraction must remain in the safe range [0.05, 0.90]")
     return spec
 
 
@@ -122,6 +125,7 @@ def fold_run_spec_to_dict(spec: DecoderFoldRunSpec) -> dict[str, Any]:
         "seed": spec.seed,
         "device": spec.device,
         "use_amp": spec.use_amp,
+        "cuda_memory_fraction": spec.cuda_memory_fraction,
     }
 
 
@@ -151,6 +155,7 @@ def fold_run_spec_from_dict(value: Mapping[str, Any]) -> DecoderFoldRunSpec:
         "seed",
         "device",
         "use_amp",
+        "cuda_memory_fraction",
     }
     if set(value) != required:
         raise ValueError("decoder fold work-item schema is invalid")
@@ -191,6 +196,7 @@ def fold_run_spec_from_dict(value: Mapping[str, Any]) -> DecoderFoldRunSpec:
         seed=int(value["seed"]),
         device=str(value["device"]),
         use_amp=bool(value["use_amp"]),
+        cuda_memory_fraction=float(value["cuda_memory_fraction"]),
     )
     return validate_fold_run_spec(spec)
 
@@ -273,6 +279,7 @@ def _spec_payload(spec: DecoderFoldRunSpec) -> dict[str, Any]:
             "seed": spec.seed,
             "device": spec.device,
             "use_amp": spec.use_amp,
+            "cuda_memory_fraction": spec.cuda_memory_fraction,
             "batch_size": 1,
         },
     }
@@ -372,8 +379,14 @@ def run_decoder_fold(spec: DecoderFoldRunSpec) -> dict[str, Any]:
         train_decoder,
     )
 
-    if spec.device == "cuda" and not torch.cuda.is_available():
-        raise RuntimeError("CUDA decoder fold requested but no CUDA device is available")
+    if torch.get_num_threads() != 1:
+        torch.set_num_threads(1)
+    if torch.get_num_interop_threads() != 1:
+        torch.set_num_interop_threads(1)
+    if spec.device == "cuda":
+        if not torch.cuda.is_available():
+            raise RuntimeError("CUDA decoder fold requested but no CUDA device is available")
+        torch.cuda.set_per_process_memory_fraction(spec.cuda_memory_fraction, device=0)
     clip_specs = _build_clip_specs(spec)
 
     def dataset_for(clips: tuple[str, ...]) -> OwnershipDataset:

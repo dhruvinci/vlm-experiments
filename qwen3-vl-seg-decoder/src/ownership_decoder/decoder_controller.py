@@ -5,7 +5,7 @@ import json
 import os
 import sys
 import tempfile
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any, Callable
 
@@ -48,10 +48,15 @@ class LocalDecoderCampaignSpec:
     seed: int = 7
     device: str = "cuda"
     use_amp: bool = True
+    cuda_memory_fraction: float = 0.60
     child_memory_max_bytes: int = 4 * GIB
-    min_host_available_bytes: int = 2 * GIB
-    min_gpu_free_bytes: int = 512 * MIB
-    max_gpu_used_fraction: float = 0.92
+    min_host_available_bytes: int = 4 * GIB
+    min_swap_free_bytes: int = 3 * GIB
+    min_gpu_free_bytes: int = 1536 * MIB
+    max_gpu_used_fraction: float = 0.75
+    maximum_fold_runtime_seconds: float = 30 * 60
+    resource_poll_interval_seconds: float = 1.0
+    terminate_grace_seconds: float = 10.0
     attempts_per_fold: int = 2
 
 
@@ -138,6 +143,22 @@ def _validate_campaign_spec(spec: LocalDecoderCampaignSpec) -> None:
         raise ValueError("decoder fold attempts must be one or two")
     if spec.child_memory_max_bytes < GIB:
         raise ValueError("decoder child memory cap is implausibly low")
+    if not 0.05 <= spec.cuda_memory_fraction <= 0.90:
+        raise ValueError("decoder CUDA memory fraction is outside the safe range")
+    if min(
+        spec.min_host_available_bytes,
+        spec.min_swap_free_bytes,
+        spec.min_gpu_free_bytes,
+    ) < 0:
+        raise ValueError("decoder resource reserves cannot be negative")
+    if not 0.0 < spec.max_gpu_used_fraction <= 1.0:
+        raise ValueError("decoder maximum GPU usage fraction is invalid")
+    if (
+        spec.maximum_fold_runtime_seconds <= 0
+        or spec.resource_poll_interval_seconds <= 0
+        or spec.terminate_grace_seconds < 0
+    ):
+        raise ValueError("decoder runtime guard settings are invalid")
     if not spec.python_executable.is_file():
         raise FileNotFoundError(f"decoder Python executable is missing: {spec.python_executable}")
     if not spec.qwen_download_manifest.is_file():
@@ -181,6 +202,7 @@ def _fold_spec(
         seed=campaign.seed,
         device=campaign.device,
         use_amp=campaign.use_amp,
+        cuda_memory_fraction=campaign.cuda_memory_fraction,
     )
 
 
@@ -227,6 +249,7 @@ def _guarded_job_runner(campaign: LocalDecoderCampaignSpec) -> Callable[[Decoder
         )
         limits = ResourceLimits(
             min_host_available_bytes=campaign.min_host_available_bytes,
+            min_swap_free_bytes=campaign.min_swap_free_bytes,
             min_gpu_free_bytes=(campaign.min_gpu_free_bytes if campaign.device == "cuda" else 0),
             max_gpu_used_fraction=(campaign.max_gpu_used_fraction if campaign.device == "cuda" else 1.0),
         )
@@ -244,6 +267,15 @@ def _guarded_job_runner(campaign: LocalDecoderCampaignSpec) -> Callable[[Decoder
                 cwd=project_root,
                 env=environment,
                 child_memory_max_bytes=campaign.child_memory_max_bytes,
+                maximum_runtime_seconds=campaign.maximum_fold_runtime_seconds,
+                poll_interval_seconds=campaign.resource_poll_interval_seconds,
+                terminate_grace_seconds=campaign.terminate_grace_seconds,
+            )
+            _atomic_json(
+                campaign.output_root
+                / "guard-results"
+                / f"{fold.run_name}.attempt-{attempt}.json",
+                asdict(last_result),
             )
             if last_result.returncode == 0:
                 return _read_fold_result(fold)
