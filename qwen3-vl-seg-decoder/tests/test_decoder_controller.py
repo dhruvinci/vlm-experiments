@@ -163,6 +163,9 @@ class LocalDecoderControllerTests(unittest.TestCase):
                 "0" * 64,
             )
             self.assertEqual(len(seen), 40)
+            self.assertTrue(
+                all(fold.cuda_memory_fraction == 0.60 for fold in seen)
+            )
             self.assertTrue((root / "runs/RUN_COMPLETE").is_file())
 
 
