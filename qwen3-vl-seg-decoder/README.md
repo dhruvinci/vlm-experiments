@@ -7,6 +7,18 @@ decoder is trained locally.
 
 ## Current status
 
+- The guarded local armbar decoder campaign is complete. All 21 CUDA jobs finished on their
+  first attempt without an OOM or resource-limit violation. The selected static decoder uses
+  Qwen full-resolution layer 11 plus the final merged visual embedding and reaches
+  `0.8746 ± 0.0070` macro actor IoU on the eight held-out frames.
+- The action-conditioned decoder does not pass the exploratory semantic gate: it reaches
+  `0.8663 ± 0.0078` macro actor IoU, assigns none of the 27 held-out trapped-arm cells to the
+  correct actor, and produces a mean contact margin of `-0.9789`. Ordered, reversed, and
+  shuffled temporal states are effectively indistinguishable at the decoder output.
+- The exact result and its interpretation are recorded in
+  `artifacts/armbar-exploratory-v1/RESULT.md`. This is an honest negative semantic result under
+  legacy pseudo-label supervision, not a multi-clip north-star result and not evidence for LoRA.
+
 - The immutable SAM3.1/SAM3 mask launch packet is frozen at
   `launch-packet/sam31-breadth-v2/manifest.json` with SHA-256
   `86126c36091adf70e211dd6d51e6e53b1fdd4e1c1e0bfb8966f143c75e49e097`.
