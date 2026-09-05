@@ -20,6 +20,12 @@ ARMBAR_SEMANTIC_CONDITIONS = {
     "identity_only",
     "action_relational",
     "contact_ownership",
+    "action_delta",
+    "contact_delta",
+}
+ARMBAR_DELTA_CONDITIONS = {
+    "action_delta": "action_relational",
+    "contact_delta": "contact_ownership",
 }
 
 
@@ -211,6 +217,50 @@ def _sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
+def load_armbar_semantic_pair(
+    cache_root: str | Path,
+    *,
+    condition: str,
+    context: str,
+    thinking_mode: str,
+    language_layer: int,
+):
+    """Load a raw actor pair or a condition-minus-identity pair."""
+
+    from .cache import load_actor_state_pair
+
+    cache_condition = ARMBAR_DELTA_CONDITIONS.get(condition, condition)
+    semantic_root = (
+        Path(cache_root)
+        / "semantic"
+        / "video"
+        / context
+        / cache_condition
+        / thinking_mode
+    )
+    pair = load_actor_state_pair(
+        semantic_root / "A1.safetensors",
+        semantic_root / "A2.safetensors",
+        language_layer=language_layer,
+    )
+    if condition not in ARMBAR_DELTA_CONDITIONS:
+        return pair
+    identity_root = (
+        Path(cache_root)
+        / "semantic"
+        / "video"
+        / context
+        / "identity_only"
+        / thinking_mode
+    )
+    identity = load_actor_state_pair(
+        identity_root / "A1.safetensors",
+        identity_root / "A2.safetensors",
+        language_layer=language_layer,
+    )
+    return (pair.float() - identity.float()).to(pair.dtype).contiguous()
+
+
 def _atomic_json(path: Path, value: Mapping[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary: Path | None = None
@@ -288,7 +338,12 @@ def _load_completed_job(run_root: Path, expected_spec: Mapping[str, Any]) -> dic
 
 
 def _build_job_datasets(spec: ArmbarJobSpec):
-    from .data import OwnershipDataset, build_specs_from_label_manifest, load_rgb_records
+    from .data import (
+        ActorStateControlDataset,
+        OwnershipDataset,
+        build_specs_from_label_manifest,
+        load_rgb_records,
+    )
     from .experiments import split_armbar_specs
 
     arm = STATIC_ARMS[spec.spatial_arm]
@@ -300,12 +355,16 @@ def _build_job_datasets(spec: ArmbarJobSpec):
         )
     actor_paths = None
     if spec.semantic_condition is not None:
+        cache_condition = ARMBAR_DELTA_CONDITIONS.get(
+            spec.semantic_condition,
+            spec.semantic_condition,
+        )
         semantic_root = (
             spec.cache_root
             / "semantic"
             / "video"
             / spec.semantic_context
-            / spec.semantic_condition
+            / cache_condition
             / spec.thinking_mode
         )
         actor_paths = (
@@ -335,11 +394,27 @@ def _build_job_datasets(spec: ArmbarJobSpec):
         train_specs = split.final_train
         evaluation_specs = split.test
         evaluation_subset = "test"
-    return (
-        OwnershipDataset(train_specs, rgb_output_hw=None),
-        OwnershipDataset(evaluation_specs, rgb_output_hw=None),
-        evaluation_subset,
-    )
+    train_dataset = OwnershipDataset(train_specs, rgb_output_hw=None)
+    evaluation_dataset = OwnershipDataset(evaluation_specs, rgb_output_hw=None)
+    if spec.semantic_condition in ARMBAR_DELTA_CONDITIONS:
+        delta_pair = load_armbar_semantic_pair(
+            spec.cache_root,
+            condition=spec.semantic_condition,
+            context=spec.semantic_context,
+            thinking_mode=spec.thinking_mode,
+            language_layer=int(spec.language_layer),
+        )
+        train_dataset = ActorStateControlDataset(
+            train_dataset,
+            control="shuffled_clip",
+            replacement_actor_states=delta_pair,
+        )
+        evaluation_dataset = ActorStateControlDataset(
+            evaluation_dataset,
+            control="shuffled_clip",
+            replacement_actor_states=delta_pair,
+        )
+    return train_dataset, evaluation_dataset, evaluation_subset
 
 
 def _fixed_substitution_pairs(spec: ArmbarJobSpec):

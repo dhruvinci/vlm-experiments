@@ -608,3 +608,234 @@ def run_armbar_exploratory_campaign(
     _atomic_json(result_path, result)
     _atomic_json(completion_path, {"result_sha256": _sha256(result_path)})
     return result
+
+
+def run_armbar_delta_campaign(
+    spec: ArmbarCampaignSpec,
+    *,
+    reference_campaign_result: str | Path,
+    layer_selection_audit: str | Path,
+    action_layer: int = 12,
+    contact_layer: int = 45,
+    job_runner: Callable[[ArmbarJobSpec], dict[str, Any]] | None = None,
+) -> dict[str, Any]:
+    """Compare raw and identity-cancelled actor states at fixed language layers."""
+
+    if not 0 <= action_layer <= 63 or not 0 <= contact_layer <= 63:
+        raise ValueError("armbar delta language layers must be in [0, 63]")
+    audit_path = Path(layer_selection_audit)
+    audit_sidecar = audit_path.with_suffix(audit_path.suffix + ".sha256")
+    try:
+        audit = json.loads(audit_path.read_text(encoding="utf-8"))
+        recorded_audit_sha = audit_sidecar.read_text(encoding="utf-8").strip()
+    except (OSError, json.JSONDecodeError) as error:
+        raise ValueError("armbar layer-selection audit is incomplete") from error
+    audit_sha = _sha256(audit_path)
+    if recorded_audit_sha != audit_sha:
+        raise ValueError("armbar layer-selection audit checksum mismatch")
+    if audit.get("format") != "breadth-semantic-geometry-audit-v1":
+        raise ValueError("armbar layer-selection audit format is invalid")
+    selected_layers = audit.get("selected_layers")
+    if not isinstance(selected_layers, dict) or selected_layers != {
+        "action_delta": action_layer,
+        "contact_delta": contact_layer,
+    }:
+        raise ValueError("armbar delta selected layers do not match the frozen audit")
+    if audit.get("artifact_count") != 24:
+        raise ValueError("armbar layer-selection audit artifact inventory is incomplete")
+
+    _validate_campaign_spec(spec)
+    reference_path = Path(reference_campaign_result)
+    reference_completion_path = reference_path.parent / "RUN_COMPLETE"
+    try:
+        reference = json.loads(reference_path.read_text(encoding="utf-8"))
+        reference_completion = json.loads(
+            reference_completion_path.read_text(encoding="utf-8")
+        )
+    except (OSError, json.JSONDecodeError) as error:
+        raise ValueError("armbar reference campaign is incomplete") from error
+    reference_sha = _sha256(reference_path)
+    if reference_completion.get("result_sha256") != reference_sha:
+        raise ValueError("armbar reference campaign checksum mismatch")
+    if reference.get("format") != "armbar-exploratory-campaign-result-v1":
+        raise ValueError("armbar reference campaign format is invalid")
+    selected_static = str(reference.get("selected_static_arm", ""))
+    if selected_static not in STATIC_ARMS:
+        raise ValueError("armbar reference campaign has no valid selected static arm")
+    reference_static = reference.get("final_aggregates", {}).get("static")
+    if not isinstance(reference_static, dict) or reference_static.get("run_count") != len(
+        spec.seeds
+    ):
+        raise ValueError("armbar reference static seed inventory does not match")
+
+    spec.output_root.mkdir(parents=True, exist_ok=True)
+    contract = {
+        **_campaign_contract(spec),
+        "format": "armbar-slot-cancellation-campaign-spec-v1",
+        "reference_campaign_result": str(reference_path.resolve()),
+        "reference_campaign_result_sha256": reference_sha,
+        "layer_selection_audit": str(audit_path.resolve()),
+        "layer_selection_audit_sha256": audit_sha,
+        "selected_static_arm": selected_static,
+        "fixed_language_layers": {
+            "action": action_layer,
+            "contact": contact_layer,
+        },
+        "representations": {
+            "action_relational": "raw cached actor states",
+            "action_delta": "action_relational minus identity_only per actor",
+            "contact_ownership": "raw cached actor states",
+            "contact_delta": "contact_ownership minus identity_only per actor",
+        },
+        "controls": ["real", "random_matched"],
+        "selection_policy": (
+            "language layers fixed from the independent four-clip breadth-state geometry audit; "
+            "no armbar test labels used for selection"
+        ),
+    }
+    contract_path = spec.output_root / "campaign-spec.json"
+    if contract_path.exists():
+        if json.loads(contract_path.read_text(encoding="utf-8")) != contract:
+            raise RuntimeError("armbar slot-cancellation campaign specification changed")
+    else:
+        _atomic_json(contract_path, contract)
+    result_path = spec.output_root / "campaign-result.json"
+    completion_path = spec.output_root / "RUN_COMPLETE"
+    if completion_path.exists():
+        try:
+            completion = json.loads(completion_path.read_text(encoding="utf-8"))
+            result = json.loads(result_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as error:
+            raise RuntimeError("armbar slot-cancellation campaign is incomplete") from error
+        if completion.get("result_sha256") != _sha256(result_path):
+            raise RuntimeError("armbar slot-cancellation result checksum mismatch")
+        if result.get("campaign_spec_sha256") != _sha256(contract_path):
+            raise RuntimeError("armbar slot-cancellation result provenance mismatch")
+        return result
+
+    run_job = job_runner or _guarded_job_runner(spec)
+    representations = (
+        ("action_relational", action_layer),
+        ("action_delta", action_layer),
+        ("contact_ownership", contact_layer),
+        ("contact_delta", contact_layer),
+    )
+    runs: dict[str, list[dict[str, Any]]] = {
+        f"{condition}_{control}": []
+        for condition, _ in representations
+        for control in ("real", "random_matched")
+    }
+    for seed in spec.seeds:
+        for condition, layer in representations:
+            for control in ("real", "random_matched"):
+                key = f"{condition}_{control}"
+                runs[key].append(
+                    run_job(
+                        _job_spec(
+                            spec,
+                            run_name=(
+                                f"slotcancel__final__{condition}__{control}__"
+                                f"{selected_static}__l{layer:02d}__seed-{seed}"
+                            ),
+                            spatial_arm=selected_static,
+                            split="final",
+                            seed=seed,
+                            semantic_condition=condition,
+                            language_layer=layer,
+                            training_control=control,
+                        )
+                    )
+                )
+
+    def paired_delta(left: str, right: str, metric: str) -> list[float]:
+        return [
+            float(left_result["evaluation_metrics"][metric])
+            - float(right_result["evaluation_metrics"][metric])
+            for left_result, right_result in zip(runs[left], runs[right], strict=True)
+        ]
+
+    aggregates = {name: _aggregate_runs(values) for name, values in runs.items()}
+    paired_deltas = {
+        "action_delta_minus_raw_iou": paired_delta(
+            "action_delta_real", "action_relational_real", "macro_actor_iou"
+        ),
+        "action_delta_minus_raw_contact_margin": paired_delta(
+            "action_delta_real", "action_relational_real", "contact_margin"
+        ),
+        "action_delta_minus_random_iou": paired_delta(
+            "action_delta_real", "action_delta_random_matched", "macro_actor_iou"
+        ),
+        "contact_delta_minus_raw_iou": paired_delta(
+            "contact_delta_real", "contact_ownership_real", "macro_actor_iou"
+        ),
+        "contact_delta_minus_raw_contact_margin": paired_delta(
+            "contact_delta_real", "contact_ownership_real", "contact_margin"
+        ),
+        "contact_delta_minus_random_iou": paired_delta(
+            "contact_delta_real", "contact_delta_random_matched", "macro_actor_iou"
+        ),
+    }
+    evidence = {
+        name: fmean(values) for name, values in paired_deltas.items()
+    }
+    evidence.update(
+        {
+            "action_delta_background_stability": _mean(
+                aggregates["action_delta_real"], "background_stability"
+            ),
+            "contact_delta_background_stability": _mean(
+                aggregates["contact_delta_real"], "background_stability"
+            ),
+        }
+    )
+    gates = {
+        "action_delta_beats_raw": evidence["action_delta_minus_raw_iou"] >= 0.01,
+        "action_delta_beats_random": evidence["action_delta_minus_random_iou"] >= 0.01,
+        "action_contact_margin_improves": evidence[
+            "action_delta_minus_raw_contact_margin"
+        ]
+        >= 0.05,
+        "contact_delta_beats_raw": evidence["contact_delta_minus_raw_iou"] >= 0.01,
+        "contact_delta_beats_random": evidence["contact_delta_minus_random_iou"] >= 0.01,
+        "contact_contact_margin_improves": evidence[
+            "contact_delta_minus_raw_contact_margin"
+        ]
+        >= 0.05,
+        "background_stable": min(
+            evidence["action_delta_background_stability"],
+            evidence["contact_delta_background_stability"],
+        )
+        >= 0.90,
+    }
+    result = {
+        "format": "armbar-slot-cancellation-campaign-result-v1",
+        "campaign_spec_sha256": _sha256(contract_path),
+        "supervision_status": ARMBAR_SUPERVISION_STATUS,
+        "north_star_eligible": False,
+        "reference_campaign_result_sha256": reference_sha,
+        "layer_selection_audit_sha256": audit_sha,
+        "selected_static_arm": selected_static,
+        "fixed_language_layers": {"action": action_layer, "contact": contact_layer},
+        "reference_static": reference_static,
+        "aggregates": aggregates,
+        "paired_deltas": paired_deltas,
+        "slot_cancellation_signal": {
+            "passed": all(gates.values()),
+            "gates": gates,
+            "evidence": evidence,
+            "interpretation": (
+                "exploratory single-clip slot-cancellation result; not a multi-clip north-star result"
+            ),
+        },
+        "limitations": [
+            "single source video",
+            "legacy conservative pseudo-labels rather than fully human-reviewed masks",
+            "contact ownership truth exists only in the final held-out contact frame",
+            "condition-delta actor states remain constant across every frame in the clip",
+        ],
+    }
+    if result_path.exists():
+        raise RuntimeError("refusing to overwrite armbar slot-cancellation result")
+    _atomic_json(result_path, result)
+    _atomic_json(completion_path, {"result_sha256": _sha256(result_path)})
+    return result
