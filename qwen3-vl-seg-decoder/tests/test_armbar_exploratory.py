@@ -26,6 +26,7 @@ from ownership_decoder.armbar_controller import (
     run_armbar_exploratory_campaign,
 )
 from ownership_decoder.armbar_visualization import render_armbar_contact_diagnostics
+from ownership_decoder import armbar_controller, armbar_controller_cli, armbar_exploratory
 
 
 def job_spec(**overrides) -> ArmbarJobSpec:
@@ -45,6 +46,180 @@ def job_spec(**overrides) -> ArmbarJobSpec:
 
 
 class ArmbarExploratoryContractTests(unittest.TestCase):
+    def test_condition_delta_cancels_identity_state_per_actor(self) -> None:
+        import torch
+        from safetensors.torch import save_file
+
+        self.assertTrue(hasattr(armbar_exploratory, "load_armbar_semantic_pair"))
+        with tempfile.TemporaryDirectory() as raw:
+            cache_root = Path(raw)
+            identity = torch.arange(64 * 5120, dtype=torch.float32).reshape(64, 5120)
+            identity = (identity.remainder(97) / 97).to(torch.bfloat16)
+            action = (identity.float() + 0.25).to(torch.bfloat16)
+            for condition, states in (
+                ("identity_only", identity),
+                ("action_relational", action),
+            ):
+                for actor, offset in (("A1", 0.0), ("A2", 0.125)):
+                    path = (
+                        cache_root
+                        / "semantic/video/4fps"
+                        / condition
+                        / "off"
+                        / f"{actor}.safetensors"
+                    )
+                    path.parent.mkdir(parents=True, exist_ok=True)
+                    save_file(
+                        {"marker_states": (states.float() + offset).to(torch.bfloat16)},
+                        path,
+                        metadata={
+                            "campaign": json.dumps(
+                                {
+                                    "actor": actor,
+                                    "stage": "semantic_video",
+                                    "condition": condition,
+                                    "context": "4fps",
+                                    "thinking_mode": "off",
+                                }
+                            )
+                        },
+                    )
+
+            observed = armbar_exploratory.load_armbar_semantic_pair(
+                cache_root,
+                condition="action_delta",
+                context="4fps",
+                thinking_mode="off",
+                language_layer=12,
+            )
+            expected = torch.stack(
+                (
+                    action[12].float() - identity[12].float(),
+                    (action[12].float() + 0.125).to(torch.bfloat16).float()
+                    - (identity[12].float() + 0.125).to(torch.bfloat16).float(),
+                )
+            ).to(torch.bfloat16)
+
+            self.assertTrue(torch.equal(observed, expected))
+
+    def test_job_dataset_uses_condition_delta_instead_of_raw_action_pair(self) -> None:
+        import numpy as np
+        import torch
+        from PIL import Image
+        from safetensors.torch import save_file
+
+        with tempfile.TemporaryDirectory() as raw:
+            root = Path(raw)
+            labels_root = root / "labels"
+            cache_root = root / "cache"
+            records = []
+            for frame_index, subset, screen_subset in (
+                (0, "train", "train"),
+                (1, "train", "validation"),
+                (2, "test", "test"),
+            ):
+                labels = np.array(
+                    [[0, 0], [1, 2]],
+                    dtype=np.uint8,
+                )
+                label_path = labels_root / "labels" / f"frame_{frame_index:06d}.png"
+                contact_path = labels_root / "contact" / f"frame_{frame_index:06d}.png"
+                label_path.parent.mkdir(parents=True, exist_ok=True)
+                contact_path.parent.mkdir(parents=True, exist_ok=True)
+                Image.fromarray(labels, mode="L").save(label_path)
+                Image.fromarray(np.zeros((2, 2), dtype=np.uint8), mode="L").save(contact_path)
+                records.append(
+                    {
+                        "frame_index": frame_index,
+                        "subset": subset,
+                        "screen_subset": screen_subset,
+                        "label_path": label_path.relative_to(labels_root).as_posix(),
+                        "label_sha256": hashlib.sha256(label_path.read_bytes()).hexdigest(),
+                        "contact_path": contact_path.relative_to(labels_root).as_posix(),
+                        "contact_sha256": hashlib.sha256(contact_path.read_bytes()).hexdigest(),
+                    }
+                )
+                spatial_path = (
+                    cache_root
+                    / "spatial/full/layer_11"
+                    / f"frame_{frame_index:06d}.safetensors"
+                )
+                spatial_path.parent.mkdir(parents=True, exist_ok=True)
+                save_file(
+                    {
+                        "hidden": torch.randn((4, 1152), dtype=torch.bfloat16),
+                        "grid_thw": torch.tensor([[1, 2, 2]], dtype=torch.int64),
+                    },
+                    spatial_path,
+                    metadata={"campaign": json.dumps({"stage": "spatial_full"})},
+                )
+            label_manifest = labels_root / "label-manifest.json"
+            label_manifest.write_text(
+                json.dumps(
+                    {
+                        "status": "conservative_pseudo_labels_with_manual_final_contact_truth",
+                        "records": records,
+                    }
+                )
+            )
+            identity = torch.zeros((64, 5120), dtype=torch.bfloat16)
+            action = torch.zeros_like(identity)
+            action[12] = 0.5
+            for condition, states in (
+                ("identity_only", identity),
+                ("action_relational", action),
+            ):
+                for actor, sign in (("A1", 1.0), ("A2", -1.0)):
+                    path = (
+                        cache_root
+                        / "semantic/video/4fps"
+                        / condition
+                        / "off"
+                        / f"{actor}.safetensors"
+                    )
+                    path.parent.mkdir(parents=True, exist_ok=True)
+                    save_file(
+                        {"marker_states": states * sign},
+                        path,
+                        metadata={
+                            "campaign": json.dumps(
+                                {
+                                    "actor": actor,
+                                    "stage": "semantic_video",
+                                    "condition": condition,
+                                    "context": "4fps",
+                                    "thinking_mode": "off",
+                                }
+                            )
+                        },
+                    )
+            spec = ArmbarJobSpec(
+                run_name="delta-dataset",
+                spatial_arm="l11",
+                split="screen",
+                label_manifest=label_manifest,
+                cache_root=cache_root,
+                frame_manifest=root / "unused-frame-manifest.json",
+                frame_project_root=root,
+                output_root=root / "runs",
+                semantic_condition="action_delta",
+                language_layer=12,
+                width=8,
+                residual_blocks=0,
+                max_epochs=1,
+                patience=1,
+                gradient_accumulation=1,
+                device="cpu",
+                use_amp=False,
+            )
+
+            train, validation, subset = armbar_exploratory._build_job_datasets(spec)
+
+            self.assertEqual(subset, "validation")
+            self.assertTrue(torch.all(train[0].actor_states[0] == 0.5))
+            self.assertTrue(torch.all(train[0].actor_states[1] == -0.5))
+            self.assertTrue(torch.equal(train[0].actor_states, validation[0].actor_states))
+
     def test_fixed_substitution_registry_contains_temporal_nulls_and_known_remaps(self) -> None:
         by_name = {item.name: item for item in ARMBAR_FIXED_SUBSTITUTIONS}
 
@@ -207,6 +382,260 @@ class ArmbarExploratoryContractTests(unittest.TestCase):
 
 
 class ArmbarExploratoryControllerTests(unittest.TestCase):
+    def test_cli_requires_audit_with_slot_cancellation_reference(self) -> None:
+        with self.assertRaises(SystemExit):
+            armbar_controller_cli.main(
+                [
+                    "--label-manifest",
+                    "/labels.json",
+                    "--cache-root",
+                    "/cache",
+                    "--frame-manifest",
+                    "/frames.json",
+                    "--frame-project-root",
+                    "/project",
+                    "--output",
+                    "/output",
+                    "--slot-cancellation-reference",
+                    "/reference/campaign-result.json",
+                ]
+            )
+
+    def test_cli_dispatches_fixed_layer_slot_cancellation_campaign(self) -> None:
+        from unittest.mock import patch
+
+        returned = {
+            "supervision_status": "exploratory_legacy_pseudo_labels",
+            "north_star_eligible": False,
+            "fixed_language_layers": {"action": 12, "contact": 45},
+            "slot_cancellation_signal": {"passed": False},
+        }
+        with patch.object(
+            armbar_controller_cli,
+            "run_armbar_delta_campaign",
+            return_value=returned,
+            create=True,
+        ) as run_delta:
+            status = armbar_controller_cli.main(
+                [
+                    "--label-manifest",
+                    "/labels.json",
+                    "--cache-root",
+                    "/cache",
+                    "--frame-manifest",
+                    "/frames.json",
+                    "--frame-project-root",
+                    "/project",
+                    "--output",
+                    "/output",
+                    "--slot-cancellation-reference",
+                    "/reference/campaign-result.json",
+                    "--slot-cancellation-audit",
+                    "/audits/representation-audit.json",
+                    "--action-delta-layer",
+                    "12",
+                    "--contact-delta-layer",
+                    "45",
+                    "--device",
+                    "cpu",
+                ]
+            )
+
+        self.assertEqual(status, 0)
+        _, kwargs = run_delta.call_args
+        self.assertEqual(kwargs["reference_campaign_result"], Path("/reference/campaign-result.json"))
+        self.assertEqual(
+            kwargs["layer_selection_audit"],
+            Path("/audits/representation-audit.json"),
+        )
+        self.assertEqual(kwargs["action_layer"], 12)
+        self.assertEqual(kwargs["contact_layer"], 45)
+
+    def test_delta_controller_pairs_raw_and_slot_cancelled_conditions_by_seed(self) -> None:
+        self.assertTrue(hasattr(armbar_controller, "run_armbar_delta_campaign"))
+        with tempfile.TemporaryDirectory() as raw:
+            root = Path(raw)
+            label_manifest = root / "label-manifest.json"
+            label_manifest.write_text(
+                json.dumps(
+                    {
+                        "status": "conservative_pseudo_labels_with_manual_final_contact_truth",
+                        "records": [
+                            {"frame_index": 0},
+                            {"frame_index": 1},
+                            {"frame_index": 2},
+                        ],
+                    }
+                )
+            )
+            frame_manifest = root / "frame-manifest.json"
+            frame_manifest.write_text(json.dumps({"frames": []}))
+            cache_root = root / "cache"
+            cache_root.mkdir()
+            reference = root / "reference/campaign-result.json"
+            reference.parent.mkdir()
+            reference.write_text(
+                json.dumps(
+                    {
+                        "format": "armbar-exploratory-campaign-result-v1",
+                        "selected_static_arm": "l11_merged",
+                        "final_aggregates": {
+                            "static": {
+                                "run_count": 2,
+                                "run_names": ["static-7", "static-71"],
+                                "metrics": {
+                                    "macro_actor_iou": {
+                                        "mean": 0.61,
+                                        "population_std": 0.01,
+                                        "values": [0.60, 0.62],
+                                    },
+                                    "contact_accuracy": {
+                                        "mean": 0.10,
+                                        "population_std": 0.10,
+                                        "values": [0.0, 0.20],
+                                    },
+                                    "contact_margin": {
+                                        "mean": -0.50,
+                                        "population_std": 0.10,
+                                        "values": [-0.60, -0.40],
+                                    },
+                                },
+                            }
+                        },
+                    }
+                )
+            )
+            (reference.parent / "RUN_COMPLETE").write_text(
+                json.dumps(
+                    {"result_sha256": hashlib.sha256(reference.read_bytes()).hexdigest()}
+                )
+            )
+            audit = root / "representation-audit.json"
+            audit.write_text(
+                json.dumps(
+                    {
+                        "format": "breadth-semantic-geometry-audit-v1",
+                        "artifact_count": 24,
+                        "selected_layers": {
+                            "action_delta": 12,
+                            "contact_delta": 45,
+                        },
+                    }
+                )
+            )
+            audit.with_suffix(".json.sha256").write_text(
+                hashlib.sha256(audit.read_bytes()).hexdigest() + "\n"
+            )
+            seen = []
+
+            def fake_runner(job):
+                seen.append(job)
+                real_iou = {
+                    "action_relational": 0.60,
+                    "action_delta": 0.64,
+                    "contact_ownership": 0.59,
+                    "contact_delta": 0.66,
+                }[job.semantic_condition]
+                iou = real_iou if job.training_control == "real" else real_iou - 0.03
+                margin = {
+                    "action_relational": -0.55,
+                    "action_delta": -0.20,
+                    "contact_ownership": -0.40,
+                    "contact_delta": 0.15,
+                }[job.semantic_condition]
+                metrics = {
+                    "macro_actor_iou": iou,
+                    "contact_accuracy": 0.75 if margin > 0 else 0.0,
+                    "contact_margin": margin,
+                    "background_stability": 0.98,
+                }
+                return {
+                    "run_name": job.run_name,
+                    "evaluation_metrics": metrics,
+                }
+
+            output = root / "delta"
+            result = armbar_controller.run_armbar_delta_campaign(
+                ArmbarCampaignSpec(
+                    label_manifest=label_manifest,
+                    cache_root=cache_root,
+                    frame_manifest=frame_manifest,
+                    frame_project_root=root,
+                    output_root=output,
+                    python_executable=Path(sys.executable),
+                    seeds=(7, 71),
+                    device="cpu",
+                ),
+                reference_campaign_result=reference,
+                layer_selection_audit=audit,
+                action_layer=12,
+                contact_layer=45,
+                job_runner=fake_runner,
+            )
+
+            self.assertEqual(len(seen), 16)
+            self.assertEqual(
+                {(job.semantic_condition, job.language_layer) for job in seen},
+                {
+                    ("action_relational", 12),
+                    ("action_delta", 12),
+                    ("contact_ownership", 45),
+                    ("contact_delta", 45),
+                },
+            )
+            self.assertEqual(
+                {job.training_control for job in seen},
+                {"real", "random_matched"},
+            )
+            self.assertEqual(result["aggregates"]["action_delta_real"]["run_count"], 2)
+            for value in result["paired_deltas"]["action_delta_minus_raw_iou"]:
+                self.assertAlmostEqual(value, 0.04)
+            for value in result["paired_deltas"]["contact_delta_minus_raw_iou"]:
+                self.assertAlmostEqual(value, 0.07)
+            self.assertFalse(result["north_star_eligible"])
+            self.assertEqual(
+                result["layer_selection_audit_sha256"],
+                hashlib.sha256(audit.read_bytes()).hexdigest(),
+            )
+            self.assertTrue((output / "RUN_COMPLETE").is_file())
+
+    def test_delta_controller_rejects_layers_not_bound_by_audit(self) -> None:
+        with tempfile.TemporaryDirectory() as raw:
+            root = Path(raw)
+            audit = root / "representation-audit.json"
+            audit.write_text(
+                json.dumps(
+                    {
+                        "format": "breadth-semantic-geometry-audit-v1",
+                        "artifact_count": 24,
+                        "selected_layers": {
+                            "action_delta": 12,
+                            "contact_delta": 45,
+                        },
+                    }
+                )
+            )
+            audit.with_suffix(".json.sha256").write_text(
+                hashlib.sha256(audit.read_bytes()).hexdigest() + "\n"
+            )
+
+            with self.assertRaisesRegex(ValueError, "selected layers"):
+                armbar_controller.run_armbar_delta_campaign(
+                    ArmbarCampaignSpec(
+                        label_manifest=root / "missing-labels.json",
+                        cache_root=root / "missing-cache",
+                        frame_manifest=root / "missing-frames.json",
+                        frame_project_root=root,
+                        output_root=root / "output",
+                        python_executable=Path(sys.executable),
+                        device="cpu",
+                    ),
+                    reference_campaign_result=root / "missing-reference.json",
+                    layer_selection_audit=audit,
+                    action_layer=13,
+                    contact_layer=45,
+                )
+
     def test_controller_screens_on_validation_then_runs_paired_final_controls(self) -> None:
         with tempfile.TemporaryDirectory() as raw:
             root = Path(raw)
