@@ -21,6 +21,28 @@ decoder is trained locally.
 The paid run remains deliberately gated on explicit spend authorization. Never launch a Pod
 merely by following this README.
 
+### Local armbar exploratory path
+
+The existing 32-frame armbar cache can be used immediately, without loading Qwen or SAM and
+without returning to RunPod, through `scripts/run_armbar_decoder_campaign.py`. This path is
+explicitly labeled `exploratory_legacy_pseudo_labels`: the actor interiors are conservative
+pseudo-labels and only the final trapped-arm contact region has manual ownership truth. It is
+therefore useful for selecting cache layers, testing the query-to-pixel decoder, measuring the
+held-out trapped-arm margin, and falsifying semantic/temporal hypotheses, but it cannot satisfy
+the multi-clip north-star gate or authorize LoRA.
+
+The armbar controller first screens RGB, frozen Qwen spatial arms, and language layers 25/60 on
+the original four-frame validation split. It then refits the selected architecture on all 24
+non-test frames with matched seeds and compares static, real action-conditioned, and
+residual-norm-matched random models on the untouched eight-frame test set. Identity, contact,
+zero, and mean controls are retained, and the real action model is re-evaluated with ordered,
+reversed, shuffled, single-frame, 2 fps, 5-frame, 8 fps, and thinking-mode marker states.
+
+Every job uses the same 4 GiB/no-swap cgroup and global RAM/VRAM circuit breakers as the breadth
+campaign. Results, work items, checkpoints, logs, per-second telemetry, per-frame metrics, and
+guard decisions are atomic and resumable. Only cached tensors and the small decoder enter local
+CUDA memory.
+
 ## Scientific design
 
 The breadth set contains four six-second, high-contact clips with 24 sampled frames each:

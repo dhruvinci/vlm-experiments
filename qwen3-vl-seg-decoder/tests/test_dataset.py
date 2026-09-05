@@ -352,6 +352,26 @@ class OwnershipDatasetTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "replacement"):
             ActorStateControlDataset(source, control="shuffled_clip")
 
+    def test_actor_state_control_delegates_label_only_loading(self) -> None:
+        labels = torch.tensor([[0, 1], [2, 255]], dtype=torch.long)
+
+        class LabelOnlySource:
+            def __len__(self):
+                return 1
+
+            def load_labels(self, index):
+                self.index = index
+                return labels
+
+            def __getitem__(self, _index):
+                raise AssertionError("full sample must not be loaded for class weights")
+
+        source = LabelOnlySource()
+        controlled = ActorStateControlDataset(source, control="real")
+
+        self.assertIs(controlled.load_labels(0), labels)
+        self.assertEqual(source.index, 0)
+
 
 if __name__ == "__main__":
     unittest.main()
