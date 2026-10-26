@@ -1,222 +1,49 @@
-# VLM Experiments for BJJ Video Analysis
+# vlm-experiments — can a frozen VLM read a whole grappling match? (Oct–Dec 2025)
 
-Research experiments exploring Vision-Language Models (VLMs) for automated analysis of Brazilian Jiu-Jitsu competition footage. This repo documents the iterative development from a naive baseline (16% accuracy) to a production-ready architecture achieving 100% temporal coverage with rich micro-analysis.
+Dhruva's first research thread. Give Gemini one 16-minute no-gi match and ask for a timeline: which position, who is
+on top, what happened, plus coaching notes. The answer was checked against Dhruva's hand labels of the same match (32
+positions, 62 sub-segments, 122 technique labels; `evaluation/ground_truth.json`). One match is a development case,
+not a benchmark.
 
-## Key Findings
+![Full coverage is not correctness](docs/assets/coverage_vs_correctness.png)
 
-| Experiment | Approach | Coverage | Cost | Key Learning |
-|------------|----------|----------|------|--------------|
-| **Exp 1** | Single-pass Gemini | 16% | ~$0.01 | VLMs hallucinate without constraints |
-| **Exp 2** | Multi-pass + Caching | 100% | ~$1.00 | Over-segmentation, hallucinations persist |
-| **Exp 3** | CV Constraints + Gemini | 100% | ~$0.02 | Attention decay in long videos |
-| **Exp 3.3** | Two-pass fix attempt | 46% | ~$0.04 | Reactive fixes don't work |
-| **Exp 4** | Skeleton-Flesh Integrated | **100%** | **$0.013** | ✅ Best results |
+## What happened
+| | approach | what it produced | what it showed |
+|---|---|---|---|
+| Exp 1 | one Gemini 2.0 Flash pass with a BJJ ontology prompt | score 16.3/100; position accuracy 13.8%; no sub-segments | the model invents positions without constraints |
+| Exp 2 | four passes with context caching (85% fewer tokens) | 241 segments for 32 true positions; ~$1 per video | covering the timeline is easy; over-segmentation and wrong classes persist |
+| Exp 3 | computer-vision anchors (YOLO pose, scene cuts) + cached Gemini | 58 segments; ~$0.02 | standing probability stops some ground hallucinations; attention fades mid-video |
+| Exp 3.3 | two passes to fix the fade ("attention cliff") | 46% coverage | patching after the fact does not work |
+| Exp 4 | one integrated "skeleton + flesh" pass, 16 fields per segment | 25 segments, every field filled; $0.013 | the cleanest output, but still unscored at the time |
 
-**Best Result (Experiment 4):** 25 segments, 100% coverage, all micro-analysis fields, $0.013/video
+Sources: [`EXPERIMENTS_PLAN.md`](EXPERIMENTS_PLAN.md) (results per experiment), [`docs/README_2025.md`](docs/README_2025.md)
+(the original write-up).
 
-## Project Structure
+## Scored later (2026)
+The [MoveHarness](https://github.com/dhruvinci/moveharness) benchmark re-scored the stored outputs against the same
+hand labels, with strict class matching (a lower bound):
 
-```
-├── experiment/                 # Core analysis pipelines
-│   ├── experiment4/           # Best performing architecture
-│   │   ├── stage0.py          # CV preprocessing (YOLO + optical flow)
-│   │   ├── stage1_v3.py       # Integrated skeleton-flesh analysis
-│   │   └── stage2.py          # Detail enrichment (optional)
-│   ├── experiment3_*.py       # CV + Gemini pipeline
-│   └── bjj_video_analyzer_*.py # Earlier experiments
-├── hitl/                      # Human-in-the-Loop evaluation tool
-│   └── frontend/              # React app for reviewing results
-├── evaluation/                # Accuracy metrics & ground truth
-│   ├── evaluation_server.py   # FastAPI backend for HITL
-│   └── ground_truth.json      # Human-annotated benchmark
-├── outputs/                   # Experiment results (JSON + Markdown)
-│   ├── experiment4.0/         # Latest outputs
-│   └── experiment3/           # Earlier outputs
-├── prompts/                   # Prompt engineering & BJJ ontology
-└── design/                    # UI mockups and assets
-```
+| | positions matched | position macro-F1 | matched-span IoU | timeline covered |
+|---|---|---|---|---|
+| Exp 2 (its own harness) | 22 of 32 | F1 0.677 for finding spans; class accuracy 0.273 | 0.703 | 100% |
+| Exp 3 | 5 of 32 | **0.099** (43 of 58 segments say "mount") | 0.463 | 100% |
+| Exp 4 | 6 of 32 | **0.136** | **0.723** | 100% |
 
-## Experiments Overview
+Source: [MoveHarness `results/baselines.md`](https://github.com/dhruvinci/moveharness/blob/main/results/baselines.md).
 
-### Experiment 1: Naive Baseline
-Single-pass Gemini 2.0 Flash with BJJ ontology prompt.
-- **Result:** 16.3/100 accuracy, zero sub-segmentation
-- **Failure:** Model hallucinated positions (standing → "armbar defense")
+**Verdict.** A frozen VLM finds *where* things happen (span overlap ~0.7) but not *what* is happening (macro-F1
+≤ 0.14). Coverage, segment counts and filled fields looked like progress and were not.
+**Learned.** Score against labels from the start; a complete, fluent timeline can be mostly wrong.
+**Next.** It led to [MoveHarness](https://github.com/dhruvinci/moveharness) (an honest scorer), and to grounding the
+VLM in measured geometry: [movement-research](https://github.com/dhruvinci/movement-research),
+[fast-slow-vision](https://github.com/dhruvinci/fast-slow-vision),
+[limb-entanglement](https://github.com/dhruvinci/limb-entanglement),
+[kakashi-autolabel](https://github.com/dhruvinci/kakashi-autolabel) and [engage3d](https://github.com/dhruvinci/engage3d).
 
-### Experiment 2: Multi-Pass Architecture  
-4-pass pipeline with context caching (85% token reduction).
-- **Result:** 100% coverage but 241 segments (7.5x over-segmentation)
-- **Failure:** Hallucinations persisted, $1/video too expensive
+## Layout
+- `experiment/`: the pipelines (Exp 4: `experiment/experiment4/stage0.py`, `stage1_v3.py`); `run_*.py` at the root.
+- `prompts/`: prompts and the BJJ ontology. `evaluation/`: scoring server and the hand labels. `hitl/`: a React
+  review tool. `outputs/`, `results/`: stored outputs.
+- Setup and usage: [`docs/README_2025.md`](docs/README_2025.md#quick-start). The match video is not included.
 
-### Experiment 3: CV Constraints
-Added MediaPipe pose estimation to constrain VLM outputs.
-- **Result:** 58 segments, $0.02/video, 100% coverage
-- **Innovation:** Standing probability prevents ground position hallucinations
-- **Failure:** Attention decay caused repetitive outputs mid-video
-
-### Experiment 4: Skeleton-Flesh Integrated (Best)
-Single-pass with 16-field output format combining skeleton + micro-analysis.
-- **Result:** 25 segments, $0.013/video, 100% coverage, all fields complete
-- **Innovation:** Dynamic segment range based on video duration
-- **Output:** Position, control, action score, strategy, setup, execution, outcome, coaching
-
-## HITL Evaluation Tool
-
-React-based interface for reviewing AI predictions against ground truth.
-
-**Features:**
-- Segment-by-segment video review with synchronized playback
-- 1-5 star rating system for AI predictions
-- Sub-segment annotation with technique labels
-- Progress tracking across all segments
-- Export to JSON for training data
-
-**Screenshot:** The tool displays video alongside AI predictions, allowing annotators to rate accuracy and add corrections.
-
-## Sample Output (Experiment 4)
-
-```json
-{
-  "time": "1:34-1:44",
-  "position": "standing",
-  "top": "Galvao",
-  "control": "0.6",
-  "action": "0.8",
-  "notes": "Galvao hits an explosive uchi mata from double overhooks",
-  "strategy": "Galvao uses double overhooks to control upper body, capitalizing on Tackett's forward pressure",
-  "setup": "Galvao secures double overhooks as Tackett presses in",
-  "execution": "With double overhooks, Galvao elevates hips, hooks leg for textbook uchi mata. Tackett immediately turtles to prevent back take.",
-  "outcome": "Clean takedown, momentum shifts to Galvao",
-  "coaching": "Beautiful takedown using opponent's momentum. Tackett's immediate turtle was good defensive reaction."
-}
-```
-
-## Quick Start
-
-### Prerequisites
-- Python 3.8+
-- Node.js 14+ (for HITL tool)
-- Google AI API key (Gemini)
-
-### Installation
-
-```bash
-# Clone the repo
-git clone https://github.com/0xdhruva/vlm-experiments.git
-cd vlm-experiments
-
-# Install Python dependencies
-pip install -r requirements.txt
-
-# Set API key
-export GOOGLE_API_KEY="your-gemini-api-key"
-```
-
-### Run Experiment 4 (Recommended)
-
-```bash
-# Stage 0: CV Preprocessing (generates action scores)
-python experiment/experiment4/stage0.py \
-  --video_path data/videos/your_video.mp4 \
-  --output_dir outputs/your_experiment
-
-# Stage 1: Integrated Analysis
-python experiment/experiment4/stage1_v3.py \
-  --video_path data/videos/your_video.mp4 \
-  --output_dir outputs/your_experiment \
-  --mode competition \
-  --run 1
-```
-
-### Run HITL Evaluation Tool
-
-```bash
-# Terminal 1: Start backend
-cd evaluation
-python evaluation_server.py
-# Server runs on http://localhost:5002
-
-# Terminal 2: Start frontend
-cd hitl/frontend
-npm install
-npm start
-# App runs on http://localhost:3000
-```
-
-### Run Earlier Experiments
-
-```bash
-# Experiment 2 (multi-pass)
-python experiment/bjj_video_analyzer_exp2.py \
-  --video data/videos/your_video.mp4 \
-  --output outputs/exp2
-
-# Experiment 3 (CV + Gemini)
-python experiment/experiment3_main.py \
-  --video data/videos/your_video.mp4 \
-  --output outputs/exp3
-```
-
-## Output Formats
-
-All experiments output both JSON (structured) and Markdown (human-readable):
-
-- `stage1v3_skeleton_competition_run1.json` - Parsed segments with all fields
-- `stage1v3_skeleton_competition_run1.md` - Raw model output
-- `stage0_cv_checkpoints_5s.json` - CV preprocessing data
-
-## Key Technical Insights
-
-1. **VLMs need constraints:** Without CV data, models hallucinate positions
-2. **Attention decay is real:** Models get "lazy" after ~4 minutes of video
-3. **Format matters:** Integrated output (skeleton + detail in one line) prevents task-switching fatigue
-4. **Dynamic targets help:** Telling model "aim for 30-70 segments" produces better results than fixed limits
-5. **Caching is essential:** Video caching reduces costs by 85%+
-
-## Test Video
-
-Experiments use a 16-minute no-gi match:
-- **Athletes:** Andrew Tackett vs Micael Galvao
-- **Event:** Who's Number One
-- **Ground Truth:** 32 positions, 62 sub-segments, 122 technique labels
-
-(Video not included in repo due to size - use your own BJJ footage)
-
-## Technology Stack
-
-- **VLM:** Gemini 2.5 Flash (with context caching)
-- **CV:** YOLO11 pose detection, OpenCV optical flow
-- **Backend:** FastAPI, Python
-- **Frontend:** React, Material-UI
-- **Evaluation:** Custom accuracy metrics, human annotation
-
-## Cost Analysis
-
-| Stage | Tokens | Cost |
-|-------|--------|------|
-| Video cache | ~286k | $0.007 |
-| Stage 1 analysis | ~6k output | $0.006 |
-| **Total** | ~292k | **$0.013** |
-
-## Future Work
-
-- [ ] Multi-video evaluation across different match types
-- [ ] Real-time analysis for live streaming
-- [ ] Technique-specific deep dives (Stage 2)
-- [ ] Training data generation for fine-tuning
-
-## License
-
-MIT - Feel free to use for research and experimentation.
-
-## Citation
-
-If you use this work, please cite:
-```
-@misc{vlm-bjj-experiments,
-  author = {Dhruva},
-  title = {VLM Experiments for BJJ Video Analysis},
-  year = {2025},
-  url = {https://github.com/0xdhruva/vlm-experiments}
-}
-```
+Code: MIT unless a file says otherwise. Documents and results: CC BY 4.0.
