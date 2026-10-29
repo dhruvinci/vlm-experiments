@@ -180,7 +180,7 @@ All experiments output both JSON (structured) and Markdown (human-readable):
 Experiments use a 16-minute no-gi match:
 - **Athletes:** Andrew Tackett vs Micael Galvao
 - **Event:** Who's Number One
-- **Ground Truth:** 32 positions, 62 sub-segments, 122 technique labels
+- **Ground Truth:** 32 positions, 62 sub-segments, 122 technique labels (excluding 2 protocol markers; raw file 64 / 124)
 
 (Video not included in repo due to size - use your own BJJ footage)
 

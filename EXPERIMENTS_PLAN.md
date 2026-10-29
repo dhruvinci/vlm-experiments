@@ -2,7 +2,7 @@
 
 **Goal**: Achieve 70-90/100 accuracy score (from baseline 16.3/100) for BJJ video analysis
 **Test Video**: Andrew Tackett vs Micael Galvao (16-min no-gi match)
-**Ground Truth**: 62 sub-segments, 122 technique labels (human-annotated via HITL)
+**Ground Truth**: 62 sub-segments, 122 technique labels, excluding 2 protocol markers (raw file: 64 / 124) (human-annotated via HITL)
 
 ---
 

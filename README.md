@@ -2,7 +2,7 @@
 
 Dhruva's first research thread. Give Gemini one 16-minute no-gi match and ask for a timeline: which position, who is
 on top, what happened, plus coaching notes. The answer was checked against Dhruva's hand labels of the same match (32
-positions, 62 sub-segments, 122 technique labels; `evaluation/ground_truth.json`). One match is a development case,
+positions, 62 sub-segments, 122 technique labels, excluding 2 protocol markers (64 and 124 in the raw file); `evaluation/ground_truth.json`). One match is a development case,
 not a benchmark.
 
 ![Full coverage is not correctness](docs/assets/coverage_vs_correctness.png)
